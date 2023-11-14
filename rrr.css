@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .menu-bar{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 10%;
+    text-decoration: white;
+    width: 100%;
+    background: linear-gradient(60deg,   #EF6C00 25.7%, #4A148C 20%, #4A148C 20%, #4A148C 20%, #4A148C 20%);
+    text-align: right;
+  }
+  .container{
+    display:flex;
+    height:110px;
+    background: linear-gradient(60deg, #EF6C00 29.3%, #4A148C 20%, #4A148C 20%,#4A148C 20%, #4A148C 20%);
+    
+  }
+  .container-1{
+    background: linear-gradient(60deg, #EF6C00 35%, #4A148C 16%, #4A148C 20%,#4A148C 20%, #4A148C 20%);
+    
+  }
+  .container-2{
+    background: linear-gradient(120deg, #EF6C00 33%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, #4A148C 20%);
+  
+  }
+  .container-3{
+    background: linear-gradient(120deg, #4A148C 24.2%, #4A148C   18%,   #4A148C 20%, #4A148C 20%, #4A148C  20%);
+  }
+  .menu-bar ul
+  {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+  /* gap: -10px; */
+  margin-right:10px;
+  }
+  .menu-bar ul li{
+  width: 120px;
+  left: 100;
+  margin: 15px;
+  padding: 23px 0px 0px 0px;
+  position: relative;
+  }
+  .menu-bar ul li a
+  {
+     text-decoration: none;
+     color: #fff;
+  }
+  .menu-bar .fa
+  {
+   margin-right: 8px;
+  }
+  .sub-menu-1{
+  display: none;
+  width:150px;
+  }
+  .menu-bar ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color:indigo;
+  }
+  .sub-menu-1 ul{
+  display: block;
+  margin:0px;
+
+
+  }
+  .sub-menu-1 ul li{
+  padding: 0px;
+  }
+  .sub-menu-1{
+  display: none;
+  }
+  .sub-menu-0{
+    display: none;
+    }
+    .sub-menu-0 ul{
+        margin:0px;
+      
+      
+        }
+        .sub-menu-0 ul li{
+        padding: 0px;
+        }
+  .menu-bar ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color:indigo;
+  }
+  .sub-menu-2{
+  display: none;
+  }
+  .menu-bar ul li:hover .sub-menu-2{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color:indigo;
+  }
+  .sub-menu-2 ul{
+  display: block;
+  margin: 10px;
+  }
+  .sub-menu-2 ul li{
+  width: 100px;
+  padding: 10px;
+  }
+  .sub-menu-2{
+  display: none;
+  }
+  .menu-bar ul li:hover .sub-menu-2{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color:indigo;
+  }
+  .logo{
+    color: #fff;
+    text-align: left;
+    margin-left: 20px;
+  
+  }
+  .paragraph{
+    font-size: 30px;
+    margin-right: 50px;
+    margin-left: 900px;
+    color: #fff;
+  }
+  .paragraph-2{
+    font-size: 30px;
+    margin-right: 50px;
+    margin-left: 900px;
+    color: #fff;
+  }
+  .paragraph-3{
+    font-size: 30px;
+    margin-right: 50px;
+    margin-left: 900px;
+    color: #fff;
+  }
+  .naresh{
+    margin-left: 200px;
+  }
+  .menu-bar2{
+    margin-right: 30px;
+    margin-left: -50px;
+  }

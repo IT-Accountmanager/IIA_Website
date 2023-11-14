@@ -1,0 +1,564 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .menu-bar{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 2%;
+    text-decoration: white;
+    width: 100%;
+    background: linear-gradient(60deg,  #4A148C 26%, #4A148C 20%, #4A148C 20%, #4A148C 20%, #EF6C00 20%);
+    text-align: right;
+  }
+  .container{
+    height:110px;
+    background: linear-gradient(60deg, #4A148C 29.8%, #4A148C 20%, #4A148C 20%,#4A148C 20%, #EF6C00 20%);
+  }
+  .container-1{
+    height:154px;
+    display:flex;
+    background: linear-gradient(60deg, #4A148C 34.85%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, #EF6C00 20%);
+  }
+  .container-2{
+    height:324px;
+    background: linear-gradient(120deg, #4A148C 32.85%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, #EF6C00 20%);
+  }
+  .container-3{
+    height:103.5px;
+    background: linear-gradient(120deg, #4A148C 26.8%, #4A148C 20%, #4A148C 20%, #4A148C 20%, #EF6C00 20%);
+  }
+  .menu-bar ul
+  {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+  gap: -10px;
+  }
+  .menu-bar ul li{
+  width: 130px;
+  left: 100;
+  margin: 15px;
+  padding: 24px 0px 0px 0px;
+  position: relative;
+  }
+  .menu-bar ul li a
+  {
+  text-decoration: none;
+  color: #fff;
+  }
+  .active, .menu-bar ul li
+  {
+  text-align:center;
+  padding-bottom: 20px;
+  border-radius: 2px;
+  }
+  .active, .menu-bar ul li:hover{
+    /* background-color:#4A148C; */
+  }
+  .menu-bar .fa
+  {
+   margin-right: 8px;
+  }
+  .sub-menu-1{
+  display: none;
+  }
+  .menu-bar ul li:hover .sub-menu-1{
+  display: block;
+  /* position: absolute; */
+  left: 0;
+  top: 100%;
+  background-color:#4A148C;
+  }
+  .sub-menu-1 ul{
+  display: block;
+  /* padding-right:10px; */
+  text-align:center;
+  width:190px;
+  /* margin: 10px; */
+  }
+  .sub-menu-1 ul li{
+  width:165px;
+  padding:5px; 
+  /* padding: 10px; */
+  }
+  .sub-menu-1 ul li:hover{
+  width:165px;
+  background-color:#EF6C00;
+  /* padding: 10px; */
+  }
+  .sub-menu-1{
+  margin-left:-12px;
+  display: none;
+  }
+  .menu-bar ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color:#784aac;
+  opacity:0.9;
+  }
+  .sub-menu-2{
+  margin-left:-25px;
+  display: none;
+  width:250px;
+  }
+  .menu-bar ul li:hover .sub-menu-2{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color:#4A148C;
+  }
+  .sub-menu-2 ul{
+  display: block;
+  text-align:center;
+  width:250px;
+  }
+  .sub-menu-2 ul li{
+  width: 280px;
+  padding:5px;
+  /* padding: 10px; */
+  }
+  .sub-menu-2 ul li:hover{
+  width:230px;
+  background-color:#EF6C00;
+  /* padding: 10px; */
+  }
+  .sub-menu-2{
+  display: none;
+  }
+  .menu-bar ul li:hover .sub-menu-2{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color:#784aac;
+  opacity:0.9;
+  }
+  .logo{
+    color: #fff;
+    text-align: left;
+    /* padding: 20px 0 0 120px; */
+    margin-left: 142px;
+    padding: 0,0,20px,0;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+  .paragraph{
+    font-size: 24px;
+    margin-right: 50px;
+    margin-left: 580px;
+    color: #fff;
+    margin-top: -90px;
+  }
+  .paragraph-2{
+    font-size: 24px;
+    margin-right: 50px;
+    margin-top:10px;
+    margin-left: 600px;
+    color: #fff;
+  }
+  .paragraph-3{
+    font-size: 23px;
+    margin-right: 50px;
+    margin-left: 600px;
+    color: #fff;
+  }
+  .menu-bar2{
+    margin-right: 8px;
+    margin-left: -40px;
+  }
+  .aboutus{
+    width: 150px;
+    /* display: block; */
+    margin-right:30px;
+    margin-top:0px;
+    display: flex;
+    flex-direction:column;
+    height:auto;
+    margin-left:-10px;
+    text-align:center;
+    /* display: block; */
+  }
+  .home{
+    /* width: 130px; */
+    margin-left:10px;
+    text-align:center;
+  }
+  .techno{
+    width:160px;
+    position: relative;
+    margin-top: 0px;
+    display: block;
+    margin-right:40px;
+  }
+  .rows{
+    display:flex;
+    flex-direction:row;
+    width:10px;
+    /* flex-shrink:2; */
+  }
+  .styo:hover{
+    color:blue;
+    }
+  
+
+      /* get in touch css */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.containergetintouch{
+  background: linear-gradient(60deg, #4A148C 29.9%, #4A148C 20%, #4A148C 20%,#4A148C 20%, #EF6C00 20%);
+  height: 202px;
+}
+.container-1get{
+  background: linear-gradient(60deg, #4A148C 36.45%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, #EF6C00 20%);
+  height: 178px;
+}
+.container-2get{
+  background: linear-gradient(120deg, #4A148C 34.5%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, #EF6C00 20%);
+ height: 334px;
+}
+
+.logo{
+  color: #fff;
+  text-align: left;
+  margin-left: 500px;
+  width: 5px;
+
+}
+.paragraph{
+  font-size: 30px;
+  margin-right: 50px;
+  margin-left: 900px;
+  color: #fff;
+}
+.paragraph-2{
+  font-size: 30px;
+  margin-right: 50px;
+  margin-left: 900px;
+  color: #fff;
+}
+.paragraph-3{
+  font-size: 30px;
+  margin-right: 50px;
+  margin-left: 980px;
+  color: #fff;
+}
+.login-container{
+  max-width: 800px; /* Increase the maximum width */
+   /* You can also use a fixed width in pixels if you prefer */
+  margin-left: 40px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+
+}
+.login-container-1{
+  max-width: 800px; /* Increase the maximum width */
+   /* You can also use a fixed width in pixels if you prefer */
+  margin-left: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  color:black;
+}
+.img-container-1{
+  font-size: 14px;
+  margin-left: 650px;
+  margin-top: -260px;
+  color: #fff;
+  border-radius: 5px
+}
+.login-container-3{
+  max-width: 800px; /* Increase the maximum width */
+   /* You can also use a fixed width in pixels if you prefer */
+  margin-left: 30px;
+  margin-top: -60px;
+  margin-bottom: 0px;
+  padding: 20px;
+  border-radius: 25px;
+  font-size: 20px;
+  
+  line-height: 10px;
+}
+.image-container{
+  width: 10px;
+}
+.text{
+  font-size: 52px;
+  color: #fff;
+  text-align: center;
+  margin-left: 30px;
+}
+.form-1{
+  margin-bottom: 250px;
+  font-size: 25px;
+  border-radius: 15px;
+  margin-top:50px;
+}
+.form-2{
+  margin-top: -130px;
+}
+.menu-bar2{
+  margin-right: 8px;
+  margin-left: -40px;
+}
+
+.styles{
+  padding-left:10px;
+  border-radius: 35px; 
+  font-size: 25px; 
+  line-height: 40px;
+  width:300px;
+  margin-top: -550px;
+}
+
+/* .emstyle{
+  padding-left:10px;
+  font-size: 25px;
+  width:300px;
+  border-radius: 25px; 
+  line-height: 40px;
+} */
+
+/* .mstyle{
+  padding-left:10px;
+  font-size: 30px;
+   width:300px;
+   border-radius: 20px; 
+   line-height: 70px;
+} */
+
+/* .mostyle{
+  padding-left:10px;
+  font-size: 25px;
+  width:300px;
+  border-radius: 25px; 
+  line-height: 40px;
+} */
+
+.rows{
+  display:flex;
+  flex-direction:row;
+  width:10px;
+  
+  /* flex-shrink:2; */
+}
+.aboutus{
+  width: 150px;
+  /* display: block; */
+  margin-right:30px;
+  margin-top:0px;
+  display: flex;
+  flex-direction:column;
+  height:auto;
+  margin-left:-10px;
+  text-align:center;
+  /* display: block; */
+}
+
+
+.home{
+  /* width: 130px; */
+  margin-left:10px;
+  text-align:center;
+}
+.techno{
+  width:160px;
+  position: relative;
+  margin-top: 0px;
+  display: block;
+  margin-right:40px;
+}
+.styo:hover{
+  color:blue;
+  }
+
+  .stylesl{
+ text-decoration:none;
+
+  }
+
+  .fa-phone{
+    width:70px !important;
+  }
+  .getmapsty{
+    margin-left: 950px;
+    width:550px;
+    margin-top: 50px;
+    height:300px;
+  }
+  .getwesty{
+    text-align: center;
+    margin-top: -275px;
+    margin-left: -80px; 
+    font-size: 25px;
+    color: aliceblue; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.gotosty{
+  color:#4A148C; 
+  width:330px;
+  margin-left: 590px;
+  margin-top:20px;
+}
+.gotoptsty{
+  text-align: center;
+  margin-top:-60px;
+  margin-left: -40px; 
+  font-size: 35px;
+  color: aliceblue; 
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nasty{
+  color: aliceblue;
+  font-size: 23px;
+  margin-left: 47px;
+  margin-top: -15px;
+}
+.namesty{
+  color: aliceblue;
+  margin-top: -10px;
+ margin-bottom: 10px;
+  margin-left: 30px;
+}
+.getforsty{
+  text-align: center;
+  margin-top: -280px;
+  margin-left: -80px;
+   font-size: 25px;
+   color: aliceblue; 
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.tecsty{
+  text-align: center;
+  margin-top: 20px;
+  margin-left: -70px; 
+  font-size: 25px;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mobilesty{
+  margin-top: -30px;
+   color: aliceblue;
+}
+.mobilenumsty{
+  font-size: 25px;
+  width:300px;
+  border-radius: 25px; 
+  line-height: 40px;
+}
+.mostyle{
+  padding-left:10px;
+  font-size: 25px;
+  width:300px;
+  border-radius: 25px; 
+  line-height: 40px;
+}
+.emailsty{
+  padding-top: 10px; color: aliceblue;
+}
+.emstyle{
+  padding-left:10px;
+  font-size: 25px;
+  width:300px;
+  border-radius: 25px; 
+  line-height: 40px;
+}
+.messsty{
+  color: aliceblue;
+}
+.mstyle{
+  padding-left:10px;
+  font-size: 30px;
+   width:300px;
+   border-radius: 20px; 
+   line-height: 70px;
+}
+.substy{
+  margin-left: 100px; 
+  font-size: 20px; 
+  border-radius:50px;
+  background-color:#EF6C00;
+  width:100px;
+  color:white;
+  height:40px;
+}
+.numbersty{
+  margin-left: 700px;
+  color: aliceblue;
+  margin-top: -270px;
+  font-size: 20px;
+}
+.mailnamesty{
+  margin-left: 705px;
+  color: aliceblue;
+  margin-top: 28px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.adresssty{
+  margin-left: 705px;
+  color: aliceblue;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 25px; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+.platnamesty{
+  margin-left: 700px;
+  color: aliceblue;
+  margin-top: 20px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.phone{
+  font-size:23px;
+  margin-left:20px;
+  margin-top:55px;
+  color:black;
+ 
+} 
+
+.pnvelopesez{
+  margin-left:-1220px;
+  margin-top:30px;
+  font-size:23px;
+}
+.material{
+  width:20%;
+  margin-left:674px;
+  margin-top:10px;
+  font-size:28px;
+}
+.llsty{
+  margin-left: 805px;
+  margin-top: 100px;
+}
+.facsty{
+  margin-left:8px;
+  margin-top: 100px;
+}
+.twsty{
+  margin-left:12px; 
+  width: 40px; 
+  height: 40px;
+  margin-top: 100px;
+}
+.ggsty{
+  margin-left:13px;
+  height:40px;
+  margin-top: 100px;
+}
+  
