@@ -185,12 +185,12 @@ opacity:0.9;
 }
 
 .styless{
-  width:200px;
+  width:225px;
   /* margin-top:100px; */
   margin-left:49%;
   background-color:rgba(255, 230, 196, 0.934);
   height:240px;
-  margin-top: -85px;
+  margin-top: -90px;
   transition: transform .2s;
 }
 /* .styless:hover{
@@ -204,7 +204,7 @@ opacity:0.9;
   transition: transform .2s; 
 }
 .styless1{
-  width:200px;
+  width:225px;
   /* margin-top:100px; */
   margin-left:67%;
   background-color:rgba(255, 230, 196, 0.934);
@@ -221,7 +221,7 @@ opacity:0.9;
   margin-left:57.4%;
   background-color:rgba(255, 230, 196, 0.934);
   height:240px;
-  margin-top:-422px;
+  margin-top:-438px;
   margin-bottom: -18.2px;
   transition: transform .2s;
 }
