@@ -11,7 +11,35 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       </head>
     <body>
-     
+      <script src="/path/to/lib/jquery.waypoints.min.js"></script>
+      <script src="/path/to/shortcuts/inview.min.js"></script>
+      <script src="main.js"></script>
+      <!-- <script>
+
+const animation_elements = document.querySelectorAll('.animate-on-scroll, .animate-top-down');
+
+const observer = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		if (entry.isIntersecting) {
+			entry.target.classList.add('animate');
+		} else {
+			entry.target.classList.remove('animate');
+		}
+	})
+}, {
+	threshold: 0.5
+});
+
+for (let i = 0; i < animation_elements.length; i++) {
+	const el = animation_elements[i];
+
+	observer.observe(el);
+}
+
+
+
+      
+      </script> -->
         <div class="divstyle">
           <ul>
             <li>
@@ -30,6 +58,7 @@
   <!-- <img src="mail1.png" style="width: 20px; margin-left: -1206px;margin-top: -6px;color:#2962ff;content:blue;border-color:blue;"> -->
   <li class="mail1"><p>Info@iiautomate.com</p></li>
 </ul>
+
 <ul>
   
   <li class="Mobile"> +918096120173</li>
@@ -42,14 +71,17 @@
         <div class="menu-bar">
           <div style="background-color:white;
           text-align: right;  position:fixed;width:100%;height:10%;margin-top:-3%;z-index:1;">
-          <img src="mm.png.png" align="left" width="60px" height="60px" style="margin-left:10px;margin-top:5px;">  
-        <ul>     
+           <div>
+          <img src="mm.png.png" align="left" width="60px" height="60px" style="margin-left:10px;margin-top:0px;"> 
+          <p style="text-align:center;font-size:20px;margin-right:1230px;justify-content:center;margin-top:10px;margin-bottom:-58px;">International Institute<br> Of Automate</p> 
+        </div>
+        <ul style="top:-260px;margin-bottom:120px;">     
           
           <div class="home">
-            <li><a href="HOME.html"><p class="styo" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:19px;">HOME</p></a></li>
+            <li><a href="HOME.html" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:19px;"><p class="styo" >HOME</p></a></li>
           </div>
           <div class="aboutus">
-            <li><a href="ABOUT US.html"><p class="aboutsty" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:19px;">ABOUT US</p><i class=""></i></a>
+            <li><a href="ABOUT US.html" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:19px;"><p class="aboutsty" >ABOUT US</p><i class=""></i></a>
           <div class="sub-menu-1">
             <ul style="margin-top:40px;">
               <li><a href="CORE COMITMENTS.html"><p  class="coresty" style="color:white;padding-top:10px;">CORE COMITMENTS</p></a></li>
@@ -62,7 +94,7 @@
         </li>
         </div>
         <div class="menu-bar2">
-          <li><a href="INDESTRIAL ORIANTED.html"><p class="iotsty" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:19px;">IOT</p><i class=""></i></a>
+          <li><a href="INDESTRIAL ORIANTED.html" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:19px;"><p class="iotsty" >IOT</p><i class=""></i></a>
             <div class="sub-menu-2">
               <ul>
                 <li><a href="Mechanical engineering.html"><p  class="mechsty" style="color:white;margin-top:-5px;">MECHANICAL ENGINEERING</p> </a></li>
@@ -72,7 +104,7 @@
           </div>
           </li>
           <div class="techno">
-            <li><a  href="TECHNO TALKS.html"><p class="technosty" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:19px;">TECHNO TALKS</p></a></li>
+            <li><a  href="TECHNO TALKS.html" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:19px;"><p class="technosty">TECHNO TALKS</p></a></li>
           </div>
           <li><a href="PLACEMENTS.html" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:19px;"><p class="placementssty">PLACEMENTS</p></a></li>
           <li><a href="ENROLL.html" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:19px;"><p class="enrollsty">ENROLL</p></a></li>
@@ -89,6 +121,19 @@
             <source src="IIA PROMOTIONAL VIDEO.mp4">
           </video> 
          
+          <script>
+            let counts = setInterval(updated);
+            let upto = 0;
+            function updated() {
+                let count = document.getElementById("counter");
+                count.innerHTML = ++upto;
+                if (upto === 1000) {
+                    clearInterval(counts);
+                }
+            }
+        </script>
+
+
             </div>
     </div>
 <div class="container-1">
@@ -445,15 +490,15 @@
 
       <div class="divastyle">
         <img src="man-women.png" width="150px" style="margin-left: 150px;margin-top: 78px;margin-bottom:-10px;">
-        <p style="margin-left: 135px;font-weight: bold;font-size: 18px;margin-top: -20px;font-family: Arial, Helvetica, sans-serif;margin-bottom: -10px;font-size: 50px;"  id="count"></p>
+        <p style="margin-left: 145px;font-weight: bold;font-size: 18px;margin-top:0px;font-family: Arial, Helvetica, sans-serif;margin-bottom:10px;font-size: 50px;"  id="count"></p>
         <br>
-        <p style="margin-left: 155px;font-weight: bold;font-size: 32px;margin-top:-30px;font-family: Arial, Helvetica, sans-serif;margin-bottom:10px;margin-top:-15px;">Learners</p>
-        <img src="courses1.png" width="105px" height="90px" style="margin-left: 520px;margin-top: -342px;margin-bottom: 180px;">
-        <p style="margin-left: 495px;font-weight: bold;font-size: 50px;margin-top: -180px;font-family: Arial, Helvetica, sans-serif;margin-bottom: 30px;" id="count1"></p>
-        <p style="margin-left: 525px;font-weight: bold;font-size:32px;font-family: Arial, Helvetica, sans-serif;margin-top:-40px;margin-bottom: -18px;">Courses</p>
-        <img src="woman.png" width="105px" style="margin-left: 885px;margin-top: -245px;margin-bottom: 145px;">
-        <p style="margin-left: 870px;font-weight: bold;font-size: 50px;font-family: Arial, Helvetica, sans-serif;margin-top: -145px;" id="count2"></p>
-        <p style="margin-left: 820px;font-weight: bold;font-size: 32px;font-family: Arial, Helvetica, sans-serif;margin-top:-10px;">Real Time trainers</p>
+        <p style="margin-left: 155px;font-weight: bold;font-size: 32px;margin-top:30px;font-family: Arial, Helvetica, sans-serif;margin-bottom:0px;margin-top:5px;">Learners</p>
+        <img src="courses1.png" width="105px" height="90px" style="margin-left: 510px;margin-top: -220px;margin-bottom: 180px;">
+        <p style="margin-left: 495px;font-weight: bold;font-size: 50px;margin-top: -170px;font-family: Arial, Helvetica, sans-serif;margin-bottom: 30px;" id="count1"></p>
+        <p style="margin-left: 515px;font-weight: bold;font-size:32px;font-family: Arial, Helvetica, sans-serif;margin-top:-5px;margin-bottom: -18px;">Courses</p>
+        <img src="woman.png" width="105px" style="margin-left: 885px;margin-top: -215px;margin-bottom: 145px;">
+        <p style="margin-left: 870px;font-weight: bold;font-size: 50px;font-family: Arial, Helvetica, sans-serif;margin-top: -125px;" id="count2"></p>
+        <p style="margin-left: 820px;font-weight: bold;font-size: 32px;font-family: Arial, Helvetica, sans-serif;margin-top:10px;">Real Time trainers</p>
         <img src="location 2.png " width="110px" style="margin-left: 1250px;margin-top: -335px;margin-bottom: 158px;">
         <p style="margin-left: 1300px;margin-top: -132px;font-weight: bold;font-size: 50px;font-family: Arial, Helvetica, sans-serif;">2</p>
         <p style="margin-left: 1255px;font-weight: bold;font-size:32px;font-family: Arial, Helvetica, sans-serif;margin-top:22px;">Branches</p>
