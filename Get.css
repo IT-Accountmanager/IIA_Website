@@ -271,6 +271,7 @@ opacity:0.9;
 }
 .styo:hover{
   color:blue;
+  transform: scale(1.25);
   }
 
   .stylesl{

@@ -12,31 +12,6 @@
     background: linear-gradient(60deg,  #4A148C 25.55%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
     text-align: right;
   }
-
-  .menu-bar3{
-    margin-left: 100px;
-    margin-top: -80px;
-    border-radius: 30px;
-    border-right: 30px;
-   margin-right: 1250px;
-   text-align: center;
-    color: #fff;
-    font-size: 20px;
-    border-right: 00px;
-    background-color: brown;
-  }
-
-  .enquiry{
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
-  }
-
   .container{
     background: linear-gradient(60deg, #4A148C 29.78%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
     height: 110px;
@@ -179,8 +154,8 @@ opacity:0.9;
     margin-right: 50px;
     margin-left: -20px;
     color: #fff;
-    margin-top: -120px;
-    margin-bottom: 20px;
+    margin-top: 80px;
+  
     animation: .8s shake linear 1s 2   alternate;
 
   }
@@ -196,7 +171,7 @@ opacity:0.9;
     font-size: 23px;
     margin-right: 50px;
     margin-left: 620px;
-    margin-top: -270px;
+    margin-top: -257px;
     color: #fff;
     animation: .8s shake linear 1s 2 alternate;
   }
@@ -205,7 +180,7 @@ opacity:0.9;
     margin-right: 50px;
     margin-left: 620px;
     display:flex;
-  padding-top:100px;
+  padding-top:80px;
     color: #fff;
     animation: .8s shake linear 1s 2 alternate;
    
@@ -252,26 +227,28 @@ opacity:0.9;
   }
   .styo:hover{
     color:blue;
+    transform: scale(1.25);
     }
  /* css style code */
 
 
 
- *{
+ 
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 .containergetintouch{
-  background: linear-gradient(60deg, #4A148C 29.90%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
-  height: 202px;
+  background: linear-gradient(60deg, #4A148C 29.45%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 190px;
 }
 .container-1get{
-  background: linear-gradient(60deg, #4A148C 36.5%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, #4A148C 35.95%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 178px;
 }
 .container-2get{
-  background: linear-gradient(120deg, #4A148C 34.53%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(120deg, #4A148C 34.05%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
  height: 334px;
 }
 
@@ -286,6 +263,7 @@ opacity:0.9;
   font-size: 30px;
   margin-right: 50px;
   margin-left: 900px;
+  margin-top: -175px;
   color: #fff;
 }
 .paragraph-2{
@@ -305,7 +283,7 @@ opacity:0.9;
    /* You can also use a fixed width in pixels if you prefer */
   margin-left: 40px;
   padding: 20px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   font-size: 20px;
 
 }
@@ -314,7 +292,7 @@ opacity:0.9;
    /* You can also use a fixed width in pixels if you prefer */
   margin-left: 30px;
   padding: 20px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   font-size: 20px;
   color:black;
 }
@@ -323,18 +301,17 @@ opacity:0.9;
   margin-left: 650px;
   margin-top: -260px;
   color: #fff;
-  border-radius: 5px
+ 
 }
 .login-container-3{
   max-width: 800px; /* Increase the maximum width */
    /* You can also use a fixed width in pixels if you prefer */
-  margin-left: 15px;
-  margin-top:60px;
+  margin-left: 30px;
+  margin-top: -60px;
   margin-bottom: 0px;
   padding: 20px;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   font-size: 20px;
-  
   line-height: 10px;
 }
 .image-container{
@@ -347,28 +324,25 @@ opacity:0.9;
   margin-left: 30px;
 }
 .form-1{
-  margin-bottom: 80px;
-  margin-top: 5px;
+  margin-bottom: 250px;
   font-size: 25px;
-  border-radius: 15px;
-  /* margin-top: 300px; */
+  /* border-radius: 15px; */
+  margin-top:50px;
 }
 .form-2{
-  margin-top: -120px;
+  margin-top: -130px;
 }
 .menu-bar2{
   margin-right: 8px;
   margin-left: -40px;
 }
-
 .styles{
-  /* padding-left:3px; */
-  margin-left: 20px;
-  border-radius: 35px; 
+  padding-left:10px;
+  /* border-radius: 35px;  */
   font-size: 25px; 
   line-height: 40px;
   width:300px;
-  margin-top: 10px;
+  margin-top: -550px;
 }
 
 /* .emstyle{
@@ -443,15 +417,15 @@ opacity:0.9;
   .getmapsty{
     margin-left: 950px;
     width:550px;
+    margin-top: 50px;
     height:300px;
-    margin-top: 50px
   }
   .getwesty{
     text-align: center;
-    margin-top: -270px;
+    margin-top: -275px;
     margin-left: -80px; 
     font-size: 25px;
-    color: aliceblue; 
+    color: black;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -459,73 +433,72 @@ opacity:0.9;
   color:#4A148C; 
   width:330px;
   margin-left: 590px;
-  margin-top:35px;
+  margin-top:20px;
 }
 .gotoptsty{
   text-align: center;
   margin-top:-60px;
   margin-left: -40px; 
   font-size: 35px;
-  color: aliceblue; 
+  color: black;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 .nasty{
   color: aliceblue;
   font-size: 23px;
-  margin-left: 48px;
-  margin-top: -35px;
-  margin-bottom: -100px;
+  margin-left: 47px;
+  margin-top: -30px;
 }
 .namesty{
   color: aliceblue;
-  margin-top: -30px;
-  margin-bottom: 10px;
+  margin-top: -10px;
+ margin-bottom: 10px;
   margin-left: 30px;
 }
 .getforsty{
   text-align: center;
-  margin-top: -88px;
-  margin-left: -30px;
+  margin-top: -280px;
+  margin-left: -80px;
    font-size: 25px;
-   color: aliceblue; 
+   color: black;
    font-weight: bold;
    font-family: Arial, Helvetica, sans-serif;
 }
 .tecsty{
   text-align: center;
   margin-top: 20px;
-  margin-left: -10px; 
+  margin-left: -40px; 
   font-size: 25px;
-  color: aliceblue;
+  color: black;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 .mobilesty{
   margin-top: -30px;
-   color: aliceblue;
+  color: aliceblue;
 }
 .mobilenumsty{
   font-size: 25px;
   width:300px;
-  border-radius: 25px; 
+  /* border-radius: 25px;  */
   line-height: 40px;
 }
 .mostyle{
   padding-left:10px;
   font-size: 25px;
   width:300px;
-  border-radius: 25px; 
+  /* border-radius: 25px;  */
   line-height: 40px;
 }
 .emailsty{
-  padding-top: 10px; color: aliceblue;
+  padding-top: 10px;  color: aliceblue;
 }
 .emstyle{
   padding-left:10px;
   font-size: 25px;
   width:300px;
-  border-radius: 25px; 
+  /* border-radius: 25px;  */
   line-height: 40px;
 }
 .messsty{
@@ -535,42 +508,42 @@ opacity:0.9;
   padding-left:10px;
   font-size: 30px;
    width:300px;
-   border-radius: 20px; 
+   /* border-radius: 20px;  */
    line-height: 70px;
 }
 .substy{
   margin-left: 100px; 
   font-size: 20px; 
-  border-radius:50px;
-  background-color:#EF6C00;
+  /* border-radius:50px; */
+  background-color:white;
   width:100px;
-  color:white;
+  color: black;
   height:40px;
 }
 .numbersty{
   margin-left: 700px;
-  color: aliceblue;
+  color: black;
   margin-top: -270px;
   font-size: 20px;
 }
 .mailnamesty{
   margin-left: 705px;
-  color: aliceblue;
-  margin-top: 20px; 
+  color: black;
+  margin-top: 28px; 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 .adresssty{
   margin-left: 705px;
-  color: aliceblue;
-  margin-top: 10px;
+  color: black;
+  margin-top: 30px;
   font-weight: bold;
   font-size: 25px; 
   font-family: Arial, Helvetica, sans-serif;
 }
 .platnamesty{
   margin-left: 700px;
-  color: aliceblue;
+  color: black;
   margin-top: 20px;
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
@@ -578,25 +551,25 @@ opacity:0.9;
 .phone{
   font-size:23px;
   margin-left:20px;
-  margin-top:80px;
+  margin-top:55px;
   color:black;
  
 } 
 
 .pnvelopesez{
-  margin-left:-1520px;
-  margin-top:-100px;
+  margin-left:-1220px;
+  margin-top:-10px;
   font-size:23px;
 }
-/* .material{
+.material{
   width:20%;
   margin-left:674px;
-  margin-top:35px;
+  margin-top:10px;
   font-size:28px;
-} */
+}
 .llsty{
   margin-left: 805px;
-  margin-top: 150px;
+  margin-top: 140px;
 }
 .facsty{
   margin-left:8px;
@@ -613,14 +586,3 @@ opacity:0.9;
   height:40px;
   margin-top: 100px;
 }
- 
-
-
-
-
-
-
-
-
-    
-  

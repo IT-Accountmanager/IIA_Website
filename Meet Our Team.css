@@ -185,12 +185,12 @@ opacity:0.9;
 }
 
 .styless{
-  width:200px;
+  width:225px;
   /* margin-top:100px; */
   margin-left:49%;
   background-color:rgba(255, 230, 196, 0.934);
   height:240px;
-  margin-top: -85px;
+  margin-top: -90px;
   transition: transform .2s;
 }
 /* .styless:hover{
@@ -204,7 +204,7 @@ opacity:0.9;
   transition: transform .2s; 
 }
 .styless1{
-  width:200px;
+  width:220px;
   /* margin-top:100px; */
   margin-left:67%;
   background-color:rgba(255, 230, 196, 0.934);
@@ -221,7 +221,7 @@ opacity:0.9;
   margin-left:57.4%;
   background-color:rgba(255, 230, 196, 0.934);
   height:240px;
-  margin-top:-422px;
+  margin-top:-438px;
   margin-bottom: -18.2px;
   transition: transform .2s;
 }
@@ -260,6 +260,7 @@ opacity:0.9;
 }
 .styo:hover{
   color:blue;
+  transform: scale(1.25);
   }
   .popup {
     margin: 70px auto;
@@ -505,7 +506,7 @@ opacity:0.9;
   .styles{
     /* padding-left:3px; */
     margin-left: 20px;
-    border-radius: 35px; 
+    /* border-radius: 35px;  */
     font-size: 25px; 
     line-height: 40px;
     width:300px;
@@ -649,14 +650,14 @@ opacity:0.9;
   .mobilenumsty{
     font-size: 25px;
     width:300px;
-    border-radius: 25px; 
+    /* border-radius: 25px;  */
     line-height: 40px;
   }
   .mostyle{
     padding-left:10px;
     font-size: 25px;
     width:300px;
-    border-radius: 25px; 
+    /* border-radius: 25px;  */
     line-height: 40px;
   }
   .emailsty{
@@ -666,7 +667,7 @@ opacity:0.9;
     padding-left:10px;
     font-size: 25px;
     width:300px;
-    border-radius: 25px; 
+    /* border-radius: 25px;  */
     line-height: 40px;
   }
   .messsty{
@@ -676,16 +677,16 @@ opacity:0.9;
     padding-left:10px;
     font-size: 30px;
      width:300px;
-     border-radius: 20px; 
+    
      line-height: 70px;
   }
   .substy{
     margin-left: 100px; 
     font-size: 20px; 
-    border-radius:50px;
-    background-color:#EF6C00;
+    /* border-radius:50px; */
+    background-color:white;
     width:100px;
-    color:white;
+    color:black;
     height:40px;
   }
   .numbersty{

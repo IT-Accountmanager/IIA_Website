@@ -207,6 +207,7 @@ opacity:0.9;
 }
 .styo:hover{
   color:blue;
+  transform: scale(1.25);
   }
 
 /* .waitload {
@@ -329,7 +330,7 @@ opacity:0.9;
 
 .styles{
   padding-left:10px;
-  border-radius: 35px; 
+  /* border-radius: 35px;  */
   font-size: 25px; 
   line-height: 40px;
   width:300px;
@@ -472,14 +473,14 @@ opacity:0.9;
 .mobilenumsty{
   font-size: 25px;
   width:300px;
-  border-radius: 25px; 
+  /* border-radius: 25px;  */
   line-height: 40px;
 }
 .mostyle{
   padding-left:10px;
   font-size: 25px;
   width:300px;
-  border-radius: 25px; 
+  /* border-radius: 25px;  */
   line-height: 40px;
 }
 .emailsty{
@@ -489,7 +490,7 @@ opacity:0.9;
   padding-left:10px;
   font-size: 25px;
   width:300px;
-  border-radius: 25px; 
+  /* border-radius: 25px;  */
   line-height: 40px;
 }
 .messsty{
@@ -499,16 +500,16 @@ opacity:0.9;
   padding-left:10px;
   font-size: 30px;
    width:300px;
-   border-radius: 20px; 
+   /* border-radius: 20px;  */
    line-height: 70px;
 }
 .substy{
   margin-left: 100px; 
   font-size: 20px; 
-  border-radius:50px;
-  background-color:#EF6C00;
+  /* border-radius:50px; */
+  background-color:white;
   width:100px;
-  color:white;
+  color:black;
   height:40px;
 }
 .numbersty{

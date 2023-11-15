@@ -147,7 +147,7 @@ opacity:0.9;
   border-radius: 30px;
   line-height: 40px;
   text-align: center; 
-  margin-top: -558px;
+  margin-top: -535px;
   width:300px;
   height:120px;
   margin-left: -460px;
@@ -236,6 +236,7 @@ margin-bottom: 5px;
 }
 .styo:hover{
   color:blue;
+  transform: scale(1.25);
   }
   @keyframes rotate{
     from{transform: translateX(50px);}
@@ -382,7 +383,7 @@ margin-bottom: 5px;
 
 .styles{
   padding-left:10px;
-  border-radius: 35px; 
+  /* border-radius: 35px;  */
   font-size: 25px; 
   line-height: 40px;
   width:300px;
@@ -525,14 +526,14 @@ margin-bottom: 5px;
 .mobilenumsty{
   font-size: 25px;
   width:300px;
-  border-radius: 25px; 
+  /* border-radius: 25px;  */
   line-height: 40px;
 }
 .mostyle{
   padding-left:10px;
   font-size: 25px;
   width:300px;
-  border-radius: 25px; 
+  /* border-radius: 25px;  */
   line-height: 40px;
 }
 .emailsty{
@@ -542,7 +543,7 @@ margin-bottom: 5px;
   padding-left:10px;
   font-size: 25px;
   width:300px;
-  border-radius: 25px; 
+  /* border-radius: 25px;  */
   line-height: 40px;
 }
 .messsty{
@@ -552,16 +553,16 @@ margin-bottom: 5px;
   padding-left:10px;
   font-size: 30px;
    width:300px;
-   border-radius: 20px; 
+   /* border-radius: 20px;  */
    line-height: 70px;
 }
 .substy{
   margin-left: 100px; 
   font-size: 20px; 
-  border-radius:50px;
-  background-color:#EF6C00;
+  /* border-radius:50px; */
+  background-color:white;
   width:100px;
-  color:white;
+  color:black;
   height:40px;
 }
 .numbersty{
