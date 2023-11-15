@@ -11,7 +11,7 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,   white 23.1%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+  background: linear-gradient(60deg,   #4A148C 23.1%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
   text-align: right;
 
 }
@@ -27,17 +27,17 @@
 }
 .container{
   height:167px;
-  background: linear-gradient(60deg, white 26.75%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg, #4A148C 26.75%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   
 }
 .container-1{
   height:159px;
-  background: linear-gradient(60deg, white 32.55%, #4A148C 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg, #4A148C 32.55%, #4A148C 16%, #4A148C 20%,#4A148C 20%, white 20%); */
   
 }
 .container-2{
-  height: 465px;
-  background: linear-gradient(120deg, white 30.4%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 359px;
+  /* background: linear-gradient(120deg, #4A148C 30.4%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%); */
 
 }
 
@@ -85,40 +85,106 @@ display: none;
 z-index:1;
 }
 
+.animate-on-scroll {
+	opacity: 0;
+	transform: translate(-300px, 0);
+	transition: all 0.4s ease-out;
+	transition-delay: 0.2s;
+}
+
+.animate-top-down {
+	opacity: 0;
+	transform: translate(0, -300px);
+	transition: all 0.4s ease-out;
+	transition-delay: 0.2s;
+}
+
+#count,
+#count1,
+#count2{
+  animation: counter 3.9s  ease-in-out;
+  counter-reset: num var(--num);
+  transition-delay: 0.2s;
+}
+
+#count::before,
+#count1::before,
+#count2::before{
+  content: counter(num)"+";
+}
+
+#count { --num:100; }
+#count1 { --num:10; }
+#count2 { --num:50; }
 
 
 @property --num {
   syntax: "<integer>";
-  initial-value: 100;
+  initial-value: 0;
   inherits: false;
 }
 
-#count{
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+}
+
+.animate {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+
+/* #count,
+#count1,
+#count2{
+  animation: counter 3.9s  ease-in-out;
+  counter-reset: num var(--num);
+}
+
+#count::before,
+#count1::before,
+#count2::before{
+  content: counter(num);
+}
+
+#count { --num:100; }
+#count1 { --num:10; }
+#count2 { --num:50; }
+
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 1;
+  inherits: false;
+} */
+
+/* #count{
   animation: counter 5s linear;
   counter-reset: num var(--num);
   font: 800 40px system-ui;
   padding: 2rem;
-}
-#count::after {
+} */
+/* #count::after {
   content: counter(num)"+";
-}
-@keyframes counter {
+} */
+/* @keyframes counter {
   from {
     --num: 1;
   }
-  to {
-    --num: 100;
-  }
-}
+  
+} */
 
-@property --num1 {
+
+/* @property --num1 {
   syntax: "<integer>";
   initial-value: 10;
   inherits: false;
 }
 
 #count1{
-  animation: counter 5s linear;
+  animation: counter1 5s linear;
   counter-reset: num1 var(--num1);
   font: 800 40px system-ui;
   padding: 2rem;
@@ -126,7 +192,7 @@ z-index:1;
 #count1::after {
   content: counter(num1)"+";
 }
-@keyframes counter {
+@keyframes counter1 {
   from {
     --num1: 1;
   }
@@ -143,7 +209,7 @@ z-index:1;
 }
 
 #count2{
-  animation: counter 5s linear;
+  animation: counter2 5s linear;
   counter-reset: num2 var(--num2);
   font: 800 40px system-ui;
   padding: 2rem;
@@ -151,14 +217,14 @@ z-index:1;
 #count2::after {
   content: counter(num2)"+";
 }
-@keyframes counter {
+@keyframes counter2 {
   from {
     --num2: 1;
   }
   to {
     --num2: 10;
   }
-}
+} */
 
 
 /* @property --num1 {
@@ -342,7 +408,6 @@ opacity:0.9;
 .styo:hover{
   font-family: Arial, Helvetica, sans-serif;
 color:blue;
-transform: scale(1.25);
 }
 .styo{
   margin-left:50px;
@@ -362,9 +427,9 @@ font-size:17px;
 
 }
 .aboutsty:hover{
-  font-family: Arial, Helvetica, sans-serif;
+  transform: scale(1.25);
+  /* font-family: Arial, Helvetica, sans-serif; */
   color:blue;
-  
 }
 .coresty{
   font-size:14px;
@@ -430,7 +495,8 @@ font-size:17px;
   font-size:19px;
 }
 .iotsty:hover{
-  font-family: Arial, Helvetica, sans-serif;
+  transform: scale(1.25);
+  /* font-family: Arial, Helvetica, sans-serif; */
   color:blue;
 }
 .technosty{
@@ -441,7 +507,8 @@ font-size:17px;
   font-weight: bold;
 }
 .technosty:hover{
-  font-family: Arial, Helvetica, sans-serif;
+  /* transform: scale(1.25); */
+  /* font-family: Arial, Helvetica, sans-serif; */
 color: blue;
 }
 .placementssty{
@@ -450,8 +517,9 @@ color: blue;
   font-size:19px;
 }
 .placementssty:hover{
+  transform: scale(1.25);
   color: blue;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
 }
 .enrollsty{
   /* font-family: Arial, Helvetica, sans-serif; */
@@ -459,7 +527,8 @@ color: blue;
   font-size:19px;
 }
 .enrollsty:hover{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transform: scale(1.25);
+  /* font-family: Arial, Helvetica, sans-serif;  */
  color: blue;
 }
 .getsty{
@@ -468,14 +537,15 @@ color: blue;
   font-size:19px; 
 }
 .getsty:hover{
-  font-family: Arial, Helvetica, sans-serif;
+  transform: scale(1.25);
+  /* font-family: Arial, Helvetica, sans-serif; */
   color: blue;
 }
 .video-container{
-margin-left:-90px;
+margin-left:0px;
  margin-top:90px;
+ width:100%;
  margin-bottom: 10px;
- width: 900px;
 }
 .mmsty{
   animation: rotatess 1.6s linear; 
@@ -696,7 +766,8 @@ margin-left:-90px;
   /* flex-shrink:2; */
 }
 .styo:hover{
-  font-family: Arial, Helvetica, sans-serif;
+  transform: scale(1.25);
+  /* font-family: Arial, Helvetica, sans-serif; */
   color:blue;
   }
 
@@ -721,8 +792,8 @@ margin-left:-90px;
 }
 
 .iotcontainer{
-  background: linear-gradient(60deg, #4A148C 38%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
-  height: 740px;
+  background: linear-gradient(60deg, #4A148C 36.7%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 620px;
 }
  .iotcontainer-1{
   background: linear-gradient(60deg, #4A148C 33.7%, #4A148C 16%, #4A148C 20%,#4A148C 20%, white 20%);
@@ -1349,7 +1420,7 @@ to {opacity:1 ;}
   overflow: auto;
 }
 
-.count{
+/* .count{
   animation: counter 5s infinite alternate ease-in-out;
   counter-reset: num var(--num);
   font: 800 40px system-ui;
@@ -1366,7 +1437,7 @@ to {opacity:1 ;}
   to {
     --num: 100;
   }
-}
+} */
 
 .reg{
   margin-left: 300px;
@@ -1567,14 +1638,14 @@ to {opacity:1 ;}
   }
   .getmapsty{
     margin-left: 950px;
-    width:500px;
-    margin-top: 50px;
-    height:280px;
+    width:550px;
+    margin-top: 60px;
+    height:300px;
     z-index:0;
   }
   .getwesty{
     text-align: center;
-    margin-top: -265px;
+    margin-top: -295px;
     margin-left: -80px; 
     font-size: 25px;
     color: aliceblue; 
@@ -2021,7 +2092,7 @@ to {opacity:1 ;}
   }
   .video-container{
    
-  margin-left:600px;
+  /* margin-left:600px; */
    margin-top:90px;
    height:150%;
   }
@@ -2311,8 +2382,8 @@ to {opacity:1 ;}
     }
     .getwesty{
       text-align: center;
-      /* margin-top: 225px; */
-    
+      margin-top: 115px;
+     
       margin-left: -80px; 
       font-size: 25px;
       color: black;
@@ -2327,7 +2398,7 @@ to {opacity:1 ;}
   }
   .gotoptsty{
     text-align: center;
-    margin-top:55px;
+    margin-top:40px;
     margin-left: -40px; 
     font-size: 35px;
     color: aliceblue; 
