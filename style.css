@@ -11,7 +11,7 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,   white 23.1%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+  background: linear-gradient(60deg,   #4A148C 23.1%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
   text-align: right;
 
 }
@@ -27,17 +27,17 @@
 }
 .container{
   height:167px;
-  background: linear-gradient(60deg, white 26.75%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg, #4A148C 26.75%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   
 }
 .container-1{
   height:159px;
-  background: linear-gradient(60deg, white 32.55%, #4A148C 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg, #4A148C 32.55%, #4A148C 16%, #4A148C 20%,#4A148C 20%, white 20%); */
   
 }
 .container-2{
-  height: 465px;
-  background: linear-gradient(120deg, white 30.4%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 359px;
+  /* background: linear-gradient(120deg, #4A148C 30.4%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%); */
 
 }
 
@@ -449,7 +449,7 @@ color: blue;
 }
 .placementssty:hover{
   color: blue;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
 }
 .enrollsty{
   /* font-family: Arial, Helvetica, sans-serif; */
@@ -457,7 +457,7 @@ color: blue;
   font-size:19px;
 }
 .enrollsty:hover{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif; 
  color: blue;
 }
 .getsty{
@@ -470,10 +470,10 @@ color: blue;
   color: blue;
 }
 .video-container{
-margin-left:-90px;
+margin-left:0px;
  margin-top:90px;
+ width:100%;
  margin-bottom: 10px;
- width: 900px;
 }
 .mmsty{
   animation: rotatess 1.6s linear; 
@@ -719,8 +719,8 @@ margin-left:-90px;
 }
 
 .iotcontainer{
-  background: linear-gradient(60deg, #4A148C 38%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
-  height: 740px;
+  background: linear-gradient(60deg, #4A148C 36.7%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 620px;
 }
  .iotcontainer-1{
   background: linear-gradient(60deg, #4A148C 33.7%, #4A148C 16%, #4A148C 20%,#4A148C 20%, white 20%);
@@ -1565,14 +1565,14 @@ to {opacity:1 ;}
   }
   .getmapsty{
     margin-left: 950px;
-    width:500px;
-    margin-top: 50px;
-    height:280px;
+    width:550px;
+    margin-top: 60px;
+    height:300px;
     z-index:0;
   }
   .getwesty{
     text-align: center;
-    margin-top: -265px;
+    margin-top: -295px;
     margin-left: -80px; 
     font-size: 25px;
     color: aliceblue; 
@@ -2019,7 +2019,7 @@ to {opacity:1 ;}
   }
   .video-container{
    
-  margin-left:600px;
+  /* margin-left:600px; */
    margin-top:90px;
    height:150%;
   }
@@ -2309,8 +2309,8 @@ to {opacity:1 ;}
     }
     .getwesty{
       text-align: center;
-      /* margin-top: 225px; */
-    
+      margin-top: 115px;
+     
       margin-left: -80px; 
       font-size: 25px;
       color: black;
@@ -2325,7 +2325,7 @@ to {opacity:1 ;}
   }
   .gotoptsty{
     text-align: center;
-    margin-top:55px;
+    margin-top:40px;
     margin-left: -40px; 
     font-size: 35px;
     color: aliceblue; 
