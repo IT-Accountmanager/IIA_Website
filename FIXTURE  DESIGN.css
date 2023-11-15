@@ -83,10 +83,10 @@
     height: 214px;
   }
   .container-2{
-    background: linear-gradient(120deg, #4A148C 34.4%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+    background: linear-gradient(120deg, #4A148C 34.5%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
   }
   .container-3{
-    background: linear-gradient(120deg, #4A148C 28.1%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+    background: linear-gradient(120deg, #4A148C 28.45%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
     height: 219.5px;
   }
   .menu-bar ul
@@ -228,7 +228,7 @@
     margin-right: 150px;
     margin-left: 400px;
     color: #fff;
-    margin-top: -358px;
+    margin-top: -365px;
     transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
   }
@@ -259,7 +259,7 @@
   .paragraph-6{
     font-size: 16px;
     margin-left: 600px;
-    margin-top: -10px;
+    margin-top: -5px;
     color: #fff;
     transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
@@ -491,15 +491,15 @@
       box-sizing: border-box;
     }
     .containergetintouch{
-      background: linear-gradient(60deg, #4A148C 27.65%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+      background: linear-gradient(60deg, #4A148C 30.05%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
       height: 202px;
     }
     .container-1get{
-      background: linear-gradient(60deg, #4A148C 34.25%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+      background: linear-gradient(60deg, #4A148C 36.65%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
       height: 178px;
     }
     .container-2get{
-      background: linear-gradient(120deg, #4A148C 32.37%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+      background: linear-gradient(120deg, #4A148C 34.67%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
      height: 334px;
     }
     
