@@ -46,7 +46,7 @@
 display: inline-flex;
 list-style: none;
 color: #fff;
-gap: -10px;
+gap:15px;
 }
 .menu-bar ul li{
 width: 147px;
@@ -400,7 +400,7 @@ opacity:0.9;
   position: relative;
   margin-top: 0px;
   display: block;
-  margin-right:40px;
+  margin-right:60px;
 }
 .rows{
   display:flex;
@@ -505,7 +505,7 @@ font-size:19px;
   color:blue;
 }
 .technosty{
-  padding-right:382px;
+  padding-right:392px;
   width:530px;
   font-size:19px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -548,6 +548,7 @@ color: blue;
 }
 .video-container{
 margin-left:0px;
+margin-right:20px;
  margin-top:90px;
  width:100%;
  margin-bottom: 10px;
@@ -2096,7 +2097,8 @@ to {opacity:1 ;}
     color: blue;
   }
   .video-container{
-   
+
+   margin-right:20%;
   /* margin-left:600px; */
    margin-top:90px;
    height:150%;
