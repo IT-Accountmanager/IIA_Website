@@ -71,22 +71,22 @@
     margin-right: 2%;
     text-decoration: white;
     width: 100%;
-    background: linear-gradient(60deg,  #4A148C 25.5%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+    background: linear-gradient(60deg,  #4A148C 24.35%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
     text-align: right;
   }
   .container{
-    background: linear-gradient(60deg, #4A148C 27.9%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+    background: linear-gradient(60deg, #4A148C 26.75%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
     
   }
   .container-1{
-    background: linear-gradient(60deg, #4A148C 33.7%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);  
-    height: 214px;
+    background: linear-gradient(60deg, #4A148C 32.55%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);  
+    height: 210px;
   }
   .container-2{
-    background: linear-gradient(120deg, #4A148C 34.4%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+    background: linear-gradient(120deg, #4A148C 33.1%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
   }
   .container-3{
-    background: linear-gradient(120deg, #4A148C 28.1%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+    background: linear-gradient(120deg, #4A148C 26.9%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
     height: 219.5px;
   }
   .menu-bar ul
@@ -499,15 +499,15 @@
       box-sizing: border-box;
     }
     .containergetintouch{
-      background: linear-gradient(60deg, #4A148C 27.65%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+      background: linear-gradient(60deg, #4A148C 26.45%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
       height: 202px;
     }
     .container-1get{
-      background: linear-gradient(60deg, #4A148C 34.25%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+      background: linear-gradient(60deg, #4A148C 33%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
       height: 178px;
     }
     .container-2get{
-      background: linear-gradient(120deg, #4A148C 32.37%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+      background: linear-gradient(120deg, #4A148C 31.2%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
      height: 334px;
     }
     
