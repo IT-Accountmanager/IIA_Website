@@ -1,20 +1,9 @@
-.bg{
-  background-color: #1e1f26;
-  height: 100vh;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.level{
-  background-color: #00d1b2;
-  padding: 5rem 0;
-  color: #ffffff;
-  margin: 0!important;
-}
-
-.title{
-  color: inherit;
-  width: 200px;
-  height: 36px;
+.c-no{height:150px;}
+.grey-bg{background:#ebebeb;}
+.counter-Txt{text-align:center; font-size:20px; font-weight:bold; text-transform:uppercase; margin-top:20px;}
+.counter-Txt span{display:block; font-size:36px}
+@media(min-width:320px) and (max-width:767px){ 
+.c-no{height:100%;}
+.counter-Txt{margin-top:35px;}
+.margin-bot-35{margin-bottom:35px;}
 }

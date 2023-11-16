@@ -173,7 +173,7 @@ margin-top: -138px;
 .paragraph-3{
   font-size: 16px;
   margin-top:-100px;
-  margin-left: 550px;
+  margin-left:0px;
   color: #fff;
 }
 .paragraph-4{
@@ -258,6 +258,15 @@ margin-top: -138px;
     color:#4A148C;
   }
 
+  .move{
+    animation: rotate 1.6s linear; 
+  }
+
+  @keyframes rotate{
+    from{transform: translateX(50px);}
+    to{ transform: translateX(0px); }
+  }
+
   
 
   /* css style code */
@@ -304,7 +313,8 @@ margin-top: -138px;
   .paragraph-3{
     font-size: 30px;
     margin-right: 50px;
-    margin-left: 980px;
+    margin-left:0px;
+    margin-top:30px;
     color: #fff;
   }
   .login-container{
