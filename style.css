@@ -41,12 +41,24 @@
 
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
 .menu-bar ul
 {
 display: inline-flex;
 list-style: none;
 color: #fff;
-gap: -10px;
+gap: 20px;
 }
 .menu-bar ul li{
 width: 147px;
@@ -85,19 +97,6 @@ display: none;
 z-index:1;
 }
 
-.animate-on-scroll {
-	opacity: 0;
-	transform: translate(-300px, 0);
-	transition: all 0.4s ease-out;
-	transition-delay: 0.2s;
-}
-
-.animate-top-down {
-	opacity: 0;
-	transform: translate(0, -300px);
-	transition: all 0.4s ease-out;
-	transition-delay: 0.2s;
-}
 
 #count,
 #count1,
@@ -130,10 +129,7 @@ z-index:1;
   }
 }
 
-.animate {
-	opacity: 1;
-	transform: translate(0, 0);
-}
+
 
 
 /* #count,
