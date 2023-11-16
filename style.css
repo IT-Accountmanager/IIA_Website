@@ -514,7 +514,8 @@ font-size:19px;
 .technosty:hover{
   /* transform: scale(1.25); */
   /* font-family: Arial, Helvetica, sans-serif; */
-color: blue;
+/* color: blue; */
+transform: scale(1.25);
 }
 .placementssty{
   /* font-family: Arial, Helvetica, sans-serif; */
