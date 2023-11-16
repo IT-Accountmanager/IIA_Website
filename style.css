@@ -263,21 +263,21 @@ display: block;
 /* padding-right:10px; */
 text-align:center;
 width:185px;
-padding-top:20px;
+padding-top:10px;
 height:170px;
 /* margin: 10px; */
 }
 
 .sub-menu-1 ul li{
   width:175px;
-padding:5px;
-
+padding:7px;
+gap:100px;
   
 /* padding: 10px; */
 }
 
 .sub-menu-1 ul li:hover{
-  width:178px;
+  width:180px;
   /* margin-left: 40px; */
   background-color:#EF6C00;
 }
@@ -505,14 +505,14 @@ font-size:19px;
   color:blue;
 }
 .technosty{
-  padding-right:392px;
-  width:530px;
+  padding-left:-190px;
+  /* width:200px; */
   font-size:19px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
 }
 .technosty:hover{
-  /* transform: scale(1.25); */
+  transform: scale(1.25);
   /* font-family: Arial, Helvetica, sans-serif; */
 color: blue;
 }
@@ -1645,7 +1645,7 @@ to {opacity:1 ;}
   .getmapsty{
     margin-left: 950px;
     width:550px;
-    margin-top: 60px;
+    margin-top: 50px;
     height:300px;
     z-index:0;
   }
@@ -1900,6 +1900,7 @@ to {opacity:1 ;}
   .sub-menu-1 ul{
   display: block;
   height:100px;
+  
   /* padding-right:10px; */
   text-align:center;
   width:190px;
@@ -1909,6 +1910,7 @@ to {opacity:1 ;}
   .sub-menu-1 ul li{
     width:165px;
      padding:5px; 
+     gap:80px;
   /* padding: 10px; */
   }
   
