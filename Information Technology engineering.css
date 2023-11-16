@@ -144,8 +144,7 @@ opacity:0.9;
   text-align: left;
  width: 800px;
  margin-left: 47px;
- padding-top:115px;
-
+ padding-top:85px;
 }
 .paragraph{
 
@@ -257,6 +256,27 @@ margin-top: -138px;
   .stylep:hover{
     color:#4A148C;
   }
+  .info{
+    animation: rotate 1.6s linear; 
+  }
+  .info1{
+    animation: rotates 1.6s linear; 
+  }
+  @keyframes rotates{
+    from{transform: translateX(-100px);}
+    to{ transform: translateX(0px); }
+  }
+  @keyframes rotate{
+    from{transform: translateX(150px);}
+    to{ transform: translateX(0px); }
+  }
+  @keyframes rotates{
+    from{transform: translateX(-100px);}
+    to{ transform: translateX(0px); }
+  }
+
+
+
 
   .move{
     animation: rotate 1.6s linear; 
@@ -279,15 +299,15 @@ margin-top: -138px;
     box-sizing: border-box;
   }
   .containergetintouch{
-    background: linear-gradient(60deg, #4A148C 29.90%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+    background: linear-gradient(60deg, #4A148C 28.60%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
     height: 202px;
   }
   .container-1get{
-    background: linear-gradient(60deg, #4A148C 36.5%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+    background: linear-gradient(60deg, #4A148C 35.15%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
     height: 178px;
   }
   .container-2get{
-    background: linear-gradient(120deg, #4A148C 34.53%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+    background: linear-gradient(120deg, #4A148C 33.23%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
    height: 334px;
   }
   

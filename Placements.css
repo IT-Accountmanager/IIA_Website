@@ -9,25 +9,25 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,   #4A148C 25.58%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+  background: linear-gradient(60deg,   #4A148C 24.35%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
   text-align: right;
   /* left:calc(50% - 300px);
 top:calc(50% - 150px); */
 transition:.6s;
 }
 .container{
-  height:263px;
-  background: linear-gradient(60deg, #4A148C 33.5%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height:255px;
+  background: linear-gradient(60deg, #4A148C 32.15%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
 
 }
 .container-1{
-  height:238px;
-  background: linear-gradient(60deg, #4A148C 35.2%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  height:148px;
+  background: linear-gradient(60deg, #4A148C 31.9%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
   
 }
 .container-2{
-  background: linear-gradient(120deg, #4A148C 32.8%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%);
-  height: 325px;
+  background: linear-gradient(120deg, #4A148C 31.2%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 335px;
 }
 
 .menu-bar ul
@@ -273,7 +273,7 @@ opacity:0.9;
    
 }
 .ppl{
-  margin-top: 150px;
+  margin-top: 230px;
 }
 .image-container1{
   margin-left: 600px;
@@ -570,7 +570,13 @@ div.scroll-container img {
   }
 }
 
-
+.info1{
+  animation: rotates 1.6s linear; 
+}
+@keyframes rotates{
+  from{transform: translateX(-100px);}
+  to{ transform: translateX(0px); }
+}
 
 /* .home:hover{
   width: 130px;

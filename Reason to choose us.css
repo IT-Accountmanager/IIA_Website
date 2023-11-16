@@ -9,19 +9,19 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,  #4A148C 25.63%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+  background: linear-gradient(60deg,  #4A148C 24.35%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
   text-align: right;
 }
 .container{
-  background: linear-gradient(60deg, #4A148C 29.8%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
-  height: 110px;
+  background: linear-gradient(60deg, #4A148C 28.35%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 102px;
 }
 .container-1{
-  background: linear-gradient(60deg, #4A148C 34.78%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, #4A148C 33.3%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 152px;
 }
 .container-2{
-  background: linear-gradient(120deg, #4A148C 32.82%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(120deg, #4A148C 31.35%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 326px;
 }
 
@@ -149,7 +149,7 @@ opacity:0.9;
 .paragraphr{
   margin-left: 580px;
   color: #4A148C;
-  margin-top: -167px;
+  margin-top: -147px;
   font-size: 25px;
   font-weight: bold;
 
@@ -292,7 +292,15 @@ opacity:0.9;
     from{transform: translateY(-50px);}
     to{ transform: translateY(0px); }
   }
-
+  .info1{
+    animation: rotates 1.6s linear; 
+  }
+  @keyframes rotates{
+    from{transform: translateX(-100px);}
+    to{ transform: translateX(0px); }
+  }
+  
+  
 
 
 

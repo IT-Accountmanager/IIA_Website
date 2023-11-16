@@ -203,7 +203,7 @@
   .logo{
     color: #fff;
     text-align:start;
-    margin-left:-1100px;
+    margin-left:-900px;
     font-size: 25px;
 
   }
@@ -475,6 +475,13 @@
   .popup .content {
     max-height: 30%;
     overflow: auto;
+  }
+  .info1{
+    animation: rotates 1.6s linear; 
+  }
+  @keyframes rotates{
+    from{transform: translateX(-100px);}
+    to{ transform: translateX(0px); }
   }
   
 

@@ -9,20 +9,20 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,   #4A148C 25.75%,  #4A148C  20%, #4A148C  20%,  #4A148C  20%,  white  20%);
+  background: linear-gradient(60deg,   #4A148C 24.47%,  #4A148C  20%, #4A148C  20%,  #4A148C  20%,  white  20%);
   text-align: right;
 }
 .container{
   height:129px;
-  background: linear-gradient(60deg,  #4A148C 27.92%, #4A148C 20%,  #4A148C 20%,  #4A148C 20%,  white 20%);
+  background: linear-gradient(60deg,  #4A148C 26.7%, #4A148C 20%,  #4A148C 20%,  #4A148C 20%,  white 20%);
 }
 .container-1{
-  height: 198px;
-  background: linear-gradient(60deg, #4A148C 34.22%,  #EF6C00 16%, #4A148C 20%, #4A148C 20%, white 20%);
+  height: 190px;
+  background: linear-gradient(60deg, #4A148C 32.82%,  #EF6C00 16%, #4A148C 20%, #4A148C 20%, white 20%);
 }
 .container-2{
   height: 328px;
-  background: linear-gradient(120deg, #4A148C 32.75%, #4A148C  20%, #4A148C 20%, #4A148C 20%, white 20%);
+  background: linear-gradient(120deg, #4A148C 31.32%, #4A148C  20%, #4A148C 20%, #4A148C 20%, white 20%);
 }
 .menu-bar ul
 {
@@ -270,7 +270,13 @@ margin-bottom: 5px;
   from{transform: translateY(50px);}
  
 }
-
+.info1{
+  animation: rotates 1.6s linear; 
+}
+@keyframes rotates{
+  from{transform: translateX(-100px);}
+  to{ transform: translateX(0px); }
+}
 
 
 
@@ -284,15 +290,15 @@ margin-bottom: 5px;
   box-sizing: border-box;
 }
 .containergetintouch{
-  background: linear-gradient(60deg, #4A148C 29.8%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, #4A148C 28.2%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 202px;
 }
 .container-1get{
-  background: linear-gradient(60deg, #4A148C 36.45%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, #4A148C 34.75%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 178px;
 }
 .container-2get{
-  background: linear-gradient(120deg, #4A148C 34.5%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(120deg, #4A148C 33%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
  height: 334px;
 }
 
