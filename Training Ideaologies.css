@@ -332,7 +332,13 @@ margin-top: -100px;
     from{transform: translateX(50px);}
     to{ transform: translateY(0px); }
   }
-
+  .info1{
+    animation: rotates 1.6s linear; 
+  }
+  @keyframes rotates{
+    from{transform: translateX(-100px);}
+    to{ transform: translateX(0px); }
+  }
 
    /* css style code */
 
@@ -361,6 +367,7 @@ margin-top: -100px;
   text-align: left;
   margin-left: 500px;
   width: 5px;
+  margin-bottom: -20px;
 
 }
 .paragraph{

@@ -9,21 +9,21 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,  #4A148C 25.53%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+  background: linear-gradient(60deg,  #4A148C 24.33%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
   text-align: right;
 }
 .container{
   height:117px;
-  background: linear-gradient(60deg, #4A148C 29.95%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, #4A148C 28.75%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
   
 }
 .container-1{
-  background: linear-gradient(60deg, #4A148C 34.9%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
-  height:146px;
+  background: linear-gradient(60deg, #4A148C 33.45%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  height:136px;
 }
 .container-2{
-  height: 393px;
-  background: linear-gradient(120deg, #4A148C 32%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 407px;
+  background: linear-gradient(120deg, #4A148C 30.55%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
 }
 .menu-bar ul
 {
@@ -592,7 +592,13 @@ to {opacity:1 ;}
   overflow: auto;
 }
 
-
+.info1{
+  animation: rotates 1.6s linear; 
+}
+@keyframes rotates{
+  from{transform: translateX(-100px);}
+  to{ transform: translateX(0px); }
+}
 
 
 
@@ -607,15 +613,15 @@ to {opacity:1 ;}
   box-sizing: border-box;
 }
 .containergetintouch{
-  background: linear-gradient(60deg, #4A148C 30.9%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, #4A148C 29%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
   height:190px;
 }
 .container-1get{
-  background: linear-gradient(60deg, #4A148C 37.35%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, #4A148C 35.45%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 178px;
 }
 .container-2get{
-  background: linear-gradient(120deg, #4A148C 35.4%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(120deg, #4A148C 33.5%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
  height: 334px;
 }
 

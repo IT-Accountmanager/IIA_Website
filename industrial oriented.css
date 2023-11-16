@@ -9,20 +9,20 @@
     margin-right: 2%;
     text-decoration: white;
     width: 100%;
-    background: linear-gradient(60deg,   #4A148C 25.5%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+    background: linear-gradient(60deg,   #4A148C 24.35%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
     text-align: right;
   }
   .container{
-    background: linear-gradient(60deg, #4A148C 33.45%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
-    height: 263px;
+    background: linear-gradient(60deg, #4A148C 32.1%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+    height: 253px;
   }
    .container-1{
-    background: linear-gradient(120deg, #4A148C 36.7%, #4A148C 16%, #4A148C 20%,#4A148C 20%, white 20%);
+    background: linear-gradient(120deg, #4A148C 35.7%, #4A148C 16%, #4A148C 20%,#4A148C 20%, white 20%);
     height: 0px;
   } 
   .container-2{
-    height: 339px;
-    background: linear-gradient(120deg, #4A148C 32.52%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%);
+    height: 349px;
+    background: linear-gradient(120deg, #4A148C 31.12%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%);
   
   }
 .menu-bar ul
@@ -258,7 +258,13 @@ opacity:0.9;
     transform: translateX(-100px);
   } */
 
-
+  .info1{
+    animation: rotates 1.6s linear; 
+  }
+  @keyframes rotates{
+    from{transform: translateX(-100px);}
+    to{ transform: translateX(0px); }
+  }
 
 
 
@@ -296,7 +302,7 @@ opacity:0.9;
   font-size: 30px;
   margin-right: 50px;
   margin-left: 900px;
-  margin-top: -175px;
+  margin-top: -135px;
   color: #fff;
 }
 .paragraph-2{

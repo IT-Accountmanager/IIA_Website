@@ -9,20 +9,20 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,  #4A148C 25.6%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+  background: linear-gradient(60deg,  #4A148C 24.3%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
   text-align: right;
 }
 .container{
-  background: linear-gradient(60deg, #4A148C 29.55%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, #4A148C 28.3%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 102px;
 }
 .container-1{
-  background: linear-gradient(60deg, #4A148C 34.7%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
-  height: 162px;
+  background: linear-gradient(60deg, #4A148C 33.4%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 158px;
 }
 .container-2{
-  background: linear-gradient(120deg, #4A148C 32.75%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
- height: 324px;
+  background: linear-gradient(120deg, #4A148C 31.5%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+ height: 325px;
 }
 
 .menu-bar ul
