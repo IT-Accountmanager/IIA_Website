@@ -193,9 +193,9 @@ opacity:0.9;
   margin-top: -90px;
   transition: transform .2s;
 }
-/* .styless:hover{
+.styless:hover{
   transform: scale(1.02);
-} */
+}
 
 .zooms:hover {
   transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
@@ -212,9 +212,10 @@ opacity:0.9;
   margin-top: -240px;
   transition: transform .2s;
 }
-/* .styless1:hover{
+.styless1:hover{
+  z-index:0;
   transform: scale(1.02);
-} */
+}
 .styless2{
   width:225px;
   /* margin-top:100px; */
@@ -225,9 +226,10 @@ opacity:0.9;
   margin-bottom: -18.2px;
   transition: transform .2s;
 }
-/* .styless2:hover{
+.styless2:hover{
+  z-index:0;
   transform: scale(1.02);
-} */
+}
 .aboutus{
   width: 150px;
   /* display: block; */

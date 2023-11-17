@@ -279,15 +279,15 @@ opacity:0.9;
   box-sizing: border-box;
 }
 .containergetintouch{
-  background: linear-gradient(60deg, #4A148C 29.45%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, #4A148C 27.25%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 190px;
 }
 .container-1get{
-  background: linear-gradient(60deg, #4A148C 35.95%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, #4A148C 33.7%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 178px;
 }
 .container-2get{
-  background: linear-gradient(120deg, #4A148C 34.05%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(120deg, #4A148C 31.95%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
  height: 334px;
 }
 
