@@ -528,20 +528,21 @@
     }
     .paragraph-2{
       font-size: 30px;
-      margin-right: 50px;
-      margin-left: 900px;
+      margin-right: 60px;
+      margin-left: 890px;
       color: #fff;
+      
     }
     .paragraph-3{
       font-size: 30px;
-      margin-right: 50px;
-      margin-left: 980px;
+      margin-right: 130px;
+      margin-left: 990px;
       color: #fff;
     }
     .login-container{
       max-width: 800px; /* Increase the maximum width */
        /* You can also use a fixed width in pixels if you prefer */
-      margin-left: 40px;
+      margin-left: 0px;
       padding: 20px;
       border-radius: 5px;
       font-size: 20px;
