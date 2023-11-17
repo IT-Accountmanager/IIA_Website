@@ -419,11 +419,11 @@ div.scroll-container img {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-  margin-right: 1150px;
-  margin-top: 50px;
+  margin-right: 1165px;
+  margin-top: 90px;
 }
 .prev{
-  margin-top: 50px;
+  margin-top: 90px;
   border-radius: 3px 0 0 3px;
   margin-left: -25px;
 }
