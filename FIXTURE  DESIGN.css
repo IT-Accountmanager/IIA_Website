@@ -290,7 +290,7 @@
     margin-top: -80px;
     border-radius: 30px;
     border-right: 30px;
-   margin-right: 1230px;
+   margin-right: 1220px;
    text-align: center;
     color: #fff;
     font-size: 20px;
@@ -483,7 +483,9 @@
     from{transform: translateX(-100px);}
     to{ transform: translateX(0px); }
   }
-  
+  /* .box1:hover{
+    transform: scale(1.25);
+  } */
 
 
 
