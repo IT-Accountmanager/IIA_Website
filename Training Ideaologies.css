@@ -147,28 +147,31 @@ opacity:0.9;
   color: #EF6C00;
   font-size: 24px;
   margin-top:-5px;
+  text-align:justify;
 }
 .paragraph-2{
   font-size: 20px;
   margin-right: 50px;
-  margin-left: -30px;
+  margin-left: 830px;
   margin-top:0px;
   color: #fff;
-  text-align: center;
+  text-align:justify;
+  z-index:1;
 }
 .paragraph-3{
   margin-left: 1100px;
   color:#EF6C00;
   margin-top: -138px;
   font-size: 24px;
- 
+  text-align:justify;
 }
 .paragraph-4{
-  margin-left: 895px;
+  margin-left: 1100px;
   color: #fff;
   margin-top: -105px;
   font-size:22px;
-  text-align: center;
+  
+  text-align:justify;
 }
 .paragraph-5{
   margin-left: 718px;
@@ -177,11 +180,11 @@ opacity:0.9;
   font-size: 24px;
 }
 .paragraph-6{
-  margin-left: 80px;
+  margin-left: 650px;
   color: #fff;
   font-size:22px;
-  margin-top:20px;
-  text-align: center;
+  margin-top:-15px;
+  text-align:justify;
 }
 .paragraph-7{
   margin-left: 1190px;
@@ -190,11 +193,11 @@ opacity:0.9;
   font-size: 24px;
 }
 .paragraph-8{
-  margin-left: 1100px;
+  margin-left: 1200px;
   color:#fff;
-  margin-top: 5px;
+  margin-top: 30px;
   font-size:22px;
-  text-align: center;
+  text-align:justify;
 }
 .paragraph-9{
   margin-left: 630px;
@@ -203,10 +206,10 @@ opacity:0.9;
   font-size: 24px;
 }
 .paragraph-10{
-  margin-left:-90px;
+  margin-left:610px;
   color: #fff;
   font-size:22px;
-  margin-top: -50px;
+  margin-top: -155px;
 }
 .paragraph-11{
   margin-left: 1145px;
@@ -215,11 +218,11 @@ opacity:0.9;
   font-size: 24px;
 }
 .paragraph-12{
-  margin-left: 945px;
+  margin-left: 1105px;
   color:#fff;
-  margin-top: -65px;
+  margin-top: -140px;
   font-size: 22px;
-  text-align: center;
+  text-align:justify;
 }
 .image-container{
 
@@ -246,8 +249,8 @@ margin-top: -100px;
 }
 .image-container2{
   /* margin-top: -135px; */
-  margin-left: 615px;
-  margin-top: -120px;
+  margin-left: 415px;
+  margin-top: -50px;
 }
 .image-container3{
   margin-left: 380px;
@@ -258,8 +261,8 @@ margin-top: -100px;
  margin-top: -412px;
 }
 .image-containeru{
-  margin-left: 1190px;
-  margin-top: -172px;
+  margin-left: 1025px;
+  margin-top: -90px;
 
  
  }

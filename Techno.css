@@ -150,6 +150,7 @@ opacity:0.9;
   margin-left: 400px;
   margin-top: -95px;
   color: #fff;
+  text-align:justify;
 }
 @keyframes early 
 { from { opacity:1; } to { opacity:0; } }

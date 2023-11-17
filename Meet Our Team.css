@@ -213,6 +213,7 @@ opacity:0.9;
   transition: transform .2s;
 }
 .styless1:hover{
+  z-index:0;
   transform: scale(1.02);
 }
 .styless2{
@@ -226,6 +227,7 @@ opacity:0.9;
   transition: transform .2s;
 }
 .styless2:hover{
+  z-index:0;
   transform: scale(1.02);
 }
 .aboutus{
