@@ -17,16 +17,16 @@ transition:.6s;
 }
 .container{
   height:255px;
-  background: linear-gradient(60deg, #4A148C 32.15%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, white 32.15%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
 
 }
 .container-1{
   height:148px;
-  background: linear-gradient(60deg, #4A148C 31.9%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, white 31.9%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
   
 }
 .container-2{
-  background: linear-gradient(120deg, #4A148C 31.2%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(120deg, white 31.2%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 335px;
 }
 
@@ -39,14 +39,24 @@ gap: -10px;
 transition:5.6s;
 }
 .menu-bar ul li{
-width: 130px;
-left: 100;
-margin: 15px;
-padding: 65px 0px 0px 0px;
-position: relative;
+  width: 123px;
+  left: -8px;
+  margin: 15px;
+  margin-top:-32px;
+  padding: 65px 0px 0px 0px;
+  position: relative;
+  }
+  .divstyle{
+    position:fixed;
+    width:100%;
+    margin-top:70px;
+    /* margin-top:70px; */
+    background:rgb(216, 215, 215);
+    height:50px;
+    z-index: 0;
+  }
 
-}
-.menu-bar ul li a
+  .menu-bar ul li a
 {
    text-decoration: none;
    color: #4A148C;
@@ -198,7 +208,7 @@ opacity:0.9;
   font-size:  19.5px;
   margin-right: 50px;
   margin-left: 560px;
-  margin-top: -110px;
+  margin-top: -2px;
   color: #fff;
   animation: waviy 1s 2 alternate;
   animation-delay: calc(.1s * var(--i));
@@ -596,16 +606,16 @@ div.scroll-container img {
   box-sizing: border-box;
 }
 .containergetintouch{
-  background: linear-gradient(60deg, #4A148C 28%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
-  height: 202px;
+  background: linear-gradient(60deg, white 28%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 232px;
 }
 .container-1get{
   background: linear-gradient(60deg, #4A148C 34.6%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
-  height: 178px;
+  height: 188px;
 }
 .container-2get{
   background: linear-gradient(120deg, #4A148C 32.8%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
- height: 334px;
+ height: 344px;
 }
 
 .logo{
@@ -774,7 +784,7 @@ div.scroll-container img {
   .getmapsty{
     margin-left: 950px;
     width:550px;
-    margin-top: 50px;
+    margin-top: 170px;
     height:300px;
   }
   .getwesty{
@@ -805,7 +815,7 @@ div.scroll-container img {
   color: aliceblue;
   font-size: 23px;
   margin-left: 47px;
-  margin-top: -15px;
+  margin-top: -95px;
 }
 .namesty{
   color: aliceblue;
@@ -815,7 +825,7 @@ div.scroll-container img {
 }
 .getforsty{
   text-align: center;
-  margin-top: -280px;
+  margin-top: -200px;
   margin-left: -80px;
    font-size: 25px;
    color: aliceblue; 

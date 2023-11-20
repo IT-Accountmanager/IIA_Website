@@ -9,21 +9,21 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,  #4A148C 24.33%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+  background: linear-gradient(60deg,  white 24.33%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
   text-align: right;
 }
 .container{
   height:160px;
-  background: linear-gradient(60deg, #4A148C 27.6%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, white 27.6%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
   
 }
 .container-1{
-  background: linear-gradient(60deg, #4A148C 33.45%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, white 33.45%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
   height:160px;
 }
 .container-2{
   height: 360px;
-  background: linear-gradient(120deg, #4A148C 30.95%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(120deg, white 30.95%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
 }
 .menu-bar ul
 {
@@ -158,7 +158,7 @@ opacity:0.9;
   font-size: 16.5px;
   margin-right: 50px;
   margin-left: 400px;
-  margin-top: 20px;
+  margin-top: -95px;
   color: #fff;
   text-align:justify;
 }
@@ -237,7 +237,7 @@ opacity:0.9;
 }
 .img-container2{
  margin-left: 600px;
- margin-top:95px;
+ margin-top:35px;
  width: 100px;
  height: 100px;
 }

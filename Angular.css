@@ -13,16 +13,16 @@
     text-align: right;
   }
   .container{
-    background: linear-gradient(60deg, #4A148C 28.5%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
-    height: 110px;
+    background: linear-gradient(60deg, #4A148C 26.05%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+    height: 190px;
   }
   .container-1{
-    background: linear-gradient(60deg, #4A148C 33.3%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
-    height: 143px;
+    background: linear-gradient(60deg, #4A148C 33.05%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+    height: 200px;
   }
   .container-2{
 
-    background: linear-gradient(120deg, #4A148C 31.3%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+    background: linear-gradient(120deg, #4A148C 31.7%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
    height: 325px;
   }
   /* .container-3{
@@ -268,15 +268,15 @@ opacity:0.9;
   box-sizing: border-box;
 }
 .containergetintouch{
-  background: linear-gradient(60deg, #4A148C 28.05%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, #4A148C 28.45%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 190px;
 }
 .container-1get{
-  background: linear-gradient(60deg, #4A148C 34.5%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, #4A148C 34.92%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 178px;
 }
 .container-2get{
-  background: linear-gradient(120deg, #4A148C 32.7%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(120deg, #4A148C 33.15%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
  height: 334px;
 }
 
