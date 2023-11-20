@@ -26,7 +26,7 @@
   to{ transform: translateX(0px); }
 }
 .container{
-  height:167px;
+  /* height:167px; */
   /* background: linear-gradient(60deg, #4A148C 26.75%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   
 }
@@ -662,16 +662,16 @@ margin-right:20px;
 } */
 .aboutcontainer{
   height:120px;
-  background: linear-gradient(60deg, #4A148C 24.4%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg, #4A148C 24.4%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
 }
 .aboutcontainer-1{
   height:252px;
   display:flex;
-  background: linear-gradient(60deg, #4A148C 32.05%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg, #4A148C 32.05%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%); */
 }
 .aboutcontainer-2{
   height:354px;
-  background: linear-gradient(120deg, #4A148C 31%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(120deg, #4A148C 31%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%); */
 }
 /* .aboutcontainer-3{
   height:625.5px;
@@ -718,6 +718,30 @@ margin-right:20px;
   margin-bottom: 00px;
   color: black;
 }
+table {
+  text-align:center;
+  align-items:center;
+  justify-content:center;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left:15%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th{
+  background-color:skyblue;
+}
+
+tr:nth-child(even) {
+  background-color:lightblue
+} */
+
 .bf{
   background-image:url('group444.png' );
   background-repeat: no-repeat;
@@ -1468,16 +1492,16 @@ to {opacity:1 ;}
   box-sizing: border-box;
 }
 .containergetintouch{
-  background: linear-gradient(60deg, #4A148C 26.4%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg, #4A148C 26.4%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 162px;
 }
 .container-1get{
-  background: linear-gradient(60deg, #4A148C 33.5%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg, #4A148C 33.5%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 218px;
 }
 .container-2get{
-  background: linear-gradient(120deg, #4A148C 32.65%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
- height: 284px;
+  /* background: linear-gradient(120deg, #4A148C 32.65%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%); */
+ height: 294px;
 }
 
 .logo{
