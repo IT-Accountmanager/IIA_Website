@@ -9,20 +9,20 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,  #4A148C 24.35%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+  background: linear-gradient(60deg,  white 24.35%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
   text-align: right;
 }
 .container{
-  background: linear-gradient(60deg, #4A148C 28.35%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
-  height: 102px;
+  background: linear-gradient(60deg, white 28.35%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 152px;
 }
 .container-1{
-  background: linear-gradient(60deg, #4A148C 33.3%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  background: linear-gradient(60deg, white 33.3%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
   height: 152px;
 }
 .container-2{
-  background: linear-gradient(120deg, #4A148C 31.35%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
-  height: 326px;
+  background: linear-gradient(120deg, white 31.35%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 406px;
 }
 
 
@@ -34,12 +34,13 @@ color: #fff;
 gap: -10px;
 }
 .menu-bar ul li{
-width: 130px;
-left: 100;
-margin: 15px;
-padding: 65px 0px 0px 0px;
-position: relative;
-}
+  width: 123px;
+  left: -8px;
+  margin: 15px;
+  margin-top:-32px;
+  padding: 65px 0px 0px 0px;
+  position: relative;
+  }
 .menu-bar ul li a
 {
    text-decoration: none;
@@ -149,7 +150,7 @@ opacity:0.9;
 .paragraphr{
   margin-left: 580px;
   color: #4A148C;
-  margin-top: -135px;
+  margin-top: -115px;
   font-size: 25px;
   font-weight: bold;
 
@@ -175,14 +176,14 @@ opacity:0.9;
   
 }
 .paragraph-4r{
-  margin-left: 680px;
+  margin-left: 580px;
   color: #4A148C;
-  margin-top:-210px;
+  margin-top:-260px;
   font-size: 25px;
   font-weight: bold;
 }
 .paragraph-5r{
-  margin-left: 677px;
+  margin-left: 577px;
   color: #fff;
   font-size: 18px;
   margin-top: 10px;
@@ -190,14 +191,14 @@ opacity:0.9;
 .paragraph-6r{
   margin-top: -155px;
   margin-bottom: -10px;
-  margin-left: 1098px;
+  margin-left: 1040px;
   color:#4A148C;
   font-size: 25px;
   font-weight: bold;
 }
 .paragraph-7r{
   font-size: 18px;
-  margin-left: 1100px;
+  margin-left: 1040px;
   margin-top: 20px;
   color: #fff;
   width:450px;
@@ -205,7 +206,7 @@ opacity:0.9;
 .paragraph-8r{
   margin-left: 590px;
   color: #4A148C;
-  margin-top: 104px;
+  margin-top: 154px;
   font-size: 25px;
   font-weight: bold;
 }
@@ -217,14 +218,14 @@ opacity:0.9;
 }
 .paragraph-10r{
   margin-top: -169px;
-  margin-left: 1055px;
+  margin-left: 1040px;
   color:#4A148C;
   font-size: 25px;
   font-weight: bold;
 }
 .paragraph-11r{
   font-size: 18px;
-  margin-left: 1056px;
+  margin-left: 1040px;
   color: #fff;
   margin-top: 8px;
 }
@@ -327,6 +328,17 @@ opacity:0.9;
    height: 334px;
   }
   
+  .divstyle{
+    position:fixed;
+    width:100%;
+    margin-top:0px;
+    /* margin-top:70px; */
+    background:rgb(216, 215, 215);
+    height:50px;
+    z-index: 0;
+  }
+
+
   .logo{
     color: #fff;
     text-align: left;

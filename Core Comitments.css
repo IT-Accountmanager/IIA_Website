@@ -9,20 +9,20 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,   #4A148C 24.47%,  #4A148C  20%, #4A148C  20%,  #4A148C  20%,  white  20%);
+  background: linear-gradient(60deg,   white  24.47%,  #4A148C  20%, #4A148C  20%,  #4A148C  20%,  white  20%);
   text-align: right;
 }
 .container{
   height:129px;
-  background: linear-gradient(60deg,  #4A148C 26.7%, #4A148C 20%,  #4A148C 20%,  #4A148C 20%,  white 20%);
+  background: linear-gradient(60deg,  white  26.7%, #4A148C 20%,  #4A148C 20%,  #4A148C 20%,  white 20%);
 }
 .container-1{
   height: 190px;
-  background: linear-gradient(60deg, #4A148C 32.82%,  #EF6C00 16%, #4A148C 20%, #4A148C 20%, white 20%);
+  background: linear-gradient(60deg, white  32.82%,  #EF6C00 16%, #4A148C 20%, #4A148C 20%, white 20%);
 }
 .container-2{
-  height: 328px;
-  background: linear-gradient(120deg, #4A148C 31.32%, #4A148C  20%, #4A148C 20%, #4A148C 20%, white 20%);
+  height: 388px;
+  background: linear-gradient(120deg, white  31.32%, #4A148C  20%, #4A148C 20%, #4A148C 20%, white 20%);
 }
 .menu-bar ul
 {
@@ -32,12 +32,13 @@ color: #fff;
 gap: -10px;
 }
 .menu-bar ul li{
-width: 130px;
-left: 100;
-margin: 15px;
-padding: 65px 0px 0px 0px;
-position: relative;
-}
+  width: 123px;
+  left: -8px;
+  margin: 15px;
+  margin-top:-32px;
+  padding: 65px 0px 0px 0px;
+  position: relative;
+  }
 .menu-bar ul li a
 {
    text-decoration: none;
@@ -147,7 +148,7 @@ opacity:0.9;
   border-radius: 30px;
   line-height: 40px;
   text-align: center; 
-  margin-top: -460px;
+  margin-top: -480px;
   width:300px;
   height:120px;
   margin-left: -460px;
@@ -166,7 +167,7 @@ opacity:0.9;
   margin-right: 80px;
   margin-left: 680px;
   color: #fff;
-  margin-top:-104px;
+  margin-top:14px;
   width:500px;
   height:120px;
   background-color: #4A148C;

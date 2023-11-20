@@ -9,20 +9,20 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,  #4A148C 24.4%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+  background: linear-gradient(60deg,  white 24.4%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
   text-align: right;
 }
 .container{
-  background: linear-gradient(60deg, #4A148C 28.58%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
-  height: 110px;
+  background: linear-gradient(60deg, white 28.58%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height: 140px;
 }
 .container-1{
-  background: linear-gradient(60deg, #4A148C 33.65%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
-  height:154px;
+  background: linear-gradient(60deg, white 33.65%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  height:194px;
 }
 .container-2{
-  background: linear-gradient(120deg, #4A148C 31.75%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
- height: 325.7px;
+  background: linear-gradient(120deg, white 31.75%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+ height: 355.7px;
 }
 .menu-bar ul
 {
@@ -32,12 +32,13 @@ color: #fff;
 gap: -10px;
 }
 .menu-bar ul li{
-width: 127px;
-left: -3px;
-margin: 15px;
-padding: 65px 0px 0px 0px;
-position: relative;
-}
+  width: 123px;
+  left: -8px;
+  margin: 15px;
+  margin-top:-32px;
+  padding: 65px 0px 0px 0px;
+  position: relative;
+  }
 .menu-bar ul li a
 {
    text-decoration: none;
@@ -146,14 +147,14 @@ opacity:0.9;
   margin-left: 630px;
   color: #EF6C00;
   font-size: 24px;
-  margin-top:-5px;
+  margin-top:25px;
   text-align:justify;
 }
 .paragraph-2{
   font-size: 20px;
   margin-right: 50px;
   margin-left: 830px;
-  margin-top:0px;
+  margin-top:5px;
   color: #fff;
   text-align:justify;
   z-index:1;
@@ -183,7 +184,7 @@ opacity:0.9;
   margin-left: 650px;
   color: #fff;
   font-size:22px;
-  margin-top:-15px;
+  margin-top:-20px;
   text-align:justify;
 }
 .paragraph-7{
@@ -209,7 +210,7 @@ opacity:0.9;
   margin-left:610px;
   color: #fff;
   font-size:22px;
-  margin-top: -155px;
+  margin-top: -115px;
 }
 .paragraph-11{
   margin-left: 1145px;
