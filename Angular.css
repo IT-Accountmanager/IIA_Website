@@ -30,6 +30,16 @@
     height: 1.5px;
   } */
  
+  .divstyle{
+    position:fixed;
+    width:100%;
+    margin-top:70px;
+    /* margin-top:70px; */
+    background:rgb(216, 215, 215);
+    height:50px;
+    z-index: 0;
+  }
+  
 .menu-bar ul
 {
 display: inline-flex;
@@ -38,12 +48,13 @@ color: #fff;
 gap: -10px;
 }
 .menu-bar ul li{
-width: 130px;
-left: 100;
-margin: 15px;
-padding: 65px 0px 0px 0px;
-position: relative;
-}
+  width: 123px;
+  left: -8px;
+  margin: 15px;
+  margin-top:-32px;
+  padding: 65px 0px 0px 0px;
+  position: relative;
+  }
 .menu-bar ul li a
 {
    text-decoration: none;
