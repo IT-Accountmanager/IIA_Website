@@ -35,7 +35,7 @@
 
 .container{
   background-color: aquamarine;
-  height: 700px;
+  height: 750px;
 }
 .menu-bar ul
 {
@@ -185,7 +185,7 @@ opacity:0.9;
   margin-right: 50px;
   /* margin-left: 280px; */
   color:black;
-  margin-top: -50px;
+  margin-top: -10px;
   /* /* transform: scale(0.94); */
   /* animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);  */
 }
@@ -326,7 +326,7 @@ li a.active {
   border-radius: 30px;
   line-height: 40px;
   text-align: center; 
-  margin-top: 285px;
+  margin-top: 205px;
   width:200px;
   height:120px;
   margin-left: -560px;
@@ -358,7 +358,7 @@ li a.active {
   margin-left: 680px;
   color: #fff;
   margin-top:-370px;
-  width:500px;
+  width:300px;
   height:120px;
   background-color: #4A148C;
   border-radius: 30px;
@@ -766,7 +766,7 @@ margin-bottom: 5px;
 
 /* Reaon to choose us */
 .Reasoncontainer{
-  height: 800px;
+  height: 750px;
   background-color: aqua;
 }
 
@@ -778,7 +778,7 @@ margin-bottom: 5px;
 .paragraphr{
   margin-left: 255px;
   color: #4A148C;
-  margin-top: 10px;
+  margin-top: 25px;
   font-size: 25px;
   font-weight: bold;
 
@@ -806,7 +806,7 @@ margin-bottom: 5px;
 .paragraph-4r{
   margin-left: 255px;
   color: #4A148C;
-  margin-top:20px;
+  margin-top:0px;
   font-size: 25px;
   font-weight: bold;
 }
@@ -834,7 +834,7 @@ margin-bottom: 5px;
 .paragraph-8r{
   margin-left: 255px;
   color: #4A148C;
-  margin-top: -10px;
+  margin-top: -28px;
   font-size: 25px;
   font-weight: bold;
 }
@@ -942,7 +942,7 @@ margin-bottom: 5px;
 
 
 .traincontainer{
-  height: 790px;
+  height: 730px;
   background-color: aquamarine;
 }
 
@@ -978,7 +978,7 @@ margin-bottom: 5px;
     text-align:justify;
   } */
   .tparagraph-4{
-    margin-left: 944px;
+    margin-left: 948px;
     color: #fff;
     margin-top: -105px;
     font-size:22px;
@@ -1073,7 +1073,7 @@ margin-bottom: 5px;
    margin-top: -412px;
   }
   .image-containeru{
-    margin-left: 885px;
+    margin-left: 883px;
     margin-top: -90px;
   
    
@@ -1161,6 +1161,114 @@ margin-bottom: 5px;
 
 
 
+    /* training approaches css code */
+
+
+
+    .Approachcontainer{
+      height: 730px;
+      background-color:aqua;
+    }
+
+
+
+    /* .logo{
+      color: #fff;
+      /* margin-left: 130px; */
+      /* width:400px; 
+      font-size: 10px;
+    } */ 
+    /* .paragraph{
+      font-size: 30px;
+      margin-right: 50px;
+      margin-left: 900px;
+      color: #fff;
+    } */
+    .paragraph-2{
+      font-size: 30px;
+      margin-right: 50px;
+      margin-left: 900px;
+      color: #fff;
+    }
+    .paragraph-3{
+      font-size: 30px;
+      margin-right: 50px;
+      margin-left: 900px;
+      color: #fff;
+    }
+    .menu-bar2{
+      margin-right: 8px;
+      margin-left: -40px;
+    }
+    /* img {
+      transition: transform .7s ease-in-out;
+    } */
+    
+    /* #rotates {
+      transform: rotate(360deg); 
+      transition: 6s;
+    } */
+    
+    @keyframes rotate1{
+      to{ transform: rotate(360deg); }
+    }
+    
+    .rotates1{
+      animation: rotate1 25.5s linear; 
+    }
+    .aboutus{
+      width: 150px;
+      /* display: block; */
+      margin-right:30px;
+      margin-top:0px;
+      display: flex;
+      flex-direction:column;
+      height:auto;
+      margin-left:-10px;
+      text-align:center;
+      /* display: block; */
+    }
+    .home{
+      /* width: 130px; */
+      margin-left:10px;
+      text-align:center;
+    }
+    .techno{
+      width:160px;
+      position: relative;
+      margin-top: 0px;
+      display: block;
+      margin-right:40px;
+    }
+    .styo:hover{
+      color:blue;
+      transform: scale(1.25);
+      }
+    
+    /* .waitload {
+      transform: none !important;
+    } */
+    
+    /* body.loaded.rotate {
+      transform: rotate(360deg); 
+    } */
+    
+    
+    /* img:hover {
+      transform: rotate(360deg);
+    } */
+    
+    .info1{
+      animation: rotates 1.6s linear; 
+    }
+    @keyframes rotates{
+      from{transform: translateX(-100px);}
+      to{ transform: translateX(0px); }
+    }
+    
+
+
+
 
 
 
@@ -1174,16 +1282,16 @@ margin-bottom: 5px;
     box-sizing: border-box;
   }
   .containergetintouch{
-    background: linear-gradient(60deg, white 27%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+    background: linear-gradient(60deg, #4A148C 27.25%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
     height: 102px;
   }
   .container-1get{
     background: linear-gradient(60deg, #4A148C 33.57%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
-    height: 178px;
+    height: 208px;
   }
   .container-2get{
-    background: linear-gradient(120deg, #4A148C 31.8%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
-   height: 334px;
+    background: linear-gradient(120deg, #4A148C 32.5%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+   height: 304px;
   }
   
   .logo{
@@ -1356,11 +1464,11 @@ margin-bottom: 5px;
       margin-left: 950px;
       width:550px;
       height:300px;
-      margin-top: 80px
+      margin-top: -8px
     }
     .getwesty{
       text-align: center;
-      margin-top: -270px;
+      margin-top: -260px;
       margin-left: -80px; 
       font-size: 25px;
       color: aliceblue; 
@@ -1386,7 +1494,7 @@ margin-bottom: 5px;
     color: aliceblue;
     font-size: 23px;
     margin-left: 52px;
-    margin-top: -35px;
+    margin-top: -65px;
     margin-bottom: -100px;
   }
   .namesty{
@@ -1397,7 +1505,7 @@ margin-bottom: 5px;
   }
   .getforsty{
     text-align: center;
-    margin-top: -88px;
+    margin-top: -68px;
     margin-left: -30px;
      font-size: 25px;
      color: aliceblue; 
