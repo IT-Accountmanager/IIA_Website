@@ -41,6 +41,23 @@
 
 }
 
+.boxes {
+  width: 200px;
+  height: 100px;
+  display:inline-block;
+  background-size: 200% 200%;
+  transition: background-position 1s;
+}
+
+.to-top{
+  background-image: linear-gradient(to top, red 50%,);
+  background-position: top;
+}
+
+.to-top:hover {
+  background-position: bottom;
+}
+
 .menu-bar ul
 {
 display: inline-flex;
@@ -2577,7 +2594,40 @@ to {opacity:1 ;}
     margin-left: 800px;
     margin-right: -200px;
     border: solid 1px;
+  
   }
+  .anim{
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    background-size: 200% 200%;
+    transition: background-position 1s;
+  }
+
+
+
+
+  .box {
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    background-size: 200% 200%;
+    transition: background-position 1s;
+  }
+
+  .to-left{
+    background-image: linear-gradient(to left, red 50%, black 0);
+    background-position: left;
+  }
+  
+  .to-left:hover {
+    background-position: right;
+  }
+  
+
+  .anim:hover {
+    background-position: 0 -100%;
+}
   .box2{
     width: 50px;
     height: 100px;
