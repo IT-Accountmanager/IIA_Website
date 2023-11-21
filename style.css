@@ -136,11 +136,7 @@ padding-bottom: 20px;
 {
  margin-right: 8px;
 }
-.sub-menu-1{
-  margin-left:20px;
-display: none;
-z-index:1;
-}
+
 
 .animate-on-scroll {
 	opacity: 0;
@@ -308,6 +304,12 @@ z-index:1;
   }
 } */
 
+
+.sub-menu-1{
+  margin-left:20px;
+display: none;
+z-index:1;
+}
 .menu-bar ul li:hover .sub-menu-1{
 display: block;
 /* position: absolute; */

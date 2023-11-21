@@ -99,7 +99,7 @@ transition: height 0.3s ease;
 
 .sub-menu-1 ul li{
   width:165px;
-   padding:5px; 
+   padding:6px; 
    gap:80px;
 /* padding: 10px; */
 }
@@ -108,15 +108,7 @@ width:178px;
 background-color:#EF6C00;
 /* padding: 10px; */
 }
-.divstyle{
-  position:fixed;
-  width:100%;
-  margin-top:70px;
-  /* margin-top:70px; */
-  background:rgb(216, 215, 215);
-  height:54px;
-  z-index: 0;
-}
+
 .sub-menu-1{
 margin-left:-25px;
 display: none;
@@ -170,6 +162,15 @@ left: 0;
 top: 100%;
 background-color:#784aac;
 opacity:0.9;
+}
+.divstyle{
+  position:fixed;
+  width:100%;
+  margin-top:70px;
+  /* margin-top:70px; */
+  background:rgb(216, 215, 215);
+  height:54px;
+  z-index: 0;
 }
 .logo{
   color: #fff;
@@ -1166,7 +1167,7 @@ margin-bottom: 5px;
 
 
     .Approachcontainer{
-      height: 730px;
+      height: 650px;
       background-color:aqua;
     }
 
