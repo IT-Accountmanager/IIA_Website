@@ -83,12 +83,13 @@ display: block;
 /* padding-right:10px; */
 text-align:center;
 width:190px;
-margin-top:30px;
+margin-top:40px;
 /* margin: 10px; */
 }
 .sub-menu-1 ul li{
   width:165px;
    padding:5px; 
+  padding-top:10px;
 /* padding: 10px; */
 }
 .sub-menu-1 ul li:hover{

@@ -30,7 +30,7 @@
 display: inline-flex;
 list-style: none;
 color: #fff;
-gap: -10px;
+gap:15px;
 }
 .divstyle{
   position:fixed;
@@ -82,7 +82,7 @@ display: block;
 /* padding-right:10px; */
 text-align:center;
 width:190px;
-margin-top:30px;
+margin-top:40px;
 /* margin: 10px; */
 }
 
