@@ -42,10 +42,9 @@ gap: -10px;
   z-index: 0;
 }
 .menu-bar ul li{
-  width: 147px;
-  left:-10px;
+  width: 154.2px;
+  left: 100;
   margin: 15px;
-  margin-left:0px;
   margin-top:-32px;
   padding: 65px 0px 0px 0px;
   position: relative;
@@ -238,7 +237,7 @@ opacity:0.9;
 }
 .img-container2{
  margin-left: 600px;
- margin-top:35px;
+ margin-top:15px;
  width: 100px;
  height: 100px;
 }
