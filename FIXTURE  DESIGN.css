@@ -87,7 +87,7 @@
   }
   .container-3{
     background: linear-gradient(120deg, #4A148C 26.9%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
-    height: 219.5px;
+    height: 279.5px;
   }
   .menu-bar ul
   {
@@ -97,12 +97,13 @@
   gap: -10px;
   }
   .menu-bar ul li{
-  width: 130px;
-  left: 100;
-  margin: 15px;
-  padding: 65px 0px 0px 0px;
-  position: relative;
-  }
+    width: 137px;
+    left: -8px;
+    margin: 15px;
+    margin-top:-32px;
+    padding: 65px 0px 0px 0px;
+    position: relative;
+    }
   .menu-bar ul li a
   {
   text-decoration: none;

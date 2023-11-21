@@ -9,19 +9,19 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,  #4A148C 24.35%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg,  #4A148C 24.35%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%); */
   text-align: right;
 }
 .container{
-  background: linear-gradient(60deg, #4A148C 28.5%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg, #4A148C 28.5%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 107px;
 }
 .container-1{
-  background: linear-gradient(60deg, #4A148C 33.35%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg, #4A148C 33.35%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 146px;
 }
 .container-2{
-  background: linear-gradient(120deg, #4A148C 31.35%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(120deg, #4A148C 31.35%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%); */
  height: 325px;
 }
 
@@ -31,12 +31,13 @@
 display: inline-flex;
 list-style: none;
 color: #fff;
-gap: -10px;
+gap:15px;
 }
 .menu-bar ul li{
 width: 130px;
-left: 100;
+left: -8px;
 margin: 15px;
+margin-top:-32px;
 padding: 65px 0px 0px 0px;
 position: relative;
 }
@@ -58,6 +59,15 @@ padding-bottom: 20px;
 {
  margin-right: 8px;
 }
+.divstyle{
+  position:fixed;
+  width:100%;
+  margin-top:70px;
+  /* margin-top:70px; */
+  background:rgb(216, 215, 215);
+  height:50px;
+  z-index: 0;
+}
 .sub-menu-1{
 display: none;
 z-index:1;
@@ -74,6 +84,7 @@ display: block;
 /* padding-right:10px; */
 text-align:center;
 width:190px;
+margin-top:40px;
 /* margin: 10px; */
 }
 
@@ -117,10 +128,12 @@ background-color:#4A148C;
 display: block;
 text-align:center;
 width:200px;
+margin-top:40px;
 }
 .sub-menu-2 ul li{
 width: 230px;
 padding:5px;
+
 /* padding: 10px; */
 }
 .sub-menu-2 ul li:hover{
@@ -142,7 +155,7 @@ opacity:0.9;
 .logo{
   color: #fff;
   text-align:start;
-  padding-top:70px;
+  padding-top:150px;
   padding-left:-356px;
   /* padding: 20px 0 0 120px; */
 
