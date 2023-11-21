@@ -45,7 +45,7 @@ color: #fff;
 gap:15px;
 }
 .menu-bar ul li{
-width: 123px;
+width: 128px;
 left: -8px;
 margin: 15px;
 margin-top:-32px;
@@ -114,7 +114,7 @@ background-color:#EF6C00;
   margin-top:70px;
   /* margin-top:70px; */
   background:rgb(216, 215, 215);
-  height:50px;
+  height:54px;
   z-index: 0;
 }
 .sub-menu-1{
