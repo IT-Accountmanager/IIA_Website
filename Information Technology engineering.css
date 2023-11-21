@@ -84,13 +84,13 @@ display: block;
 /* padding-right:10px; */
 text-align:center;
 width:190px;
-margin-top:30px;
+margin-top:40px;
 /* margin: 10px; */
 }
 
 .sub-menu-1 ul li{
   width:165px;
-   padding:5px; 
+   padding:7px; 
 /* padding: 10px; */
 }
 
@@ -157,7 +157,7 @@ opacity:0.9;
   text-align: left;
  width: 800px;
  margin-left: 47px;
- padding-top:155px;
+ padding-top:105px;
 }
 .paragraph{
 

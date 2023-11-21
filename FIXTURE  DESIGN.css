@@ -144,7 +144,7 @@
   }
   .sub-menu-1 ul li{
     width:165px;
-     padding:5px; 
+     padding:7px; 
   /* padding: 10px; */
   }
   .sub-menu-1 ul li:hover{
@@ -346,7 +346,10 @@
     user-select: none;
   } */
 
-
+.enquiry{
+  margin-left: 10px;
+  text-align: center;
+}
 
   
   /* The actual popup */
