@@ -192,7 +192,7 @@ opacity:0.9;
   font-size:  19.5px;
   margin-right: 50px;
   margin-left: 560px;
-  margin-top: -20px;
+  margin-top: -40px;
   color: #fff;
   animation: waviy 1s 2 alternate;
   animation-delay: calc(.1s * var(--i));
@@ -417,11 +417,11 @@ div.scroll-container img {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-  margin-right: 1100px;
-  margin-top: 10px;
+  margin-right: 1060px;
+  margin-top: 70px;
 }
 .prev{
-  margin-top: 10px;
+  margin-top: 70px;
   border-radius: 3px 0 0 3px;
   margin-left: -25px;
 }
