@@ -419,7 +419,7 @@ opacity:0.9;
 
 
 
-   *{
+   /* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -436,7 +436,7 @@ opacity:0.9;
     background: linear-gradient(120deg, #4A148C 33.13%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
    height: 334px;
   }
-  
+   */
   .logo{
     color: #fff;
     text-align: left;
@@ -778,6 +778,74 @@ opacity:0.9;
    
 
   
+
+
+  
+  /* get in touch new page code3 */
+  
+
+
+
+
+
+
+.boxes {
+  width:390px;
+  height: 190px;
+  margin-top:-40px;
+  margin-left:-40px;
+  /* display:inline-block; */
+  background-size: 200% 200%;
+  transition: background-position 1s;
+}
+
+.to-top{
+  background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-position: top;
+}
+
+.to-top:hover {
+  background-position: bottom;
+}
+
+.boxes1 {
+  width:380px;
+  height: 190px;
+  margin-left:30%;
+  margin-top:-190px;
+  /* display:inline-block; */
+  background-size: 200% 200%;
+  transition: background-position 1s;
+}
+
+.to1-top1{
+  background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-position: top;
+}
+
+.to1-top1:hover {
+  background-position: bottom;
+}
+
+.boxes2 {
+  width:350px;
+  height: 190px;
+  margin-left:68%;
+  margin-top:-190px;
+  /* display:inline-block; */
+  background-size: 200% 200%;
+  transition: background-position 1s;
+}
+
+.to2-top2{
+  background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-position: top;
+}
+
+.to2-top2:hover {
+  background-position: bottom;
+}
+
   
   
   
