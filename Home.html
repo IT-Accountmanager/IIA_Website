@@ -121,15 +121,16 @@ for (let i = 0; i < animation_elements.length; i++) {
           
           <div class="video-container">
             
-            <video autoplay muted width="54%" height="520px" style="margin-top:60px;object-fit: fill;margin-left:40%">
+            <video autoplay muted width="58%" height="520px" style="margin-top:60px;object-fit: fill;margin-left:38%">
             <source src="IIA PROMOTIONAL VIDEO.mp4">
           </video> 
-         
-         <p style="margin-top:-30%;font-size:30px;text-align:center;margin-left:-980px;color:orangered;" data-aos="fade-right">
+         <div data-aos="fade-right">
+         <p style="margin-top:-30%;font-size:27px;text-align:center;margin-left:-980px;color:darkred" class="well hidden-sm hidden-xs aos-item" data-aos="fade-right">
           WELCOME TO IIAUTOMATE
          </p>
-         <p style="margin-top:30px;margin-left:27px;font-size:48px;">India's Leading Platform<br> For Personal Development</p>
-<p style="margin-right:100px;width:35%;margin-top:40px;margin-left:30px;font-size:25px;">Looking to enter the automotive industry? IIAutomate provides best Job-Oriented mechanical design courses in Pune with placement with a 98% job placement record. IIAutomate will help to unlock your potential and accelerate your career in mechanical design. Choose the best design courses after mechanical engineering.</p>
+         </div>
+         <p style="margin-top:30px;margin-left:27px;font-size:48px;" data-aos="fade-right">India's Leading Platform<br> <u>For Personal Development</u></p>
+<p style="margin-right:100px;width:35%;margin-top:40px;margin-left:30px;font-size:25px;" data-aos="fade-left">Looking to enter the automotive industry? IIAutomate provides best Job-Oriented mechanical design courses in Pune with placement with a 98% job placement record. IIAutomate will help to unlock your potential and accelerate your career in mechanical design. Choose the best design courses after mechanical engineering.</p>
             </div>
             <div style="margin-top:100px;background-color:white;width:80%;border-radius:10px;margin-left:10%;height:120px;align-items:center;">
               <table style="width:68%;margin-top:50px;margin-left:25%;">
@@ -286,9 +287,15 @@ for (let i = 0; i < animation_elements.length; i++) {
 <div style="background-color:#a47fd1;height:30px;margin-top:-5px;">
   <p style="color:white;text-align:center;font-weight:normal;padding-top:5px;">Copyright © 2023 All rights reserved | International Institute Of Automate</p> 
 </div>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
   <script>
     AOS.init({
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: true,
       // offset: 300,
       // duration: 1000, 
     });
