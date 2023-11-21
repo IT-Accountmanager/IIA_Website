@@ -91,12 +91,14 @@ display: block;
 text-align:center;
 width:190px;
 /* margin: 10px; */
+margin-top: 40px;
 }
 
 .sub-menu-1 ul li{
   width:165px;
-   padding:5px; 
+   padding:7px; 
 /* padding: 10px; */
+gap: 80px;
 }
 
 .sub-menu-1 ul li:hover{
@@ -133,10 +135,11 @@ background-color:#4A148C;
 display: block;
 text-align:center;
 width:200px;
+margin-top: 40px;
 }
 .sub-menu-2 ul li{
 width: 280px;
-padding:5px;
+padding:7px;
 /* padding: 10px; */
 }
 .sub-menu-2 ul li:hover{

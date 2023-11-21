@@ -120,6 +120,7 @@ transition: transform 10.5s ease;
 transition-timing-function: linear;
 z-index: 199;
 /* margin: 10px; */
+margin-top: 80px;
 }
 
 .sub-menu-1:hover.sub-menu-1 ul{
@@ -127,7 +128,7 @@ z-index: 199;
 }
 .sub-menu-1 ul li{
   width:165px;
- padding:5px; 
+ padding:10px; 
 /* padding: 10px; */
 -webkit-transition: height 2s;
 

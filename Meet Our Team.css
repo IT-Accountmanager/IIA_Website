@@ -75,12 +75,14 @@ display: block;
 /* padding-right:10px; */
 text-align:center;
 width:190px;
+margin-top: 40px;
 /* margin: 10px; */
 }
 
 .sub-menu-1 ul li{
   width:150px;
-  padding:5px;
+  padding:8px;
+  gap:80px;
 /* padding: 10px; */
 }
 
@@ -116,6 +118,7 @@ background-color:#4A148C;
 display: block;
 text-align:center;
 width:200px;
+margin-top: 40px;
 }
 .sub-menu-2 ul li{
 width: 230px;
