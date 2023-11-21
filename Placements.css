@@ -404,7 +404,7 @@ div.scroll-container img {
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: -172px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -417,16 +417,19 @@ div.scroll-container img {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-  margin-right: 1165px;
-  margin-top: 90px;
+  margin-right: 1150px;
+  margin-top: 10px;
 }
 .prev{
-  margin-top: 90px;
+  margin-top: 10px;
   border-radius: 3px 0 0 3px;
   margin-left: -25px;
 }
-.prev:hover, .next:hover {
+.prev:hover{
   background-color: rgba(0,0,0,0.8);
+}
+.next:hover{
+  background-color: rgba(0,0,0,0.8)
 }
 .fade {
   animation-name: fade;
