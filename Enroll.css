@@ -30,6 +30,7 @@ display: inline-flex;
 list-style: none;
 color: #fff;
 gap: -10px;
+
 }
 .divstyle{
   position:fixed;
@@ -88,8 +89,7 @@ margin-top:40px;
 }
 .sub-menu-1 ul li{
   width:165px;
-   padding:5px; 
-  padding-top:10px;
+   padding:7px; 
 /* padding: 10px; */
 }
 .sub-menu-1 ul li:hover{
