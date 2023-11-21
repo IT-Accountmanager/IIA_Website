@@ -9,19 +9,19 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  background: linear-gradient(60deg,  #4A148C 24.4%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg,  #4A148C 24.4%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%); */
   text-align: right;
 }
 .container{
-  background: linear-gradient(60deg, #4A148C 28.35%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg, #4A148C 28.35%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 99px;
 }
 .container-1{
-  background: linear-gradient(60deg, #4A148C 33.35%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(60deg, #4A148C 33.35%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 156px;
 }
 .container-2{
-  background: linear-gradient(120deg, #4A148C 31%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* background: linear-gradient(120deg, #4A148C 31%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 365px;
 }
 
@@ -31,13 +31,24 @@ display: inline-flex;
 list-style: none;
 color: #fff;
 gap: -10px;
+
 }
 .menu-bar ul li{
 width: 130px;
 left: 100;
 margin: 15px;
+margin-top:-32px;
 padding: 65px 0px 0px 0px;
 position: relative;
+}
+.divstyle{
+  position:fixed;
+  width:100%;
+  margin-top:70px;
+  /* margin-top:70px; */
+  background:rgb(216, 215, 215);
+  height:50px;
+  z-index: 0;
 }
 .menu-bar ul li a
 {
@@ -144,12 +155,12 @@ opacity:0.9;
   text-align: left;
  width: 800px;
  margin-left: 47px;
- padding-top:85px;
+ padding-top:125px;
 }
 .paragraph{
 
   font-size: 22px;
-margin-top: -138px;
+margin-top: -10px;
 /* margin-bottom: 3px; */
   margin-left: 600px;
   color: #fff;
