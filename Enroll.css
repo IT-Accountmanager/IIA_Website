@@ -155,7 +155,7 @@ opacity:0.9;
 .paragraph{
   font-size: 25.5px;
   margin-right: 50px;
-  margin-left: 590px;
+ 
   color: #fff;
   transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
@@ -169,13 +169,13 @@ opacity:0.9;
   font-size: 14px;
  margin-top: -180px;
  width:360px;
-  margin-left:470px;
+  margin-left:670px;
   color: black;
 }
 .paragraph-3{
   font-size: 14px;
   margin-top: -210px;
-  margin-left: 515px;
+  margin-left: 715px;
   color: black;
 }
 .paragraph-4{
