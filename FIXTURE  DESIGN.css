@@ -262,7 +262,7 @@
   .paragraph-6{
     font-size: 16px;
     margin-left: 600px;
-    margin-top: -10px;
+    margin-top: -20px;
     color: #fff;
     transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
@@ -289,15 +289,17 @@
     margin-left: -40px;
   }
   .menu-bar3{
-    margin-left: 130px;
-    margin-top: -80px;
+    margin-left: 200px;
+    margin-top: -130px;
     border-radius: 30px;
     border-right: 30px;
-   margin-right: 1220px;
    text-align: center;
     color: #fff;
     font-size: 20px;
     border-right: 00px;
+    width:100px;
+    height:35px;
+    padding:5px;
     background-color: brown;
   }
   .aboutus{
