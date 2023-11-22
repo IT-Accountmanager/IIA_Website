@@ -358,7 +358,7 @@ li a.active {
   margin-right: 80px;
   margin-left: 680px;
   color: #fff;
-  margin-top:-370px;
+  margin-top:-400px;
   width:300px;
   height:120px;
   background-color: #4A148C;
@@ -489,7 +489,7 @@ margin-bottom: 5px;
 
 
 .meetcontainer{
-  background-color: #784aac;
+  background-color: aqua;
   height:622px;
   margin-top: -285px;
 }
@@ -768,7 +768,7 @@ margin-bottom: 5px;
 /* Reaon to choose us */
 .Reasoncontainer{
   height: 610px;
-  background-color: aqua;
+  background-color: white;
 }
 
 
