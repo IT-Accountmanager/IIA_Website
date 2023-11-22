@@ -653,7 +653,7 @@ margin-right:20px;
   margin-top:-90px;
   background:rgb(216, 215, 215);
   height:50px;
-  z-index: 0;
+  z-index: 1;
 }
 
 .linkedinsty{
