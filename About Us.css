@@ -35,7 +35,7 @@
 
 .container{
   background-color: aquamarine;
-  height: 750px;
+  height:695px;
 }
 .menu-bar ul
 {
@@ -186,7 +186,7 @@ opacity:0.9;
   margin-right: 50px;
   /* margin-left: 280px; */
   color:black;
-  margin-top: -65px;
+  margin-top: -45px;
   /* /* transform: scale(0.94); */
   /* animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);  */
 }
@@ -209,7 +209,7 @@ opacity:0.9;
 .paragraph-2{
   font-size: 24px;
   margin-right: 50px;
-  margin-top:45px;
+  margin-top:20px;
   margin-left: 600px;
   color: black;
 }
