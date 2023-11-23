@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Registration form1</title>
-        <link rel="stylesheet" href="register.css">
+        <link rel="stylesheet" href="register3.css">
        
     </head>
     <body>
@@ -70,7 +70,7 @@
     }); 
 });
       </script>
-        <form >
+        <form style="margin-top:-40px;">
             <div class="container">
               <div class="progress-container"> 
                 <ul id="progressbar"> 
@@ -85,9 +85,7 @@
                           <strong>Step 3</strong> 
                       </li> 
 
-                      <li id="step4"> 
-                        <strong>Step 4</strong> 
-                    </li> 
+                  
                   
                 </ul> 
                 <div class="progress"> 
@@ -99,209 +97,222 @@
               <p>Please fill in this form to create an account.</p> -->
               <div class="step-container"> 
                
-                <fieldset> 
-                <div style="margin-left:40%;">
-             <p style="font-size:30px;">Personal Details</p>
-              <label for="Name" class="name"><b> First Name</b></label><br>
-              <input type="text" class="pass1" placeholder="Enter First Name" name="name" id="email" required><br>
+                <fieldset style="margin-top:-22px;margin-bottom:-120px;"> 
+                  <div style="display:flex;">
+                    <div style="margin-top:90px;margin-left:40px;">
+                    <img src="mm.png.png"  width="300px">
+                    </div>
+                    <div>
+              <table style="margin-left:100px;width:auto;margin-top:-35px;height:auto">
+                <tr>
+                  <td height="10" colspan="3" >
+             <p style="font-size:30px;">Personal Information</p>
              
-             
+             </td>
+             </tr>
+             <tr>
+              <td style="width:33%;">
+              <label for="Name" class="name">First Name</label><br>
+              <input type="text" class="firstname" placeholder="Enter First Name" name="name" id="email" required><br>
+              </td>
+              <td style="width:33%;">
+                <label for="Name" class="name">Last Name</label><br>
+                <input type="text" class="pass1" placeholder="Enter Last Name" name="name" id="email" required><br>
+                </td>
+                <td style="width:33%;">
+                  <label for="Name" class="name">Email ID</label><br>
+                  <input type="text" class="email" placeholder="Enter Email ID" name="name" id="email" required><br>
+                  </td>
+                </tr>
 
-              <!-- <label for="email"><b>Middle Name</b></label><br>
-              <input type="text" placeholder="Enter Middle Name" name="email" id="email" required><br> -->
-
-              <label for="Mobile Number"  class="name"><b>Last Name</b></label><br>
-              <input type="text"  class="pass1" placeholder="Enter Last Name" name="Number" id="email" required><br>
-          
-              <label for="psw"  class="name"><b>Email ID</b></label><br>
-              <input type="password"  class="pass1" placeholder="Enter Email ID" name="psw" id="psw" required><br>
-             
-              <label for="psw-repeat"  class="name"><b>Qualification</b></label><br>
-              <input type="password"  class="pass1" placeholder="Qualification" name="psw-repeat" id="psw-repeat" required><br>
-              <div class="reg" style="margin-left:360px;margin-top: -362px;width:100%;">
-              <label for="psw-repeat"  class="name"><b>Specialized In</b></label><br> 
-              <input type="text"  class="pass1" placeholder="Specialized In" name="Number" id="email" required><br>
-             
-              <label for="psw-repeat"  class="name"><b>Interested
-                Course</b></label><br>
-              <select name="cars" id="cars" style="height:45px;">
-                <optgroup label="">
-                  <option value="volvo">BIW</option>
-                  <option value="saab">Manual Testing</option>
-
+                <tr>
+                  <td>
+                    <label for="Name" class="name">Qualification</label>
+              <input type="text" class="firstname" placeholder="Qualification" name="name" id="email" required><br>
               
-                  <option value="mercedes">Java Developer</option>
-                 
-                </optgroup>
-              </select><br>
-              <label for="psw"  class="name"><b>Experience</b></label><br>
-              <input type="password"  class="pass1" placeholder="Experience" name="psw" id="psw" required><br>
-              <label for="psw-repeat"  class="name"><b>Sex</b></label><br>
-              <select name="cars" id="cars">
-                <optgroup label="">
-                  <option value="volvo">Male</option>
-                  <option value="saab">Female</option>
+                  </td>
+                  <td>
+                    <label for="psw-repeat"  class="name">Year Of Passout</label><br> 
+            <select name="cars" id="year" style="height:43px;">
+              <optgroup label="">
+                <option value="volvo">2017</option>
+                <option value="saab">2018</option>
 
+            
+                <option value="mercedes">2015</option>
+                <option value="audi">2014</option>
+              </optgroup>
+            </select>
+                  </td>
+                  <td>
+                    <label for="Name" class="name">Contact No</label><br>
+                    <input type="text" class="con" placeholder="Enter Contact No" name="name" id="email" required>
+                    <!-- <label for="psw-repeat"  class="name">Interested
+                      Course</label><br>
+                    <select name="cars" id="int" style="height:43px;margin-top:7px;">
+                      <optgroup label="">
+                        <option value="volvo">BIW</option>
+                        <option value="saab">Manual Testing</option>
+      
+                    
+                        <option value="mercedes">Java Developer</option>
+                       
+                      </optgroup>
+                    </select> -->
               
-                  <option value="mercedes">Others</option>
+                    </td>
+                  </tr>
+<tr>
+  <td>
+    <label for="psw-repeat"  class="name">Gender</label><br>
+    <select name="cars" class="qual" style="height:43px;margin-top:7px;">
+      <optgroup label="">
+        <option value="volvo">Male</option>
+        <option value="saab">Female</option>
+
+    
+        <option value="mercedes">Others</option>
+        
+      </optgroup>
+    </select>
+  </td>
+  <td>
+    <label for="psw-repeat" class="name">DOB</label><br>
+            <input type="date" id="birthday" name="birthday">
+  </td>
+  <td>
+    <label for="Name" class="name">Aadhar Card No</label><br>
+    <input type="text" class="firstname" placeholder="Aadhar Card No" name="name" id="email" required>
+    
+    </td>
+    
+</tr>
+
+<tr>
+    <td>
+  
+        <label for="w3review"  class="name">Permanent Address:</label>
+         <textarea id="w3review" name="w3review" rows="1" cols="50"></textarea>
+      </td>
+      <td>
+
+        <label for="Name" class="name">Zip Code</label><br>
+        <input type="text" class="firstname" placeholder="Zip Code" name="name" id="email" required>
+              </td>
+
+              <td>
+                <div style="margin-top:-35px;">
+                <label for="myfile">Upload passport size photo:</label><br><br>
+                <input type="file" id="myfile" name="myfile">
+                </div>
+              </td>
+</tr>
+            
+                
+             </table>
+                    
                   
-                </optgroup>
-              </select><br>
-              <label for="myfile"><b>Upload passport size photo:</b></label><br><br>
-              <input type="file" id="myfile" name="myfile"><br><br>
-            </div>
-              <img src="mm.png.png"  width="300px" class="mmsty">
+    
+
               <!-- <label for="psw-repeat"  class="name"><b>Year Of Passout</b></label><br> -->
               <input type="button"
                        name="next-step"
                        class="next-step"
                        value="Next Step" /> 
-                       </div>
+                  </div>
+                     
             </fieldset> 
             <fieldset> 
-              <div style="margin-left:28%;width:80%;">
-              <p style="font-size:30px;">Educational Details</p>
-              <label for="psw-repeat"  class="name"><b>10th Education Board</b></label><br>
-              <input type="text" class="pass" placeholder="10th Education Board" name="psw-repeat" id="psw-repeat" required><br>
+              <div style="display:flex;">
+                <div style="margin-top:60px;margin-left:60px;">
+                <img src="mm.png.png"  width="300px">
+                </div>   
 
-              <label for="psw-repeat"  class="name"><b>12th/Diploma Board</b></label><br>
-              <input type="text" class="pass" placeholder="12th/Diploma Board" name="psw-repeat" id="psw-repeat" required><br>
-
-              <label for="psw-repeat"  class="name"><b>Undergraduation</b></label><br>
-              <input type="text" class="pass" placeholder="Undergraduation" name="psw-repeat" id="psw-repeat" required><br>
-
-              <label for="psw-repeat"  class="name"><b>Postgraduation</b></label><br>
-              <input type="text" class="pass" placeholder="Postgraduation" name="psw-repeat" id="psw-repeat" required>
-              </div>
-              <!-- <label for="psw-repeat"  class="name"><b>Year Of Passout</b></label><br> 
-              <select name="cars" id="cars">
-                <optgroup label="">
-                  <option value="volvo">2017</option>
-                  <option value="saab">2018</option>
-
-              
-                  <option value="mercedes">2015</option>
-                  <option value="audi">2014</option>
-                </optgroup>
-              </select><br> -->
-             
-                <!-- <label for="Name" ><b>Email ID</b></label><br>
-                <input type="text" placeholder="Enter Email" name="name" id="email" required  style="width: 650px;"><br> -->
+                <table style="margin-left:200px;width:auto;margin-top:-42px;height:auto">
+                  <tr>
+                    <td height="10" colspan="3" >
+               <p style="font-size:30px;">Educational Qualifications</p>
                
-                <!-- <label for="psw-repeat"  class="name"><b>Interested
-                  Course</b></label><br>
-                <select name="cars" id="cars">
-                  <optgroup label="">
-                    <option value="volvo">BIW</option>
-                    <option value="saab">Manual Testing</option>
-  
-                
-                    <option value="mercedes">Java Developer</option>
-                   
-                  </optgroup>
-                </select><br>
-
-                <label for="psw-repeat"  class="name"><b>Sex</b></label><br>
-                <select name="cars" id="cars">
-                  <optgroup label="">
-                    <option value="volvo">Male</option>
-                    <option value="saab">Female</option>
-  
-                
-                    <option value="mercedes">Others</option>
-                    
-                  </optgroup>
-                </select><br> -->
-                <div class="reg" style="margin-left:45%;margin-top: -360px;width:80%;">
-                  <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>School/College Name</b></label><br><br>
-                <input type="text" class="pass2" placeholder="School/College Name" name="psw-repeat" id="psw-repeat" required><br>
-  
-                
-              
-                </div>
-                <div class="reg" style="margin-left:45%;margin-top:20px;width:80%;">
+               </td>
+               </tr>
+               <tr>
+                <td style="width:50%;">
+                  <label for="psw-repeat"  class="name">Year of Graducation</label><br>
+                  <select name="cars" id="int" style="height:43px;margin-top:7px;">
+                    <optgroup label="">
+                      <option value="volvo">2018</option>
+                      <option value="saab">2017</option>
+    
                   
-                <label for="psw-repeat"  class="name" style=""><b>School/College Name</b></label><br><br>
-              <input type="text" class="pass2" placeholder="School/College Name" name="psw-repeat" id="psw-repeat" required>
+                      <option value="mercedes">2016</option>
+                      <option value="mercedes">2015</option>
+                      <option value="mercedes">2014</option>
+                     
+                    </optgroup>
+                  </select>
+            
+                </td>
 
-             
-              <!-- <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>School/College Name</b></label><br><br>
-              <input type="text" class="pass2" placeholder="School/College Name" name="psw-repeat" id="psw-repeat" required> -->
-              </div>
-
-              <div class="reg" style="margin-left:45%;margin-top:20px;width:80%;">
+                <td style="width:50%;">
+                  <label for="psw-repeat"  class="name">Specialization</label><br>
+                  <select name="cars" id="int" style="">
+                    <optgroup label="">
+                      <option value="volvo">Mechanical Engineering</option>
+                      <option value="saab">Electrical & Electronic</option>
+                      <option value="saab">Civil Engineering</option>
+    
                   
-                <label for="psw-repeat"  class="name" style=""><b>School/College Name</b></label><br><br>
-              <input type="text" class="pass2" placeholder="School/College Name" name="psw-repeat" id="psw-repeat" required>
+                      <option value="mercedes">Computer Science</option>
+                      <option value="mercedes">Chemical Engineering</option>
+                      <option value="mercedes">Aeronautical Engineering</option>
+                      <option value="mercedes">Data Science</option>
+                     
+                    </optgroup>
+                  </select>
+            
+                </td>
+</tr>
+<tr>
+                <td style="width:50%;">
+                  <label for="psw-repeat"  class="name">Year Of Post Graducation</label><br>
+                  <select name="cars" id="int" style="">
+                    <optgroup label="">
+                      
 
-             
-              <!-- <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>School/College Name</b></label><br><br>
-              <input type="text" class="pass2" placeholder="School/College Name" name="psw-repeat" id="psw-repeat" required> -->
-              </div>
 
-              <div class="reg" style="margin-left:45%;margin-top:25px;width:80%;">
+                      <option value="volvo">2014</option>
+                      <option value="volvo">2015</option>
+                      <option value="volvo">2016</option>
+                      <option value="volvo">2017</option>
+                      <option value="volvo">2018</option>
+                      <option value="volvo">2019</option>
+                      <option value="volvo">2020</option>
+                      <option value="saab">2021</option>
+    
                   
-                <label for="psw-repeat"  class="name" style=""><b>School/College Name</b></label><br><br>
-              <input type="text" class="pass2" placeholder="School/College Name" name="psw-repeat" id="psw-repeat" required>
+                      <option value="mercedes">2022</option>
+                      <option value="mercedes">2023</option>
+                      <option value="mercedes">2024</option>
+                      <option value="volvo">2025</option>
+                      <option value="volvo">2026</option>
+                      <option value="volvo">2027</option>
+                      <option value="volvo">2028</option>
+                      <option value="volvo">2029</option>
+                      <option value="volvo">2030</option>
+                      <option value="volvo">2031</option>
+                     
+                    </optgroup>
+                  </select>
+            
+                </td>
+                <td>
 
-             
-              <!-- <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>School/College Name</b></label><br><br>
-              <input type="text" class="pass2" placeholder="School/College Name" name="psw-repeat" id="psw-repeat" required> -->
+                  <label for="Name" class="name">Attended Institution Names</label><br>
+                  <input type="text" class="firstname" placeholder="Attended Institution Names" name="name" id="email" required>
+                        </td> 
+          </tr>
+                </table>
               </div>
-
-              <div class="reg" style="margin-left:62%;margin-top: -338px;width:80%;">
-                <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>Year Of Completion</b></label><br><br>
-              <input type="text" class="pass2" placeholder="Year Of Completion" name="psw-repeat" id="psw-repeat" required>
-              </div>
-              <div class="reg" style="margin-left:62%;margin-top:20px;width:80%;">
-                <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>Year Of Completion</b></label><br><br>
-              <input type="text" class="pass2" placeholder="Year Of Completion" name="psw-repeat" id="psw-repeat" required>
-              </div>
-              <div class="reg" style="margin-left:62%;margin-top:20px;width:80%;">
-                <label for="psw-repeat"  class="name" style="margin-top:-70px;margin-bottom:10px;"><b>Year Of Completion</b></label><br><br>
-              <input type="text" class="pass2" placeholder="Year Of Completion" name="psw-repeat" id="psw-repeat" required>
-              </div>
-              <div class="reg" style="margin-left:62%;margin-top:24px;width:80%;">
-                <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>Year Of Completion</b></label><br><br>
-              <input type="text" class="pass2" placeholder="Year Of Completion" name="psw-repeat" id="psw-repeat" required>
-              </div>
-              <div class="reg" style="margin-left:79%;margin-top: -337px;width:80%;">
-                <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>Percentage %</b></label><br><br>
-              <input type="text" class="pass2" placeholder="Percentage %" name="psw-repeat" id="psw-repeat" required>
-              </div>
-              <div class="reg" style="margin-left:79%;margin-top:20px;width:80%;">
-                <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>Percentage %</b></label><br><br>
-              <input type="text" class="pass2" placeholder="Percentage %" name="psw-repeat" id="psw-repeat" required>
-              </div>
-              <div class="reg" style="margin-left:79%;margin-top:20px;width:80%;">
-                <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>Percentage %</b></label><br><br>
-              <input type="text" class="pass2" placeholder="Percentage %" name="psw-repeat" id="psw-repeat" required>
-              </div>
-
-              <div class="reg" style="margin-left:79%;margin-top:22px;width:80%;">
-                <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>Percentage %</b></label><br><br>
-              <input type="text" class="pass2" placeholder="Percentage %" name="psw-repeat" id="psw-repeat" required>
-              </div>
-
-             
-                <img src="mm.png.png"  width="300px" class="mmstys">
-               
-                <!-- <label for="psw-repeat" class="name"><b>DOB:</b></label><br>
-                <input type="date" id="birthday" name="birthday"><br> -->
-  
-              <!-- <label for="Name" ><b>Mobile Number</b></label><br>
-              <input type="text" placeholder="Enter Mobile Number" name="name" id="email" required  style="width: 650px;"><br>
-
-           
-              <label for="email"><b>linkdin</b></label><br>
-              <input type="text" placeholder="Enter linkdin" name="email" id="email" required style="width: 650px;"><br>
-
-              <label for="Mobile Number"><b>Address</b></label><br>
-              <input type="text" placeholder="Enter Address" name="Number" id="email" required style="width: 650px;height: 180px;"><br>
-           -->
-           <!-- <p><label for="w3review"  class="name"><b>Comment Box:</b></label></p>
-           <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea> -->
-           <br>
            <input type="button"
            name="next-step" 
            class="next-step" 
@@ -315,145 +326,259 @@
          
 
            </fieldset>
-           <fieldset>
-            <div style="margin-left:28%;width:80%;">
-            <p style="font-size:30px;">Course Details</p>
-            <label for="psw-repeat"  class="name"><b>When Are You Attending the Training?</b></label><br>
-            <select name="cars" id="cars">
-              <optgroup label="">
-                <option value="volvo">June 10,2019</option>
-                <option value="saab">June 12,2019</option>
-
-            
-               
-                
-              </optgroup>
-            </select><br>
-            <label for="psw-repeat"  class="name"><b>Where do you want your certificates delivered on<br> completion of training program</b></label><br><br>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">
-              In Hand</label>
-            
-              <input type="radio" id="html" name="fav_language" value="HTML">
-              <label for="html">
-                Home Address</label>
-
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">
-                  Company Address</label><br>
-
-                  <input type="radio" id="html" name="fav_language" value="HTML">
-                  <label for="html">
-                    Others</label>
-                <br>
-              <br>
-            <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>Apartment, suite, etc  </b></label><br><br>
-              <input type="text" class="Year" placeholder="Apartment, suite, etc" name="psw-repeat" id="psw-repeat" required><br><br>
+           <fieldset style="margin-top:-27px;">
+          
+            <div style="display:flex;">
+              <div style="margin-top:100px;margin-left:20px;">
+              <img src="mm.png.png"  width="300px">
+              </div>   
+              <div style="height:520px;overflow-y:scroll;">
+              <table style="margin-left:100px;width:auto;margin-top:-30px;height:auto;">
+                <tr>
+                  <td height="10" colspan="3" >
+             <p style="font-size:30px;">Professional Experience</p>
              
-              <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>City</b></label><br><br>
-              <input type="text" class="Year" placeholder="City" name="psw-repeat" id="psw-repeat" required><br>
-                <!-- <label for="w3review"  class="name"><b>Comment Box:</b></label></p>
-           <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea> -->
-<br><br>
-</div>
-<div style="margin-left:67%;margin-top:-397px;width:80%;">
-  <label for="psw-repeat"  class="name" style="margin-top:-40px;margin-bottom:10px;"><b>State/Province</b></label><br><br>
-  <input type="text" class="Year" placeholder="State/Province" name="psw-repeat" id="psw-repeat" required><br><br>
-
-  <label for="psw-repeat"  class="name" style="margin-top:40px;margin-bottom:0px;"><b>ZIP / Postal Code</b></label><br><br>
-  <input type="text" class="Year" placeholder="ZIP / Postal Code" name="psw-repeat" id="psw-repeat" required><br><br>
-
-  <label for="psw-repeat"  class="name"><b>Country</b></label><br>
-  <select name="cars" id="cars">
-    <optgroup label="">
-      <option value="volvo">India</option>
-      <option value="saab">London</option>
-
+             </td>
+             </tr>
+             <tr>
+              <td style="width:25%;">
+                <label for="psw-repeat"  class="name">Year Of Experience</label><br>
+                <select name="cars" id="int" style="height:43px;margin-top:7px;">
+                  <optgroup label="">
+                    <option value="volvo">2</option>
+                    <option value="saab">3</option>
   
-     
-      
-    </optgroup>
-  </select><br>
-</div>
-<img src="mm.png.png"  width="300px" class="mmstyss">
-           <!-- <button type="submit" class="registerbtn">Register</button> 
-   -->
-            <!-- <label for="Name" ><b>Mobile Number</b></label><br>
-              <input type="text" placeholder="Enter Mobile Number" name="name" id="email" required  style="width: 650px;"><br> -->
-              <input type="button"
-              name="next-step" 
-              class="next-step" 
-              value="Next Step" /> 
-       <input type="button"
-              name="previous-step" 
-              class="previous-step" 
-              value="Previous Step" /> 
-           
-           </fieldset>
-           <fieldset>
-            <div style="margin-left:28%;width:80%;">
-            <p style="font-size:30px;">Payment Details</p>
-            <label for="psw-repeat"  class="name"><b>Type</b></label><br><br>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">
-              Empref</label>
-
-              <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">
-              Earbrd
-
-</label>
-
-<input type="radio" id="html" name="fav_language" value="HTML">
-<label for="html">
-  Regular
-
-</label><br><br>    
-
-<label for="psw-repeat"  class="name"><b>Have You Paid the Fee</b></label><br><br>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">
-              Yes</label>
-
-              <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">
-              No
-
-</label>
-
-<br>     
-               
                 
+                    <option value="mercedes">4</option>
+                    <option value="mercedes">5</option>
+                    <option value="mercedes">1</option>
 
-<br>
+                   
+                  </optgroup>
+                </select>
+          
+              </td>
 
-  <label for="psw-repeat"  class="name"><b>Payment Amount</b></label><br>
-  <select name="cars" id="cars">
-    <optgroup label="">
-      <option value="volvo">Rs 1000</option>
-      <option value="saab">Rs 2000</option>
+              <td style="width:25%;">
+                <label for="Name" class="name">Designation</label><br>
+                <input type="text" class="des" placeholder="Designation" name="name" id="email" required>
 
-  
-     
       
-    </optgroup>
-  </select><br>
+          
+              </td>
+              <td style="width:25%;">
+              <label for="psw-repeat"  class="name">Mode Of Training</label><br>
+              <select name="cars" id="int" style="height:43px;margin-top:7px;">
+                <optgroup label="">
+                  <option value="volvo">2</option>
+                  <option value="saab">3</option>
+
+              
+                  <option value="mercedes">4</option>
+                  <option value="mercedes">5</option>
+                  <option value="mercedes">1</option>
+
+                 
+                </optgroup>
+              </select>
+             
+
+              </td>
+
+           
+             
+</tr>
+<tr>
+  <td>
+    <label for="Name" class="name">Areas Of Expertise</label><br>
+    <input type="text" class="firstname" placeholder="Areas Of Expertis" name="name" id="email" required>
+  </td>
+  <td>
+    <label for="psw-repeat"  class="name">Industry</label><br>
+    <select name="cars" id="int" style="height:43px;margin-top:7px;">
+      <optgroup label="">
+        <option value="volvo">Automotive</option>
+        <option value="saab">AeroSpace</option>
+
+    
+        <option value="mercedes">LocoMotive</option>
+        
+
+       
+      </optgroup>
+    </select>
+  </td>
+    <td>
+      <label for="appt">Availability:</label>
+      <input type="time" id="int" name="appt">
+  </td>
+ 
+</tr>
+<tr>
+  <td>
+    <label for="psw-repeat"  class="name">Current Programms</label><br>
+    <select name="cars" id="int" style="">
+      <optgroup label="Fixture Design Course">
+        <option value="volvo">Fixture Design Course</option>
+        <option value="saab">Industrial Automation Course</option>
+
+    
+        <option value="mercedes">Scan to 3D Modelling Course</option>
+        <option value="mercedes">Angular Course</option>
+        <option value="mercedes">.Net Course</option>
+
+       
+      </optgroup>
+    </select>
+  </td>
+</tr>
+<tr>
+  <td colspan="4">
+    <div style="display:flex;">
+      <div>
+    <label for="myfile">Presentation Upload:</label>
+    <input type="file" id="myfile" name="myfile"><br>
 </div>
-<img src="mm.png.png"  width="300px" class="mmstyss">
-           <!-- <button type="submit" class="registerbtn">Register</button> 
-   -->
-            <!-- <label for="Name" ><b>Mobile Number</b></label><br>
-              <input type="text" placeholder="Enter Mobile Number" name="name" id="email" required  style="width: 650px;"><br> -->
-              <input type="button"
+<div>
+    <label for="myfile">Certifications:</label>
+    <input type="file" id="myfile" name="myfile"><br>
+</div>
+<div>
+    <label for="myfile">Attach CV:</label>
+    <input type="file" id="myfile" name="myfile">
+    </div>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div style="margin-top:20px;">
+    <label for="Name" class="name">Specify</label><br>
+    <input type="text" class="firstname" placeholder="Specify" name="name" id="email" required>
+    </div>
+  </td>
+  <td colspan="3" style="text-align: right;">
+    <a href="#popup"> <input type="button"
+      name="next-step" 
+      class="add" 
+      value="Add" /> </a>
+    </td>
+    </tr>
+    <tr>
+  <td colspan="4" style="margin-top:-50px;">
+      <table style="width:80%;border-collapse: collapse;">
+        <tr>
+          <th style="border: 1px solid black;text-align:start;background-color:skyblue;">
+            S.No
+          </th>
+          <th style="border: 1px solid black;text-align:start;background-color:skyblue;">
+            Title
+          </th>
+          <th style="border: 1px solid black;text-align:start;background-color:skyblue;">
+            Duration
+          </th>
+          <th style="border: 1px solid black;text-align:start;background-color:skyblue;">
+            Presentation
+          </th>
+
+        </tr>
+
+        <tr style="border: 1px solid black;text-align:start;">
+          <td style="border: 1px solid black;text-align:start;">
+            1
+          </td>
+          <td>
+            IT
+          </td>
+          <td style="border: 1px solid black;text-align:start;">
+            1 Hours
+          </td>
+          <td style="border: 1px solid black;text-align:start;">
+            BIW
+          </td>
+        </tr>
+      </table>
+    </td>
+</tr>
+<tr>
+  <td colspan="4">
+    <br>Professional Bio<br><br>
+    (Please provide a brief bio highlighting your professional background, 
+experience, and expertise (maximum 200 words)
+  </td>
+</tr>
+<tr>
+  <td colspan="4">
+    <p><b>Declaration:</b></p>
+    <div style="display:flex;margin-top:-10px;">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" style="margin-bottom:40px;">
+    <p style="margin-top:-1px;">I hereby declare that all the information provided above is true and accurate 
+      to the best of my knowledge. I understand that any false statement 
+      or misrepresentation may lead to disqualification from the registration process.</p>
+      </div>
+  </td>
+</tr>
+
+              </table>
+            </div>
+            <div id="popup" class="overlay">
+              <div class="popup">
+               
+        
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                  <p style="text-align:center;background-color:blue;margin-top:10px;">Add</p>
+        
+                  <label for="Name" class="name">S.No</label><br>
+    <input type="text" class="firstname" placeholder="S.No" name="name" id="email" required>
+                  <!-- Thank to pop me out of that button, but now i'm done so you can close this window. -->
+            
+               <div style="margin-top:10px;">
+                <label for="Name" class="name">Title of the course</label><br>
+                <input type="text" class="firstname" placeholder="Title of the course" name="name" id="email" required>
+                <label for="Name" class="name">Duration of the Course</label><br>
+                <input type="text" class="firstname" placeholder="Duration of the Course" name="name" id="email" required>
+                <label for="Name" class="name">Presentation</label><br>
+            
+                <input type="file" id="myfile" name="myfile">
+                
+                     <div style="margin-left:40%;">
+     <button style="width:130px;align-self:center;height:30px;background-color:blue;text-decoration:whitesmoke;border-radius:0px;text-align:center;margin-top:10px;color:white;font-weight:bold;">Submit</a>
+      </button>
+      </div>
+                     </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="popup1" class="overlay">
+              <div class="popup1">
+               
+        
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+<p>Submitted</p>
+<p>
+  Thank you for your interest.
+  Our team wil review your registration and get back to you regarding the selection process.
+  </p>
+                  </div>
+                  </div>
+            </div>
+                 
+</div>
+
+             <a href="#popup1"> <input type="button"
               name="next-step" 
               class="next-step" 
-              value="Register" /> 
+              value="Submit" /> </a>
        <input type="button"
               name="previous-step" 
               class="previous-step" 
               value="Previous Step" /> 
            
            </fieldset>
+           
            <br>
             </div>
           

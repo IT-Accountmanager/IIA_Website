@@ -70,7 +70,7 @@
     }); 
 });
       </script>
-        <form style="margin-top:-50px;">
+        <form style="margin-top:-23px;">
             <div class="container">
               <div class="progress-container"> 
                 <ul id="progressbar"> 
@@ -85,9 +85,7 @@
                           <strong>Step 3</strong> 
                       </li> 
 
-                      <li id="step4"> 
-                        <strong>Step 4</strong> 
-                    </li> 
+                  
                   
                 </ul> 
                 <div class="progress"> 
@@ -99,13 +97,13 @@
               <p>Please fill in this form to create an account.</p> -->
               <div class="step-container"> 
                
-                <fieldset style="margin-top:-25px;"> 
+                <fieldset style="margin-top:-22px;margin-bottom:-120px;"> 
                   <div style="display:flex;">
-                    <div style="margin-top:100px;margin-left:10px;">
+                    <div style="margin-top:130px;margin-left:40px;">
                     <img src="mm.png.png"  width="300px">
                     </div>
                     <div>
-              <table style="margin-left:100px;width:auto;margin-top:-42px;height:auto">
+              <table style="margin-left:100px;width:auto;margin-top:-35px;height:auto">
                 <tr>
                   <td height="10" colspan="3" >
              <p style="font-size:30px;">Student Information</p>
@@ -147,7 +145,9 @@
             </select>
                   </td>
                   <td>
-                    <label for="psw-repeat"  class="name">Interested
+                    <label for="Name" class="name">Contact No</label><br>
+                    <input type="text" class="con" placeholder="Enter Contact No" name="name" id="email" required>
+                    <!-- <label for="psw-repeat"  class="name">Interested
                       Course</label><br>
                     <select name="cars" id="int" style="height:43px;margin-top:7px;">
                       <optgroup label="">
@@ -158,7 +158,7 @@
                         <option value="mercedes">Java Developer</option>
                        
                       </optgroup>
-                    </select>
+                    </select> -->
               
                     </td>
                   </tr>
@@ -181,25 +181,32 @@
             <input type="date" id="birthday" name="birthday">
   </td>
   <td>
-    <label for="Name" class="name">Contact No</label><br>
-    <input type="text" class="con" placeholder="Enter Contact No" name="name" id="email" required>
+    <label for="Name" class="name">Aadhar Card No</label><br>
+    <input type="text" class="firstname" placeholder="Aadhar Card No" name="name" id="email" required>
+    
     </td>
     
 </tr>
 
 <tr>
-    <td>
-      <label for="myfile">Upload passport size photo:</label><br><br>
-  <input type="file" id="myfile" name="myfile">
+   
+      <!-- <label for="myfile" style="margin-bottom:20px;">Upload passport size photo:</label><br><br>
+  <input type="file" id="myfile" name="myfile"> -->
     </td>
       <td>
-        <label for="w3review"  class="name">Permanent Address:</label></p>
+        <label for="w3review"  class="name">Permanent Address:</label>
          <textarea id="w3review" name="w3review" rows="1" cols="50"></textarea>
       </td>
       <td>
-      <label for="Name" class="name">Aadhar Card No</label><br>
-              <input type="text" class="firstname" placeholder="Aadhar Card No" name="name" id="email" required>
+        <label for="Name" class="name">Zip Code</label><br>
+        <input type="text" class="firstname" placeholder="Zip Code" name="name" id="email" required>
               </td>
+
+              <td style="margin-bottom:20px;">
+                <div style="margin-top:-35px;">
+                  <label for="myfile">Upload passport size photo:</label><br><br>
+                  <input type="file" id="myfile" name="myfile">
+                  </div>
 </tr>
             
                 
@@ -218,7 +225,7 @@
             </fieldset> 
             <fieldset> 
               <div style="display:flex;">
-                <div style="margin-top:100px;">
+                <div style="margin-top:60px;margin-left:60px;">
                 <img src="mm.png.png"  width="300px">
                 </div>   
 
@@ -234,11 +241,26 @@
                   <label for="psw-repeat"  class="name">Year of Graducation</label><br>
                   <select name="cars" id="int" style="height:43px;margin-top:7px;">
                     <optgroup label="">
+                      <option value="volvo">2014</option>
+                      <option value="volvo">2015</option>
+                      <option value="volvo">2016</option>
+                      <option value="volvo">2017</option>
                       <option value="volvo">2018</option>
-                      <option value="saab">2017</option>
+                      <option value="volvo">2019</option>
+                      <option value="volvo">2020</option>
+                      <option value="saab">2021</option>
     
                   
-                      <option value="mercedes">2016</option>
+                      <option value="mercedes">2022</option>
+                      <option value="mercedes">2023</option>
+                      <option value="mercedes">2024</option>
+                      <option value="volvo">2025</option>
+                      <option value="volvo">2026</option>
+                      <option value="volvo">2027</option>
+                      <option value="volvo">2028</option>
+                      <option value="volvo">2029</option>
+                      <option value="volvo">2030</option>
+                      <option value="volvo">2031</option>
                      
                     </optgroup>
                   </select>
@@ -247,13 +269,17 @@
 
                 <td style="width:50%;">
                   <label for="psw-repeat"  class="name">Specialization</label><br>
-                  <select name="cars" id="int" style="height:43px;margin-top:7px;">
+                  <select name="cars" id="int" style="margin-top:7px;">
                     <optgroup label="">
-                      <option value="volvo">Mechanical engineering</option>
+                      <option value="volvo">Mechanical Engineering</option>
                       <option value="saab">Electrical & Electronic</option>
+                      <option value="saab">Civil Engineering</option>
     
                   
-                      <option value="mercedes">2016</option>
+                      <option value="mercedes">Computer Science</option>
+                      <option value="mercedes">Chemical Engineering</option>
+                      <option value="mercedes">Aeronautical Engineering</option>
+                      <option value="mercedes">Data Science</option>
                      
                     </optgroup>
                   </select>
@@ -265,11 +291,28 @@
                   <label for="psw-repeat"  class="name">Year Of Post Graducation</label><br>
                   <select name="cars" id="int" style="height:43px;margin-top:7px;">
                     <optgroup label="">
+                      <option value="volvo">2014</option>
+                      <option value="volvo">2015</option>
+                      <option value="volvo">2016</option>
+                      <option value="volvo">2017</option>
                       <option value="volvo">2018</option>
-                      <option value="saab">2017</option>
+                      <option value="volvo">2019</option>
+                      <option value="volvo">2020</option>
+                      <option value="saab">2021</option>
     
                   
-                      <option value="mercedes">2016</option>
+                      <option value="mercedes">2022</option>
+                      <option value="mercedes">2023</option>
+                      <option value="mercedes">2024</option>
+                      <option value="volvo">2025</option>
+                      <option value="volvo">2026</option>
+                      <option value="volvo">2027</option>
+                      <option value="volvo">2028</option>
+                      <option value="volvo">2029</option>
+                      <option value="volvo">2030</option>
+                      <option value="volvo">2031</option>
+                     
+                      
                      
                     </optgroup>
                   </select>
@@ -292,14 +335,14 @@
          
 
            </fieldset>
-           <fieldset>
+           <fieldset style="margin-top:-20px;">
           
             <div style="display:flex;">
-              <div style="margin-top:100px;">
+              <div style="margin-top:100px;margin-left:80px;">
               <img src="mm.png.png"  width="300px">
               </div>   
 
-              <table style="margin-left:200px;width:auto;margin-top:-42px;height:auto">
+              <table style="margin-left:80px;width:auto;margin-top:-35px;height:auto;margin-right:30px;">
                 <tr>
                   <td height="10" colspan="3" >
              <p style="font-size:30px;">Course Details</p>
@@ -316,6 +359,9 @@
   
                 
                     <option value="mercedes">Angular</option>
+                    <option value="mercedes">.Net</option>
+                    <option value="mercedes">Automation & Manual Testing</option>
+
                    
                   </optgroup>
                 </select>
@@ -342,86 +388,105 @@
     <label for="appt">Duration:</label>
   <input type="time" id="int" name="appt">
   </td>
+  <td>
+    <label for="appt">Slots:</label>
+  <input type="time" id="int" name="appt">
+  </td>
+</tr>
+
+<tr>
+  <td>
+    Training Fee Cost: 20,000+GST<br>
+    <a href="#popup"> <input type="button"
+      name="next-step" 
+      class="add" 
+      value="Pay Now" /> </a>
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2">
+    <p><b>Declaration:</b></p>
+    <div style="display:flex;">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" style="margin-bottom:40px;">
+    <p>I hereby declare that all the information provided above is true and accurate 
+      to the best of my knowledge. I understand that any false statement 
+      or misrepresentation may lead to disqualification from the registration process.</p>
+      </div>
+  </td>
 </tr>
 
               </table>
             </div>
-
-
-              <input type="button"
-              name="next-step" 
-              class="next-step" 
-              value="Next Step" /> 
-       <input type="button"
-              name="previous-step" 
-              class="previous-step" 
-              value="Previous Step" /> 
-           
-           </fieldset>
-           <fieldset>
-            <div style="margin-left:28%;width:80%;">
-            <p style="font-size:30px;">Payment Details</p>
-            <label for="psw-repeat"  class="name"><b>Type</b></label><br><br>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">
-              Empref</label>
-
-              <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">
-              Earbrd
-
-</label>
-
-<input type="radio" id="html" name="fav_language" value="HTML">
-<label for="html">
-  Regular
-
-</label><br><br>    
-
-<label for="psw-repeat"  class="name"><b>Have You Paid the Fee</b></label><br><br>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">
-              Yes</label>
-
-              <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">
-              No
-
-</label>
-
-<br>     
+            <div id="popup" class="overlay">
+              <div class="popup">
                
-                
+        
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                  <p style="text-align:center;background-color:blue;margin-top:10px;font-weight:bold;color:white;">Pay Now</p>
+                  <p>Mode Of Payment</p>
+                  <!-- Thank to pop me out of that button, but now i'm done so you can close this window. -->
+                  <div style="display:flex;">
+                  <img src="phonepe.png" height="50px" width="50px" style="margin-right:60px;margin-left:40px;">
+                  <img src="Paytm_Logo.jpg" height="50px" width="50px" style="margin-right:40px;">
+                  <img src="upi-twitter.jpg" height="50px" width="50px" style="margin-right:40px;">
+                  <img src="google-paya.webp" height="50px" width="50px">
+                  </div>
+               <div style="margin-top:10px;">
+                       <p>Enter Card Information</p>
+                       <p>CARD NUMEBR: (Accepted credit and debit cards)</p>
+                       <label for="Name" class="name">Card No</label><br>
+              <input type="text" class="firstname" placeholder="Card No" name="name" id="email" required>
+            
+              <label for="Name" class="name">Expiry Date</label><br>
+     <input type="text" class="firstname" placeholder="Expiry Date" name="name" id="email" required>
 
-<br>
+     <label for="Name" class="name">Name On Card</label><br>
+     <input type="text" class="firstname" placeholder="Expiry Date" name="name" id="email" required>
 
-  <label for="psw-repeat"  class="name"><b>Payment Amount</b></label><br>
-  <select name="cars" id="cars">
-    <optgroup label="">
-      <option value="volvo">Rs 1000</option>
-      <option value="saab">Rs 2000</option>
+     <label for="Name" class="name">Card Security Code</label><br>
+     <input type="text" class="firstname" placeholder="Card Security Code" name="name" id="email" required>
 
-  
-     
-      
-    </optgroup>
-  </select><br>
-</div>
-<img src="mm.png.png"  width="300px" class="mmstyss">
-           <!-- <button type="submit" class="registerbtn">Register</button> 
-   -->
-            <!-- <label for="Name" ><b>Mobile Number</b></label><br>
-              <input type="text" placeholder="Enter Mobile Number" name="name" id="email" required  style="width: 650px;"><br> -->
-              <input type="button"
+     <label for="Name" class="name">Verification Code(+9188667787)</label><br>
+     <input type="text" class="firstname" placeholder="Card Security Code" name="name" id="email" required>
+<div style="margin-left:40%;">
+     <button style="width:130px;align-self:center;height:30px;background-color:blue;text-decoration:whitesmoke;border-radius:0px;text-align:center;margin-top:10px;color:white;font-weight:bold;">Submit</a>
+      </button>
+      </div>
+                     </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="popup1" class="overlay">
+              <div class="popup1">
+               
+        
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+<p><b>Submitted</b></p>
+<p>
+  Thank you for your interest.
+  Our team wil review your registration and get back to you regarding the selection process.
+  </p>
+                  </div>
+                  </div>
+            </div>
+                 
+
+
+             <a href="#popup1"> <input type="button"
               name="next-step" 
               class="next-step" 
-              value="Register" /> 
+              value="Submit" /> </a>
        <input type="button"
               name="previous-step" 
               class="previous-step" 
               value="Previous Step" /> 
            
            </fieldset>
+           
            <br>
             </div>
           
