@@ -15,6 +15,7 @@
 .container{
   /* background: linear-gradient(60deg, #4A148C 28.3%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 102px;
+  margin-top: 50px;
 }
 .container-1{
   /* background: linear-gradient(60deg, #4A148C 33.4%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%); */
@@ -42,13 +43,14 @@ gap:15px;
   z-index: 0;
 }
 .menu-bar ul li{
-width: 130px;
-left: 100;
-margin: 15px;
-margin-top:-32px;
-padding: 55px 0px 0px 0px;
-position: relative;
-}
+  width: 143px;
+  left:-10px;
+  margin: 15px;
+  margin-left:0px;
+  margin-top:-32px;
+  padding: 65px 0px 0px 0px;
+  position: relative;
+  }
 .menu-bar ul li a
 {
    text-decoration: none;
@@ -81,8 +83,9 @@ background-color:#4A148C;
 display: block;
 /* padding-right:10px; */
 text-align:center;
-width:190px;
+width:170px;
 margin-top:40px;
+margin-left: 25px;
 /* margin: 10px; */
 }
 
@@ -127,6 +130,7 @@ display: block;
 text-align:center;
 width:200px;
 margin-top:40px;
+margin-left: 25px;
 }
 .sub-menu-2 ul li{
 width: 230px;
@@ -202,7 +206,8 @@ opacity:0.9;
   line-height: 10px;
 }
 .image-container{
-  width: 10px;
+  width: 100%;
+ 
 }
 .text{
   font-size: 52px;
@@ -292,24 +297,50 @@ opacity:0.9;
 
 
 
+ /* image container */
+
+
+
+
+ .image-container{
+  margin-top: 110px;
+  opacity: 0.6;
+  width:100%;
+  height: 200px;
+ /* background-color:black; */
+ }
+
+
+ .card-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
   /* address css code */
 
 .address{
 
-  margin-top: 500px;
+  margin-top: 300px;
 }
 .bulding{
 margin-left: 30px;
 margin-top: 30px;
-  width: 650px;
-  height: 150px;
+  width: 800px;
+  height: 120px;
   background-color: aliceblue;
   box-shadow: #b8aac9;
  
 }
 
 .phone{
-  width: 650px;
+  width: 800px;
 height: 130px;
 margin-top: 50px;
 margin-left: 30px;
@@ -329,7 +360,7 @@ background-color: aliceblue;
 
 
 .register{
-  margin-top: -330px;
+  margin-top: -390px;
   
 }
 
@@ -345,6 +376,14 @@ background-color: aliceblue;
 
 
 
+.logos{
+
+  margin-top: -120px;
+ margin-left: -70px;
+}
+
+
+
 
 * {box-sizing: border-box}
 
@@ -356,7 +395,7 @@ background-color: aliceblue;
 
 
 .comment{
-  height: 180px;
+  height: 100px;
   width: 590px;
   background: #f1f1f1;
   border: none;

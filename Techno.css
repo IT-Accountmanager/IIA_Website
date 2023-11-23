@@ -42,7 +42,7 @@ gap: -10px;
   z-index: 0;
 }
 .menu-bar ul li{
-  width: 154.2px;
+  width: 153.5px;
   left: 100;
   margin: 15px;
   margin-top:-32px;
@@ -613,7 +613,13 @@ to {opacity:1 ;}
   from{transform: translateX(-100px);}
   to{ transform: translateX(0px); }
 }
+.zooms:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
+.zooms{
+  transition: transform .2s; 
+}  
 
 
 

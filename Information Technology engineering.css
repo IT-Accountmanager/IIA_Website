@@ -162,7 +162,7 @@ opacity:0.9;
 .paragraph{
 
   font-size: 22px;
-margin-top: 50px;
+margin-top: 40px;
 /* margin-bottom: 3px; */
   margin-left: 600px;
   color: #fff;
@@ -288,9 +288,11 @@ margin-top: 50px;
     to{ transform: translateX(0px); }
   }
 
+  .img-container2:hover{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
 
-
-
+  }
   .move{
     animation: rotate 1.6s linear; 
   }
@@ -300,7 +302,22 @@ margin-top: 50px;
     to{ transform: translateX(0px); }
   }
 
+  .zooms:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
   
+  .zooms{
+    transition: transform .2s; 
+  }  
+  
+
+
+
+
+
+
+
+
 
   /* css style code */
 
