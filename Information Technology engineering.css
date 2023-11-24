@@ -69,50 +69,62 @@ padding-bottom: 20px;
  margin-right: 8px;
 }
 .sub-menu-1{
-display: none;
-z-index:1;
-}
-.menu-bar ul li:hover .sub-menu-1{
-display: block;
-/* position: absolute; */
-left: 0;
-top: 100%;
-background-color:#4A148C;
-}
-.sub-menu-1 ul{
-display: block;
-/* padding-right:10px; */
-text-align:center;
-width:190px;
-margin-top:40px;
-/* margin: 10px; */
-}
-
-.sub-menu-1 ul li{
-  width:165px;
-   padding:7px; 
-/* padding: 10px; */
-}
-
-.sub-menu-1 ul li:hover{
-  width:165px;
+  display: none;
+  z-index:1;
+  margin-left: -25px;
+  }
+  /* ? */
+  .menu-bar ul li:hover .sub-menu-1{
+  display: block;
+  /* position: absolute; */
+  left: 0;
+  top: 100%;
+  transition:1.6s;
+  background-color:#4A148C;
+  }
+  .sub-menu-1 ul{
+  display: block;
+  /* padding-right:10px; */
+  text-align:center;
+  margin-left: 5px;
+  width:210px;
+  /* padding-top:10px; */
+  transition:1.6s;
+  height: 190px;
+  margin-top:50px;
+  /* margin: 10px; */
+  -webkit-transition: height 0.3s ease;
+  transition: height 0.3s ease;
+  }
+  
+  .sub-menu-1 ul li{
+    width:165px;
+     padding:9px; 
+     gap:90px;
+  /* padding: 10px; */
+  }
+  .sub-menu-1 ul li:hover{
+  width:170px;
   background-color:#EF6C00;
-/* padding: 10px; */
-}
-.sub-menu-1{
-  margin-left:-20px;
-display: none;
-}
-.menu-bar ul li:hover .sub-menu-1{
-display: block;
-position: absolute;
-left: 0;
-top: 100%;
-background-color:#784aac;
-opacity:0.9;
-}
+  /* padding: 10px; */
+  }
+  
+  .sub-menu-1{
+  margin-left:-37px;
+  display: none;
+  transition:1.6s;
+  }
+  .menu-bar ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  transition:1.6s;
+  background-color:#784aac;
+  opacity:0.9;
+  }
 .sub-menu-2{
-  margin-left:20px;
+  margin-left:-55px;
 display: none;
 width:250px;
 z-index:1;
@@ -123,25 +135,28 @@ position: absolute;
 left: 0;
 top: 100%;
 background-color:#4A148C;
+
 }
 .sub-menu-2 ul{
 display: block;
 text-align:center;
 width:200px;
+z-index: 10px;
 margin-top:40px;
+margin-left: 10px;
 }
 .sub-menu-2 ul li{
-width: 230px;
+width: 200px;
 padding:5px;
 /* padding: 10px; */
 }
 .sub-menu-2 ul li:hover{
-  width:230px;
+  width:200px;
   background-color:#EF6C00;
 /* padding: 10px; */
 }
 .sub-menu-2{
-  margin-left:-35px;
+  margin-left:-45px;
 display: none;
 }
 .menu-bar ul li:hover .sub-menu-2{
