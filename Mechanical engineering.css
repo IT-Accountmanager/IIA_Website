@@ -167,7 +167,58 @@ opacity:0.9;
   margin-left: 300px;
   margin-top: -140px;
   color: #fff;
+  /* animation: revealLine 8s steps(40) infinite; */
+  
 }
+/* .typing {
+  width: 100%;
+  overflow: hidden;
+  top: 0px;
+  position: relative;
+  animation: typeIt 320s steps(40) infinite;
+} */
+
+.text-cover{
+  animation: revealLine 8s steps(40) infinite;
+}
+@keyframes revealLine {
+    0% { left: 0%; }
+    100% { left: 100%; }
+}
+
+@keyframes typeIt {
+    0% {
+        top: 0;
+        height: 2em;}
+    100% {
+        top: -60em;
+        height: 82em;
+    }
+}
+
+.info{
+  animation: rotate 1.6s linear; 
+}
+@keyframes rotate{
+  from{transform: translateX(150px);}
+  to{ transform: translateX(0px); }
+}
+
+.info2{
+  animation: rotater 1.6s linear; 
+}
+@keyframes rotater{
+  from{transform: translateY(150px);}
+  to{ transform: translateY(0px); }
+}
+
+.zooms:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zooms{
+  transition: transform .2s; 
+}  
 .paragraph-1{
   font-size: 14.2px;
   margin-right: 50px;
@@ -220,6 +271,7 @@ opacity:0.9;
   background-color:white;
   height:267px;
   margin-bottom:-30px;
+
  }  
 /* .fixture:hover{
   -webkit-transform: translateY(-10px);

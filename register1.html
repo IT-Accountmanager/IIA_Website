@@ -133,14 +133,29 @@
                   </td>
                   <td>
                     <label for="psw-repeat"  class="name">Year Of Passout</label><br> 
-            <select name="cars" id="year" style="height:43px;">
-              <optgroup label="">
+            <select name="cars" id="year" style="color:gray;">
+              <optgroup label="2014" style="font-weight:normal;">
+                <option value="volvo">2014</option>
+                <option value="volvo">2015</option>
+                <option value="volvo">2016</option>
                 <option value="volvo">2017</option>
-                <option value="saab">2018</option>
+                <option value="volvo">2018</option>
+                <option value="volvo">2019</option>
+                <option value="volvo">2020</option>
+                <option value="saab">2021</option>
 
             
-                <option value="mercedes">2015</option>
-                <option value="audi">2014</option>
+                <option value="mercedes">2022</option>
+                <option value="mercedes">2023</option>
+                <option value="mercedes">2024</option>
+                <option value="volvo">2025</option>
+                <option value="volvo">2026</option>
+                <option value="volvo">2027</option>
+                <option value="volvo">2028</option>
+                <option value="volvo">2029</option>
+                <option value="volvo">2030</option>
+                <option value="volvo">2031</option>
+               
               </optgroup>
             </select>
                   </td>
@@ -165,7 +180,7 @@
 <tr>
   <td>
     <label for="psw-repeat"  class="name">Gender</label><br>
-    <select name="cars" class="qual" style="height:43px;margin-top:7px;">
+    <select name="cars" class="qual" style="height:43px;margin-top:7px;color:gray;">
       <optgroup label="">
         <option value="volvo">Male</option>
         <option value="saab">Female</option>
@@ -178,7 +193,7 @@
   </td>
   <td>
     <label for="psw-repeat" class="name">DOB</label><br>
-            <input type="date" id="birthday" name="birthday">
+            <input type="date" id="birthday" name="birthday" style="color:gray;">
   </td>
   <td>
     <label for="Name" class="name">Aadhar Card No</label><br>
@@ -239,7 +254,7 @@
                <tr>
                 <td style="width:50%;">
                   <label for="psw-repeat"  class="name">Year of Graducation</label><br>
-                  <select name="cars" id="int" style="height:43px;margin-top:7px;">
+                  <select name="cars" id="int" style="height:43px;margin-top:7px;color:gray;">
                     <optgroup label="">
                       <option value="volvo">2014</option>
                       <option value="volvo">2015</option>
@@ -269,7 +284,7 @@
 
                 <td style="width:50%;">
                   <label for="psw-repeat"  class="name">Specialization</label><br>
-                  <select name="cars" id="int" style="margin-top:7px;">
+                  <select name="cars" id="int" style="margin-top:7px;color:gray;">
                     <optgroup label="">
                       <option value="volvo">Mechanical Engineering</option>
                       <option value="saab">Electrical & Electronic</option>
@@ -280,6 +295,10 @@
                       <option value="mercedes">Chemical Engineering</option>
                       <option value="mercedes">Aeronautical Engineering</option>
                       <option value="mercedes">Data Science</option>
+                      <option value="mercedes">Automobile Engineering</option>
+                      <option value="mercedes">Biomedical engineering</option>
+                      <option value="mercedes">Biotechnology</option>
+                    
                      
                     </optgroup>
                   </select>
@@ -289,7 +308,7 @@
 <tr>
                 <td style="width:50%;">
                   <label for="psw-repeat"  class="name">Year Of Post Graducation</label><br>
-                  <select name="cars" id="int" style="height:43px;margin-top:7px;">
+                  <select name="cars" id="int" style="height:43px;margin-top:7px;color:gray;">
                     <optgroup label="">
                       <option value="volvo">2014</option>
                       <option value="volvo">2015</option>
@@ -352,7 +371,7 @@
              <tr>
               <td style="width:50%;">
                 <label for="psw-repeat"  class="name">Course Name</label><br>
-                <select name="cars" id="int" style="height:43px;margin-top:7px;">
+                <select name="cars" id="int" style="margin-top:7px;color:gray;">
                   <optgroup label="">
                     <option value="volvo">Fixture Design</option>
                     <option value="saab">Industrial Automation</option>
@@ -361,6 +380,8 @@
                     <option value="mercedes">Angular</option>
                     <option value="mercedes">.Net</option>
                     <option value="mercedes">Automation & Manual Testing</option>
+                    <option value="mercedes">Java</option>
+                    <option value="mercedes">Flutter</option>
 
                    
                   </optgroup>
@@ -370,7 +391,7 @@
 
               <td style="width:50%;">
                 <label for="psw-repeat"  class="name">Mode</label><br>
-                <select name="cars" id="int" style="height:43px;margin-top:7px;">
+                <select name="cars" id="int" style="margin-top:7px;color:gray;">
                   <optgroup label="">
                     <option value="volvo">Online</option>
                     <option value="saab">Offline</option>
@@ -386,11 +407,11 @@
 <tr>
   <td>
     <label for="appt">Duration:</label>
-  <input type="time" id="int" name="appt">
+  <input type="time" id="int" name="appt" style="color:gray;">
   </td>
   <td>
     <label for="appt">Slots:</label>
-  <input type="time" id="int" name="appt">
+  <input type="time" id="int" name="appt" style="color:gray;">
   </td>
 </tr>
 
@@ -435,21 +456,21 @@
                   </div>
                <div style="margin-top:10px;">
                        <p>Enter Card Information</p>
-                       <p>CARD NUMEBR: (Accepted credit and debit cards)</p>
-                       <label for="Name" class="name">Card No</label><br>
+                       <!-- <p>CARD NUMEBR: (Accepted credit and debit cards)</p> -->
+                       <label for="Name" class="name">Card Number: (Accepted credit and debit cards)</label><br>
               <input type="text" class="firstname" placeholder="Card No" name="name" id="email" required>
             
               <label for="Name" class="name">Expiry Date</label><br>
      <input type="text" class="firstname" placeholder="Expiry Date" name="name" id="email" required>
 
      <label for="Name" class="name">Name On Card</label><br>
-     <input type="text" class="firstname" placeholder="Expiry Date" name="name" id="email" required>
+     <input type="text" class="firstname" placeholder="Name On Card" name="name" id="email" required>
 
      <label for="Name" class="name">Card Security Code</label><br>
      <input type="text" class="firstname" placeholder="Card Security Code" name="name" id="email" required>
 
-     <label for="Name" class="name">Verification Code(+9188667787)</label><br>
-     <input type="text" class="firstname" placeholder="Card Security Code" name="name" id="email" required>
+     <label for="Name" class="name">Verification Code(+91 #######766)</label><br>
+     <input type="text" class="firstname" placeholder="Verification Code" name="name" id="email" required>
 <div style="margin-left:40%;">
      <button style="width:130px;align-self:center;height:30px;background-color:blue;text-decoration:whitesmoke;border-radius:0px;text-align:center;margin-top:10px;color:white;font-weight:bold;">Submit</a>
       </button>

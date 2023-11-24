@@ -17,7 +17,7 @@
 } */
 
 .pass1{
-  width:100%;
+  width:96%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -27,7 +27,7 @@
 }
 
 .qual{
-  width:100%;
+  width:96%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -36,7 +36,7 @@
 }
 
 .firstname{
-  width:100%;
+  width:96%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -45,7 +45,7 @@
 }
 
 .email{
-  width:100%;
+  width:96%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -54,7 +54,7 @@
 }
 
 .con{
-  width:100%;
+  width:96%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -157,7 +157,7 @@ tr:nth-child(even) {
   }
 
 #year{
-  width:100%;
+  width:96%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -166,7 +166,7 @@ tr:nth-child(even) {
 }
 
 #int{
-  width:100%;
+  width:96%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -193,7 +193,7 @@ tr:nth-child(even) {
 }
 
 #birthday{
-  width:100%;
+  width:96%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -202,7 +202,7 @@ tr:nth-child(even) {
 }
 
 #w3review{
-  width:100%;
+  width:96%;
   padding: 15px;
   margin: 8px 0 22px 0;
   display: inline-block;
@@ -432,7 +432,7 @@ h2 {
   padding: 10px 5px; 
   margin:5px 50px 0px 0px; 
   
-  float: right; 
+  float:left; 
 }
 
 .mmsty{

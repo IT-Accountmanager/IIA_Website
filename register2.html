@@ -103,7 +103,7 @@
                     <img src="mm.png.png"  width="300px">
                     </div>
                     <div>
-              <table style="margin-left:100px;width:auto;margin-top:-35px;height:auto">
+              <table style="margin-left:100px;width:auto;margin-top:-30px;height:auto">
                 <tr>
                   <td height="10" colspan="3" >
              <p style="font-size:30px;">Personal Information</p>
@@ -133,14 +133,29 @@
                   </td>
                   <td>
                     <label for="psw-repeat"  class="name">Year Of Passout</label><br> 
-            <select name="cars" id="year" style="height:43px;">
-              <optgroup label="">
+            <select name="cars" id="year" style="color:gray;">
+              <optgroup label="2014" style="font-weight:normal;">
+                <option value="volvo">2014</option>
+                <option value="volvo">2015</option>
+                <option value="volvo">2016</option>
                 <option value="volvo">2017</option>
-                <option value="saab">2018</option>
+                <option value="volvo">2018</option>
+                <option value="volvo">2019</option>
+                <option value="volvo">2020</option>
+                <option value="saab">2021</option>
 
             
-                <option value="mercedes">2015</option>
-                <option value="audi">2014</option>
+                <option value="mercedes">2022</option>
+                <option value="mercedes">2023</option>
+                <option value="mercedes">2024</option>
+                <option value="volvo">2025</option>
+                <option value="volvo">2026</option>
+                <option value="volvo">2027</option>
+                <option value="volvo">2028</option>
+                <option value="volvo">2029</option>
+                <option value="volvo">2030</option>
+                <option value="volvo">2031</option>
+               
               </optgroup>
             </select>
                   </td>
@@ -165,7 +180,7 @@
 <tr>
   <td>
     <label for="psw-repeat"  class="name">Gender</label><br>
-    <select name="cars" class="qual" style="height:43px;margin-top:7px;">
+    <select name="cars" class="qual" style="height:43px;margin-top:7px;color:gray;">
       <optgroup label="">
         <option value="volvo">Male</option>
         <option value="saab">Female</option>
@@ -178,7 +193,7 @@
   </td>
   <td>
     <label for="psw-repeat" class="name">DOB</label><br>
-            <input type="date" id="birthday" name="birthday">
+            <input type="date" id="birthday" name="birthday" style="color:gray;">
   </td>
   <td>
     <label for="Name" class="name">Aadhar Card No</label><br>
@@ -189,23 +204,24 @@
 </tr>
 
 <tr>
-    <td>
-  
+   
+      <!-- <label for="myfile" style="margin-bottom:20px;">Upload passport size photo:</label><br><br>
+  <input type="file" id="myfile" name="myfile"> -->
+    </td>
+      <td>
         <label for="w3review"  class="name">Permanent Address:</label>
          <textarea id="w3review" name="w3review" rows="1" cols="50"></textarea>
       </td>
       <td>
-
         <label for="Name" class="name">Zip Code</label><br>
         <input type="text" class="firstname" placeholder="Zip Code" name="name" id="email" required>
               </td>
 
-              <td>
+              <td style="margin-bottom:20px;">
                 <div style="margin-top:-35px;margin-left:10px;">
                   <label for="myfile">Upload passport size photo:</label><br><br>
                   <input type="file" id="myfile" name="myfile">
                   </div>
-              </td>
 </tr>
             
                 
@@ -222,7 +238,8 @@
                   </div>
                      
             </fieldset> 
-            <fieldset> 
+
+                          <fieldset> 
               <div style="display:flex;">
                 <div style="margin-top:60px;margin-left:60px;">
                 <img src="mm.png.png"  width="300px">
@@ -230,7 +247,7 @@
 
                 <table style="margin-left:200px;width:auto;margin-top:-30px;height:auto">
                   <tr>
-                    <td height="10" colspan="3" >
+                    <td height="10" colspan="2" >
                <p style="font-size:30px;">Educational Qualifications</p>
                
                </td>
@@ -238,7 +255,7 @@
                <tr>
                 <td style="width:50%;">
                   <label for="psw-repeat"  class="name">Year of Graducation</label><br>
-                  <select name="cars" id="int" style="height:43px;margin-top:7px;">
+                  <select name="cars" id="mit" style="height:43px;margin-top:7px;color:gray;height:46px;">
                     <optgroup label="">
                       <option value="volvo">2014</option>
                       <option value="volvo">2015</option>
@@ -271,8 +288,8 @@
                 </td>
 
                 <td style="width:50%;">
-                  <label for="psw-repeat"  class="name">Specialization</label><br>
-                  <select name="cars" id="int" style="margin-top:7px;">
+                  <label for="psw-repeat"  class="name" style="margin-left:1vw;">Specialization</label><br>
+                  <select name="cars" id="mit" style="margin-top:7px;color:gray;margin-left:1vw;height:46px;">
                     <optgroup label="">
                       <option value="volvo">Mechanical Engineering</option>
                       <option value="saab">Electrical & Electronic</option>
@@ -291,7 +308,7 @@
 <tr>
                 <td style="width:50%;">
                   <label for="psw-repeat"  class="name">Year Of Post Graducation</label><br>
-                  <select name="cars" id="int" style="height:43px;margin-top:7px;">
+                  <select name="cars" id="mit" style="height:43px;margin-top:7px;color:gray;height:46px;">
                     <optgroup label="">
                       
 
@@ -323,8 +340,8 @@
                 </td>
                 <td>
 
-                  <label for="Name" class="name">Attended Institution Names</label><br>
-                  <input type="text" class="firstname" placeholder="Attended Institution Names" name="name" id="email" required>
+                  <label for="Name" class="name" style="margin-left:1vw;">Attended Institution Names</label><br>
+                  <input type="text" id="mit" placeholder="Attended Institution Names" name="name" id="email" style="margin-left:1vw;height:46px;" required>
                         </td>
           </tr>
                 </table>
@@ -360,7 +377,7 @@
              <tr>
               <td style="width:33.4%;">
                 <label for="psw-repeat"  class="name">Year Of Experience</label><br>
-                <select name="cars" id="int" style="height:43px;margin-top:7px;">
+                <select name="cars" id="int" style="height:43px;margin-top:7px;color:gray;">
                   <optgroup label="">
                     <option value="volvo">2</option>
                     <option value="saab">3</option>
@@ -378,14 +395,14 @@
 
               <td style="width:33.4;">
                 <label for="Name" class="name">Designation</label><br>
-                <input type="text" class="des" placeholder="Designation" name="name" id="email" required>
+                <input type="text" class="des" placeholder="Designation" name="name" id="int" required>
 
       
           
               </td>
               <td style="width:33.4%;">
               <label for="psw-repeat"  class="name">Mode Of Training</label><br>
-              <select name="cars" id="int" style="height:43px;margin-top:7px;">
+              <select name="cars" id="int" style="height:46px;margin-top:5px;color:gray;">
                 <optgroup label="">
                   <option value="volvo">2</option>
                   <option value="saab">3</option>
@@ -408,11 +425,11 @@
 <tr>
   <td>
     <label for="Name" class="name">Areas Of Expertise</label><br>
-    <input type="text" class="firstname" placeholder="Areas Of Expertis" name="name" id="email" required>
+    <input type="text" id="int" placeholder="Areas Of Expertis" name="name" id="email" required>
   </td>
   <td>
     <label for="psw-repeat"  class="name">Industry</label><br>
-    <select name="cars" id="int" style="height:43px;margin-top:7px;">
+    <select name="cars" id="int" style="height:46px;margin-top:7px;color:gray;">
       <optgroup label="">
         <option value="volvo">Automotive</option>
         <option value="saab">AeroSpace</option>
@@ -427,13 +444,13 @@
   </td>
     <td>
       <label for="appt">Availability:</label>
-      <input type="time" id="int" name="appt">
+      <input type="time" id="int" name="appt" style="height:46px;">
   </td>
 </tr>
 <tr>
   <td>
     <label for="psw-repeat"  class="name">Current Programms</label><br>
-    <select name="cars" id="int" style="">
+    <select name="cars" id="int" style="color:gray;">
       <optgroup label="Fixture Design Course">
         <option value="volvo">Fixture Design Course</option>
         <option value="saab">Industrial Automation Course</option>
@@ -465,7 +482,9 @@
     <label for="Name" class="name">Specify</label><br>
     <input type="text" class="firstname" placeholder="Specify" name="name" id="email" required>
   </td>
-  <td colspan="3" style="text-align: right;">
+  </tr>
+  <tr>
+  <td colspan="3" style="text-align:left; border-top: 1px solid;">
     <a href="#popup"> <input type="button"
       name="next-step" 
       class="add" 
@@ -557,7 +576,7 @@
         
                 <a class="close" href="#">&times;</a>
                 <div class="content">
-<p>Submitted</p>
+<p><b>Submitted</b></p>
 <p>
   Thank you for your interest.
   Our team wil review your registration and get back to you regarding the selection process.
@@ -571,11 +590,11 @@
              <a href="#popup1"> <input type="button"
               name="next-step" 
               class="next-step" 
-              value="Submit" /> </a>
+              value="Submit" style="margin-right:2vw;margin-top:0.5vw;" /> </a>
        <input type="button"
               name="previous-step" 
               class="previous-step" 
-              value="Previous Step" /> 
+              value="Previous Step" style="margin-top:0.5vw;" /> 
            
            </fieldset>
            

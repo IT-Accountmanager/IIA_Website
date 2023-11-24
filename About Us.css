@@ -333,6 +333,7 @@ li a.active {
   margin-left: -560px;
   margin-right: 100px;
   text-align: center;
+  animation: rotates 0.9s linear; 
   /* clip-path: polygon(50% 0%, 100% 0, 100% 99%, 50% 57%, 1% 99%, 0 0); */
   /* margin: auto;
    */
@@ -366,7 +367,7 @@ li a.active {
   line-height: 40px;
   text-align: center;
   /* animation: rotate 1.6s linear;  */
-  
+  animation: rotates 0.9s linear; 
 }
 /* .clip2{
   clip-path: polygon(52% 60%, 0% 100%, 100% 100%);
@@ -383,8 +384,9 @@ li a.active {
   width: 10px;
   line-height: 35px;
   text-align: center;
-  /* animation: rotatis 1.6s linear ; */
+  animation: rotates 0.9s linear; 
 margin-bottom: 5px;
+
 }
 .ppl{
   font-size: 20px;
@@ -443,7 +445,9 @@ margin-bottom: 5px;
     from{transform: translateX(-50px);}
     to{ transform: translateX(0px); }
   }
-
+  .info1{
+    animation: rotates 0.9s linear; 
+  }
   /* .pc1{
     /* animation: rotates 1.6s linear;  */
   
@@ -489,7 +493,7 @@ margin-bottom: 5px;
 
 
 .meetcontainer{
-  background-color: aqua;
+  background-color: rgb(127, 170, 170);
   height:622px;
   margin-top: -285px;
 }
@@ -549,6 +553,7 @@ margin-bottom: 5px;
   height:240px;
   margin-top: -320px;
   transition: transform .2s;
+  animation: rotater 0.9s linear; 
 }
 .styless:hover{
   transform: scale(1.02);
@@ -568,6 +573,7 @@ margin-bottom: 5px;
   height:200px;
   margin-top: -240px;
   transition: transform .2s;
+  animation: rotater 0.9s linear; 
 }
 .styless1:hover{
   z-index:0;
@@ -582,11 +588,25 @@ margin-bottom: 5px;
   margin-top:105px;
   margin-bottom: -28.2px;
   transition: transform .2s;
+  animation: rotater 0.9s linear; 
+  
 }
 .styless2:hover{
   z-index:0;
   transform: scale(1.02);
 }
+
+
+.info{
+  animation: rotater 1.6s linear; 
+}
+@keyframes rotater{
+  from{transform: translateY(150px);}
+  to{ transform: translateY(-0px); }
+}
+
+
+
 .aboutus{
   width: 150px;
   /* display: block; */
@@ -631,7 +651,7 @@ margin-bottom: 5px;
     position: relative;
     transition: all 5s ease-in-out;
     top: 110px;
-    left: 180px;
+    left: 70px;
     background-color:#4A148C;
     opacity: 0.9;
   }
@@ -668,7 +688,7 @@ margin-bottom: 5px;
     position: relative;
     transition: all 5s ease-in-out;
     top: 110px;
-    left: 180px;
+    left: 70px;
     background-color:#4A148C;
     opacity: 0.9;
   }
@@ -709,7 +729,7 @@ margin-bottom: 5px;
     position: relative;
     transition: all 5s ease-in-out;
     top: 110px;
-    left: 180px;
+    left: 70px;
     background-color:#4A148C;
     opacity: 0.9;
   }
@@ -762,10 +782,47 @@ margin-bottom: 5px;
    */
   
 
+   @keyframes scaleProgress {
+    0% {
+      transform: scaleX(0);
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
 
+  .progress {
+    animation-timeline: scroll();
+  }
+
+
+  .progress {
+    animation-timeline: scroll(root block);
+  }
+
+  .progress {
+    animation-timeline: scroll(root);
+    animation-name: scaleProgress;
+    animation-duration: auto;
+    animation-timing-function: linear;
+  }
+
+  .progress {
+    animation: scaleProgress auto linear;
+    animation-timeline: scroll(root);
+  }
 
 
 /* Reaon to choose us */
+
+
+
+
+
+
+
+
+
 .Reasoncontainer{
   height: 610px;
   background-color: white;
