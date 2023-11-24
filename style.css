@@ -569,7 +569,7 @@ font-size:19px;
 
 
 .iotsty{
-  padding-right: -4px;
+  margin-left: 45px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
   font-size: 20px;
@@ -581,11 +581,13 @@ font-size:19px;
   color:blue;
 }
 .technosty{
-  padding-left:-190px;
+  padding-left:-200px;
+  margin-left: 0px;
   /* width:200px; */
   font-size:19px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
+  width: 200px;
 }
 .technosty:hover{
   transform: scale(1.25);
@@ -597,6 +599,7 @@ transform: scale(1.25);
   /* font-family: Arial, Helvetica, sans-serif; */
   font-weight: bold;
   font-size:19px;
+  margin-left: 25px;
 }
 .placementssty:hover{
   transform: scale(1.25);
