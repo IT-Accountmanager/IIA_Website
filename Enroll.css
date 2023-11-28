@@ -303,6 +303,57 @@ opacity:0.9;
     max-height: 60%;
     overflow: auto;
   }
+
+  .overlay {
+    position: fixed;
+    top: 30;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .popupmain {
+    margin: 70px auto;
+    margin-top:120px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 90%;
+    height:80%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popupmain h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popupmain .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popupmain .close:hover {
+    color: #06D85F;
+  }
+  .popupmain .content {
+    max-height: 200%;
+    overflow: auto;
+  }
+
   @-webkit-keyframes fadeInss {
     from {opacity: 0;} 
     to {opacity: 1;}
@@ -320,6 +371,456 @@ opacity:0.9;
       from{transform: translateX(-100px);}
       to{ transform: translateX(0px); }
     }
+
+
+
+    * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+/* input[type=text], input[type=password] {
+  width: 40%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+ 
+} */
+
+.pass1{
+  width:100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+ 
+}
+
+.qual{
+  width:100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.firstname{
+  width:100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.email{
+  width:100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.con{
+  width:100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.pass2{
+  width: 20%;
+  padding: 15px;
+  margin-left:0px;
+  /* margin: 5px 30px 22px 0; */
+  display: inline-block;
+  border: none;
+  margin-top:-230px;
+  background: #f1f1f1;
+ 
+}
+
+.Year{
+  width: 40%;
+  padding: 15px;
+  margin-left:-150px;
+  /* margin: 5px 30px 22px 0; */
+  display: inline-block;
+  border: none;
+  margin-top:-230px;
+  background: #f1f1f1;
+}
+
+.pass{
+  width: 20%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+ 
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+table {
+  text-align:center;
+  align-items:center;
+  justify-content:center;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left:15%;
+}
+
+td, th {
+  /* border: 1px solid #dddddd; */
+  text-align: left;
+  height:10%;
+  padding: 8px;
+}
+
+th{
+  /* background-color:skyblue; */
+}
+
+tr:nth-child(even) {
+  /* background-color:lightblue */
+} 
+
+#cars{
+  width:180%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  margin-left:-50px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+#year{
+  width:100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+#int{
+  width:100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+#birthday{
+  width:100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+#w3review{
+  width:100%;
+  padding: 15px;
+  margin: 8px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+.name::after {
+  content: ' *';
+  color: red;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin-left:70%;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.container { 
+  margin: 20px auto; 
+} 
+
+.progress-container { 
+  text-align: center; 
+  margin-bottom: 30px; 
+} 
+
+#progressbar { 
+  list-style-type: none; 
+  display: flex; 
+  justify-content: space-between; 
+  color: lightgrey; 
+} 
+
+#progressbar li { 
+  flex: 1; 
+  text-align: center; 
+  font-size: 15px; 
+  font-weight: bold; 
+  position: relative; 
+} 
+
+#progressbar li.active { 
+  color: #2F8D46; 
+} 
+
+.progress { 
+  height: 20px; 
+  background-color: lightgray; 
+  border-radius: 5px; 
+  overflow: hidden; 
+} 
+
+.progress-bar { 
+  background-color: #2F8D46; 
+  width: 0; 
+  height: 100%; 
+  transition: width 0.4s ease-in-out; 
+} 
+
+.step-container fieldset { 
+  background: white; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+  width: 100%; 
+  margin: 0; 
+  padding-bottom: 20px; 
+  position: relative; 
+  display: none; 
+} 
+
+.step-container fieldset:first-of-type { 
+  display: block; 
+} 
+
+h2 { 
+  color: #2F8D46; 
+  margin-top: 10px; 
+  text-align: center; 
+} 
+
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 40%;
+  height:85%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  top: 10px;
+  left: 180px;
+  background-color:white;
+  opacity: 0.9;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top:0px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color:black;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 100%;
+  overflow: auto;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.popup1 {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 40%;
+  height:20%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  top: 180px;
+  left: 180px;
+  background-color:white;
+  opacity: 0.9;
+}
+
+.add{
+  width: 100px; 
+  font-weight: bold; 
+  color: white;
+  background-color:green; 
+  border: 0 none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  padding: 10px 5px; 
+  margin:10px 273px 0px 0px; 
+  
+  float: right; 
+}
+
+.popup1 h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup1 .close {
+  position: absolute;
+  top:0px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color:black;
+}
+.popup1 .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 100%;
+  overflow: auto;
+}
+
+.next-step, 
+.previous-step { 
+  width: 100px; 
+  font-weight: bold; 
+  color: white; 
+  border: 0 none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  padding: 10px 5px; 
+  margin:-20px 10px 0px 0px; 
+  
+  float: right; 
+} 
+
+.mmsty{
+  margin-left:-60%;
+  margin-top:-900px;
+  margin-bottom:100px;
+  
+}
+
+.mmstys{
+  margin-left:0%;
+  margin-top:-450px;
+  margin-bottom:50px;
+  
+}
+
+.mmstyss{
+  margin-left:0%;
+  margin-top:-500px;
+  margin-bottom:0px;
+  
+}
+
+.next-step { 
+  background: #2F8D46; 
+} 
+
+
+
+.previous-step { 
+  background: #616161; 
+} 
+
+.next-step:hover, 
+.next-step:focus { 
+  background-color: #1e6f3e; 
+} 
+
+.previous-step:hover, 
+.previous-step:focus { 
+  background-color: #4d4d4d; 
+} 
+
+.text { 
+  color: #2F8D46; 
+  font-weight: normal; 
+} 
+
+.finish { 
+  text-align: center; 
+}
 
 
 

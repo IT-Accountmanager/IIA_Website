@@ -17,7 +17,7 @@
             <a href="https://twitter.com/i/flow/login" target="_blank"><img src="Twitter-new-logo.jpeg" style="margin-left: 7px;width: 20.05px; height: 20.05px;margin-top: -32.5px; margin-bottom: -17px;"></a>
             <a href="https://google.com/" target="_blank"><img src="googles.png" style="margin-left: 7px;width: 20.05px; height: 20.05px;margin-top: -32.5px; margin-bottom: -17px;"></a>
             <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="instagram.png" style="margin-left: 7px;width: 20.05px; height: 20.05px;margin-top: -32.5px; margin-bottom: -17px;"></a>
-            <a href="https://www.youtube.com/" target="_blank"> <img src="youtube.png" style="margin-left:8px;height:20px;margin-top: -35px;margin-bottom: -17px; width: 19px;"> </a>
+            <a href="https://youtube.com/@EnvisionISGroup?si=0QoWVzg9Ng8Tlysz" target="_blank"> <img src="youtube.png" style="margin-left:8px;height:20px;margin-top: -35px;margin-bottom: -17px; width: 19px;"> </a>
             <i class="fa fa-phone" style="margin-left:940px;width: 45px; height: 22px;margin-top:15px; margin-bottom: -18px;color: black;font-weight: bold;font-size:20px;"></i>
             <i class="fa fa-envelope" style="color:black;width:20%;margin-left: 177px;margin-top:15px;"></i>
             <i class="fa fa-whatsapp" style=" color: black; font-size:20px;margin-left: -165px;margin-top: 14px;margin-bottom: -3.0px;"></i>
@@ -177,18 +177,141 @@
         <div id="map" style="width:100%;height:450px;margin-top:150px;z-index: 0;"></div>
 
  <script>
-function myMap() {
-  var test= {lat:17.476258390208226, lng:78.41415982179828};
-var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: test
-        });
-        var marker = new google.maps.Marker({
-          position: test,
-          map: map
-        });
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3&sensor=false http://maps.googleapis.com/maps/api/js?v=3&sensor=false "></script>
+
+<script type="text/javascript">
+
+function initialize() {
+
+var myOptions = {
+
+zoom: 8,
+
+center: new google.maps.LatLng(46.52863469527167,2.43896484375),
+
+mapTypeId: google.maps.MapTypeId.ROADMAP,
+
+mapTypeControlOptions: {
+
+mapTypeIds: [google.maps.MapTypeId.ROADMAP, google.maps.MapTypeId.HYBRID]
 
 }
+
+};
+
+
+var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+
+var markerBounds = new google.maps.LatLngBounds();
+
+var markers = new Array(
+
+[[MarkersArray]]
+
+);
+
+
+var infoWindow = new google.maps.InfoWindow;
+
+
+function addMarker(options){
+
+var marker = new google.maps.Marker({map:map});
+
+marker.setOptions(options);
+
+
+google.maps.event.addDomListener(marker, 'mouseover', function() {
+
+infoWindow.setContent(marker['info']);
+
+
+infoWindow.open(map, marker);
+
+});
+
+
+markerBounds.extend(options.position);
+
+
+return marker;
+
+}
+
+
+google.maps.event.addListener(map, 'mouseout', function() {
+
+infoWindow.close();
+
+
+});
+
+
+var end = markers.length;
+
+for(var i=0; i<end; i++) {
+
+addMarker({
+
+position: markers[i]['position'],
+
+title: "Marker " + i,
+
+info: markers[i]['info']
+
+});
+
+}
+
+
+map.setCenter(markerBounds.getCenter());
+
+map.fitBounds(markerBounds);
+
+}
+
+</script>
+
+
+// function myMap() {
+
+  
+  
+//   var test= {lat:17.476258390208226, lng:78.41415982179828};
+// var map = new google.maps.Map(document.getElementById('map'), {
+//           zoom: 4,
+//           center: test
+//         });
+//        var marker = new google.maps.Marker({
+//         position: new google.maps.LatLng(3.167244, 101.612950),
+//         animation: google.maps.Animation.DROP,
+//         icon: 'https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/location-24-32.png',
+//     });
+//     marker.setMap(map);
+//     map.panTo(marker.position);
+//         // var marker = new google.maps.Marker({
+//         //   position: test,
+//         //   map: map
+//         // });
+
+//         $("#link1").click(function(){
+//     changeMarkerPos(3.165759, 101.611416);
+// });
+// $("#link2").click(function(){
+//     changeMarkerPos(3.165559, 101.612416);
+// });
+
+//         function changeMarkerPos(lat, lon){
+//     myLatLng = new google.maps.LatLng(lat, lon)
+//     marker.setPosition(myLatLng);
+//     map.panTo(myLatLng);
+// }
+
+// google.maps.event.addDomListener(window, 'load', initialize);
+
+
 </script> 
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1G6S6dJyf0FTtIRJp5WCNxOcHeMwS8U4&callback=myMap"></script>
@@ -201,7 +324,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
   <div style="margin-top:-75px;background-color:#b8aac9;width:70%;border-radius:10px;margin-left:15%;height:190px;align-items:center;z-index:0;padding:20px;position:absolute;padding-top:40px;padding-left:30px;">
     <div class="boxes to-top">
       <div style="padding-top:20px;padding-left:30px;">
-  <p style="margin-left:50px;font-weight:bold;font-size:20px;">Location</p>
+  <a href="#rnd" id="link1"><p style="margin-left:50px;font-weight:bold;font-size:20px;">Location</p></a>
   <p style="margin-left:50px;margin-top:5px;">VISIT US</p>
   <img src="location 2.png" align="left" height="40px" width="40px" style="margin-top:-45px;">
   <p style="margin-left:2px;margin-top:18px;font-size:20px;">Plot No.12-7-20/64/2/8,Opp.Rspot<br>
@@ -249,8 +372,8 @@ var map = new google.maps.Map(document.getElementById('map'), {
    </div>
    <div class="box2" style="margin-left: 882px;margin-top: -261px;font-size: 17px;">
     <strong style="margin-left: 0px;">Top Courses</strong> <br><br>
-    <p style="font-weight:normal;">Industrial Automation</p><br>
-  <p style="font-weight:normal;">Java</p><br>
+    <p style="font-weight:normal;">Mechanical Engineering</p><br>
+  <p style="font-weight:normal;">Information Technology</p><br>
   <p style="font-weight:normal;">Mysql</p><br>
   <p style="font-weight:normal;">Spring</p><br>
   <p style="font-weight:normal;">Angular</p><br>
@@ -283,5 +406,57 @@ var map = new google.maps.Map(document.getElementById('map'), {
         // offset: 300,
         // duration: 1000, 
       });
+    </script>
+
+    <script>
+      var marker;
+var map;
+
+
+
+function initialize() {
+    var styles = [{
+        stylers: [{
+            saturation: -100
+        }]
+    }];
+    var styledMap = new google.maps.StyledMapType(styles, {
+        name: "Styled Map"
+    });
+    var mapProp = {
+        center: new google.maps.LatLng(3.165659, 101.611416),
+        zoom: 17,
+        panControl: false,
+        zoomControl: false,
+        mapTypeControl: false,
+        scaleControl: true,
+        streetViewControl: false,
+        overviewMapControl: false,
+        rotateControl: true,
+        scrollwheel: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    map = new google.maps.Map(document.getElementById("map_canvas"), mapProp);
+  
+    map.mapTypes.set('map_style', styledMap);
+    map.setMapTypeId('map_style')
+
+    marker = new google.maps.Marker({
+        position: new google.maps.LatLng(3.167244, 101.612950),
+        animation: google.maps.Animation.DROP,
+        icon: 'https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/location-24-32.png',
+    });
+  
+    marker.setMap(map);
+    map.panTo(marker.position);
+}
+
+function changeMarkerPos(lat, lon){
+    myLatLng = new google.maps.LatLng(lat, lon)
+    marker.setPosition(myLatLng);
+    map.panTo(myLatLng);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 </body>

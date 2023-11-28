@@ -1,16 +1,30 @@
-.boxes {
-    width: 400px;
-    height: 100px;
-    display:inline-block;
-    background-size: 200% 200%;
-    transition: background-position 1s;
+@import "compass/css3";
+
+.main {
+  margin-top: 25px;
+}
+
+.nav-tabs {
+  border-bottom: none;
+  > li {
+    > a {
+      border: none;
+      border-radius: 0;
+      background-color: #eee;
+      &:hover {
+        background-color: #8845a6;
+        color: #fff;
+      }
+    }
+    &.active > a {
+      border: none;
+      background-color: #8845a6;
+      color: #fff;
+      &:hover, &:focus {
+        border: none;
+        background-color: #8845a6;
+        color: #fff;
+      }
+    }
   }
-  
-  .to-top{
-    background-image: linear-gradient(to top, red 50%, black 0);
-    background-position: top;
-  }
-  
-  .to-top:hover {
-    background-position: bottom;
-  }
+}

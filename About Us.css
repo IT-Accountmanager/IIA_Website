@@ -35,7 +35,7 @@
 
 .container{
   background-color: aquamarine;
-  height:695px;
+  height:700px;
 }
 .menu-bar ul
 {
@@ -214,13 +214,13 @@ opacity:0.9;
   font-size: 24px;
   margin-right: 50px;
   margin-top:20px;
-  margin-left: 600px;
+  margin-left: 10px;
   color: black;
 }
 .paragraph-3{
   font-size: 23px;
   margin-right: 50px;
-  margin-left: 600px;
+  margin-left:10px;
 
   color: #fff;
 }
@@ -521,7 +521,7 @@ margin-bottom: 5px;
 .paragraph-3{
   font-size: 30px;
   margin-right: 50px;
-  margin-left: 500px;
+  margin-left:10px;
   color: #fff;
 }
 .menu-bar2{
@@ -1356,19 +1356,20 @@ margin-bottom: 5px;
   .paragraph{
     font-size: 30px;
     margin-right: 50px;
-    margin-left: 900px;
+    margin-left: 30px;
+    margin-top:20px;
     color: #fff;
   }
   .paragraph-2{
     font-size: 30px;
     margin-right: 50px;
-    margin-left: 900px;
+    margin-left:30px;
     color: #fff;
   }
   .paragraph-3{
     font-size: 30px;
     margin-right: 50px;
-    margin-left: 980px;
+    margin-left:30px;
     color: #fff;
   }
   .login-container{
