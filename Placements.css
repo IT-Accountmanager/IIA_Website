@@ -20,18 +20,18 @@ top:calc(50% - 150px); */
 /* transition:.6s; */
 }
 .container{
-  height:255px;
-  background: linear-gradient(60deg, white 32.15%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
+  height:115px;
+  /* background: linear-gradient(60deg, white 32.15%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
 
 }
 .container-1{
-  height:148px;
-  background: linear-gradient(60deg, white 31.9%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
+  /* height:148px;
+  background: linear-gradient(60deg, white 31.9%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%); */
   
 }
 .container-2{
-  background: linear-gradient(120deg, white 31.2%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%);
-  height: 335px;
+  /* background: linear-gradient(120deg, white 31.2%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%); */
+  height: 35px;
 }
 
 .menu-bar ul
@@ -84,7 +84,7 @@ background-color:#4A148C;
 display: block;
 /* padding-right:10px; */
 text-align:center;
-width:200px;
+width:195px;
 height: 175px;
 padding-top:20px;
 transition:1.6s;
@@ -147,6 +147,7 @@ display: block;
 text-align:center;
 width:250px;
 margin-top:40px;
+height: 40px;
 margin-left: 10px;
 }
 .sub-menu-2 ul li{
@@ -193,11 +194,12 @@ opacity:0.9;
 .paragraph{
   font-size:  19.5px;
   margin-right: 50px;
-  margin-left: 560px;
-  margin-top: -40px;
+  margin-left: 60px;
+  margin-top: 40px;
+  width: 490px;
   color: #fff;
-  animation: waviy 1s 2 alternate;
-  animation-delay: calc(.1s * var(--i));
+  /* animation: waviy 1s 2 alternate;
+  animation-delay: calc(.1s * var(--i)); */
   
 }
 
@@ -269,7 +271,7 @@ opacity:0.9;
    
 }
 .ppl{
-  margin-top: 230px;
+  margin-top:880px;
 }
 .image-container1{
   margin-left: 600px;
@@ -636,6 +638,9 @@ div.scroll-container img {
   margin-left: 980px;
   color: #fff;
 } */
+.containergetintouch{
+  margin-top: -80px;
+}
 .login-container{
   max-width: 800px; /* Increase the maximum width */
    /* You can also use a fixed width in pixels if you prefer */
@@ -955,7 +960,9 @@ div.scroll-container img {
   
 
 
-
+.containergetintouch{
+  margin-top: -95px;
+}
 
 
 

@@ -140,12 +140,12 @@
   text-align:center;
   width:190px;
   margin-top:40px;
-  height: 170px;
+  height: 190px;
   /* margin: 10px; */
   }
   .sub-menu-1 ul li{
     width:165px;
-     padding:7px; 
+     padding:9px; 
   /* padding: 10px; */
   }
   .sub-menu-1 ul li:hover{
@@ -182,6 +182,7 @@
   text-align:center;
   width:200px;
   margin-top:40px;
+  height: 40px;
   margin-left: 12px;
   }
   .sub-menu-2 ul li{
@@ -218,8 +219,8 @@
     margin-left: 600px;
     color: #fff;
     margin-top:5px;
-    transform: scale(0.94);
-  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    /* transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1); */
   }
 
   @keyframes scale {
@@ -231,11 +232,11 @@
   .paragraph-2{
     font-size: 16px;
     margin-right: 150px;
-    margin-left: 400px;
+    margin-left: -400px;
     color: #fff;
-    margin-top: -358px;
-    transform: scale(0.94);
-  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    margin-top: 58px;
+    /* transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1); */
   }
   .paragraph-3{
     font-size: 16px;
@@ -869,7 +870,9 @@
   
 
 
-
+.containergetintouch{
+  margin-top: 300px;
+}
 
 
 

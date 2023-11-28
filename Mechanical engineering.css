@@ -15,14 +15,19 @@
 .container{
   /* background: linear-gradient(60deg, #4A148C 28.5%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 107px;
+  background-color:white;
 }
 .container-1{
   /* background: linear-gradient(60deg, #4A148C 33.35%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 146px;
+  background-color:white;
+
 }
 .container-2{
   /* background: linear-gradient(120deg, #4A148C 31.35%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%); */
- height: 325px;
+ height: 805px;
+ background-color:white;
+
 }
 
 
@@ -143,7 +148,8 @@ text-align:center;
 width:200px;
 z-index: 10px;
 margin-top:40px;
-margin-left: 20px;
+height: 40px;
+margin-left: 10px;
 }
 .sub-menu-2 ul li{
 width: 200px;
@@ -380,6 +386,9 @@ opacity:0.9;
    height: 334px;
   }
   */
+  .containergetintouch{
+    margin-top: -200px;
+  }
   .logo{
     color: #fff;
     text-align: left;
@@ -735,7 +744,9 @@ opacity:0.9;
 
 
 
-
+.containergetintouch{
+  margin-top: -30px;
+}
 
 .boxes {
   width:390px;

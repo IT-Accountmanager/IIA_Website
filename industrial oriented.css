@@ -14,15 +14,18 @@
   }
   .container{
     /* background: linear-gradient(60deg, #4A148C 30.6%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
-    height: 393px;
+    height: 793px;
+    background-color: aqua;
   }
    .container-1{
     /* background: linear-gradient(120deg, #4A148C 35.7%, #4A148C 16%, #4A148C 20%,#4A148C 20%, white 20%); */
     height: 0px;
+
   } 
   .container-2{
     margin-top:-100px;
-    height: 349px;
+    height: 409px;
+    background-color: aqua;
     /* background: linear-gradient(120deg, #4A148C 31.12%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%); */
   
   }
@@ -84,7 +87,7 @@ display: block;
 /* padding-right:10px; */
 text-align:center;
 margin-left: 0px;
-width:210px;
+width:195px;
 height: 190px;
 margin-top:50px;
 /* margin: 10px; */
@@ -134,6 +137,7 @@ background-color:#4A148C;
   z-index: 10px;
   margin-top:40px;
   margin-left: 10px;
+  height: 40px;
   }
   .sub-menu-2 ul li{
   width: 200px;
@@ -646,6 +650,13 @@ opacity:0.9;
 }
 
 
+.zooms:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zooms{
+  transition: transform .2s; 
+}  
 
 
 
@@ -656,7 +667,9 @@ opacity:0.9;
 
 
 
-
+.containergetintouch{
+  margin-top: 130px;
+}
 
 .boxes {
   width:390px;

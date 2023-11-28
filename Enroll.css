@@ -15,14 +15,17 @@
 .container{
   /* background: linear-gradient(60deg, #4A148C 28.46%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 106px;
+  background-color:white;
 }
 .container-1{
   /* background: linear-gradient(60deg, #4A148C 33.35%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 148px;
+  background-color: white;
 }
 .container-2{
   /* background: linear-gradient(120deg, #4A148C 31.25%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%); */
-  height: 464px;
+  height: 804px;
+  background-color: white;
 }
 .menu-bar ul
 {
@@ -84,7 +87,7 @@ background-color:indigo;
   /* padding-right:10px; */
   text-align:center;
   margin-left: 0px;
-  width:210px;
+  width:200px;
   height: 190px;
   margin-top:50px;
   /* margin: 10px; */
@@ -132,6 +135,7 @@ text-align:center;
 width:200px;
 z-index: 10px;
 margin-top:40px;
+height: 40px;
 margin-left: 10px;
 }
 .sub-menu-2 ul li{
@@ -322,7 +326,13 @@ opacity:0.9;
     }
 
 
-
+    .zooms:hover {
+      transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+    
+    .zooms{
+      transition: transform .2s; 
+    }  
 
 
     
@@ -345,6 +355,9 @@ opacity:0.9;
   background: linear-gradient(120deg, #4A148C 32.8%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
  height: 336px;
 } */
+.containergetintouch{
+  margin-top: 130px;
+}
 
 .logo{
   color: #fff;
@@ -694,7 +707,9 @@ opacity:0.9;
 /* get in touch new page code3 */
   
 
-
+.containergetintouch{
+  margin-top: 160px;
+}
 
 
 
