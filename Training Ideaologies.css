@@ -121,6 +121,7 @@ text-align:center;
 margin-left: 10px;
 width:200px;
 margin-top: 40px;
+height: 40px;
 }
 .sub-menu-2 ul li{
 width: 230px;
@@ -715,10 +716,26 @@ margin-top: -100px;
 
 /* get in touch new page code3 */
   
+#pune:hover{
+  color:green;
+}
+
+#hy:hover{
+  color:green;
+}
+
+#che:hover{
+  color:green;
+}
+
+#tel:hover{
+  color:green;
+}
 
 
-
-
+.containergetintouch{
+  margin-top: 220px;
+}
 
 
 .boxes {
@@ -741,7 +758,7 @@ margin-top: -100px;
 }
 
 .boxes1 {
-  width:380px;
+  width:390px;
   height: 190px;
   margin-left:30%;
   margin-top:-190px;

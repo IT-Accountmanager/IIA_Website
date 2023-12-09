@@ -130,6 +130,7 @@ text-align:center;
 width:250px;
 margin-top:40px;
 margin-left: 10px;
+height: 40px;
 }
 .sub-menu-2 ul li{
 width: 280px;
@@ -320,6 +321,10 @@ margin-bottom: 5px;
   background: linear-gradient(120deg, #4A148C 33%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
  height: 334px;
 } */
+
+.containergetintouch{
+  margin-top: 230px;
+}
 
 .logo{
   color: #fff;
@@ -665,6 +670,21 @@ margin-bottom: 5px;
 /* get in touch new page code3 */
   
 
+#pune:hover{
+  color:green;
+}
+
+#hy:hover{
+  color:green;
+}
+
+#che:hover{
+  color:green;
+}
+
+#tel:hover{
+  color:green;
+}
 
 
 
@@ -690,7 +710,7 @@ margin-bottom: 5px;
 }
 
 .boxes1 {
-  width:380px;
+  width:390px;
   height: 190px;
   margin-left:30%;
   margin-top:-190px;

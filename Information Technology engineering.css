@@ -34,7 +34,7 @@ gap:15px;
 
 }
 .menu-bar ul li{
-width: 132px;
+width: 148px;
 left: 100;
 margin: 15px;
 margin-top:-32px;
@@ -90,7 +90,7 @@ padding-bottom: 20px;
   width:210px;
   /* padding-top:10px; */
   transition:1.6s;
-  height: 190px;
+  height: 55px;
   margin-top:50px;
   /* margin: 10px; */
   -webkit-transition: height 0.3s ease;
@@ -99,7 +99,7 @@ padding-bottom: 20px;
   
   .sub-menu-1 ul li{
     width:165px;
-     padding:9px; 
+     padding:3px; 
      gap:90px;
   /* padding: 10px; */
   }
@@ -177,11 +177,11 @@ opacity:0.9;
 .paragraph{
 
   font-size: 22px;
-margin-top: 40px;
+margin-top: 85px;
 /* margin-bottom: 3px; */
-  margin-left: 600px;
+  margin-left: 50px;
   color: #fff;
-  transform: scale(0.94);
+  /* transform: scale(0.94); */
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
 @keyframes scale {
@@ -223,10 +223,10 @@ margin-top: 40px;
   margin-right: 8px;
   margin-left: -40px;
 }
-.Angular:hover{
+/* .Angular:hover{
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
-}
+} */
 .angularjs{
   width:235px;
   /* margin-top:100px; */
@@ -303,11 +303,11 @@ margin-top: 40px;
     to{ transform: translateX(0px); }
   }
 
-  .img-container2:hover{
+  /* .img-container2:hover{
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
 
-  }
+  } */
   .move{
     animation: rotate 1.6s linear; 
   }
@@ -697,7 +697,10 @@ margin-top: 40px;
   }
    
 
-  
+  .Angular{
+    margin-top: 300px;
+    margin-left: -150px;
+  }
   
   
   

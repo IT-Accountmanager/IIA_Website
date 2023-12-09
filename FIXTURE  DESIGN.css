@@ -80,14 +80,26 @@
   }
   .container-1{
     /* background: linear-gradient(60deg, #4A148C 32.55%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);   */
-    height: 210px;
+    height: 91vh;
+    margin-top: -14.5vw;
+    background-image:url(pcp18.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
   }
   .container-2{
     /* background: linear-gradient(120deg, #4A148C 33.1%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   }
   .container-3{
     /* background: linear-gradient(120deg, #4A148C 26.9%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%); */
-    height: 279.5px;
+    height: 95vh;
+    background-image:url(pcp19.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -14.7vw;
+   
   }
   .menu-bar ul
   {
@@ -97,8 +109,8 @@
   gap: -10px;
   }
   .menu-bar ul li{
-    width: 148px;
-    left: -8px;
+    width: 172px;
+    left: 8px;
     margin: 15px;
     margin-top:-32px;
     padding: 65px 0px 0px 0px;
@@ -124,7 +136,7 @@
   }
   .sub-menu-1{
   display: none;
-  margin-left: -12px;
+  margin-left: -32px;
   z-index: 1;
   }
   .menu-bar ul li:hover .sub-menu-1{
@@ -135,19 +147,22 @@
   background-color:indigo;
   }
   .sub-menu-1 ul{
-  display: block;
-  /* padding-right:10px; */
-  text-align:center;
-  width:190px;
-  margin-top:40px;
-  height: 190px;
-  /* margin: 10px; */
-  }
-  .sub-menu-1 ul li{
-    width:165px;
-     padding:9px; 
-  /* padding: 10px; */
-  }
+    display: block;
+    /* padding-right:10px; */
+    text-align:center;
+    width:200px;
+    margin-top:5px;
+    margin-left: -10px;
+    height: 65px;
+    /* margin: 10px; */
+    }
+    
+    .sub-menu-1 ul li{
+      width:165px;
+       padding:6px; 
+    /* padding: 10px; */
+    gap:40px;
+    }
   .sub-menu-1 ul li:hover{
     width:175px;
     background-color:#EF6C00;
@@ -182,7 +197,7 @@
   text-align:center;
   width:200px;
   margin-top:40px;
-  height: 40px;
+  height: 55px;
   margin-left: 12px;
   }
   .sub-menu-2 ul li{
@@ -213,6 +228,20 @@
     font-size: 25px;
 
   }
+
+  .divstyle{
+    position:fixed;
+    width:100%;
+    margin-top:4.55vw;
+    /* margin-top:70px; */
+    background:rgb(216, 215, 215);
+    height:54px;
+    z-index: 0;
+    display: flex;
+  }
+
+
+
   .paragraph{
     font-size: 16px;
     margin-right: 50px;
@@ -896,7 +925,7 @@
 }
 
 .boxes1 {
-  width:380px;
+  width:390px;
   height: 190px;
   margin-left:30%;
   margin-top:-190px;
@@ -932,3 +961,27 @@
 .to2-top2:hover {
   background-position: bottom;
 }
+
+#pune:hover{
+  color:green;
+}
+
+#hy:hover{
+  color:green;
+}
+
+#che:hover{
+  color:green;
+}
+
+#tel:hover{
+  color:green;
+}
+.zooms:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zooms{
+  transition: transform .2s; 
+}  
+

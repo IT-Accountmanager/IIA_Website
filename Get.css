@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+
 .menu-bar{
   margin-top: 0%;
   margin-left: 0%;
@@ -410,6 +412,23 @@ background-color: aliceblue;
  
 }
 
+#pune:hover{
+  color:green;
+}
+
+#hy:hover{
+  color:green;
+}
+
+#che:hover{
+  color:green;
+}
+
+#tel:hover{
+  color:green;
+}
+
+
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 62%;
@@ -500,7 +519,7 @@ a {
   }
   
   .boxes2 {
-    width:350px;
+    width:400px;
     height: 190px;
     margin-left:65%;
     margin-top:-190px;

@@ -1,25 +1,20 @@
-// Get the element to animate
-const element = document.querySelector('.my-element');
-
-// Define the options for the Intersection Observer
-const options = {
-  root: null,
-  rootMargin: '0px',
-  threshold: 0.5
-};
-
-// Create a new Intersection Observer
-const observer = new IntersectionObserver(function(entries, observer) {
-  entries.forEach(entry => {
-    // If element is in viewport, add the 'show' class to trigger the animation
-    if (entry.isIntersecting) {
-      element.classList.add('show');
-    }
-    else {
-      element.classList.remove('show');
+$( document ).ready(function() {
+  var ctrlVideo = document.getElementById("video"); 
+   
+  $('button').click(function(){
+    if ($('button').hasClass("active")){
+      
+          ctrlVideo.play();
+      
+      $('button').html("Pause");
+      $('button').toggleClass("active");
+    } else {
+      
+          ctrlVideo.pause();
+      
+      $('button').html("play");
+      $('button').toggleClass("active");
     }
   });
-}, options);
-
-// Start observing the element
-observer.observe(element);
+   
+  });
