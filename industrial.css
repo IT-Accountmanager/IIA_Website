@@ -24,10 +24,12 @@
   background-color: white;
   background-image:url(pcp22.PNG);
     width: 98.88vw;
-    background-repeat: no-repeat;
-    background-position: center;
-   
-    background-size: cover;
+    position: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
 }
 .container-2{
   /* background: linear-gradient(120deg, #4A148C 31.25%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%); */
