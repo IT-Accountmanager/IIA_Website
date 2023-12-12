@@ -19,8 +19,8 @@
 }
 .container-1{
   /* background: linear-gradient(60deg, #4A148C 33.35%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%); */
-  height: 43vw;
-  margin-top: -1.7vw;
+  height: 44vw;
+  margin-top: -1.8vw;
   background-color: white;
   background-image:url(pcp22.PNG);
     width: 98.88vw;
@@ -85,7 +85,7 @@ padding-bottom: 20px;
  margin-right: 8px;
 }
 .sub-menu-1{
-  margin-left:-102px;
+  margin-left:-122px;
 display: none;
 z-index: 1;
 }
@@ -131,7 +131,7 @@ background-color:#784aac;
 opacity:0.9;
 }
 .sub-menu-2{
-  margin-left:-75px;
+  margin-left:-95px;
 display: none;
 width:250px;
 z-index:1;

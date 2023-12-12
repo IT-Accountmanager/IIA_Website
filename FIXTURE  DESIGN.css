@@ -109,7 +109,7 @@
   gap: -10px;
   }
   .menu-bar ul li{
-    width: 172px;
+    width: 152px;
     left: 8px;
     margin: 15px;
     margin-top:-32px;
@@ -136,7 +136,7 @@
   }
   .sub-menu-1{
   display: none;
-  margin-left: -32px;
+  margin-left: -122px;
   z-index: 1;
   }
   .menu-bar ul li:hover .sub-menu-1{
@@ -180,7 +180,7 @@
   opacity:0.9;
   }
   .sub-menu-2{
-    margin-left:-25px;
+    margin-left:-105px;
   display: none;
   width:250px;
   z-index: 1;
@@ -198,7 +198,7 @@
   width:200px;
   margin-top:40px;
   height: 55px;
-  margin-left: 12px;
+  margin-left: -0px;
   }
   .sub-menu-2 ul li{
   width: 230px;
@@ -984,4 +984,55 @@
 .zooms{
   transition: transform .2s; 
 }  
+/* Sub menu bar css Code */
 
+
+.droapdown{
+  display: none;
+  z-index:1;
+}
+
+.droapdown{
+  margin-left: 220.8px;
+  margin-top: -28.7px;
+  height: 100px;
+  width: 50px;
+}
+
+.sub-menu-2 ul li:hover .droapdown{
+  display:block;
+  position: absolute;
+  /* z-index: 1; */
+  width: 210px;
+  /* height: 1px; */
+  background-color:#784aac;
+  opacity:0.9;
+}
+
+.droapdown ul{
+  display:inline-block;
+  text-align:center;
+  width:200px;
+  z-index: 1;
+  margin-top:40px;
+  height: 0px;
+  margin-left: -23px;
+  text-align: center;
+  cursor: default;
+  }
+  .droapdown ul li{
+  width: 200px;
+  padding:6px;
+ gap: 15px;
+margin-left: 15px; 
+text-decoration: none;
+ /* position: absolute;
+  */
+  /* padding: 10px; */
+  }
+  .droapdown ul li:hover{
+    z-index: 0;
+    width:190px;
+    background-color:#EF6C00;
+  /* padding: 10px; */
+  }

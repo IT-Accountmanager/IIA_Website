@@ -47,12 +47,14 @@
   background-size: cover;
   display: flex;
 }
+
 .menu-bar ul
 {
 display: inline-flex;
 list-style: none;
 color: #fff;
 gap: -10px;
+
 }
 .divstyle{
   position:fixed;
@@ -64,14 +66,15 @@ gap: -10px;
   z-index: 0;
   display: flex;
 }
+
 .menu-bar ul li{
-  width: 153.5px;
-  left: 100;
-  margin: 15px;
-  margin-top:-32px;
-  padding: 65px 0px 0px 0px;
-  position: relative;
-  }
+width: 152px;
+left: 100;
+margin: 15px;
+margin-top:-32px;
+padding: 65px 0px 0px 0px;
+position: relative;
+}
 .menu-bar ul li a
 {
    text-decoration: none;
@@ -79,8 +82,8 @@ gap: -10px;
 }
 .active, .menu-bar ul li
 {
-  padding-bottom:20px;
 text-align:center;
+padding-bottom: 20px;
   border-radius: 2px;
 }
 .active, .menu-bar ul li:hover{
@@ -91,7 +94,7 @@ text-align:center;
  margin-right: 8px;
 }
 .sub-menu-1{
-  margin-left:-90px;
+  margin-left:-120px;
 display: none;
 z-index: 1;
 }
@@ -100,7 +103,7 @@ display: block;
 /* position: absolute; */
 left: 0;
 top: 100%;
-background-color:#4A148C;
+background-color:indigo;
 }
 .sub-menu-1 ul{
   display: block;
@@ -108,7 +111,7 @@ background-color:#4A148C;
   text-align:center;
   width:200px;
   margin-top:5px;
-  margin-left: -10px;
+  margin-left: 10px;
   height: 65px;
   /* margin: 10px; */
   }
@@ -119,12 +122,12 @@ background-color:#4A148C;
   /* padding: 10px; */
   gap:40px;
   }
-
-.sub-menu-1 ul li:hover{
-  width:173px;
-  background-color:#EF6C00;
-/* padding: 10px; */
-}
+  
+  .sub-menu-1 ul li:hover{
+    width:170px;
+    background-color:#EF6C00;
+  /* padding: 10px; */
+  }
 .sub-menu-1{
 display: none;
 }
@@ -137,10 +140,10 @@ background-color:#784aac;
 opacity:0.9;
 }
 .sub-menu-2{
-  margin-left:-75px;
+  margin-left:-85px;
 display: none;
-width:230px;
-z-index: 1;
+width:250px;
+z-index:1;
 }
 .menu-bar ul li:hover .sub-menu-2{
 display: block;
@@ -148,21 +151,24 @@ position: absolute;
 left: 0;
 top: 100%;
 background-color:#4A148C;
+
 }
 .sub-menu-2 ul{
 display: block;
 text-align:center;
 width:200px;
-margin-top: 40px;
-height: 40px;
+z-index: 10px;
+margin-top:40px;
+height: 20px;
+margin-left: 10px;
 }
 .sub-menu-2 ul li{
-width: 230px;
-padding:7px;
+width: 200px;
+padding:5px;
 /* padding: 10px; */
 }
 .sub-menu-2 ul li:hover{
-  width:210px;
+  width:200px;
   background-color:#EF6C00;
 /* padding: 10px; */
 }
@@ -177,6 +183,7 @@ top: 100%;
 background-color:#784aac;
 opacity:0.9;
 }
+
 .logo{
   color: #fff;
   text-align: left;

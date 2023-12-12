@@ -48,6 +48,9 @@
   /* background: linear-gradient(120deg, #4A148C 31.12%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%); */
 
 }
+
+
+
 .menu-bar ul
 {
 display: inline-flex;
@@ -56,7 +59,7 @@ color: #fff;
 gap:10px;
 }
 .menu-bar ul li{
-width: 165.8px;
+width: 135.8px;
 left: 100;
 margin: 15px;
 margin-top:-32px;
@@ -92,7 +95,7 @@ border-radius: 2px;
 margin-right: 8px;
 }
 .sub-menu-1{
-margin-left: -20px;
+margin-left: -110px;
 display: none;
 z-index:1;
 }
@@ -141,7 +144,7 @@ opacity:0.9;
 
 
 .sub-menu-2{
-margin-left:15px;
+margin-left:-80px;
 display: none;
 width:220px;
 height: 50px;

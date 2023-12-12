@@ -12,7 +12,7 @@
   margin-right: 2%;
   text-decoration: white;
   width: 100%;
-  /* background: linear-gradient(60deg,  #4A148C 24.35%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%); */
+  
   text-align: right;
   display: flex;
 }
@@ -44,6 +44,12 @@
   display: flex;
   height:50vw;
 }
+
+
+
+
+
+
 .menu-bar ul
 {
 display: inline-flex;
@@ -119,7 +125,7 @@ background-color:#EF6C00;
 /* padding: 10px; */
 }
 .sub-menu-1{
-margin-left:-6.6vw;
+margin-left:-12.6vw;
 display: none;
 transition:1.6s;
 }
@@ -133,7 +139,7 @@ background-color:#784aac;
 opacity:0.9;
 }
 .sub-menu-2{
-margin-left:-6.4vw;
+margin-left:-11.5vw;
 display: none;
 width:250px;
 text-align: center;
@@ -175,6 +181,10 @@ top: 100%;
 background-color:#784aac;
 opacity:0.9;
 }
+
+
+
+
 .divstyle{
   position:fixed;
   width:100%;
@@ -227,17 +237,16 @@ opacity:0.9;
   margin-left: -40px;
 }
 
-/* .home{
-  margin-left:0.1vw;
-  text-align:center;
+.home{
+  /* margin-left:-2.9vw; */
+  margin-top: 0%; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 21px;
   font-weight: bold;
-  font-size: 19px;
-  margin-left:-80%;
-   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-size: 1.3rem;
-   font-weight: bold;
-   display: grid;
-} */
+  padding-right: -10%;
+  
+  
+}
 .home:hover{
   /* transform: scale(1.25); */
   color:blue;
@@ -426,9 +435,9 @@ margin-bottom: 5px;
   text-align:center;
   /* display: block; */
 }
-.home{
+.k{
   /* width: 130px; */
-  margin-left:0.1vw;
+  /* margin-left:0.1vw; */
   /* text-align:center; */
 }
 .techno{
@@ -997,11 +1006,11 @@ margin-bottom: 5px;
 }
 
 
-.home{
-  /* width: 130px; */
-  margin-left:10px;
+/* .home{
+  
+  margin-left:20px;
   text-align:center;
-}
+} */
 .techno{
   width:160px;
   position: relative;
@@ -1207,10 +1216,10 @@ margin-bottom: 5px;
   }
   
   
-  .home{
+  .k{
     /* width: 130px; */
-    margin-left:10px;
-    text-align:center;
+    /* margin-left:10px;
+    text-align:center; */
   }
   .techno{
     width:160px;
@@ -1335,10 +1344,10 @@ margin-bottom: 5px;
       text-align:center;
       /* display: block; */
     }
-    .home{
+    .k{
       /* width: 130px; */
-      margin-left:10px;
-      text-align:center;
+      /* margin-left:10px;
+      text-align:center; */
     }
     .techno{
       width:160px;
@@ -1554,10 +1563,10 @@ margin-bottom: 5px;
   }
   
   
-  .home{
+  .k{
     /* width: 130px; */
-    margin-left:10px;
-    text-align:center;
+    /* margin-left:10px;
+    text-align:center; */
   }
   .techno{
     width:160px;
@@ -1819,8 +1828,20 @@ margin-bottom: 5px;
     background-position: bottom;
   }
   
+  /* .sts{
+    margin-left: 20px;
+    max-width: 400px;
+  } */
   
-  
+/* .hydadress{
+
+display: flex;
+
+}
+ */
+
+
+
 
 
   /* Sub menu bar css Code */
@@ -2390,5 +2411,11 @@ text-decoration: none;
     }
   }
 
+  @media only screen and (max-width:2560px){
 
+
+
+
+
+  }
 
