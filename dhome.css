@@ -11,7 +11,7 @@
     margin-right: 2%;
     text-decoration: white;
     width: 100%;
-    
+    background-image: linear-gradient(to right, rgb(41, 41, 86) , rgb(255, 115, 0));
     text-align: right;
     display: flex;
   }
@@ -798,9 +798,9 @@ margin-right:20px;
   width:100%;
   margin-top:0px;
   /* margin-top:70px; */
-  background:rgb(216, 215, 215);
+  background-image: linear-gradient(to right, rgb(41, 41, 86) , rgb(255, 115, 0));
   height:54px;
-  z-index: 0;
+  z-index: 1;
   display: flex;
 }
 
@@ -979,6 +979,7 @@ tr:nth-child(even) {
   width:100%;
   /* background:linear-gradient(to right, rgb(101, 87, 126) , rgb(253, 136, 10)); */
   height:370px;
+  z-index: 0;
   
 }
 .menu-bar2{
@@ -2385,8 +2386,10 @@ to {opacity:1 ;}
     position:fixed;
     width:100%;
     margin-top:-90px;
-    background-color:#E8E8E6;
+    background-image: linear-gradient(to right, rgb(41, 41, 86) , rgb(255, 115, 0));
     height:40px;
+    z-index: 0;
+    display: flex;
   }
   
   .linkedinsty{
@@ -2936,3 +2939,39 @@ text-decoration: none;
   }
 
   
+
+
+
+  @media only screen and (max-width: 600px) {
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    
+    .divstyle{
+      position:fixed;
+      width:100%;
+      margin-top:0px;
+      /* margin-top:70px; */
+      background-image: linear-gradient(to right, rgb(41, 41, 86) , rgb(255, 115, 0)); 
+      height:48px;
+      position: fixed;
+      width:100%;
+      z-index: 0;
+      height:54px;
+     
+      display: flex;
+    }
+.rows{
+  padding: 0,-3.8vh;
+  display: flex;
+}
+
+
+
+
+
+
+
+}
