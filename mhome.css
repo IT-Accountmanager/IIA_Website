@@ -28,34 +28,34 @@
   }
   .link{
     margin-left:14%;
-    margin-top: 8%;
+    margin-top: 7%;
   }
   .fac{
     margin-left:4%;
-    margin-top: 8%;
+    margin-top: 7%;
     margin-bottom: -88%;
   }
   .twr{
-   margin-top: 9%;
+   margin-top: 7%;
    margin-left: 5%;
   }
   .gog{
     margin-left: 7%;
-     margin-top: 9%; 
+     margin-top: 7%; 
   }
 .int{
     margin-left: 6%; 
-    margin-top: 8.5%;
+    margin-top: 7%;
 }
 .ut{
     margin-left:5%;
-    margin-top: 9%;
+    margin-top: 7%;
 }
 .ph{
    
     width: 27%;
      height: 1.35vw;
-    margin-left:512%;
+    margin-left:502%;
     margin-top: 8%;
       color: black;
       font-weight: bold;
@@ -66,14 +66,14 @@
     color:black;
     width:20%;
     display: flex;
-    margin-left: 95%;
+    margin-left: 105%;
     margin-top: 8.5%;
 }
 .wt{
     color: black; 
     font-size:21px;
     display: flex;
-    margin-left: -130%;
+    margin-left: -108%;
     margin-top: 8%;
     margin-right: 6%;
 }
@@ -323,7 +323,7 @@ opacity:0.9;
 }
 .vd1{
   margin-top:150px;
-  margin-left:38.5%;
+  margin-left:37.5%;
 }
 .btn{
   display: flex;
@@ -340,24 +340,24 @@ opacity:0.9;
  width: 1500%;
   font-size:27px;
   display: flex;
-  margin-top: -31%;
-  margin-left: 144px;
-  margin-right: 40%;
+  margin-top: -41%;
+  margin-left: 124px;
+  margin-right: 80%;
 }
 .ind{
   margin-top:-420px;
- margin-left: -58vw;
+ margin-left: -115vw;
  margin-right: 25vw;
- width: 180%;
-  font-size:38px;
+ width: 980%;
+  font-size:48px;
   color: rgb(224, 231, 231);
 }
 .homepa{
   margin-right:1050px;
-  width:1595%;
+  width:3595%;
   margin-top:-270px;
  margin-left: -50%;
-
+width: 50%;
   font-size:25px;
   color: rgb(224, 231, 231);
 }
@@ -480,10 +480,11 @@ text-decoration: none;
 .sec{
   border-left:2px solid;
   margin-left:29%;
+  margin-top: 24px;
 }
 .cc2{
   margin-left:7%;
-  margin-top: 2%;
+ 
   font-weight:bold;
   font-size:25px;
   color:black;
@@ -491,6 +492,7 @@ text-decoration: none;
 .sec2{
   border-left:2px solid;
   margin-left:48%;
+  margin-top: 2px;
 }
 .wor{
   margin-left:10%;
@@ -502,10 +504,11 @@ text-decoration: none;
 .sec3{
   border-left:2px solid;
   margin-left:73%;
+  margin-top: 34px;
 }
 .cou{
   margin-left:15%;
-  margin-top: 9%;
+ 
   font-weight:bold;
   font-size:25px;
   color:black;
