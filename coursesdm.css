@@ -1128,13 +1128,301 @@
           
           .to2-top2{
             background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
-            background-position: top;
+            /* background-position: top; */
           }
           
           .to2-top2:hover {
             background-position: bottom;
           }
-          
+          .getbb{
+            background-color:#b8aac9;
+               width:70%;
+               /* border-radius:10px; */
+               margin-left:15%;
+               height:190px;
+               align-items:center;
+               padding:20px;
+               position:absolute;
+               padding-top:40px;
+               padding-left:30px;
+             
+             }
+             .getbb2{
+               padding-top:20px;
+               padding-left:30px;
+             }
+             .getll{
+               margin-left:50px;
+               font-weight:bold;
+               font-size:20px;
+               margin-top:5px;
+             }
+             .getvist{
+               margin-left:50px;
+               margin-top:5px;
+             }
+           .getimgll{
+               margin-top:-45px;
+           }
+           .getpune{
+               margin-left:2px;
+               margin-top:65px;
+               font-size:20px;
+           }
+           .getbangl{
+               margin-left:2px;
+               margin-top:2px;
+               font-size:20px;
+           }
+           .gethyd{
+               margin-left:2px;
+               margin-top:2px;
+               font-size:20px;
+           }
+           .getchen{
+               margin-left:2px;
+               margin-top:1px;
+               font-size:20px;
+           }
+            .getbox1{
+               padding-left:-15%;
+               padding-top:20px;
+            } 
+             .getmakec{
+               margin-left:50px;
+               font-weight:bold;
+               font-size:20px;
+               margin-top:5px;
+             }
+           
+           .getlets{
+               margin-left:50px;
+               margin-top:5px;
+           }
+           .gethed{
+               margin-top:-60px;
+           }
+           .gethmobile{
+               margin-left:48px;
+               margin-top:77px;
+               font-size:20px;
+           }
+           .gettime{
+               margin-top:4px;
+               margin-left:48px;
+               font-size: 20px;
+           }
+           .getbox2{
+               padding-left:10%;
+               padding-top:20px;
+           }
+           .getsend{
+               margin-left:50px;
+               font-weight:bold;
+               font-size:20px;
+               padding-top:-25px;
+               margin-top:4px;
+           }
+           .getdon{
+               margin-left:50px;
+               margin-top:5px;
+           }
+           .getmailimg{
+               margin-top:-65px;
+           }
+           .getm1{
+               margin-left:5px;
+               margin-top:80px;
+               font-size:20px;
+           }
+           .getm2{
+               margin-left:5px;
+               margin-top:2px;
+               font-size:20px;
+           }
+           .getmiddile{
+               background-color:#7c47bd;
+               height:100%;
+               z-index:0;
+               margin-top:45px;
+               display: flex;
+               width: 100%;
+               z-index: -1;
+               position: relative;
+           }
+           .getmidimg{
+               margin-top:50px;
+               margin-left:70px;
+               margin-right:10px;
+           }
+           .getiia{
+               padding-top:200px;
+               margin-left: -40px;
+               text-align:center;
+               width:380px;
+               padding-bottom:-10px;
+               font-size:25px;
+           }
+           .getpara{
+               width:520px;
+               padding-top:280px;
+             margin-left: -390px;
+               text-align:justify;
+               font-size:22px;
+               padding-bottom:30px;
+           }
+           .box1{
+               margin-left: 80px;
+               margin-top:200px;
+               font-size: 17px;
+               z-index:0;
+               padding-top:-190px;
+           }
+           .mainlink{
+               margin-left:20px;
+               margin-top: 5px;
+           }
+           /* .gethome{
+               text-decoration:none;
+               color:black;
+               font-weight:normal;
+               margin-left:20px;
+               padding-top:20px;
+           } */
+           
+           .box3{
+               margin-left: 600px;
+               margin-top: 200px;
+               font-size: 17px;
+           }
+           .getconnect{
+               margin-left:-170px;
+           }
+           
+           
+           .getpunead{
+               margin-top:3px;
+               margin-left: -60px;
+           }
+           .gpune1{
+               font-weight:normal;
+               margin-left:-400px;
+           }
+           .gpune2{
+               font-weight:normal;
+               margin-left:-400px;
+           }
+           .gpune3{
+               font-weight:normal;
+               margin-left:-400px;
+           }
+           .gpune4{
+               font-weight:normal;
+               margin-left:-400px;
+           }
+           .gpune5{
+               font-weight:normal;
+               margin-left:-400px;
+           }
+           .gpune6{
+               font-weight:normal;
+               margin-left:-400px;
+           }
+           .gethydadr{
+               font-weight:normal;
+               margin-left:-28px;
+           }
+           .ghyd1{
+               font-weight:normal;
+               margin-left:-27px;
+           }
+           .ghyd2{
+               font-weight:normal;
+               margin-left:-27px;
+           }
+           .ghyd3{
+               font-weight:normal;
+               margin-left:-26px;
+           }
+           .ghyd4{
+               font-weight:normal;
+               margin-left:-26px;
+           }
+           .ghyd5{
+               font-weight:normal;
+               margin-left:-26px;
+           }
+           .gchennai{
+               font-weight:normal;
+               margin-left:-462px;
+           }
+           .gchain1{
+               font-weight:normal;
+               margin-left:-461px;
+           }
+           .gchain2{
+               font-weight:normal;
+               margin-left:-461px;
+           }
+           .gchain3{
+               font-weight:normal;
+               margin-left:-461px;
+           }
+           .gchain4{
+               font-weight:normal;
+               margin-left:-461px;
+           }
+           .gchain5{
+               font-weight:normal;
+               margin-left:-461px;
+           }
+           .gbanglor{
+               font-weight:normal;
+               margin-left:-85px;
+               width: 350px;
+           }
+           .gbang1{
+               font-weight:normal;
+               margin-left:-85px;
+           }
+           .gbang2{
+               font-weight:normal;
+               margin-left:-85px;
+           }
+           .gbang3{
+               font-weight:normal;
+               margin-left:-85px;
+           }
+           .gbang4{
+               font-weight:normal;
+               margin-left:-85px;
+           }
+           .gbang5{
+               font-weight:normal;
+               margin-left:-85px;
+           }
+            .footer{
+               background-color:#a47fd1;
+               height:30px;
+               width: 100%;
+               text-align: center;
+               margin-left: 00%;
+               margin-top: 0px;
+               /* margin-top:520px;
+               margin-left: -1730px;
+               width: 1815px;
+               text-align: center;
+               display: flex; */
+            } 
+            .footerp{
+               color:white;
+               text-align:center;
+               margin-left: 50px;
+               font-weight:normal;
+               padding-top:5px;
+            }
+           
+           
           
           
           
@@ -1194,7 +1482,7 @@
   @media screen and (max-width: 1360px) {
     .home{
  
-      margin-left: 12.5%;
+      margin-left: 15.5%;
        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        font-size: 1.35vw;
        font-weight: bold;
@@ -1206,7 +1494,8 @@
      padding-left:0%;
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       /* width: 240px; */
-      margin-left: -4%;
+      margin-left: -4.5%;
+      margin-right: -0%;
       font-size: 1.35vw;
       font-weight: bold;
       display: flex;
@@ -1216,7 +1505,7 @@
        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        font-size: 1.35vw;
        font-weight: bold;
-       margin-left: -30%; /* Adjusted positive margin */
+       margin-left: -24%; /* Adjusted positive margin */
        margin-right: 5%; /* Adjusted positive margin on the right */
        display: flex;
      }
@@ -1270,7 +1559,7 @@
            
         width: 27%;
          height: 1.35vw;
-        margin-left:7252%;
+        margin-left:6752%;
         margin-top: 142%;
           color: black;
           font-weight: bold;
@@ -1297,7 +1586,7 @@
         font-family: Arial, Helvetica, sans-serif;
         color:black;
         display: flex;
-        margin-left: 750%;
+        margin-left: 715%;
       }
       .num{
         color:black;
@@ -1305,12 +1594,278 @@
         text-align:center;
         margin-top:16%;
         width: 100%;
-        margin-left:745%;
+        margin-left:700%;
         list-style-type: none;
          font-family: Arial, Helvetica, sans-serif;
          display: flex;
       }
-      
+      .getbb{
+        background-color:#b8aac9;
+           width:70%;
+           /* border-radius:10px; */
+           margin-left:15%;
+           height:190px;
+           align-items:center;
+           padding:20px;
+           position:absolute;
+           padding-top:40px;
+           padding-left:30px;
+         
+         }
+         .getbb2{
+           padding-top:20px;
+           padding-left:30px;
+         }
+         .getll{
+           margin-left:50px;
+           font-weight:bold;
+           font-size:20px;
+           margin-top:5px;
+         }
+         .getvist{
+           margin-left:50px;
+           margin-top:5px;
+         }
+       .getimgll{
+           margin-top:-45px;
+       }
+       .getpune{
+           margin-left:2px;
+           margin-top:65px;
+           font-size:20px;
+       }
+       .getbangl{
+           margin-left:2px;
+           margin-top:2px;
+           font-size:20px;
+       }
+       .gethyd{
+           margin-left:2px;
+           margin-top:2px;
+           font-size:20px;
+       }
+       .getchen{
+           margin-left:2px;
+           margin-top:1px;
+           font-size:20px;
+       }
+        .getbox1{
+           padding-left:-15%;
+           padding-top:20px;
+        } 
+         .getmakec{
+           margin-left:50px;
+           font-weight:bold;
+           font-size:20px;
+           margin-top:5px;
+         }
+       
+       .getlets{
+           margin-left:50px;
+           margin-top:5px;
+       }
+       .gethed{
+           margin-top:-60px;
+       }
+       .gethmobile{
+           margin-left:48px;
+           margin-top:77px;
+           font-size:20px;
+       }
+       .gettime{
+           margin-top:4px;
+           margin-left:48px;
+           font-size: 20px;
+       }
+       .getbox2{
+           padding-left:10%;
+           padding-top:20px;
+       }
+       .getsend{
+           margin-left:50px;
+           font-weight:bold;
+           font-size:20px;
+           padding-top:-25px;
+           margin-top:4px;
+       }
+       .getdon{
+           margin-left:50px;
+           margin-top:5px;
+       }
+       .getmailimg{
+           margin-top:-65px;
+       }
+       .getm1{
+           margin-left:5px;
+           margin-top:80px;
+           font-size:20px;
+       }
+       .getm2{
+           margin-left:5px;
+           margin-top:2px;
+           font-size:20px;
+       }
+       .getmiddile{
+           background-color:#7c47bd;
+           height:100%;
+           z-index:0;
+           margin-top:45px;
+           display: flex;
+           width: 100%;
+           z-index: -1;
+           position: relative;
+       }
+       .getmidimg{
+           margin-top:50px;
+           margin-left:70px;
+           margin-right:10px;
+       }
+       .getiia{
+           padding-top:200px;
+           margin-left: -40px;
+           text-align:center;
+           width:380px;
+           padding-bottom:-10px;
+           font-size:25px;
+       }
+       /* .getpara{
+          
+           padding-top:280px;
+         margin-left: -50px;
+           text-align:justify;
+           font-size:22px;
+          
+       } */
+       .box1{
+           margin-left: 80px;
+           margin-top:200px;
+           font-size: 17px;
+           z-index:0;
+           padding-top:-190px;
+       }
+       .mainlink{
+           margin-left:20px;
+           margin-top: 5px;
+       }
+       /* .gethome{
+           text-decoration:none;
+           color:black;
+           font-weight:normal;
+           margin-left:20px;
+           padding-top:20px;
+       } */
+       
+       .box3{
+           margin-left: 500px;
+           margin-top: 200px;
+           font-size: 17px;
+       }
+       .getconnect{
+           margin-left:-170px;
+       }
+       
+       
+       .getpunead{
+           margin-top:3px;
+           margin-left: -60px;
+       }
+       .gpune1{
+           font-weight:normal;
+           margin-left:-400px;
+       }
+       .gpune2{
+           font-weight:normal;
+           margin-left:-400px;
+       }
+       .gpune3{
+           font-weight:normal;
+           margin-left:-400px;
+       }
+       .gpune4{
+           font-weight:normal;
+           margin-left:-400px;
+       }
+       .gpune5{
+           font-weight:normal;
+           margin-left:-400px;
+       }
+       .gpune6{
+           font-weight:normal;
+           margin-left:-400px;
+       }
+       .gethydadr{
+           font-weight:normal;
+           margin-left:-28px;
+       }
+       .ghyd1{
+           font-weight:normal;
+           margin-left:-27px;
+       }
+       .ghyd2{
+           font-weight:normal;
+           margin-left:-27px;
+       }
+       .ghyd3{
+           font-weight:normal;
+           margin-left:-26px;
+       }
+       .ghyd4{
+           font-weight:normal;
+           margin-left:-26px;
+       }
+       .ghyd5{
+           font-weight:normal;
+           margin-left:-26px;
+       }
+       .gchennai{
+           font-weight:normal;
+           margin-left:-462px;
+       }
+       .gchain1{
+           font-weight:normal;
+           margin-left:-461px;
+       }
+       .gchain2{
+           font-weight:normal;
+           margin-left:-461px;
+       }
+       .gchain3{
+           font-weight:normal;
+           margin-left:-461px;
+       }
+       .gchain4{
+           font-weight:normal;
+           margin-left:-461px;
+       }
+       .gchain5{
+           font-weight:normal;
+           margin-left:-461px;
+       }
+       .gbanglor{
+           font-weight:normal;
+           margin-left:-85px;
+           width: 350px;
+       }
+       .gbang1{
+           font-weight:normal;
+           margin-left:-85px;
+       }
+       .gbang2{
+           font-weight:normal;
+           margin-left:-85px;
+       }
+       .gbang3{
+           font-weight:normal;
+           margin-left:-85px;
+       }
+       .gbang4{
+           font-weight:normal;
+           margin-left:-85px;
+       }
+       .gbang5{
+           font-weight:normal;
+           margin-left:-85px;
+       }
 
 
 
