@@ -387,7 +387,7 @@
           
           
           .home{
-            margin-left:-3.5%;
+            margin-left:6.5%;
             padding-top:-3%;
            
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -416,14 +416,12 @@
           }
           .techno1{
             padding-right:0px;
-            width:520%; 
+            width:140px; 
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            width: 350%;
-            margin-left: -37%;
-            margin-right: 20%;
-            font-size: 1.3rem;
+            width: 240px;
+            margin-left: 40px;
+            font-size: 1.35vw;
             font-weight: bold;
-            display: flex;
           }
           .pla{
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
@@ -1505,18 +1503,18 @@
        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        font-size: 1.35vw;
        font-weight: bold;
-       margin-left: -24%; /* Adjusted positive margin */
+       margin-left: -36%; /* Adjusted positive margin */
        margin-right: 5%; /* Adjusted positive margin on the right */
        display: flex;
      }
      .techno1 {
-       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       font-size: 1.35vw;
-       font-weight: bold;
-       margin-left: -44%; /* Adjusted margin for better alignment */
-       margin-right: 10%; /* Adjusted positive margin */
-       width: 100%; /* Adjusted width */
-       display: flex;
+        padding-right:10px;
+        width:140px; 
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 240px;
+        margin-left: -110px;
+        font-size: 1.35vw;
+        font-weight: bold;
      }
      .pla {
        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -1709,7 +1707,7 @@
            background-color:#7c47bd;
            height:100%;
            z-index:0;
-           margin-top:45px;
+           margin-top:25px;
            display: flex;
            width: 100%;
            z-index: -1;
@@ -1727,6 +1725,10 @@
            width:380px;
            padding-bottom:-10px;
            font-size:25px;
+       }
+
+       .getpara{
+       margin-right: -50px;
        }
        /* .getpara{
           
