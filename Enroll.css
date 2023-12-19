@@ -46,16 +46,16 @@ color: #fff;
 gap: -10px;
 
 }
-.divstyle{
+/* .divstyle{
   position:fixed;
   width:100%;
   margin-top:70px;
-  /* margin-top:70px; */
+ 
   background:rgb(216, 215, 215);
   height:54px;
   z-index: 0;
   display: flex;
-}
+} */
 .menu-bar ul li{
 width: 152px;
 left: 100;
@@ -258,6 +258,98 @@ opacity:0.9;
   left: 100%;
   margin-top: -1px;
 }
+
+
+.divstyle{
+  position:fixed;
+  width:100%;
+  margin-top:70px;
+  height:54px;
+  z-index: 0;
+  display: flex;
+  background-image: linear-gradient(to right, rgb(41, 41, 86) , rgb(255, 115, 0)); 
+   height:48px; 
+   position: fixed;
+   width:100%;
+   z-index: 1;
+}
+.rows{
+  padding-top: -3.6vh;
+  display: flex;
+}
+.link{
+  margin-left:255%;
+  margin-top: 120%;
+}
+.fac{
+  margin-left:40%;
+  margin-top: 117%;
+  margin-bottom: -88%;
+}
+.twr{
+ margin-top: 117%;
+ margin-left: 55%;
+}
+.gog{
+  margin-left: 50%;
+   margin-top: 117%; 
+}
+.int{
+  margin-left: 65%; 
+  margin-top: 117%;
+}
+.ut{
+  margin-left:55%;
+  margin-top: 117%;
+}
+.ph{
+ 
+  width: 27%;
+   height: 1.35vw;
+  margin-left:9102%;
+  margin-top: 142%;
+    color: black;
+    font-weight: bold;
+    font-size:21px;
+    display: flex;
+}
+.env{
+  color:black;
+  width:20%;
+  display: flex;
+  margin-left: 2105%;
+  margin-top: 142.5%;
+}
+.wt{
+  color: black; 
+  font-size:21px;
+  display: flex;
+  margin-left: -1808%;
+  margin-top: 148%;
+  margin-right: 6%;
+}
+.mail{
+  margin-top:10%;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  display: flex;
+  margin-left: 870%;
+}
+.num{
+  color:black;
+  font-size:15px;
+  text-align:center;
+  margin-top:16%;
+
+  width: 100%;
+  margin-left:915%;
+  list-style-type: none;
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+}
+
+
+
 
 
 
