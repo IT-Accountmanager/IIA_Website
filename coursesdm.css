@@ -1,5 +1,5 @@
 
-    /* @media screen and (max-width: 1050px) { */
+   
         *{
             padding: 0;
             margin: 0;
@@ -16,12 +16,12 @@
             display: flex;
           }
           .container{
-            /* background: linear-gradient(60deg, #4A148C 28.46%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
+          
             height: 106px;
             background-color:white;
           }
           .container-1{
-            /* background: linear-gradient(60deg, #4A148C 33.35%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%); */
+           
             height: 43vw;
             margin-top: -1.85vw;
             background-color: white;
@@ -277,8 +277,6 @@
             position:fixed;
             width:100%;
             margin-top:0px;
-            /* margin-top:70px; */
-            /* background:rgb(216, 215, 215); */
             height:54px;
             z-index: 0;
             display: flex;
@@ -1196,19 +1194,19 @@
   @media screen and (max-width: 1360px) {
     .home{
  
-      margin-left: 11.8%;
+      margin-left: 12.5%;
        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       font-size: 21px;
+       font-size: 1.35vw;
        font-weight: bold;
        display: flex;
        justify-content: center;
        
      }
      .aboutus1{
-     padding-left:1.8%;
+     padding-left:0%;
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       /* width: 240px; */
-      margin-left: -2%;
+      margin-left: -4%;
       font-size: 1.35vw;
       font-weight: bold;
       display: flex;
@@ -1218,7 +1216,7 @@
        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        font-size: 1.35vw;
        font-weight: bold;
-       margin-left: 5%; /* Adjusted positive margin */
+       margin-left: -30%; /* Adjusted positive margin */
        margin-right: 5%; /* Adjusted positive margin on the right */
        display: flex;
      }
@@ -1226,7 +1224,7 @@
        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        font-size: 1.35vw;
        font-weight: bold;
-       margin-left: -17%; /* Adjusted margin for better alignment */
+       margin-left: -44%; /* Adjusted margin for better alignment */
        margin-right: 10%; /* Adjusted positive margin */
        width: 100%; /* Adjusted width */
        display: flex;
@@ -1235,15 +1233,15 @@
        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        font-size: 1.35vw;
        font-weight: bold;
-       margin-left: 5%;
+       margin-left: -6%;
        display: flex;
      }
      .enrol {
        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       font-size: 1.5vw; /* Adjusted font size for readability */
+       font-size: 1.35vw; /* Adjusted font size for readability */
        font-weight: bold;
-       margin-left: 30%; /* Positive margin on the left */
-       margin-right: 1%; /* Positive margin on the right */
+       margin-left: -3%; /* Positive margin on the left */
+       margin-right: -4%; /* Positive margin on the right */
        display: flex;
      }
      .cu{
@@ -1253,5 +1251,70 @@
        margin-left: -78%;
        display: flex;
      }
-     
+     .container-1{
+           
+        height: 43vw;
+        margin-top: -2.5vw;
+        background-color: white;
+        background-image:url(pcp11.PNG);
+          width: 98.88vw;
+          position: cover;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+      }
+
+      .ph{
+           
+        width: 27%;
+         height: 1.35vw;
+        margin-left:7252%;
+        margin-top: 142%;
+          color: black;
+          font-weight: bold;
+          font-size:21px;
+          display: flex;
+      }
+      .env{
+        color:black;
+        width:20%;
+        display: flex;
+        margin-left: 2105%;
+        margin-top: 142.5%;
+      }
+      .wt{
+        color: black; 
+        font-size:21px;
+        display: flex;
+        margin-left: -1808%;
+        margin-top: 148%;
+        margin-right: 6%;
+      }
+      .mail{
+        margin-top:10%;
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+        display: flex;
+        margin-left: 750%;
+      }
+      .num{
+        color:black;
+        font-size:15px;
+        text-align:center;
+        margin-top:16%;
+        width: 100%;
+        margin-left:745%;
+        list-style-type: none;
+         font-family: Arial, Helvetica, sans-serif;
+         display: flex;
+      }
+      
+
+
+
+
+
+
 }
