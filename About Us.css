@@ -2349,7 +2349,7 @@ text-decoration: none;
         margin-top: 18vw;
         text-align: center;
         animation: rotates 0.9s linear;
-        margin-left: -1100px;
+        margin-left: -1200px;
         background-color: rgb(99, 174, 244);
         text-align: center;
         padding-left: 2vw;
@@ -2363,7 +2363,7 @@ text-decoration: none;
         margin-top:17.8vw;
         border-radius: 30px;
         line-height: 40px;
-        margin-left: -490px;
+        margin-left: -505px;
         background-color: rgb(99, 174, 244);
         padding-left: 22px;
         padding-right: 5px;
@@ -2383,7 +2383,7 @@ text-decoration: none;
       margin-bottom: 5px;
       margin-right: 40%;
       margin-left: -2.5vw;
-      margin-left: -110px;
+      margin-left: -80px;
       background-color: rgb(99, 174, 244);
       margin-top: 17.5vw;
       z-index:0;
@@ -2396,7 +2396,9 @@ text-decoration: none;
         margin-left: -70px;
       }
 
-
+    .logoc{
+      margin-left: -70px;
+    }
 
 
 
