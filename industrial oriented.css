@@ -1728,7 +1728,7 @@
      }
 
      .getpara{
-     margin-right: -50px;
+     margin-right: -80px;
      }
      /* .getpara{
         
@@ -1759,6 +1759,7 @@
      
      .box3{
          margin-left: 500px;
+         margin-right: -25px;
          margin-top: 200px;
          font-size: 17px;
      }
