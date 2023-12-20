@@ -693,7 +693,7 @@ padding-right: 1vw;
   margin-top: -58.9vh;
   transition: transform .2s;
   animation: rotater 0.9s linear; 
-  margin-left: 8vw;
+  margin-left: -18vw;
 }
 .styless:hover{
   transform: scale(1.02);
@@ -708,7 +708,7 @@ padding-right: 1vw;
 .styless1{
   width:284px;
  
-  margin-left:520px;
+  margin-left:145px;
   background-color:rgba(255, 230, 196, 0.934);
   
   margin-top: -312px;
@@ -722,7 +722,7 @@ padding-right: 1vw;
 .styless2{
   width:284px;
   
-  margin-left:-290px;
+  margin-left:-710px;
   background-color:rgba(255, 230, 196, 0.934);
   transition: transform .2s;
   animation: rotater 0.9s linear;
@@ -2349,7 +2349,7 @@ text-decoration: none;
         margin-top: 18vw;
         text-align: center;
         animation: rotates 0.9s linear;
-        margin-left: -1290px;
+        margin-left: -1100px;
         background-color: rgb(99, 174, 244);
         text-align: center;
         padding-left: 2vw;
@@ -2383,6 +2383,7 @@ text-decoration: none;
       margin-bottom: 5px;
       margin-right: 40%;
       margin-left: -2.5vw;
+      margin-left: -110px;
       background-color: rgb(99, 174, 244);
       margin-top: 17.5vw;
       z-index:0;
@@ -2391,6 +2392,15 @@ text-decoration: none;
       padding-right: 1vw;
       
       }
+      .aboutcore3img{
+        margin-left: -70px;
+      }
+
+
+
+
+
+
 
       .styless{
         width:284px;
@@ -2398,7 +2408,7 @@ text-decoration: none;
         margin-top: -68.4vh;
         transition: transform .2s;
         animation: rotater 0.9s linear; 
-        margin-left: 4vw;
+        margin-left: -20vw;
       }
       .styless:hover{
         transform: scale(1.02);
@@ -2413,7 +2423,7 @@ text-decoration: none;
       .styless1{
         width:284px;
        
-        margin-left:450px;
+        margin-left:110px;
         background-color:rgba(255, 230, 196, 0.934);
         
         margin-top: -312px;
@@ -2427,7 +2437,7 @@ text-decoration: none;
       .styless2{
         width:284px;
         
-        margin-left:-340px;
+        margin-left:-650px;
         background-color:rgba(255, 230, 196, 0.934);
         transition: transform .2s;
         animation: rotater 0.9s linear;
@@ -2439,7 +2449,17 @@ text-decoration: none;
         transform: scale(1.02);
       }
       
-
+      .logo1{
+        padding-top: 4vw;
+        font-family:  Libre Franklin;
+        font-size: 10px;
+        font-weight: bold;
+        
+       
+      
+        margin-left: 4vw; 
+        color: black;
+      }
 
 
 
