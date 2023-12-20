@@ -1728,7 +1728,7 @@
      }
 
      .getpara{
-     margin-right: -80px;
+     margin-right: -100px;
      }
      /* .getpara{
         
@@ -1746,20 +1746,67 @@
          padding-top:-190px;
      }
      .mainlink{
-         margin-left:20px;
+         margin-left:85px;
          margin-top: 5px;
+         width: 100%;
      }
-     /* .gethome{
-         text-decoration:none;
-         color:black;
-         font-weight:normal;
-         margin-left:20px;
-         padding-top:20px;
-     } */
-     
+    .gethome{
+      text-decoration:none;
+      color:black;
+      font-weight:normal;
+      margin-left:65px;
+      padding-top:0px;
+    }
+
+
+     .getabout{
+      text-decoration:none;
+      color:black;
+      font-weight:normal;
+      margin-left:60px;
+      margin-top:-5px;
+      width: 100%;
+      /* margin-bottom:-30px; */
+     }
+    .getindus{
+      text-decoration:none;
+      color:black;
+      font-weight:normal;
+      margin-left:60px;
+      margin-top: -5px;
+    }
+    .gettechno{
+      text-decoration:none;
+      color:black;
+      font-weight:normal;
+      margin-left:60px;
+      margin-right: -10px;
+      width: 150%;
+      margin-top: -4px;
+      
+    }
+    .getplace{
+      text-decoration:none;
+      color:black;
+      font-weight:normal;
+      margin-top: -4px;
+     margin-left: 48px;
+     margin-right:-40px ;
+    }
+    .getenroll{
+      text-decoration:none;
+      color:black;
+      font-weight:normal;
+     margin-top: -4px;
+      margin-left:50px;
+    }
+
+
+
+
      .box3{
          margin-left: 500px;
-         margin-right: -25px;
+         margin-right: -40px;
          margin-top: 200px;
          font-size: 17px;
      }
@@ -1770,7 +1817,7 @@
      
      .getpunead{
          margin-top:3px;
-         margin-left: -60px;
+         margin-left: -30px;
      }
      .gpune1{
          font-weight:normal;
@@ -1798,76 +1845,77 @@
      }
      .gethydadr{
          font-weight:normal;
-         margin-left:-28px;
+         margin-left:-48px;
      }
      .ghyd1{
          font-weight:normal;
-         margin-left:-27px;
+         margin-left:-47px;
      }
      .ghyd2{
          font-weight:normal;
-         margin-left:-27px;
+         margin-left:-47px;
      }
      .ghyd3{
          font-weight:normal;
-         margin-left:-26px;
+         margin-left:-46px;
      }
      .ghyd4{
          font-weight:normal;
-         margin-left:-26px;
+         margin-left:-46px;
      }
      .ghyd5{
          font-weight:normal;
-         margin-left:-26px;
+         margin-left:-46px;
      }
      .gchennai{
          font-weight:normal;
-         margin-left:-462px;
+         margin-left:-432px;
      }
      .gchain1{
          font-weight:normal;
-         margin-left:-461px;
+         margin-left:-431px;
      }
      .gchain2{
          font-weight:normal;
-         margin-left:-461px;
+         margin-left:-431px;
      }
      .gchain3{
          font-weight:normal;
-         margin-left:-461px;
+         margin-left:-431px;
      }
      .gchain4{
          font-weight:normal;
-         margin-left:-461px;
+         margin-left:-431px;
      }
      .gchain5{
          font-weight:normal;
-         margin-left:-461px;
+         margin-left:-431px;
      }
      .gbanglor{
          font-weight:normal;
-         margin-left:-85px;
+         margin-left:-75px;
+         margin-right: -20px;
          width: 350px;
      }
      .gbang1{
          font-weight:normal;
-         margin-left:-85px;
+         margin-left:-75px;
      }
      .gbang2{
          font-weight:normal;
-         margin-left:-85px;
+         margin-left:-75px;
      }
      .gbang3{
          font-weight:normal;
-         margin-left:-85px;
+         margin-left:-75px;
      }
      .gbang4{
          font-weight:normal;
-         margin-left:-85px;
+         margin-left:-75px;
      }
      .gbang5{
          font-weight:normal;
-         margin-left:-85px;
+         margin-left:-75px;
      }
 
 
