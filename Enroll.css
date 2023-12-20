@@ -1642,253 +1642,294 @@ text-decoration: none;
              margin-left:50px;
              margin-top:5px;
            }
-         .getimgll{
-             margin-top:-45px;
-         }
-         .getpune{
-             margin-left:2px;
-             margin-top:65px;
-             font-size:20px;
-         }
-         .getbangl{
-             margin-left:2px;
-             margin-top:2px;
-             font-size:20px;
-         }
-         .gethyd{
-             margin-left:2px;
-             margin-top:2px;
-             font-size:20px;
-         }
-         .getchen{
-             margin-left:2px;
-             margin-top:1px;
-             font-size:20px;
-         }
-          .getbox1{
-             padding-left:-15%;
-             padding-top:20px;
-          } 
-           .getmakec{
-             margin-left:50px;
-             font-weight:bold;
-             font-size:20px;
-             margin-top:5px;
-           }
-         
-         .getlets{
-             margin-left:50px;
-             margin-top:5px;
-         }
-         .gethed{
-             margin-top:-60px;
-         }
-         .gethmobile{
-             margin-left:48px;
-             margin-top:77px;
-             font-size:20px;
-         }
-         .gettime{
-             margin-top:4px;
-             margin-left:48px;
-             font-size: 20px;
-         }
-         .getbox2{
-             padding-left:10%;
-             padding-top:20px;
-         }
-         .getsend{
-             margin-left:50px;
-             font-weight:bold;
-             font-size:20px;
-             padding-top:-25px;
-             margin-top:4px;
-         }
-         .getdon{
-             margin-left:50px;
-             margin-top:5px;
-         }
-         .getmailimg{
-             margin-top:-65px;
-         }
-         .getm1{
-             margin-left:5px;
-             margin-top:80px;
-             font-size:20px;
-         }
-         .getm2{
-             margin-left:5px;
-             margin-top:2px;
-             font-size:20px;
-         }
-         .getmiddile{
-             background-color:#7c47bd;
-             height:100%;
-             z-index:0;
-             margin-top:25px;
-             display: flex;
-             width: 100%;
-             z-index: -1;
-             position: relative;
-         }
-         .getmidimg{
-             margin-top:0px;
-             margin-left:70px;
-             margin-right:10px;
-         }
-         .getiia{
-             padding-top:150px;
-             margin-left: -40px;
-             text-align:center;
-             width:380px;
-             padding-bottom:-10px;
-             font-size:25px;
-         }
+
+
+
+
+             .getimgll{
+         margin-top:-45px;
+     }
+     .getpune{
+         margin-left:2px;
+         margin-top:65px;
+         font-size:20px;
+     }
+     .getbangl{
+         margin-left:2px;
+         margin-top:2px;
+         font-size:20px;
+     }
+     .gethyd{
+         margin-left:2px;
+         margin-top:2px;
+         font-size:20px;
+     }
+     .getchen{
+         margin-left:2px;
+         margin-top:1px;
+         font-size:20px;
+     }
+      .getbox1{
+         padding-left:-15%;
+         padding-top:20px;
+      } 
+       .getmakec{
+         margin-left:50px;
+         font-weight:bold;
+         font-size:20px;
+         margin-top:5px;
+       }
+     
+     .getlets{
+         margin-left:50px;
+         margin-top:5px;
+     }
+     .gethed{
+         margin-top:-60px;
+     }
+     .gethmobile{
+         margin-left:48px;
+         margin-top:77px;
+         font-size:20px;
+     }
+     .gettime{
+         margin-top:4px;
+         margin-left:48px;
+         font-size: 20px;
+     }
+     .getbox2{
+         padding-left:10%;
+         padding-top:20px;
+     }
+     .getsend{
+         margin-left:50px;
+         font-weight:bold;
+         font-size:20px;
+         padding-top:-25px;
+         margin-top:4px;
+     }
+     .getdon{
+         margin-left:50px;
+         margin-top:5px;
+     }
+     .getmailimg{
+         margin-top:-65px;
+     }
+     .getm1{
+         margin-left:5px;
+         margin-top:80px;
+         font-size:20px;
+     }
+     .getm2{
+         margin-left:5px;
+         margin-top:2px;
+         font-size:20px;
+     }
+     .getmiddile{
+         background-color:#7c47bd;
+         height:100%;
+         z-index:0;
+         margin-top:25px;
+         display: flex;
+         width: 100%;
+         z-index: -1;
+         position: relative;
+     }
+     .getmidimg{
+         margin-top:50px;
+         margin-left:70px;
+         margin-right:10px;
+     }
+     .getiia{
+         padding-top:200px;
+         margin-left: -40px;
+         text-align:center;
+         width:380px;
+         padding-bottom:-10px;
+         font-size:25px;
+     }
+
+     .getpara{
+     margin-right: -100px;
+     margin-top: 90px;
+     }
     
-         .getpara{
-         margin-right: -50px;
-         margin-top: 30px;
-         }
-         /* .getpara{
-            
-             padding-top:280px;
-           margin-left: -50px;
-             text-align:justify;
-             font-size:22px;
-            
-         } */
-         .box1{
-             margin-left: 80px;
-             margin-top:200px;
-             font-size: 17px;
-             z-index:0;
-             padding-top:-190px;
-         }
-         .mainlink{
-             margin-left:20px;
-             margin-top: -45px;
-         }
-         /* .gethome{
-             text-decoration:none;
-             color:black;
-             font-weight:normal;
-             margin-left:20px;
-             padding-top:20px;
-         } */
-         
-         .box3{
-             margin-left: 500px;
-             margin-top: 150px;
-             font-size: 17px;
-         }
-         .getconnect{
-             margin-left:-170px;
-         }
-         
-         
-         .getpunead{
-             margin-top:3px;
-             margin-left: -60px;
-         }
-         .gpune1{
-             font-weight:normal;
-             margin-left:-400px;
-         }
-         .gpune2{
-             font-weight:normal;
-             margin-left:-400px;
-         }
-         .gpune3{
-             font-weight:normal;
-             margin-left:-400px;
-         }
-         .gpune4{
-             font-weight:normal;
-             margin-left:-400px;
-         }
-         .gpune5{
-             font-weight:normal;
-             margin-left:-400px;
-         }
-         .gpune6{
-             font-weight:normal;
-             margin-left:-400px;
-         }
-         .gethydadr{
-             font-weight:normal;
-             margin-left:-28px;
-         }
-         .ghyd1{
-             font-weight:normal;
-             margin-left:-27px;
-         }
-         .ghyd2{
-             font-weight:normal;
-             margin-left:-27px;
-         }
-         .ghyd3{
-             font-weight:normal;
-             margin-left:-26px;
-         }
-         .ghyd4{
-             font-weight:normal;
-             margin-left:-26px;
-         }
-         .ghyd5{
-             font-weight:normal;
-             margin-left:-26px;
-         }
-         .gchennai{
-             font-weight:normal;
-             margin-left:-462px;
-         }
-         .gchain1{
-             font-weight:normal;
-             margin-left:-461px;
-         }
-         .gchain2{
-             font-weight:normal;
-             margin-left:-461px;
-         }
-         .gchain3{
-             font-weight:normal;
-             margin-left:-461px;
-         }
-         .gchain4{
-             font-weight:normal;
-             margin-left:-461px;
-         }
-         .gchain5{
-             font-weight:normal;
-             margin-left:-461px;
-         }
-         .gbanglor{
-             font-weight:normal;
-             margin-left:-85px;
-             width: 350px;
-         }
-         .gbang1{
-             font-weight:normal;
-             margin-left:-85px;
-         }
-         .gbang2{
-             font-weight:normal;
-             margin-left:-85px;
-         }
-         .gbang3{
-             font-weight:normal;
-             margin-left:-85px;
-         }
-         .gbang4{
-             font-weight:normal;
-             margin-left:-85px;
-         }
-         .gbang5{
-             font-weight:normal;
-             margin-left:-85px;
-         }
-    
-    
+     .box1{
+         margin-left: 80px;
+         margin-top:200px;
+         font-size: 17px;
+         z-index:0;
+         padding-top:-190px;
+     }
+     .mainlink{
+         margin-left:85px;
+         margin-top: 5px;
+         width: 100%;
+     }
+    .gethome{
+      text-decoration:none;
+      color:black;
+      font-weight:normal;
+      margin-left:65px;
+      padding-top:0px;
+    }
+
+
+     .getabout{
+      text-decoration:none;
+      color:black;
+      font-weight:normal;
+      margin-left:60px;
+      margin-top:-1px;
+      width: 100%;
+      /* margin-bottom:-30px; */
+     }
+    .getindus{
+      text-decoration:none;
+      color:black;
+      font-weight:normal;
+      margin-left:60px;
+      margin-top: -1px;
+    }
+    .gettechno{
+      text-decoration:none;
+      color:black;
+      font-weight:normal;
+      margin-left:60px;
+      margin-right: -20px;
+      width: 150%;
+      margin-top: -1px;
+      
+    }
+    .getplace{
+      text-decoration:none;
+      color:black;
+      font-weight:normal;
+      margin-top: -1px;
+     margin-left: 58px;
+     margin-right:-50px ;
+    }
+    .getenroll{
+      text-decoration:none;
+      color:black;
+      font-weight:normal;
+     margin-top: -1px;
+      margin-left:60px;
+    }
+     .box3{
+         margin-left: 500px;
+         margin-right: -40px;
+         margin-top: 200px;
+         font-size: 17px;
+     }
+     .getconnect{
+         margin-left:-150px;
+     }
+     
+     
+     .getpunead{
+         margin-top:3px;
+         margin-left: -10px;
+     }
+     .gpune1{
+         font-weight:normal;
+         margin-left:-400px;
+     }
+     .gpune2{
+         font-weight:normal;
+         margin-left:-400px;
+     }
+     .gpune3{
+         font-weight:normal;
+         margin-left:-400px;
+     }
+     .gpune4{
+         font-weight:normal;
+         margin-left:-400px;
+     }
+     .gpune5{
+         font-weight:normal;
+         margin-left:-400px;
+     }
+     .gpune6{
+         font-weight:normal;
+         margin-left:-400px;
+     }
+     .gethydadr{
+         font-weight:normal;
+         margin-left:-68px;
+     }
+     .ghyd1{
+         font-weight:normal;
+         margin-left:-67px;
+     }
+     .ghyd2{
+         font-weight:normal;
+         margin-left:-67px;
+     }
+     .ghyd3{
+         font-weight:normal;
+         margin-left:-66px;
+     }
+     .ghyd4{
+         font-weight:normal;
+         margin-left:-66px;
+     }
+     .ghyd5{
+         font-weight:normal;
+         margin-left:-66px;
+     }
+     .gchennai{
+         font-weight:normal;
+         margin-left:-412px;
+     }
+     .gchain1{
+         font-weight:normal;
+         margin-left:-411px;
+     }
+     .gchain2{
+         font-weight:normal;
+         margin-left:-411px;
+     }
+     .gchain3{
+         font-weight:normal;
+         margin-left:-411px;
+     }
+     .gchain4{
+         font-weight:normal;
+         margin-left:-411px;
+     }
+     .gchain5{
+         font-weight:normal;
+         margin-left:-411px;
+     }
+     .gbanglor{
+         font-weight:normal;
+         margin-left:-75px;
+         margin-right: -20px;
+         width: 350px;
+     }
+     .gbang1{
+         font-weight:normal;
+         margin-left:-75px;
+     }
+     .gbang2{
+         font-weight:normal;
+         margin-left:-75px;
+     }
+     .gbang3{
+         font-weight:normal;
+         margin-left:-75px;
+     }
+     .gbang4{
+         font-weight:normal;
+         margin-left:-75px;
+     }
+     .gbang5{
+         font-weight:normal;
+         margin-left:-75px;
+     }
+
     
     
     
