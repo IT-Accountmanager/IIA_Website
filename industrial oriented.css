@@ -1920,7 +1920,7 @@
 
 
 }
-@media (min-width: 1600px){
+@media screen and (max-width: 1600px){
 
 
   .home{
@@ -2002,7 +2002,7 @@
          
       width: 27%;
        height: 1.35vw;
-      margin-left:11152%;
+      margin-left:12152%;
       margin-top: 142%;
         color: black;
         font-weight: bold;
