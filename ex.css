@@ -15,23 +15,7 @@
   /* background: linear-gradient(60deg,  #4A148C 24.35%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%); */
   text-align: right;
 }
-/* .container{
-  height:100px;
-  background: linear-gradient(60deg, #4A148C 28.27%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%);
-}
-.container-1{
-  height:280px;
-  display:flex;
-  background: linear-gradient(60deg, #4A148C 30.06%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%);
-}
-.container-2{
-  height:320px;
-  background: linear-gradient(120deg, #4A148C 29.6%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%);
-}
-.container-3{
-  height:.5px;
-  background: linear-gradient(120deg, #4A148C 26.75%, #4A148C 20%, #4A148C 20%, #4A148C 20%, white 20%);
-} */
+
 
 .container{
   background-color: aquamarine;

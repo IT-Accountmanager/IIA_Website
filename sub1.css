@@ -18,7 +18,7 @@
     background-color:white;
   }
   .container-1{
-    /* background: linear-gradient(60deg, #4A148C 33.35%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%); */
+    
     height: 43vw;
     margin-top: -1.7vw;
     background-color: white;
@@ -994,4 +994,442 @@
 
 
 
- 
+    @media screen and (max-width:0px) 
+    {
+  
+  
+    .home{
+  
+      margin-left: 6.9%;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 1.35vw;
+       font-weight: bold;
+       display: flex;
+       justify-content: center;
+       
+     }
+     .aboutus1{
+     padding-left:0%;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      /* width: 240px; */
+      margin-left: -0.5%;
+      margin-right: -0%;
+      font-size: 1.35vw;
+      font-weight: bold;
+      display: flex;
+      
+     }
+     .cous {
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 1.35vw;
+       font-weight: bold;
+       margin-left: -10%; /* Adjusted positive margin */
+       margin-right: 0%; /* Adjusted positive margin on the right */
+       display: flex;
+     }
+     .techno1 {
+        padding-right:10px;
+        width:140px; 
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 240px;
+        margin-left: -25px;
+        font-size: 1.35vw;
+        font-weight: bold;
+     }
+     .pla {
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 1.35vw;
+       font-weight: bold;
+       margin-left: -3%;
+       display: flex;
+     }
+     .enrol {
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 1.35vw; /* Adjusted font size for readability */
+       font-weight: bold;
+       margin-left: -3%; /* Positive margin on the left */
+       margin-right: -4%; /* Positive margin on the right */
+       display: flex;
+     }
+     .cu{
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+       font-size: 1.35vw;
+       font-weight: bold;
+       margin-left: -78%;
+       display: flex;
+     }
+     .container-1{
+           
+        height: 43vw;
+        margin-top: -2.5vw;
+        background-color: white;
+        background-image:url(pcp11.PNG);
+        width: 98.88vw;
+        position: cover;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+      }
+  
+      .ph{
+           
+        width: 27%;
+         height: 1.35vw;
+        margin-left:10152%;
+        margin-top: 142%;
+          color: black;
+          font-weight: bold;
+          font-size:21px;
+          display: flex;
+      }
+      .env{
+        color:black;
+        width:20%;
+        display: flex;
+        margin-left: 2105%;
+        margin-top: 142.5%;
+      }
+      .wt{
+        color: black; 
+        font-size:21px;
+        display: flex;
+        margin-left: -1808%;
+        margin-top: 148%;
+        margin-right: 6%;
+      }
+      .mail{
+        margin-top:10%;
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+        display: flex;
+        margin-left: 1005%;
+      }
+      .num{
+        color:black;
+        font-size:15px;
+        text-align:center;
+        margin-top:16%;
+        width: 100%;
+        margin-left:1100%;
+        list-style-type: none;
+         font-family: Arial, Helvetica, sans-serif;
+         display: flex;
+      }
+      .getbb{
+        background-color:#b8aac9;
+           width:70%;
+           /* border-radius:10px; */
+           margin-left:15%;
+           height:190px;
+           align-items:center;
+           padding:20px;
+           position:absolute;
+           padding-top:40px;
+           padding-left:30px;
+         
+         }
+         .getbb2{
+           padding-top:20px;
+           padding-left:30px;
+         }
+         .getll{
+           margin-left:50px;
+           font-weight:bold;
+           font-size:20px;
+           margin-top:5px;
+         }
+         .getvist{
+           margin-left:50px;
+           margin-top:5px;
+         }
+  
+  
+  
+  
+  
+       .getimgll{
+           margin-top:-45px;
+       }
+       .getpune{
+           margin-left:2px;
+           margin-top:65px;
+           font-size:20px;
+       }
+       .getbangl{
+           margin-left:2px;
+           margin-top:2px;
+           font-size:20px;
+       }
+       .gethyd{
+           margin-left:2px;
+           margin-top:2px;
+           font-size:20px;
+       }
+       .getchen{
+           margin-left:2px;
+           margin-top:1px;
+           font-size:20px;
+       }
+        .getbox1{
+           padding-left:-15%;
+           padding-top:20px;
+        } 
+         .getmakec{
+           margin-left:50px;
+           font-weight:bold;
+           font-size:20px;
+           margin-top:5px;
+         }
+       
+       .getlets{
+           margin-left:50px;
+           margin-top:5px;
+       }
+       .gethed{
+           margin-top:-60px;
+       }
+       .gethmobile{
+           margin-left:48px;
+           margin-top:77px;
+           font-size:20px;
+       }
+       .gettime{
+           margin-top:4px;
+           margin-left:48px;
+           font-size: 20px;
+       }
+       .getbox2{
+           padding-left:10%;
+           padding-top:20px;
+       }
+       .getsend{
+           margin-left:50px;
+           font-weight:bold;
+           font-size:20px;
+           padding-top:-25px;
+           margin-top:4px;
+       }
+       .getdon{
+           margin-left:50px;
+           margin-top:5px;
+       }
+       .getmailimg{
+           margin-top:-65px;
+       }
+       .getm1{
+           margin-left:5px;
+           margin-top:80px;
+           font-size:20px;
+       }
+       .getm2{
+           margin-left:5px;
+           margin-top:2px;
+           font-size:20px;
+       }
+       .getmiddile{
+           background-color:#7c47bd;
+           height:100%;
+           z-index:0;
+           margin-top:25px;
+           display: flex;
+           width: 100%;
+           z-index: -1;
+           position: relative;
+       }
+       .getmidimg{
+           margin-top:50px;
+           margin-left:70px;
+           margin-right:10px;
+       }
+       .getiia{
+           padding-top:200px;
+           margin-left: -40px;
+           text-align:center;
+           width:380px;
+           padding-bottom:-10px;
+           font-size:25px;
+       }
+  
+       .getpara{
+       margin-right: -100px;
+       }
+      
+       .box1{
+           margin-left: 80px;
+           margin-top:200px;
+           font-size: 17px;
+           z-index:0;
+           padding-top:-190px;
+       }
+       .mainlink{
+           margin-left:85px;
+           margin-top: 5px;
+           width: 100%;
+       }
+      .gethome{
+        text-decoration:none;
+        color:black;
+        font-weight:normal;
+        margin-left:65px;
+        padding-top:0px;
+      }
+  
+  
+       .getabout{
+        text-decoration:none;
+        color:black;
+        font-weight:normal;
+        margin-left:60px;
+        margin-top:-1px;
+        width: 100%;
+        /* margin-bottom:-30px; */
+       }
+      .getindus{
+        text-decoration:none;
+        color:black;
+        font-weight:normal;
+        margin-left:60px;
+        margin-top: -1px;
+      }
+      .gettechno{
+        text-decoration:none;
+        color:black;
+        font-weight:normal;
+        margin-left:60px;
+        margin-right: -20px;
+        width: 150%;
+        margin-top: -1px;
+        
+      }
+      .getplace{
+        text-decoration:none;
+        color:black;
+        font-weight:normal;
+        margin-top: -1px;
+       margin-left: 58px;
+       margin-right:-50px ;
+      }
+      .getenroll{
+        text-decoration:none;
+        color:black;
+        font-weight:normal;
+       margin-top: -1px;
+        margin-left:60px;
+      }
+       .box3{
+           margin-left: 500px;
+           margin-right: -40px;
+           margin-top: 200px;
+           font-size: 17px;
+       }
+       .getconnect{
+           margin-left:-150px;
+       }
+       
+       
+       .getpunead{
+           margin-top:3px;
+           margin-left: -10px;
+       }
+       .gpune1{
+           font-weight:normal;
+           margin-left:-400px;
+       }
+       .gpune2{
+           font-weight:normal;
+           margin-left:-400px;
+       }
+       .gpune3{
+           font-weight:normal;
+           margin-left:-400px;
+       }
+       .gpune4{
+           font-weight:normal;
+           margin-left:-400px;
+       }
+       .gpune5{
+           font-weight:normal;
+           margin-left:-400px;
+       }
+       .gpune6{
+           font-weight:normal;
+           margin-left:-400px;
+       }
+       .gethydadr{
+           font-weight:normal;
+           margin-left:-68px;
+       }
+       .ghyd1{
+           font-weight:normal;
+           margin-left:-67px;
+       }
+       .ghyd2{
+           font-weight:normal;
+           margin-left:-67px;
+       }
+       .ghyd3{
+           font-weight:normal;
+           margin-left:-66px;
+       }
+       .ghyd4{
+           font-weight:normal;
+           margin-left:-66px;
+       }
+       .ghyd5{
+           font-weight:normal;
+           margin-left:-66px;
+       }
+       .gchennai{
+           font-weight:normal;
+           margin-left:-412px;
+       }
+       .gchain1{
+           font-weight:normal;
+           margin-left:-411px;
+       }
+       .gchain2{
+           font-weight:normal;
+           margin-left:-411px;
+       }
+       .gchain3{
+           font-weight:normal;
+           margin-left:-411px;
+       }
+       .gchain4{
+           font-weight:normal;
+           margin-left:-411px;
+       }
+       .gchain5{
+           font-weight:normal;
+           margin-left:-411px;
+       }
+       .gbanglor{
+           font-weight:normal;
+           margin-left:-75px;
+           margin-right: -20px;
+           width: 350px;
+       }
+       .gbang1{
+           font-weight:normal;
+           margin-left:-75px;
+       }
+       .gbang2{
+           font-weight:normal;
+           margin-left:-75px;
+       }
+       .gbang3{
+           font-weight:normal;
+           margin-left:-75px;
+       }
+       .gbang4{
+           font-weight:normal;
+           margin-left:-75px;
+       }
+       .gbang5{
+           font-weight:normal;
+           margin-left:-75px;
+       }
+  
+      }  
