@@ -79,7 +79,7 @@
     
   }
   .container-1{
-    height: 105vh;
+    height: 100vh;
     margin-top: -19.5vw;
     background-image:url(pcp18.PNG);
     background-repeat: no-repeat;
@@ -425,7 +425,7 @@
 
 
   .container3cou{
-    height:95.05vw;
+    height:103.05vw;
     background-image:url(pcp28.PNG);
       width: 98.88vw;
       background-repeat: no-repeat;
@@ -443,7 +443,7 @@
     display: flex;
     font-weight: bold;
     font-size: 22px;
-    margin-top: 20px;
+    margin-top: 120px;
     margin-left: 32px;
   }
   
@@ -451,13 +451,13 @@
     display: flex;
     font-weight: bold;
     font-size: 16.5px;
-    margin-top: 68px;
+    margin-top: 188px;
     margin-left: -178px;
   }
   .courpara3{
     display: flex;
     font-size: 18px;
-    margin-top: 95px;
+    margin-top: 215px;
     margin-left: -180px;
   }
   .courpara31{
@@ -470,13 +470,13 @@
     display: flex;
     font-weight: bold;
     font-size: 16.5px;
-    margin-top: 155px;
+    margin-top: 275px;
     margin-left: -821px;
   }
   .courpara5{
     display: flex;
     font-size: 18px;
-    margin-top: 182px;
+    margin-top: 302px;
     margin-left: -123px;
   }
   .courpara51{
@@ -490,7 +490,7 @@
     display: flex;
     font-weight: bold;
     font-size: 16.5px;
-    margin-top: 248px;
+    margin-top: 368px;
     margin-left: -967px;
   }
   .cc3{
@@ -499,7 +499,7 @@
   .courpara7{
     display: flex;
     font-size: 18px;
-    margin-top: 275px;
+    margin-top: 395px;
     margin-left: -140px;
   }
   .courpara71{
@@ -513,14 +513,14 @@
     display: flex;
     font-weight: bold;
     font-size: 16.5px;
-    margin-top: 340px;
+    margin-top: 460px;
     margin-left: -877px;
   }
   .courpara9{
     display: flex;
     width: 1150px;
     font-size: 18px;
-    margin-top: 365px;
+    margin-top: 495px;
     margin-left: -120px;
   }
   .courpara91{
@@ -534,14 +534,14 @@
     display: flex;
     font-weight: bold;
     font-size: 16.5px;
-    margin-top: 448px;
+    margin-top: 568px;
     margin-left: -1268px;
   }
   .courpara11{
     display: flex;
    
     font-size: 18px;
-    margin-top: 474px;
+    margin-top: 594px;
     margin-left: -230px;
   }
   .courpara111{
@@ -555,14 +555,14 @@
     display: flex;
     font-weight: bold;
     font-size: 16.5px;
-    margin-top: 540px;
+    margin-top: 660px;
     margin-left: -730px;
   }
   .courpara13{
     display: flex;
    
     font-size: 18px;
-    margin-top: 568px;
+    margin-top: 688px;
     margin-left: -67px;
   }
   .courpara131{
@@ -576,14 +576,14 @@
     display: flex;
     font-weight: bold;
     font-size: 16.5px;
-    margin-top: 635px;
+    margin-top: 755px;
     margin-left: -591px;
   }
   .courpara15{
     display: flex;
     width: 850px;
     font-size: 18px;
-    margin-top: 665px;
+    margin-top: 785px;
     margin-left: -27px;
   }
   .courpara151{
@@ -597,14 +597,14 @@
     display: flex;
     font-weight: bold;
     font-size: 16.5px;
-    margin-top: 731px;
+    margin-top: 851px;
     margin-left: -968px;
   }
   .courpara17{
     display: flex;
     width: 850px;
     font-size: 18px;
-    margin-top: 765px;
+    margin-top: 885px;
     margin-left: -135px;
   }
   .courpara171{
@@ -618,14 +618,14 @@
     display: flex;
     font-weight: bold;
     font-size: 16.5px;
-    margin-top: 831px;
+    margin-top: 951px;
     margin-left: -970px;
   }
   .courpara19{
     display: flex;
     width: 850px;
     font-size: 18px;
-    margin-top: 865px;
+    margin-top: 985px;
     margin-left: -110px;
   }
   .courpara191{
@@ -640,14 +640,14 @@
     display: flex;
     font-weight: bold;
     font-size: 16.5px;
-    margin-top: 935px;
+    margin-top: 1055px;
     margin-left: -970px;
   }
   .courpara21{
     display: flex;
     width: 850px;
     font-size: 18px;
-    margin-top: -130px;
+    margin-top: -10px;
     margin-left: 88px;
   }
   .courpara211{
@@ -662,14 +662,14 @@
     display: flex;
     font-weight: bold;
     font-size: 16.5px;
-    margin-top: 1035px;
+    margin-top: 1165px;
     margin-left: -960px;
   }
   .courpara23{
     display: flex;
     width: 850px;
     font-size: 18px;
-    margin-top: -20px;
+    margin-top: 100px;
     margin-left: 148px;
     text-align: justify;
   }
@@ -684,7 +684,7 @@
     display: flex;
     font-weight: bold;
     font-size: 22px;
-    margin-top: 55px;
+    margin-top: 155px;
     margin-left: -256px;
     color: #000;
   }

@@ -56,7 +56,7 @@
             display: flex;
           } */
           .container3cou{
-            height:48.05vw;
+            height:58.05vw;
             background-image:url(pcp28.PNG);
               width: 98.88vw;
               background-repeat: no-repeat;
@@ -496,49 +496,49 @@
             display: flex;
             font-weight: bold;
             font-size: 22px;
-            margin-top: 20px;
+            margin-top: 120px;
             margin-left: 20px;
           }
           .courpara2{
             display: flex;
             font-weight: bold;
             font-size: 16.5px;
-            margin-top: 65px;
+            margin-top: 165px;
             margin-left: -558px;
           }
           .courpara3{
             display: flex;
             width: 850px;
             font-size: 18px;
-            margin-top: 94px;
+            margin-top: 194px;
             margin-left: -90px;
           }
           .courpara4{
             display: flex;
             font-weight: bold;
             font-size: 16.5px;
-            margin-top: 147px;
+            margin-top: 247px;
             margin-left: -934px;
           }
           .courpara5{
             display: flex;
             width: 850px;
             font-size: 18px;
-            margin-top: 176px;
+            margin-top: 276px;
             margin-left: -100px;
           }
           .courpara6{
             display: flex;
             font-weight: bold;
             font-size: 16.5px;
-            margin-top: 230px;
+            margin-top: 330px;
             margin-left: -935px;
           }
           .courpara7{
             display: flex;
             width: 850px;
             font-size: 18px;
-            margin-top: 259px;
+            margin-top: 359px;
             margin-left: -54px;
           }
           
@@ -547,70 +547,70 @@
             display: flex;
             font-weight: bold;
             font-size: 16.5px;
-            margin-top: 312px;
+            margin-top: 412px;
             margin-left: -937px;
           }
           .courpara9{
             display: flex;
             width: 850px;
             font-size: 18px;
-            margin-top: 342px;
+            margin-top: 442px;
             margin-left: -38px;
           }
           .courpara10{
             display: flex;
             font-weight: bold;
             font-size: 16.5px;
-            margin-top: 394px;
+            margin-top: 494px;
             margin-left: -932px;
           }
           .courpara11{
             display: flex;
             width: 850px;
             font-size: 18px;
-            margin-top: 423px;
+            margin-top: 523px;
             margin-left: -202px;
           }
           .courpara12{
             display: flex;
             font-weight: bold;
             font-size: 16.5px;
-            margin-top: 477px;
+            margin-top: 577px;
             margin-left: -930px;
           }
           .courpara13{
             display: flex;
             width: 850px;
             font-size: 18px;
-            margin-top: 505px;
+            margin-top: 605px;
             margin-left: -75px;
           }
           .courpara14{
             display: flex;
             font-weight: bold;
             font-size: 16.5px;
-            margin-top: 562px;
+            margin-top: 662px;
             margin-left: -930px;
           }
           .courpara15{
             display: flex;
             width: 850px;
             font-size: 18px;
-            margin-top: 590px;
+            margin-top: 690px;
             margin-left: -115px;
           }
           .courpara16{
             display: flex;
             font-weight: bold;
             font-size: 16.5px;
-            margin-top: 645px;
+            margin-top: 750px;
             margin-left: -928px;
           }
           .courpara17{
             display: flex;
             width: 850px;
             font-size: 18px;
-            margin-top: 672px;
+            margin-top: 782px;
             margin-left: -172px;
           }
   
@@ -625,7 +625,7 @@
   }
   
   .imgcu2{
-    margin-left: 170px;
+    margin-left: 110px;
     margin-right: -430px;
     margin-top: 350px;
   }
@@ -1282,12 +1282,6 @@
   .to2-top2:hover {
     background-position: bottom;
   }
-
-
-
-
-
-  
     .getbb{
       /* background-color:#b8aac9; */
          width:42%;
@@ -1401,7 +1395,7 @@
          z-index:0;
          margin-top:45px;
          display: flex;
-         width: auto;
+         width: 100%;
          z-index: -1;
          position: relative;
      }
@@ -1427,212 +1421,212 @@
          padding-bottom:30px;
      }
      .box1{
-         margin-left: 24px;
-         margin-top:-315px;
-         font-size: 17px;
-         z-index:0;
-         padding-top:-190px;
-     }
-     .mainlink{
-         margin-left:10px;
-         margin-top: 5px;
-     }
-     /* .gethome{
-         text-decoration:none;
-         color:black;
-         font-weight:normal;
-         margin-left:20px;
-         padding-top:20px;
-     } */
-     
-     .box3{
-         margin-left: 820px;
-         margin-top: 200px;
-         font-size: 17px;
-     }
-     .getconnect{
-         margin-left:-170px;
-     }
-     .getimgll1{
-      margin-left: -440px;
-      margin-top: 10px;
-     }
-     
-  
-  
-  
-  
-     .getpunead{
-      margin-top:-3px;
-      margin-left: 470px;
-  }
-  .gpune1{
-      font-weight:normal;
-      margin-left:-400px;
-      margin-top: 15px;
-      font-size: 22px;
-  }
-  .gpune2{
-      font-weight:normal;
-      margin-left:-400px;
-      margin-top: 9px;
-      font-size: 18px;
-  }
-  .gpune3{
-      font-weight:normal;
-      margin-left:-400px;
-      font-size: 18px;
-  }
-  .gpune4{
-      font-weight:normal;
-      margin-left:-400px;
-      font-size: 18px;
-  }
-  .gpune5{
-      font-weight:normal;
-      margin-left:-400px;
-      font-size: 18px;
-  }
-  .gpune6{
-      font-weight:normal;
-      margin-left:-400px;
-  }
-  .getimgll{
-   margin-top:-50px;
-   margin-left: -58px;
-  }
-  .hydful{
-   margin-left: -950px;
-   margin-top: 64px;
-  }
-  .gethydadr{
-      font-weight:normal;
-      margin-left:-20px;
+      margin-left: 24px;
+      margin-top:-315px;
+      font-size: 17px;
+      z-index:0;
+      padding-top:-190px;
+    }
+    .mainlink{
+      margin-left:10px;
       margin-top: 5px;
-      font-size: 22px;
-  }
-  .ghyd1{
+    }
+    /* .gethome{
+      text-decoration:none;
+      color:black;
       font-weight:normal;
-      margin-left:-20px;
-      margin-top: 8px;
-      font-size: 18px;
-  }
-  .ghyd2{
-      font-weight:normal;
-      margin-left:-20px;
-      font-size: 18px;
-  }
-  .ghyd3{
-      font-weight:normal;
-      margin-left:-20px;
-      font-size: 18px;
-  }
-  .ghyd4{
-      font-weight:normal;
-      margin-left:-20px;
-      font-size: 18px;
-  }
-  .ghyd5{
-      font-weight:normal;
-      margin-left:-26px;
-  }
-  .getimgll2{
-   margin-left: -500px;
-   margin-top: 5px;
-  }
-  .chennainew{
-   margin-left: 870px;
-   margin-top: -138px;
-  }
-  .gchennai{
-      font-weight:normal;
-      margin-left:-462px;
-      margin-top: 10px;
-      font-size: 22px;
-  }
-  .gchain1{
-      font-weight:normal;
-      margin-left:-461px;
-      margin-top: 9px;
-      font-size: 18px;
-  }
-  .gchain2{
-      font-weight:normal;
-      margin-left:-461px;
-      font-size: 18px;
-  }
-  .gchain3{
-      font-weight:normal;
-      margin-left:-461px;
-      font-size: 18px;
-  }
-  .gchain4{
-      font-weight:normal;
-      margin-left:-461px;
-  }
-  .gchain5{
-      font-weight:normal;
-      margin-left:-461px;
-  }
-  .getimgll3{
-   margin-left: -125px;
-   margin-top: 1px;
-  }
-  .banglnew{
-   margin-top: -126px;
-   margin-left: -1020px;
-  }
-  .gbanglor{
-      font-weight:normal;
-      margin-left:-85px;
-      margin-top: 5px;
-      width: 350px;
-      font-size: 22px;
-  }
-  .gbang1{
-      font-weight:normal;
-      margin-left:-85px;
-      margin-top: 10px;
-      font-size: 18px;
-  }
-  .gbang2{
-      font-weight:normal;
-      margin-left:-85px;
-      font-size: 18px;
-  }
-  .gbang3{
-      font-weight:normal;
-      margin-left:-85px;
-      font-size: 18px;
-  }
-  .gbang4{
-      font-weight:normal;
-      margin-left:-85px;
-      font-size: 18px;
-  }
-  .gbang5{
-      font-weight:normal;
-      margin-left:-85px;
-  }
-  
-            .footer{
-               background-color:#a47fd1;
-               height:30px;
-               width: 100%;
-               text-align: center;
-               margin-left: 00%;
-               margin-top: 20px;
-            
-            } 
-            .footerp{
-               color:white;
-               text-align:center;
-               margin-left: 50px;
-               font-weight:normal;
-               padding-top:5px;
-            }
-           
-           
+      margin-left:20px;
+      padding-top:20px;
+    } */
+    
+    .box3{
+      margin-left: 820px;
+      margin-top: 200px;
+      font-size: 17px;
+    }
+    .getconnect{
+      margin-left:-170px;
+    }
+    .getimgll1{
+    margin-left: -440px;
+    margin-top: 10px;
+    }
+    
+    
+    
+    
+    
+    .getpunead{
+    margin-top:-3px;
+    margin-left: 470px;
+    }
+    .gpune1{
+    font-weight:normal;
+    margin-left:-400px;
+    margin-top: 15px;
+    font-size: 22px;
+    }
+    .gpune2{
+    font-weight:normal;
+    margin-left:-400px;
+    margin-top: 9px;
+    font-size: 18px;
+    }
+    .gpune3{
+    font-weight:normal;
+    margin-left:-400px;
+    font-size: 18px;
+    }
+    .gpune4{
+    font-weight:normal;
+    margin-left:-400px;
+    font-size: 18px;
+    }
+    .gpune5{
+    font-weight:normal;
+    margin-left:-400px;
+    font-size: 18px;
+    }
+    .gpune6{
+    font-weight:normal;
+    margin-left:-400px;
+    }
+    .getimgll{
+    margin-top:-50px;
+    margin-left: -58px;
+    }
+    .hydful{
+    margin-left: -950px;
+    margin-top: 64px;
+    }
+    .gethydadr{
+    font-weight:normal;
+    margin-left:-20px;
+    margin-top: 5px;
+    font-size: 22px;
+    }
+    .ghyd1{
+    font-weight:normal;
+    margin-left:-20px;
+    margin-top: 8px;
+    font-size: 18px;
+    }
+    .ghyd2{
+    font-weight:normal;
+    margin-left:-20px;
+    font-size: 18px;
+    }
+    .ghyd3{
+    font-weight:normal;
+    margin-left:-20px;
+    font-size: 18px;
+    }
+    .ghyd4{
+    font-weight:normal;
+    margin-left:-20px;
+    font-size: 18px;
+    }
+    .ghyd5{
+    font-weight:normal;
+    margin-left:-26px;
+    }
+    .getimgll2{
+    margin-left: -500px;
+    margin-top: 5px;
+    }
+    .chennainew{
+    margin-left: 870px;
+    margin-top: -138px;
+    }
+    .gchennai{
+    font-weight:normal;
+    margin-left:-462px;
+    margin-top: 10px;
+    font-size: 22px;
+    }
+    .gchain1{
+    font-weight:normal;
+    margin-left:-461px;
+    margin-top: 9px;
+    font-size: 18px;
+    }
+    .gchain2{
+    font-weight:normal;
+    margin-left:-461px;
+    font-size: 18px;
+    }
+    .gchain3{
+    font-weight:normal;
+    margin-left:-461px;
+    font-size: 18px;
+    }
+    .gchain4{
+    font-weight:normal;
+    margin-left:-461px;
+    }
+    .gchain5{
+    font-weight:normal;
+    margin-left:-461px;
+    }
+    .getimgll3{
+    margin-left: -125px;
+    margin-top: 1px;
+    }
+    .banglnew{
+    margin-top: -126px;
+    margin-left: -1020px;
+    }
+    .gbanglor{
+    font-weight:normal;
+    margin-left:-85px;
+    margin-top: 5px;
+    width: 350px;
+    font-size: 22px;
+    }
+    .gbang1{
+    font-weight:normal;
+    margin-left:-85px;
+    margin-top: 10px;
+    font-size: 18px;
+    }
+    .gbang2{
+    font-weight:normal;
+    margin-left:-85px;
+    font-size: 18px;
+    }
+    .gbang3{
+    font-weight:normal;
+    margin-left:-85px;
+    font-size: 18px;
+    }
+    .gbang4{
+    font-weight:normal;
+    margin-left:-85px;
+    font-size: 18px;
+    }
+    .gbang5{
+    font-weight:normal;
+    margin-left:-85px;
+    }
+    
+         .footer{
+            background-color:#a47fd1;
+            height:30px;
+            width: 100%;
+            text-align: center;
+            margin-left: 00%;
+            margin-top: 20px;
+         
+         } 
+         .footerp{
+            color:white;
+            text-align:center;
+            margin-left: 50px;
+            font-weight:normal;
+            padding-top:5px;
+         }
+        
+    
           
           
           
