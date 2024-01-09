@@ -457,25 +457,14 @@ opacity:0.9;
   margin-left: -30px;
 }
 
-/* .styo:hover{
- 
-color:blue;
-} */
-/* .styo{
-  margin-left:-120px;
-padding-top:-30px;
-text-align:center;
-font-size:21px;
 
-} */
 
 .divstyle{
   position:fixed;
   width:100%;
   margin-top:0px;
   background-image: linear-gradient(to right, rgb(41, 41, 86) , rgb(255, 115, 0));
-  /* opacity: 0.95; */
-  /* background-image: linear-gradient(to right  rgb(191, 221, 231), rgb(255, 115, 0)); */
+  
   height:50px;
   z-index: 1;
  
@@ -573,7 +562,6 @@ font-size:21px;
 .home{
   margin-left:5.5%;
   padding-top:-3%;
- 
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.35rem;
   font-weight: bold;
@@ -600,7 +588,6 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .techno1{
   padding-right:0px;
- 
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 150%;
   margin-right: 40px;
@@ -848,13 +835,7 @@ text-decoration: none;
      margin-left:20px;
      margin-top: -15px;
  }
- /* .gethome{
-     text-decoration:none;
-     color:black;
-     font-weight:normal;
-     margin-left:20px;
-     padding-top:20px;
- } */
+ 
  
  .box3{
      margin-left: 600px;

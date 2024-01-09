@@ -206,7 +206,7 @@ opacity:0.9;
 .aboutpara{
   margin-top: -520px;
   margin-left: -480px;
-  font-size: 25px;
+  font-size: 24px;
   text-align: justify;
   width: 58%;
 }
@@ -338,7 +338,7 @@ opacity:0.9;
 
 
 .home{
-  margin-left:-5.5%;
+  margin-left:-5.85%;
   padding-top:-3%;
  
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -348,7 +348,7 @@ opacity:0.9;
   
 }
 .aboutus1{
-padding-left:3%;
+padding-left:2.9%;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  width: 240px;
  margin-left: -2%;
@@ -361,7 +361,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
   font-size: 1.3rem;
   font-weight: bold;
-  margin-left: 24.5%;
+  margin-left: 25.5%;
   margin-right: -82%;
   display: flex;
 }
@@ -379,7 +379,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
   font-size: 1.3rem;
   font-weight: bold;
-  margin-left: 14%;
+  margin-left: 14.2%;
   display: flex;
   /* margin-right:-100% ; */
 }
@@ -387,7 +387,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
   font-size: 1.3rem;
   font-weight: bold;
-  margin-left: -2%;
+  margin-left: -1.1%;
   margin-right: 30%;
   display: flex;
 }
@@ -460,7 +460,7 @@ li a.active {
   background-position: center;
   background-size: cover;
   display: flex;
-  height: 150vh;
+  height: 132vh;
 }
 .core2{
   display: flex;
@@ -476,10 +476,10 @@ li a.active {
   border-radius: 1.5vw;
   line-height: 40px;
   text-align: center; 
-  margin-top: 16vw;
+  margin-top: 7vw;
   text-align: center;
   animation: rotates 0.9s linear;
-  margin-left: -1440px;
+  margin-left: -1430px;
   background-color: rgb(99, 174, 244);
   text-align: center;
   padding-left: 0.8vw;
@@ -490,10 +490,10 @@ li a.active {
 .coreparagraph-2{
   font-size: 18px;
   color: #fff;
-  margin-top:15.8vw;
+  margin-top:7vw;
   border-radius: 30px;
   line-height: 40px;
-  margin-left: -550px;
+  margin-left: -520px;
   background-color: rgb(99, 174, 244);
   padding-left: 22px;
   padding-right: 18px;
@@ -510,10 +510,11 @@ li a.active {
   line-height: 35px;
   text-align: center;
   animation: rotates 0.9s linear; 
-margin-bottom: 5px;
-margin-left: -2.5vw;
+margin-bottom: 10px;
+
+margin-left: -0.5vw;
 background-color: rgb(99, 174, 244);
-margin-top: 15.5vw;
+margin-top: 7vw;
 z-index:0;
 height:351px;
 padding-left: 1.1vw;
@@ -649,7 +650,7 @@ padding-right: 1vw;
     background-position: center;
     background-size: cover;
     display: flex;
-  height:122vh;
+  height:85.5vh;
   margin-top: -32vw;
 }
 
@@ -701,12 +702,12 @@ padding-right: 1vw;
 }
 
 .styless{
-  width:284px;
+  width:310px;
   background-color:rgba(255, 230, 196, 0.934);
-  margin-top: -58.9vh;
+  margin-top: -65.7vh;
   transition: transform .2s;
   animation: rotater 0.9s linear; 
-  margin-left: -18vw;
+  margin-left: -19.0vw;
 }
 .styless:hover{
   transform: scale(1.02);
@@ -719,12 +720,12 @@ padding-right: 1vw;
   transition: transform .2s; 
 }
 .styless1{
-  width:284px;
+  width:310px;
  
   margin-left:145px;
   background-color:rgba(255, 230, 196, 0.934);
   
-  margin-top: -312px;
+  margin-top: -348px;
   transition: transform .2s;
   animation: rotater 0.9s linear; 
 }
@@ -733,13 +734,13 @@ padding-right: 1vw;
   transform: scale(1.02);
 }
 .styless2{
-  width:284px;
+  width:310px;
   
-  margin-left:-710px;
+  margin-left:-738px;
   background-color:rgba(255, 230, 196, 0.934);
   transition: transform .2s;
   animation: rotater 0.9s linear;
-  margin-top: -1px; 
+  margin-top: -162px; 
   
 }
 .styless2:hover{
@@ -967,7 +968,7 @@ padding-right: 1vw;
 
 
 .bussiness{
-  height: 95vh;
+  height: 100vh;
   background-image:url(pcp19.PNG);
   background-repeat: no-repeat;
   background-position: center;
@@ -977,42 +978,42 @@ padding-right: 1vw;
 
 .busineslogo{
   display: flex;
-  margin-top: 80px;
-  margin-left: 610px;
+  margin-top: 55px;
+  margin-left: 635px;
   font-size: 30px;
   font-weight: bold;
 }
 .buscontainer{
-  width: 26%;
-  height: 60%;
+  width: 36%;
+  height: 66%;
   background-color: aliceblue;
-  margin-left: -600px;
-  margin-top: 190px;
+  margin-left: -780px;
+  margin-top: 160px;
 }
 
 .buspar1{
-  margin-top: 40px;
+  margin-top: 55px;
   text-align: justify;
-  width: 88%;
-  font-size: 15px;
+  width: 90%;
+  font-size: 20px;
   margin-left: 25px;
 }
 .buspar2{
   text-align: justify;
-  width: 88%;
-  font-size: 15px;
+  width: 90%;
+  font-size: 20px;
   margin-left: 25px;
   margin-top: 10px;
 }
 .buspar3{
   text-align: justify;
-  width: 88%;
-  font-size: 15px;
+  width: 90%;
+  font-size: 20px;
   margin-left: 25px;
   margin-top: 7px;
 }
 .busimg1{
-  width: 200px;
+  width: 230px;
   margin-top: -40px;
   z-index: 0;
   position: absolute;
@@ -1021,39 +1022,39 @@ padding-right: 1vw;
 
 
 .buscontainer2{
-  width: 26%;
-  height: 60%;
+  width: 36%;
+  height: 66%;
   background-color: aliceblue;
   margin-left: 100px;
-  margin-top: 190px;
+  margin-top: 160px;
   /* display: flex; */
 }
 
 .buspar4{
-  margin-top: 0px;
+  margin-top: 10px;
   text-align: justify;
-  width: 88%;
-  font-size: 15px;
+  width: 90%;
+  font-size: 20px;
   margin-left: 25px;
   display: flex;
 }
 .buspar5{
   text-align: justify;
-  width: 88%;
-  font-size: 15px;
+  width: 90%;
+  font-size: 20px;
   margin-left: 25px;
   margin-top: 10px;
 }
 .buspar6{
   text-align: justify;
-  width: 88%;
-  font-size: 15px;
+  width: 90%;
+  font-size: 20px;
   margin-left: 25px;
   margin-top: 7px;
 }
 
 .busimg2{
-  width: 200px;
+  width: 230px;
   margin-top: -40px;
 }
 
@@ -2131,160 +2132,170 @@ padding-right: 1vw;
     margin-top: 10px;
    }
    
+
+
+
+
+
+
    .getpunead{
-       margin-top:-3px;
-       margin-left: 430px;
-   }
-   .gpune1{
-       font-weight:normal;
-       margin-left:-400px;
-       margin-top: 15px;
-       font-size: 22px;
-   }
-   .gpune2{
-       font-weight:normal;
-       margin-left:-400px;
-       margin-top: 9px;
-       font-size: 18px;
-   }
-   .gpune3{
-       font-weight:normal;
-       margin-left:-400px;
-       font-size: 18px;
-   }
-   .gpune4{
-       font-weight:normal;
-       margin-left:-400px;
-       font-size: 18px;
-   }
-   .gpune5{
-       font-weight:normal;
-       margin-left:-400px;
-       font-size: 18px;
-   }
-   .gpune6{
-       font-weight:normal;
-       margin-left:-400px;
-   }
-   .getimgll{
-    margin-top:-50px;
-    margin-left: -58px;
-  }
-   .hydful{
-    margin-left: -950px;
-    margin-top: 64px;
-   }
-   .gethydadr{
-       font-weight:normal;
-       margin-left:-20px;
-       margin-top: 5px;
-       font-size: 22px;
-   }
-   .ghyd1{
-       font-weight:normal;
-       margin-left:-20px;
-       margin-top: 8px;
-       font-size: 18px;
-   }
-   .ghyd2{
-       font-weight:normal;
-       margin-left:-20px;
-       font-size: 18px;
-   }
-   .ghyd3{
-       font-weight:normal;
-       margin-left:-20px;
-       font-size: 18px;
-   }
-   .ghyd4{
-       font-weight:normal;
-       margin-left:-20px;
-       font-size: 18px;
-   }
-   .ghyd5{
-       font-weight:normal;
-       margin-left:-26px;
-   }
-   .getimgll2{
-    margin-left: -500px;
+    margin-top:-3px;
+    margin-left: 470px;
+}
+.gpune1{
+    font-weight:normal;
+    margin-left:-400px;
+    margin-top: 15px;
+    font-size: 22px;
+}
+.gpune2{
+    font-weight:normal;
+    margin-left:-400px;
+    margin-top: 9px;
+    font-size: 18px;
+}
+.gpune3{
+    font-weight:normal;
+    margin-left:-400px;
+    font-size: 18px;
+}
+.gpune4{
+    font-weight:normal;
+    margin-left:-400px;
+    font-size: 18px;
+}
+.gpune5{
+    font-weight:normal;
+    margin-left:-400px;
+    font-size: 18px;
+}
+.gpune6{
+    font-weight:normal;
+    margin-left:-400px;
+}
+.getimgll{
+ margin-top:-50px;
+ margin-left: -58px;
+}
+.hydful{
+ margin-left: -950px;
+ margin-top: 64px;
+}
+.gethydadr{
+    font-weight:normal;
+    margin-left:-20px;
     margin-top: 5px;
-   }
-   .chennainew{
-    margin-left: 870px;
-    margin-top: -138px;
-   }
-   .gchennai{
-       font-weight:normal;
-       margin-left:-462px;
-       margin-top: 10px;
-       font-size: 22px;
-   }
-   .gchain1{
-       font-weight:normal;
-       margin-left:-461px;
-       margin-top: 9px;
-       font-size: 18px;
-   }
-   .gchain2{
-       font-weight:normal;
-       margin-left:-461px;
-       font-size: 18px;
-   }
-   .gchain3{
-       font-weight:normal;
-       margin-left:-461px;
-       font-size: 18px;
-   }
-   .gchain4{
-       font-weight:normal;
-       margin-left:-461px;
-   }
-   .gchain5{
-       font-weight:normal;
-       margin-left:-461px;
-   }
-   .getimgll3{
-    margin-left: -125px;
-    margin-top: 1px;
-   }
-   .banglnew{
-    margin-top: -126px;
-    margin-left: -1050px;
-   }
-   .gbanglor{
-       font-weight:normal;
-       margin-left:-85px;
-       margin-top: 5px;
-       width: 350px;
-       font-size: 22px;
-   }
-   .gbang1{
-       font-weight:normal;
-       margin-left:-85px;
-       margin-top: 10px;
-       font-size: 18px;
-   }
-   .gbang2{
-       font-weight:normal;
-       margin-left:-85px;
-       font-size: 18px;
-   }
-   .gbang3{
-       font-weight:normal;
-       margin-left:-85px;
-       font-size: 18px;
-   }
-   .gbang4{
-       font-weight:normal;
-       margin-left:-85px;
-       font-size: 18px;
-   }
-   .gbang5{
-       font-weight:normal;
-       margin-left:-85px;
-   }
-    
-   
+    font-size: 22px;
+}
+.ghyd1{
+    font-weight:normal;
+    margin-left:-20px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+.ghyd2{
+    font-weight:normal;
+    margin-left:-20px;
+    font-size: 18px;
+}
+.ghyd3{
+    font-weight:normal;
+    margin-left:-20px;
+    font-size: 18px;
+}
+.ghyd4{
+    font-weight:normal;
+    margin-left:-20px;
+    font-size: 18px;
+}
+.ghyd5{
+    font-weight:normal;
+    margin-left:-26px;
+}
+.getimgll2{
+ margin-left: -500px;
+ margin-top: 5px;
+}
+.chennainew{
+ margin-left: 870px;
+ margin-top: -138px;
+}
+.gchennai{
+    font-weight:normal;
+    margin-left:-462px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.gchain1{
+    font-weight:normal;
+    margin-left:-461px;
+    margin-top: 9px;
+    font-size: 18px;
+}
+.gchain2{
+    font-weight:normal;
+    margin-left:-461px;
+    font-size: 18px;
+}
+.gchain3{
+    font-weight:normal;
+    margin-left:-461px;
+    font-size: 18px;
+}
+.gchain4{
+    font-weight:normal;
+    margin-left:-461px;
+}
+.gchain5{
+    font-weight:normal;
+    margin-left:-461px;
+}
+.getimgll3{
+ margin-left: -125px;
+ margin-top: 1px;
+}
+.banglnew{
+ margin-top: -126px;
+ margin-left: -1020px;
+}
+.gbanglor{
+    font-weight:normal;
+    margin-left:-85px;
+    margin-top: 5px;
+    width: 350px;
+    font-size: 22px;
+}
+.gbang1{
+    font-weight:normal;
+    margin-left:-85px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.gbang2{
+    font-weight:normal;
+    margin-left:-85px;
+    font-size: 18px;
+}
+.gbang3{
+    font-weight:normal;
+    margin-left:-85px;
+    font-size: 18px;
+}
+.gbang4{
+    font-weight:normal;
+    margin-left:-85px;
+    font-size: 18px;
+}
+.gbang5{
+    font-weight:normal;
+    margin-left:-85px;
+}
+
+
+
+
+
+
     .footer{
        background-color:#a47fd1;
        height:30px;
@@ -2333,7 +2344,7 @@ display: flex;
 .droapdown{
   margin-left: 216px;
   margin-top: -28.5px;
-  height: 100px;
+  height: 120px;
   width: 50px;
 }
 
