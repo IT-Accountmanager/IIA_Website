@@ -956,8 +956,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .showMe1{
   display: none;
-    opacity: 0;
-    transition: opacity 0.5s ease;
+    
 }
 
 
@@ -1290,9 +1289,9 @@ text-align: center;
     border-style: solid;
     background-color: #99dcfd;
       width: 10%;
-      height: 6%;
-      margin-left: 400px;
-      margin-top: -135px;
+      height: 20%;
+      margin-left: 0px;
+      margin-top: -175px;
       border-color: #000000;
       cursor: pointer;
     }

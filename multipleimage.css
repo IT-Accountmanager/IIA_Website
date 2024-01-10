@@ -22,12 +22,7 @@ body{
     height: 140px;
     transition:0.5s;
   }
-  .container{
-    width:250px;
-    float:left;
-    display:inline;
-    margin:0 5px;
-  }
+  
   .clear{
     clear:both;
   }
@@ -35,6 +30,9 @@ body{
     width:30%;
     margin:auto;
   }
+
+
+
   button{
     border:none;
   margin-top: 100px;

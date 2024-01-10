@@ -868,7 +868,7 @@ width: 560px;
   font-size: 18px;
   margin-top: 10px;
   margin-left: -39px;
-  width: 400px;
+  width: 800px;
   text-align: justify;
 }
 .courpara71{
@@ -2392,16 +2392,76 @@ text-decoration: none;
          font-family: Arial, Helvetica, sans-serif;
          display: flex;
       }
+
+
+
+
+      .boxes {
+        width:00px;
+        height: 190px;
+        margin-top:-40px;
+        margin-left:40px;
+        /* display:inline-block; */
+        background-size: 200% 200%;
+        transition: background-position 1s;
+      }
+      
+      /* .to-top{
+        background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+        background-position: top;
+      }
+      
+      .to-top:hover {
+        background-position: bottom;
+      } */
+      
+      .boxes1 {
+        width:100px;
+        height: 160px;
+        margin-left:30%;
+        margin-top:-190px;
+        /* display:inline-block; */
+        background-size: 200% 200%;
+        transition: background-position 1s;
+      }
+      
+      
+    .to1-top1{
+      background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+      background-position: top;
+    }
+    
+    .to1-top1:hover {
+      background-position: bottom;
+    }
+    
+    .boxes2 {
+      width:380px;
+      height: 160px;
+      margin-left:88%;
+      margin-top:-160px;
+      /* display:inline-block; */
+      background-size: 200% 200%;
+      transition: background-position 1s;
+    }
+    
+    .to2-top2{
+      background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+      background-position: top;
+    }
+    .to2-top2:hover {
+      background-position: bottom;
+    }
       .getbb{
-        background-color:#b8aac9;
-           width:70%;
+        /* background-color:#b8aac9; */
+           width:42%;
            /* border-radius:10px; */
-           margin-left:15%;
+           margin-left:12%;
            height:190px;
            align-items:center;
            padding:20px;
            position:absolute;
-           padding-top:40px;
+           padding-top:0px;
            padding-left:30px;
          
          }
@@ -2419,290 +2479,323 @@ text-decoration: none;
            margin-left:50px;
            margin-top:5px;
          }
-
-      .getimgll{
-         margin-top:-45px;
-     }
-     .getpune{
-         margin-left:2px;
-         margin-top:65px;
-         font-size:20px;
-     }
-     .getbangl{
-         margin-left:2px;
-         margin-top:2px;
-         font-size:20px;
-     }
-     .gethyd{
-         margin-left:2px;
-         margin-top:2px;
-         font-size:20px;
-     }
-     .getchen{
-         margin-left:2px;
-         margin-top:1px;
-         font-size:20px;
-     }
-      .getbox1{
-         padding-left:-15%;
-         padding-top:20px;
-      } 
-       .getmakec{
-         margin-left:50px;
-         font-weight:bold;
-         font-size:20px;
-         margin-top:5px;
+       
+       .getpune{
+           margin-left:2px;
+           margin-top:65px;
+           font-size:20px;
        }
-     
-     .getlets{
-         margin-left:50px;
-         margin-top:5px;
-     }
-     .gethed{
-         margin-top:-60px;
-     }
-     .gethmobile{
-         margin-left:48px;
-         margin-top:77px;
-         font-size:20px;
-     }
-     .gettime{
-         margin-top:4px;
-         margin-left:48px;
-         font-size: 20px;
-     }
-     .getbox2{
-         padding-left:10%;
-         padding-top:20px;
-     }
-     .getsend{
-         margin-left:50px;
-         font-weight:bold;
-         font-size:20px;
-         padding-top:-25px;
-         margin-top:4px;
-     }
-     .getdon{
-         margin-left:50px;
-         margin-top:5px;
-     }
-     .getmailimg{
-         margin-top:-65px;
-     }
-     .getm1{
-         margin-left:5px;
-         margin-top:80px;
-         font-size:20px;
-     }
-     .getm2{
-         margin-left:5px;
-         margin-top:2px;
-         font-size:20px;
-     }
-     .getmiddile{
-         background-color:#7c47bd;
-         height:100%;
-         z-index:0;
-         margin-top:25px;
-         display: flex;
-         width: 100%;
-         z-index: -1;
-         position: relative;
-     }
-     .getmidimg{
-         margin-top:50px;
-         margin-left:70px;
-         margin-right:10px;
-     }
-     .getiia{
-         padding-top:200px;
-         margin-left: -40px;
-         text-align:center;
-         width:380px;
-         padding-bottom:-10px;
-         font-size:25px;
-     }
-
-     .getpara{
-     margin-right: -100px;
-     }
-    
-     .box1{
-         margin-left: 80px;
-         margin-top:200px;
-         font-size: 17px;
-         z-index:0;
-         padding-top:-190px;
-     }
-     .mainlink{
-         margin-left:85px;
-         margin-top: 5px;
-         width: 100%;
-     }
-    .gethome{
-      text-decoration:none;
-      color:black;
-      font-weight:normal;
-      margin-left:65px;
-      padding-top:0px;
-    }
-
-
-     .getabout{
-      text-decoration:none;
-      color:black;
-      font-weight:normal;
-      margin-left:60px;
-      margin-top:-1px;
-      width: 100%;
-      /* margin-bottom:-30px; */
-     }
-    .getindus{
-      text-decoration:none;
-      color:black;
-      font-weight:normal;
-      margin-left:60px;
-      margin-top: -1px;
-    }
-    .gettechno{
-      text-decoration:none;
-      color:black;
-      font-weight:normal;
-      margin-left:60px;
-      margin-right: -20px;
-      width: 150%;
-      margin-top: -1px;
+       .getbangl{
+           margin-left:2px;
+           margin-top:2px;
+           font-size:20px;
+       }
+       .gethyd{
+           margin-left:2px;
+           margin-top:2px;
+           font-size:20px;
+       }
+       .getchen{
+           margin-left:2px;
+           margin-top:1px;
+           font-size:20px;
+       }
+        .getbox1{
+           padding-left:-15%;
+           padding-top:20px;
+        } 
+         .getmakec{
+           margin-left:100px;
+           font-weight:bold;
+           font-size:24px;
+           margin-top:5px;
+         }
+       
+       .getlets{
+           margin-left:50px;
+           margin-top:5px;
+       }
+       .gethed{
+           margin-top:-33px;
+           margin-left: 50px;
+       }
+       .gethmobile{
+           margin-left:58px;
+           margin-top:65px;
+           font-size:22px;
+       }
+       .gettime{
+           margin-top:4px;
+           margin-left:48px;
+           font-size: 20px;
+       }
+       .getbox2{
+           padding-left:10%;
+           padding-top:20px;
+       }
+       .getsend{
+           margin-left:120px;
+           font-weight:bold;
+           font-size:24px;
+           padding-top:-25px;
+           margin-top:4px;
+           width: 150px;
+       }
+       .getdon{
+           margin-left:50px;
+           margin-top:5px;
+       }
+       .getmailimg{
+           margin-top:-30px;
+           margin-left: 72px;
+       }
+       .getm1{
+           margin-left:5px;
+           margin-top:80px;
+           font-size:20px;
+       }
+       .getm2{
+           margin-left:70px;
+           margin-top:56px;
+           font-size:25px;
+       }
+       .getmiddile{
+           background-color:#7c47bd;
+           height:105%;
+           z-index:0;
+           margin-top:45px;
+           display: flex;
+           width: 100%;
+           z-index: -1;
+           position: relative;
+       }
+       .getmidimg{
+           margin-top:50px;
+           margin-left:70px;
+           margin-right:10px;
+       }
+       .getiia{
+           padding-top:200px;
+           margin-left: -40px;
+           text-align:center;
+           width:380px;
+           padding-bottom:-10px;
+           font-size:25px;
+       }
+       .getpara{
+           width:520px;
+           padding-top:280px;
+         margin-left: -390px;
+           text-align:justify;
+           font-size:22px;
+           padding-bottom:30px;
+       }
+       .box1{
+        margin-left: 24px;
+        margin-top:-315px;
+        font-size: 17px;
+        z-index:0;
+        padding-top:-190px;
+      }
+      .mainlink{
+        margin-left:10px;
+        margin-top: 5px;
+      }
+      /* .gethome{
+        text-decoration:none;
+        color:black;
+        font-weight:normal;
+        margin-left:20px;
+        padding-top:20px;
+      } */
       
-    }
-    .getplace{
-      text-decoration:none;
-      color:black;
+      .box3{
+        margin-left: 720px;
+        margin-top: 200px;
+        font-size: 17px;
+      }
+      .getconnect{
+        margin-left:-170px;
+      }
+      .getimgll1{
+      margin-left: -440px;
+      margin-top: 10px;
+      }
+      
+      
+      
+      
+      
+      .getpunead{
+      margin-top:-3px;
+      margin-left: 470px;
+      }
+      .gpune1{
       font-weight:normal;
-      margin-top: -1px;
-     margin-left: 58px;
-     margin-right:-50px ;
-    }
-    .getenroll{
-      text-decoration:none;
-      color:black;
+      margin-left:-400px;
+      margin-top: 15px;
+      font-size: 22px;
+      }
+      .gpune2{
       font-weight:normal;
-     margin-top: -1px;
-      margin-left:60px;
-    }
-     .box3{
-         margin-left: 500px;
-         margin-right: -40px;
-         margin-top: 200px;
-         font-size: 17px;
-     }
-     .getconnect{
-         margin-left:-150px;
-     }
-     
-     
-     .getpunead{
-         margin-top:3px;
-         margin-left: -10px;
-     }
-     .gpune1{
-         font-weight:normal;
-         margin-left:-400px;
-     }
-     .gpune2{
-         font-weight:normal;
-         margin-left:-400px;
-     }
-     .gpune3{
-         font-weight:normal;
-         margin-left:-400px;
-     }
-     .gpune4{
-         font-weight:normal;
-         margin-left:-400px;
-     }
-     .gpune5{
-         font-weight:normal;
-         margin-left:-400px;
-     }
-     .gpune6{
-         font-weight:normal;
-         margin-left:-400px;
-     }
-     .gethydadr{
-         font-weight:normal;
-         margin-left:-68px;
-     }
-     .ghyd1{
-         font-weight:normal;
-         margin-left:-67px;
-     }
-     .ghyd2{
-         font-weight:normal;
-         margin-left:-67px;
-     }
-     .ghyd3{
-         font-weight:normal;
-         margin-left:-66px;
-     }
-     .ghyd4{
-         font-weight:normal;
-         margin-left:-66px;
-     }
-     .ghyd5{
-         font-weight:normal;
-         margin-left:-66px;
-     }
-     .gchennai{
-         font-weight:normal;
-         margin-left:-412px;
-     }
-     .gchain1{
-         font-weight:normal;
-         margin-left:-411px;
-     }
-     .gchain2{
-         font-weight:normal;
-         margin-left:-411px;
-     }
-     .gchain3{
-         font-weight:normal;
-         margin-left:-411px;
-     }
-     .gchain4{
-         font-weight:normal;
-         margin-left:-411px;
-     }
-     .gchain5{
-         font-weight:normal;
-         margin-left:-411px;
-     }
-     .gbanglor{
-         font-weight:normal;
-         margin-left:-75px;
-         margin-right: -20px;
-         width: 350px;
-     }
-     .gbang1{
-         font-weight:normal;
-         margin-left:-75px;
-     }
-     .gbang2{
-         font-weight:normal;
-         margin-left:-75px;
-     }
-     .gbang3{
-         font-weight:normal;
-         margin-left:-75px;
-     }
-     .gbang4{
-         font-weight:normal;
-         margin-left:-75px;
-     }
-     .gbang5{
-         font-weight:normal;
-         margin-left:-75px;
-     }
-
+      margin-left:-400px;
+      margin-top: 9px;
+      font-size: 18px;
+      }
+      .gpune3{
+      font-weight:normal;
+      margin-left:-400px;
+      font-size: 18px;
+      }
+      .gpune4{
+      font-weight:normal;
+      margin-left:-400px;
+      font-size: 18px;
+      }
+      .gpune5{
+      font-weight:normal;
+      margin-left:-400px;
+      font-size: 18px;
+      }
+      .gpune6{
+      font-weight:normal;
+      margin-left:-400px;
+      }
+      .getimgll{
+      margin-top:-50px;
+      margin-left: -58px;
+      }
+      .hydful{
+      margin-left: -950px;
+      margin-top: 64px;
+      }
+      .gethydadr{
+      font-weight:normal;
+      margin-left:-20px;
+      margin-top: 5px;
+      font-size: 22px;
+      }
+      .ghyd1{
+      font-weight:normal;
+      margin-left:-20px;
+      margin-top: 8px;
+      font-size: 18px;
+      }
+      .ghyd2{
+      font-weight:normal;
+      margin-left:-20px;
+      font-size: 18px;
+      }
+      .ghyd3{
+      font-weight:normal;
+      margin-left:-20px;
+      font-size: 18px;
+      }
+      .ghyd4{
+      font-weight:normal;
+      margin-left:-20px;
+      font-size: 18px;
+      }
+      .ghyd5{
+      font-weight:normal;
+      margin-left:-26px;
+      }
+      .getimgll2{
+      margin-left: -500px;
+      margin-top: 5px;
+      }
+      .chennainew{
+      margin-left: 870px;
+      margin-top: -138px;
+      }
+      .gchennai{
+      font-weight:normal;
+      margin-left:-462px;
+      margin-top: 10px;
+      font-size: 22px;
+      }
+      .gchain1{
+      font-weight:normal;
+      margin-left:-461px;
+      margin-top: 9px;
+      font-size: 18px;
+      }
+      .gchain2{
+      font-weight:normal;
+      margin-left:-461px;
+      font-size: 18px;
+      }
+      .gchain3{
+      font-weight:normal;
+      margin-left:-461px;
+      font-size: 18px;
+      }
+      .gchain4{
+      font-weight:normal;
+      margin-left:-461px;
+      }
+      .gchain5{
+      font-weight:normal;
+      margin-left:-461px;
+      }
+      .getimgll3{
+      margin-left: -125px;
+      margin-top: 1px;
+      }
+      .banglnew{
+      margin-top: -126px;
+      margin-left: -1020px;
+      }
+      .gbanglor{
+      font-weight:normal;
+      margin-left:-85px;
+      margin-top: 5px;
+      width: 350px;
+      font-size: 22px;
+      }
+      .gbang1{
+      font-weight:normal;
+      margin-left:-85px;
+      margin-top: 10px;
+      font-size: 18px;
+      }
+      .gbang2{
+      font-weight:normal;
+      margin-left:-85px;
+      font-size: 18px;
+      }
+      .gbang3{
+      font-weight:normal;
+      margin-left:-85px;
+      font-size: 18px;
+      }
+      .gbang4{
+      font-weight:normal;
+      margin-left:-85px;
+      font-size: 18px;
+      }
+      .gbang5{
+      font-weight:normal;
+      margin-left:-85px;
+      }
+      
+           .footer{
+              background-color:#a47fd1;
+              height:30px;
+              width: 100%;
+              text-align: center;
+              margin-left: 00%;
+              margin-top: 20px;
+           
+           } 
+           .footerp{
+              color:white;
+              text-align:center;
+              margin-left: 50px;
+              font-weight:normal;
+              padding-top:5px;
+           }
+          
 
   
   
