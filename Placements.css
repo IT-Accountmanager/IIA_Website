@@ -16,7 +16,7 @@
   /* background: linear-gradient(60deg, #4A148C 30.6%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 50vw;
  
-  /* background-image:url(pcp8.PNG); */
+  background-image:url(pcp8.PNG);
   width: 98.9vw;
   position: cover;
   background-size: auto;
@@ -39,7 +39,7 @@
   margin-top:-100px;
   height: 649px;
   background-color: white;
-  /* background-image:url(pcp10.PNG); */
+  background-image:url(pcp10.PNG);
   width: 1519px;
   background-repeat: no-repeat;
   background-position: center;
@@ -404,7 +404,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width:590px;
   font-size:24px;
   margin-left: -470px; 
-  color: rgb(12, 12, 12);
+  color: rgb(250, 244, 244);
 }
 .paragraphpla1{
   text-align:justify;
@@ -413,7 +413,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width:590px;
   font-size:24px;
   margin-left: -593px; 
-  color: rgb(11, 11, 11);
+  color: rgb(251, 247, 247);
 }
 .paragraphpla2{
   text-align:justify;
@@ -746,7 +746,7 @@ text-align:center;
 
 .container3cou{
   height:61.05vw;
-  /* background-image:url(pcp28.PNG); */
+  background-image:url(pcp28.PNG);
     width: 98.88vw;
     background-repeat: no-repeat;
     background-position: center;

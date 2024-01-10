@@ -25,7 +25,7 @@
           height: 39vw;
           margin-top: -2vw;
           background-color: white;
-          /* background-image:url(pcp11.PNG); */
+          background-image:url(pcp11.PNG);
             width: 98.88vw;
             position: cover;
           background-size: auto;
@@ -37,7 +37,7 @@
         .container-2{
           /* background: linear-gradient(120deg, #4A148C 31.25%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%); */
           height: 42.05vw;
-          /* background-image:url(pcp12.PNG); */
+          background-image:url(pcp12.PNG);
             width: 98.88vw;
             background-repeat: no-repeat;
             background-position: center;
@@ -57,7 +57,7 @@
         } */
         .container3cou{
           height:48.05vw;
-          /* background-image:url(pcp28.PNG); */
+          background-image:url(pcp28.PNG);
             width: 98.88vw;
             background-repeat: no-repeat;
             background-position: center;

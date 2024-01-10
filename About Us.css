@@ -35,7 +35,7 @@
 } */
 
 .container{
-  /* background-image:url(pcp3.PNG); */
+  background-image:url(pcp3.PNG);
   position: cover;
   background-size: auto;
   background-repeat: no-repeat;
@@ -453,7 +453,7 @@ li a.active {
 } */
 
 .corecontainer{
-  /* background-image:url(pcp27.PNG); */
+  background-image:url(pcp27.PNG);
   position: cover;
   background-size: auto;
   background-repeat: no-repeat;
@@ -643,7 +643,7 @@ padding-right: 1vw;
 
 
 .meetcontainer{
-    /* background-image:url(pcp28.PNG); */
+    background-image:url(pcp28.PNG);
     position: cover;
     background-size: auto;
     background-repeat: no-repeat;
@@ -969,7 +969,7 @@ padding-right: 1vw;
 
 .bussiness{
   height: 100vh;
-  /* background-image:url(pcp19.PNG); */
+  background-image:url(pcp19.PNG);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

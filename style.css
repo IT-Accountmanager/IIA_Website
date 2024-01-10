@@ -66,7 +66,7 @@
 
 
 .to1-top1{
-  background-image: linear-gradient(to top, #fccab0 50%,#fe8d74 0);
+  background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
   background-position: top;
 }
 
@@ -85,7 +85,7 @@
 }
 
 .to2-top2{
-  background-image: linear-gradient(to top, #fccab0 50%,#fe8d74 0);
+  background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
   background-position: top;
 }
 
@@ -100,6 +100,7 @@
 .courses{
   height: 610px;
   /* background-image:url(pcp20.PNG); */
+  background-color: #faf6f6;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -892,7 +893,7 @@ text-decoration: none;
  }
  .getmiddile{
      /* background-color:#7c47bd; */
-     background-color: #fff;
+     background-color: #f2efef;
      height:150%;
      z-index:0;
      margin-top:45px;
@@ -1112,7 +1113,7 @@ margin-left:-85px;
 }
 
      .footer{
-        background-color:#fe8d74;
+        background-color:#fcab98;
         height:30px;
         width: 100%;
         text-align: center;

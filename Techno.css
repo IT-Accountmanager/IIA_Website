@@ -22,7 +22,7 @@
   height: 39vw;
   margin-top: -1.7vw;
   background-color: white;
-  /* background-image:url(pcp14.PNG); */
+  background-image:url(pcp14.PNG);
     width: 98.88vw;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,7 +32,7 @@
 .container-2{
   /* background: linear-gradient(120deg, #4A148C 31.25%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 44vw;
-  /* background-image:url(pcp13.PNG); */
+  background-image:url(pcp13.PNG);
     width: 98.88vw;
     background-repeat: no-repeat;
     background-position: center;
