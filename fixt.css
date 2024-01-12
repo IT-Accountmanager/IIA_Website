@@ -22,7 +22,7 @@
   height: 40vw;
   margin-top: -1.7vw;
   background-color: white;
-  background-image:url(pcp12.PNG);
+  /* background-image:url(pcp12.PNG); */
     width: 98.88vw;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,7 +32,8 @@
 .container-2{
   /* background: linear-gradient(120deg, #4A148C 31.25%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 44vw;
-  background-image:url(pcp3.PNG);
+  /* background-image:url(pcp3.PNG); */
+  background-color: #faf6f6;
     width: 98.88vw;
     background-repeat: no-repeat;
     background-position: center;
@@ -66,7 +67,7 @@ position: relative;
 .menu-bar ul li a
 {
    text-decoration: none;
-   color: #4A148C;
+   color:#4b494d;
 }
 .active, .menu-bar ul li
 {
@@ -352,7 +353,7 @@ opacity:0.9;
 
 
 .menu-header{
-  background-color:rgb(220, 184, 156);
+  background-color:#E6E6FA;
   text-align: right; 
    position:fixed;
    width:100vw;
@@ -702,7 +703,13 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
-
+.syllabc{
+  display: flex;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
 .courpara1{
   display: flex;
   font-weight: bold;
@@ -713,7 +720,9 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 .courpara2{
   display: flex;
-  font-weight: bold;
+  /* font-weight: bold; */
+  text-align: justify;
+  width: 580px;
   font-size: 24px;
   margin-top: 28px;
   margin-left: 3px;
@@ -721,9 +730,9 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 .courpara2form{
   display: flex;
   font-weight: bold;
-  font-size: 20.5px;
-  margin-top: 28px;
-  margin-left: 3px;
+  font-size: 24px;
+  margin-top: 68px;
+  margin-left: -90px;
 }
 .courpara3{
   display: flex;
@@ -735,9 +744,9 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 .courpara3form{
   display: flex;
   
-  font-size: 18px;
-  margin-top: 10px;
-  margin-left: 5px;
+  font-size: 24px;
+  margin-top: 110px;
+  margin-left: -265px;
 }
 .courpara31{
   display: flex;
@@ -749,9 +758,9 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 .courpara31form{
   display: flex;
  
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 7px;
-  margin-left: 5px;
+  margin-left: -265px;
 }
 .courpara4{
   display: flex;
@@ -763,9 +772,9 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 .courpara4form{
   display: flex;
   font-weight: bold;
-  font-size: 20.5px;
-  margin-top: 20px;
-  margin-left: 3px;
+  font-size: 24px;
+  margin-top: 200px;
+  margin-left: -753px;
 }
 .courpara5{
   display: flex;
@@ -776,10 +785,10 @@ width: 600px;
 }
 .courpara5form{
   display: flex;
-width: 750px;
-  font-size: 18px;
-  margin-top: 10px;
-  margin-left: 5px;
+/* width: 750px; */
+  font-size: 24px;
+  margin-top: 245px;
+  margin-left: -410px;
 }
 .courpara51{
   display: flex;
@@ -790,10 +799,10 @@ width: 750px;
 }
 .courpara51form{
   display: flex;
-  width: 720px;
-  font-size: 18px;
+  /* width: 720px; */
+  font-size: 24px;
   margin-top: 9px;
-  margin-left: 5px;
+  margin-left: -410px;
 }
 .courpara6{
   display: flex;
@@ -805,9 +814,9 @@ width: 750px;
 .courpara6form{
   display: flex;
   font-weight: bold;
-  font-size: 20.5px;
-  margin-top: 23px;
-  margin-left: 5px;
+  font-size: 24px;
+  margin-top: 334px;
+  margin-left: -1345px;
 }
 .cc3{
   margin-left: 50px;
@@ -821,9 +830,9 @@ width: 750px;
 }
 .courpara7form{
   display: flex;
-  font-size: 18px;
-  margin-top: 8px;
-  margin-left: -42px;
+  font-size: 24px;
+  margin-top: 378px;
+  margin-left: -290px;
 }
 .courpara71{
   display: flex;
@@ -834,10 +843,10 @@ width: 750px;
 }
 .courpara71form{
   display: flex;
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 8px;
-  margin-left: -42px;
-  width: 780px;
+  margin-left: -290px;
+  /* width: 780px; */
 }
 .courpara8{
   display: flex;
@@ -875,8 +884,8 @@ width: 750px;
   margin-left: -180px;
 }
 .container3cou{
-  height:60.05vw;
-  background-image:url(pcp28.PNG);
+  height:116.05vw;
+  /* background-image:url(pcp28.PNG); */
     width: 98.88vw;
     background-repeat: no-repeat;
     background-position: center;
@@ -892,51 +901,51 @@ width: 750px;
 .courpara10{
   display: flex;
   font-weight: bold;
-  font-size: 16.5px;
-  margin-top: 58px;
-  margin-left: 28px;
+  font-size: 24px;
+  margin-top: 595px;
+  margin-left: -888px;
 }
 .courpara10form{
   display: flex;
   font-weight: bold;
-  font-size: 20.5px;
-  margin-top: 18px;
-  margin-left: 8px;
+  font-size: 24px;
+  margin-top: 470px;
+  margin-left: -1080px;
 }
 .courpara11{
   display: flex;
  
-  font-size: 18px;
-  margin-top: 88px;
-  margin-left: -230px;
+  font-size: 24px;
+  margin-top: 638px;
+  margin-left: -290px;
 }
 .courpara11form{
   display: flex;
- width: 700px;
-  font-size: 18px;
-  margin-top: 11px;
-  margin-left: 10px;
+ 
+  font-size: 24px;
+  margin-top: 511px;
+  margin-left: -290px;
 }
 .courpara111{
   display: flex;
  
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 6px;
-  margin-left: -230px;
+  margin-left: -290px;
 }
 .courpara111form{
   display: flex;
  
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 6px;
-  margin-left: 10px;
+  margin-left: -290px;
 }
 .courpara12{
   display: flex;
   font-weight: bold;
-  font-size: 16.5px;
-  margin-top: 150px;
-  margin-left: -628px;
+  font-size: 24px;
+  margin-top: 725px;
+  margin-left: -890px;
 }
 .courpara12form{
   display: flex;
@@ -948,9 +957,9 @@ width: 750px;
 .courpara13{
   display: flex;
  
-  font-size: 18px;
-  margin-top: 182px;
-  margin-left: -287px;
+  font-size: 24px;
+  margin-top: 770px;
+  margin-left: -367px;
 }
 .courpara13form{
   display: flex;
@@ -962,9 +971,9 @@ width: 750px;
 .courpara131{
   display: flex;
  
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 8px;
-  margin-left: -287px;
+  margin-left: -367px;
 }
 .courpara131form{
   display: flex;
@@ -976,9 +985,9 @@ width: 750px;
 .courpara14{
   display: flex;
   font-weight: bold;
-  font-size: 16.5px;
-  margin-top: 245px;
-  margin-left: -728px;
+  font-size: 24px;
+  margin-top: 855px;
+  margin-left: -1030px;
 }
 .courpara14form{
   display: flex;
@@ -989,10 +998,10 @@ width: 750px;
 }
 .courpara15{
   display: flex;
-  width: 850px;
-  font-size: 18px;
-  margin-top: 275px;
-  margin-left: -257px;
+  /* width: 850px; */
+  font-size: 24px;
+  margin-top: 900px;
+  margin-left: -312px;
 }
 .courpara15form{
   display: flex;
@@ -1004,9 +1013,9 @@ width: 750px;
 .courpara151{
   display: flex;
   width: 850px;
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 8px;
-  margin-left: -257px;
+  margin-left: -312px;
 }
 .courpara151form{
   display: flex;
@@ -1018,9 +1027,9 @@ width: 750px;
 .courpara16{
   display: flex;
   font-weight: bold;
-  font-size: 16.5px;
-  margin-top: 340px;
-  margin-left: -866px;
+  font-size: 24px;
+  margin-top: 985px;
+  margin-left: -992px;
 }
 .courpara16form{
   display: flex;
@@ -1031,10 +1040,10 @@ width: 750px;
 }
 .courpara17{
   display: flex;
-  width: 850px;
-  font-size: 18px;
-  margin-top: 370px;
-  margin-left: -295px;
+  width: 1350px;
+  font-size: 24px;
+  margin-top: 1030px;
+  margin-left: -370px;
 }
 .courpara17form{
   display: flex;
@@ -1053,9 +1062,9 @@ width: 750px;
 .courpara18{
   display: flex;
   font-weight: bold;
-  font-size: 16.5px;
-  margin-top: 431px;
-  margin-left: -867px;
+  font-size: 24px;
+  margin-top: 1111px;
+  margin-left: -1432px;
 }
 .courpara18form{
   display: flex;
@@ -1066,10 +1075,10 @@ width: 750px;
 }
 .courpara19{
   display: flex;
-  width: 850px;
-  font-size: 18px;
-  margin-top: 460px;
-  margin-left: -180px;
+  width: 1250px;
+  font-size: 24px;
+  margin-top: 1155px;
+  margin-left: -200px;
 }
 .courpara19form{
   display: flex;
@@ -1089,9 +1098,9 @@ width: 750px;
 .courpara20{
   display: flex;
   font-weight: bold;
-  font-size: 16.5px;
-  margin-top: 520px;
-  margin-left: -870px;
+  font-size: 24px;
+  margin-top: 1235px;
+  margin-left: -1336px;
 }
 .courpara20form{
   display: flex;
@@ -1102,10 +1111,10 @@ width: 750px;
 }
 .courpara21{
   display: flex;
-  width: 850px;
-  font-size: 18px;
-  margin-top: 550px;
-  margin-left: -348px;
+  /* width: 850px; */
+  font-size: 24px;
+  margin-top: 1280px;
+  margin-left: -450px;
 }
 .courpara21form{
   display: flex;
@@ -1117,9 +1126,9 @@ width: 750px;
 .courpara211{
   display: flex;
  
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 9px;
-  margin-left: -348px;
+  margin-left: -450px;
 }
 .courpara211form{
   display: flex;
@@ -1131,9 +1140,9 @@ width: 750px;
 .courpara22{
   display: flex;
   font-weight: bold;
-  font-size: 16.5px;
-  margin-top: 620px;
-  margin-left: -875px;
+  font-size: 24px;
+  margin-top: 1365px;
+  margin-left: -1230px;
 }
 .courpara22form{
   display: flex;
@@ -1144,10 +1153,10 @@ width: 750px;
 }
 .courpara23{
   display: flex;
-  width: 850px;
-  font-size: 18px;
-  margin-top: 650px;
-  margin-left: -233px;
+  /* width: 850px; */
+  font-size: 24px;
+  margin-top: 1410px;
+  margin-left: -270px;
   text-align: justify;
 }
 .courpara23form{
@@ -1161,9 +1170,9 @@ width: 750px;
 .courpara24{
   display: flex;
   width: 850px;
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 5px;
-  margin-left: -234px;
+  margin-left: -270px;
   text-align: justify;
 }
 .courpara24form{
@@ -1177,9 +1186,9 @@ width: 750px;
 .courpara25{
   display: flex;
   font-weight: bold;
-  font-size: 16.5px;
-  margin-top: 720px;
-  margin-left: -867px;
+  font-size: 24px;
+  margin-top: 1490px;
+  margin-left: -1140px;
 }
 .courpara25form{
   display: flex;
@@ -1190,10 +1199,10 @@ width: 750px;
 }
 .courpara26{
   display: flex;
-  width: 850px;
-  font-size: 18px;
-  margin-top: 750px;
-  margin-left: -104px;
+  /* width: 850px; */
+  font-size: 24px;
+  margin-top: 1530px;
+  margin-left: -75px;
   text-align: justify;
 }
 .courpara26form{
@@ -1207,22 +1216,22 @@ width: 750px;
 .courpara27{
   display: flex;
   font-weight: bold;
-  font-size: 16.5px;
-  margin-top: 790px;
-  margin-left: -866px;
+  font-size: 24px;
+  margin-top: 1580px;
+  margin-left: -1106px;
 }
 .courpara27form{
   display: flex;
   font-weight: bold;
-  font-size: 20.5px;
+  font-size: 24px;
   margin-top: 10px;
   margin-left: 10px;
 }
 .courpara28{
   display: flex;
   width: 850px;
-  font-size: 18px;
-  margin-top: 820px;
+  font-size: 24px;
+  margin-top: 1620px;
   margin-left: -169px;
   text-align: justify;
 }
@@ -1237,8 +1246,8 @@ width: 750px;
 
 .courpara29{
   display: flex;
-  width: 850px;
-  font-size: 18px;
+  /* width: 850px; */
+  font-size: 24px;
   margin-top: 5px;
   margin-left: -169px;
   text-align: justify;
@@ -1255,8 +1264,8 @@ width: 750px;
 
 .courpara30{
   display: flex;
-  width: 850px;
-  font-size: 18px;
+  /* width: 850px; */
+  font-size: 24px;
   margin-top: 5px;
   margin-left: -169px;
   text-align: justify;
@@ -1771,7 +1780,7 @@ width: 750px;
 
 
 .to1-top1{
-background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
 background-position: top;
 }
 
@@ -1790,7 +1799,7 @@ transition: background-position 1s;
 }
 
 .to2-top2{
-background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
 background-position: top;
 }
 .to2-top2:hover {
@@ -1904,7 +1913,7 @@ background-position: bottom;
      font-size:25px;
  }
  .getmiddile{
-     background-color:#7c47bd;
+     /* background-color:#7c47bd; */
      height:105%;
      z-index:0;
      margin-top:45px;
@@ -2124,7 +2133,7 @@ margin-left:-85px;
 }
 
      .footer{
-        background-color:#a47fd1;
+        background-color:#fcab98;
         height:30px;
         width: 100%;
         text-align: center;
@@ -2133,7 +2142,7 @@ margin-left:-85px;
      
      } 
      .footerp{
-        color:white;
+        color:black;
         text-align:center;
         margin-left: 50px;
         font-weight:normal;

@@ -24,8 +24,8 @@
          
           height: 39vw;
           margin-top: -2vw;
-          background-color: white;
-          background-image:url(pcp11.PNG);
+          background-color: #faf6f6;
+          /* background-image:url(pcp11.PNG); */
             width: 98.88vw;
             position: cover;
           background-size: auto;
@@ -37,7 +37,8 @@
         .container-2{
           /* background: linear-gradient(120deg, #4A148C 31.25%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%); */
           height: 42.05vw;
-          background-image:url(pcp12.PNG);
+          /* background-image:url(pcp12.PNG); */
+          background-color: #faf6f6;
             width: 98.88vw;
             background-repeat: no-repeat;
             background-position: center;
@@ -56,8 +57,8 @@
           display: flex;
         } */
         .container3cou{
-          height:48.05vw;
-          background-image:url(pcp28.PNG);
+          height:77.05vw;
+          /* background-image:url(pcp28.PNG); */
             width: 98.88vw;
             background-repeat: no-repeat;
             background-position: center;
@@ -88,7 +89,7 @@
         .menu-bar ul li a
         {
            text-decoration: none;
-           color: #4A148C;
+           color:#4b494d;
         }
         .active, .menu-bar ul li
         {
@@ -371,7 +372,8 @@
         }
         
         .menu-header{
-          background-color:rgb(220, 184, 156);
+        
+          background-color:  #fdd2c8;
           text-align: right; 
            position:fixed;
            width:100vw;
@@ -493,123 +495,123 @@
         .courpara1{
           display: flex;
           font-weight: bold;
-          font-size: 22px;
+          font-size: 24px;
           margin-top: 20px;
           margin-left: 20px;
         }
         .courpara2{
           display: flex;
           font-weight: bold;
-          font-size: 16.5px;
+          font-size: 24px;
           margin-top: 65px;
-          margin-left: -558px;
+          margin-left: -610px;
         }
         .courpara3{
           display: flex;
           width: 850px;
-          font-size: 18px;
-          margin-top: 94px;
-          margin-left: -90px;
+          font-size:24px;
+          margin-top: 98px;
+          margin-left: -190px;
         }
         .courpara4{
           display: flex;
           font-weight: bold;
-          font-size: 16.5px;
-          margin-top: 147px;
-          margin-left: -934px;
+          font-size: 24px;
+          margin-top: 197px;
+          margin-left: -914px;
         }
         .courpara5{
           display: flex;
           width: 850px;
-          font-size: 18px;
-          margin-top: 176px;
-          margin-left: -100px;
+          font-size: 24px;
+          margin-top: 230px;
+          margin-left: -203.5px;
         }
         .courpara6{
           display: flex;
           font-weight: bold;
-          font-size: 16.5px;
-          margin-top: 230px;
-          margin-left: -935px;
+          font-size: 24px;
+          margin-top: 335px;
+          margin-left: -914.5px;
         }
         .courpara7{
           display: flex;
           width: 850px;
-          font-size: 18px;
-          margin-top: 259px;
-          margin-left: -54px;
+          font-size: 24px;
+          margin-top: 370px;
+          margin-left: -137px;
         }
         
 
         .courpara8{
           display: flex;
           font-weight: bold;
-          font-size: 16.5px;
-          margin-top: 312px;
-          margin-left: -937px;
+          font-size: 24px;
+          margin-top: 478px;
+          margin-left: -917px;
         }
         .courpara9{
           display: flex;
           width: 850px;
-          font-size: 18px;
-          margin-top: 342px;
-          margin-left: -38px;
+          font-size: 24px;
+          margin-top: 514px;
+          margin-left: -112px;
         }
         .courpara10{
           display: flex;
           font-weight: bold;
-          font-size: 16.5px;
-          margin-top: 394px;
-          margin-left: -932px;
+          font-size: 24px;
+          margin-top: 620px;
+          margin-left: -914px;
         }
         .courpara11{
           display: flex;
           width: 850px;
-          font-size: 18px;
-          margin-top: 423px;
-          margin-left: -202px;
+          font-size: 24px;
+          margin-top: 656px;
+          margin-left: -352px;
         }
         .courpara12{
           display: flex;
           font-weight: bold;
-          font-size: 16.5px;
-          margin-top: 477px;
-          margin-left: -930px;
+          font-size: 24px;
+          margin-top: 762px;
+          margin-left: -914px;
         }
         .courpara13{
           display: flex;
           width: 850px;
-          font-size: 18px;
-          margin-top: 505px;
-          margin-left: -75px;
+          font-size: 24px;
+          margin-top: 795px;
+          margin-left: -160px;
         }
         .courpara14{
           display: flex;
           font-weight: bold;
-          font-size: 16.5px;
-          margin-top: 562px;
-          margin-left: -930px;
+          font-size: 24px;
+          margin-top: 898px;
+          margin-left: -913px;
         }
         .courpara15{
           display: flex;
           width: 850px;
-          font-size: 18px;
-          margin-top: 590px;
-          margin-left: -115px;
+          font-size: 24px;
+          margin-top: 935px;
+          margin-left: -220px;
         }
         .courpara16{
           display: flex;
           font-weight: bold;
-          font-size: 16.5px;
-          margin-top: 645px;
-          margin-left: -928px;
+          font-size: 24px;
+          margin-top: 1035px;
+          margin-left: -912px;
         }
         .courpara17{
           display: flex;
           width: 850px;
-          font-size: 18px;
-          margin-top: 672px;
-          margin-left: -172px;
+          font-size: 24px;
+          margin-top: 1070px;
+          margin-left: -302px;
         }
 
 .imges{
@@ -713,6 +715,10 @@
           color:blue;
           transform: scale(1.25);
           }
+          .styo1:hover{
+            color:black;
+            transform: scale(1.25);
+            }
           .stylep:hover{
             color:#4A148C;
           }
@@ -1259,7 +1265,7 @@
   
   
 .to1-top1{
-  background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-image: linear-gradient(to top, #bfbbb8 50%,#E6E6FA 0);
   background-position: top;
 }
 
@@ -1278,7 +1284,7 @@
 }
 
 .to2-top2{
-  background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-image: linear-gradient(to top, #bfbbb8 50%,#E6E6FA 0);
   background-position: top;
 }
 .to2-top2:hover {
@@ -1392,7 +1398,7 @@
        font-size:25px;
    }
    .getmiddile{
-       background-color:#7c47bd;
+       /* background-color:#7c47bd; */
        height:105%;
        z-index:0;
        margin-top:45px;
@@ -1612,7 +1618,7 @@
   }
   
        .footer{
-          background-color:#a47fd1;
+          background-color:#E6E6FA;
           height:30px;
           width: 100%;
           text-align: center;
@@ -1621,7 +1627,7 @@
        
        } 
        .footerp{
-          color:white;
+          color:black;
           text-align:center;
           margin-left: 50px;
           font-weight:normal;
@@ -1845,7 +1851,7 @@
     
     
   .to1-top1{
-    background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+    background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
     background-position: top;
   }
   
@@ -1864,7 +1870,7 @@
   }
   
   .to2-top2{
-    background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+    background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
     background-position: top;
   }
   .to2-top2:hover {
@@ -2502,7 +2508,9 @@
       margin-left:65px;
       padding-top:0px;
     }
-
+    .a:hover{
+      color: blue;
+    }
 
      .getabout{
       text-decoration:none;
@@ -2545,6 +2553,9 @@
      margin-top: -1px;
       margin-left:60px;
     }
+   .st:hover{
+    color: #06D85F;
+   }
      .box3{
          margin-left: 500px;
          margin-right: -40px;

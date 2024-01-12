@@ -296,7 +296,7 @@ position: relative;
 .menu-bar ul li a
 {
 text-decoration: none;
-color:#4A148C;
+color:#4b494d;
 }
 .active, .menu-bar ul li
 {
@@ -545,7 +545,7 @@ font-size:21px;
 
 
 .menu-header{
-  background-color:rgb(220, 184, 156);
+  background-color:#E6E6FA;
   text-align: right; 
    position:fixed;
    width:100vw;
@@ -893,7 +893,7 @@ text-decoration: none;
  }
  .getmiddile{
      /* background-color:#7c47bd; */
-     background-color: #f2efef;
+     background-color: white;
      height:150%;
      z-index:0;
      margin-top:45px;
@@ -1122,7 +1122,7 @@ margin-left:-85px;
      
      } 
      .footerp{
-        color:white;
+        color:black;
         text-align:center;
         margin-left: 50px;
         font-weight:normal;

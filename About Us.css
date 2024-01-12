@@ -35,7 +35,7 @@
 } */
 
 .container{
-  background-image:url(pcp3.PNG);
+  /* background-image:url(pcp3.PNG); */
   position: cover;
   background-size: auto;
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@ position: relative;
 .menu-bar ul li a
 {
 text-decoration: none;
-color:#4A148C;
+color:#4b494d;
 }
 .active, .menu-bar ul li
 {
@@ -312,7 +312,7 @@ opacity:0.9;
 
 
 .menu-header{
-  background-color:rgb(220, 184, 156);
+  background-color:#E6E6FA;
   text-align: right; 
    position:fixed;
    width:100vw;
@@ -453,14 +453,15 @@ li a.active {
 } */
 
 .corecontainer{
-  background-image:url(pcp27.PNG);
+  /* background-image:url(pcp27.PNG); */
+  background-color: #faf6f6;
   position: cover;
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: flex;
-  height: 132vh;
+  height: 95vh;
 }
 .core2{
   display: flex;
@@ -480,7 +481,7 @@ li a.active {
   text-align: center;
   animation: rotates 0.9s linear;
   margin-left: -1430px;
-  background-color: rgb(99, 174, 244);
+  background-color: #fcab98;
   text-align: center;
   padding-left: 0.8vw;
   padding-right: 1.4vw 
@@ -494,7 +495,7 @@ li a.active {
   border-radius: 30px;
   line-height: 40px;
   margin-left: -520px;
-  background-color: rgb(99, 174, 244);
+  background-color: #fcab98;
   padding-left: 22px;
   padding-right: 18px;
  
@@ -513,7 +514,7 @@ li a.active {
 margin-bottom: 10px;
 
 margin-left: -0.5vw;
-background-color: rgb(99, 174, 244);
+background-color: #fcab98;
 margin-top: 7vw;
 z-index:0;
 height:351px;
@@ -643,7 +644,8 @@ padding-right: 1vw;
 
 
 .meetcontainer{
-    background-image:url(pcp28.PNG);
+    /* background-image:url(pcp28.PNG); */
+    
     position: cover;
     background-size: auto;
     background-repeat: no-repeat;
@@ -651,7 +653,7 @@ padding-right: 1vw;
     background-size: cover;
     display: flex;
   height:85.5vh;
-  margin-top: -32vw;
+  margin-top: -10vw;
 }
 
 .logo{
@@ -703,7 +705,7 @@ padding-right: 1vw;
 
 .styless{
   width:310px;
-  background-color:rgba(255, 230, 196, 0.934);
+  background-color:rgba(255, 243, 227, 0.934);
   margin-top: -65.7vh;
   transition: transform .2s;
   animation: rotater 0.9s linear; 
@@ -723,7 +725,7 @@ padding-right: 1vw;
   width:310px;
  
   margin-left:145px;
-  background-color:rgba(255, 230, 196, 0.934);
+  background-color:rgba(255, 243, 227, 0.934);
   
   margin-top: -348px;
   transition: transform .2s;
@@ -737,7 +739,7 @@ padding-right: 1vw;
   width:310px;
   
   margin-left:-738px;
-  background-color:rgba(255, 230, 196, 0.934);
+  background-color:rgba(255, 243, 227, 0.934);
   transition: transform .2s;
   animation: rotater 0.9s linear;
   margin-top: -162px; 
@@ -969,7 +971,8 @@ padding-right: 1vw;
 
 .bussiness{
   height: 100vh;
-  background-image:url(pcp19.PNG);
+  /* background-image:url(pcp19.PNG); */
+  background-color: #faf6f6;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1937,7 +1940,7 @@ padding-right: 1vw;
   
   
 .to1-top1{
-  background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
   background-position: top;
 }
 
@@ -1956,7 +1959,7 @@ padding-right: 1vw;
 }
 
 .to2-top2{
-  background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
   background-position: top;
 }
 .to2-top2:hover {
@@ -2070,7 +2073,7 @@ padding-right: 1vw;
        font-size:25px;
    }
    .getmiddile{
-       background-color:#7c47bd;
+       /* background-color:#7c47bd; */
        height:100%;
        z-index:0;
        margin-top:45px;
@@ -2290,7 +2293,7 @@ padding-right: 1vw;
   }
   
        .footer{
-          background-color:#a47fd1;
+          background-color:#fcab98;
           height:30px;
           width: 100%;
           text-align: center;
@@ -2299,7 +2302,7 @@ padding-right: 1vw;
        
        } 
        .footerp{
-          color:white;
+          color:rgb(20, 20, 20);
           text-align:center;
           margin-left: 50px;
           font-weight:normal;
