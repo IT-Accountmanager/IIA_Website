@@ -2380,7 +2380,40 @@ addMarker(lat_lng);
 
 
 
+<script>
+ const locations = [
+    { lat: 37.7749, lng: -122.4194, name: 'San Francisco' },
+    { lat: 40.7128, lng: -74.0060, name: 'New York' },
+    { lat: 51.5074, lng: -0.1278, name: 'London' },
+    // Add more locations as needed
+];
 
+// Initialize and add the map
+function initMap() {
+    const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 2,
+        center: { lat: 0, lng: 0 },
+    });
+
+    // Add markers for each location
+    locations.forEach(location => {
+        const marker = new google.maps.Marker({
+            position: { lat: location.lat, lng: location.lng },
+            map: map,
+            title: location.name,
+        });
+
+        // Add an info window for each marker
+        const infowindow = new google.maps.InfoWindow({
+            content: `<p>${location.name}</p>`,
+        });
+
+        marker.addListener('click', () => {
+            infowindow.open(map, marker);
+        });
+    });
+}
+</script>
 
 
 

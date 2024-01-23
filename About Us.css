@@ -36,6 +36,7 @@
 
 .container{
   /* background-image:url(pcp3.PNG); */
+  background-color: #faf6f6;
   position: cover;
   background-size: auto;
   background-repeat: no-repeat;
@@ -47,7 +48,10 @@
 
 
 
-
+.hs:hover{
+ color: #ede9f3;
+ transition: calc(1.5);
+}
 
 
 .menu-bar ul
@@ -182,15 +186,11 @@ top: 100%;
 background-color:#784aac;
 opacity:0.9;
 }
-.logo{
+/* .logo{
   color: #fff;
   text-align: left;
-  /* padding: 20px 0 0 120px; */
-  /* margin-left: -140px; */
-  /* padding: 0,0,0px,0;
-  padding-bottom: -20px; */
-  font-size: 29px;
-}
+  font-size: 30px;
+} */
 
 .fade-in-image { animation: fadeIn 5s; }
 
@@ -205,6 +205,7 @@ opacity:0.9;
 
 .aboutpara{
   margin-top: -520px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-left: -480px;
   font-size: 24px;
   text-align: justify;
@@ -312,7 +313,7 @@ opacity:0.9;
 
 
 .menu-header{
-  background-color:#E6E6FA;
+  background-color:#ababf3;
   text-align: right; 
    position:fixed;
    width:100vw;
@@ -325,6 +326,7 @@ opacity:0.9;
   margin-top:0.65vh;
 }
 .iianame{
+
   text-align:center;
   font-size:17.5px;
   margin-right:1200px;
@@ -358,7 +360,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  
 }
 .cous{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.3rem;
   font-weight: bold;
   margin-left: 25.5%;
@@ -376,7 +378,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
 }
 .pla{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.3rem;
   font-weight: bold;
   margin-left: 14.2%;
@@ -384,7 +386,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   /* margin-right:-100% ; */
 }
 .enrol{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.3rem;
   font-weight: bold;
   margin-left: -1.1%;
@@ -405,13 +407,19 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width:2%;
   /* flex-shrink:2; */
 }
-
+.gbanglor:hover{
+  color: #c03737;
+  transform: scale(1.05);
+}
 li a.active {
   background-color: #4CAF50;
   color: white;
  }
  
-
+ #logout :hover{
+  color: #c03737;
+  transform: scale(1.05);
+  }
 /* .styo{
   color:#4A148C;
 } */
@@ -419,7 +427,10 @@ li a.active {
   color:blue;
   transform: scale(1.25);
   }
-
+.Banglore:hover{
+  color:blue;
+  transform: scale(1.25);
+}
   #menup{
     transition:1.6s;
   }
@@ -454,7 +465,7 @@ li a.active {
 
 .corecontainer{
   /* background-image:url(pcp27.PNG); */
-  background-color: #faf6f6;
+  background-color: #98f6cd;
   position: cover;
   background-size: auto;
   background-repeat: no-repeat;
@@ -645,7 +656,7 @@ padding-right: 1vw;
 
 .meetcontainer{
     /* background-image:url(pcp28.PNG); */
-    
+    background-color: #efe1d4;
     position: cover;
     background-size: auto;
     background-repeat: no-repeat;
@@ -653,7 +664,7 @@ padding-right: 1vw;
     background-size: cover;
     display: flex;
   height:85.5vh;
-  margin-top: -10vw;
+  margin-top: -12vw;
 }
 
 .logo{
@@ -704,12 +715,13 @@ padding-right: 1vw;
 }
 
 .styless{
-  width:310px;
-  background-color:rgba(255, 243, 227, 0.934);
-  margin-top: -65.7vh;
+  width:380px;
+  height: 380px;
+  background-color:#E6E6FA;
+  margin-top: -68.2vh;
   transition: transform .2s;
   animation: rotater 0.9s linear; 
-  margin-left: -19.0vw;
+  margin-left: -21vw;
 }
 .styless:hover{
   transform: scale(1.02);
@@ -722,12 +734,13 @@ padding-right: 1vw;
   transition: transform .2s; 
 }
 .styless1{
-  width:310px;
+  width:380px;
+  height: 380px;
  
-  margin-left:145px;
-  background-color:rgba(255, 243, 227, 0.934);
+  margin-left:160px;
+  background-color:#E6E6FA;
   
-  margin-top: -348px;
+  margin-top: -380px;
   transition: transform .2s;
   animation: rotater 0.9s linear; 
 }
@@ -736,10 +749,10 @@ padding-right: 1vw;
   transform: scale(1.02);
 }
 .styless2{
-  width:310px;
-  
-  margin-left:-738px;
-  background-color:rgba(255, 243, 227, 0.934);
+  width:380px;
+  height: 370px;
+  margin-left:-808px;
+  background-color:#E6E6FA;
   transition: transform .2s;
   animation: rotater 0.9s linear;
   margin-top: -162px; 
@@ -972,7 +985,7 @@ padding-right: 1vw;
 .bussiness{
   height: 100vh;
   /* background-image:url(pcp19.PNG); */
-  background-color: #faf6f6;
+  background-color: #ace0fe;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -981,6 +994,7 @@ padding-right: 1vw;
 
 .busineslogo{
   display: flex;
+  font-family:  Helvetica;
   margin-top: 55px;
   margin-left: 635px;
   font-size: 30px;
@@ -2017,298 +2031,328 @@ padding-right: 1vw;
        padding-left:-15%;
        padding-top:20px;
     } 
-     .getmakec{
-       margin-left:100px;
-       font-weight:bold;
-       font-size:24px;
-       margin-top:5px;
-     }
-   
-   .getlets{
-       margin-left:50px;
-       margin-top:5px;
-   }
-   .gethed{
-       margin-top:-33px;
-       margin-left: 50px;
-   }
-   .gethmobile{
-       margin-left:58px;
-       margin-top:65px;
-       font-size:22px;
-   }
-   .gettime{
-       margin-top:4px;
-       margin-left:48px;
-       font-size: 20px;
-   }
-   .getbox2{
-       padding-left:10%;
-       padding-top:20px;
-   }
-   .getsend{
-       margin-left:120px;
-       font-weight:bold;
-       font-size:24px;
-       padding-top:-25px;
-       margin-top:4px;
-       width: 150px;
-   }
-   .getdon{
-       margin-left:50px;
-       margin-top:5px;
-   }
-   .getmailimg{
-       margin-top:-30px;
-       margin-left: 72px;
-   }
-   .getm1{
-       margin-left:5px;
-       margin-top:80px;
-       font-size:20px;
-   }
-   .getm2{
-       margin-left:70px;
-       margin-top:56px;
-       font-size:25px;
-   }
-   .getmiddile{
-       /* background-color:#7c47bd; */
-       height:100%;
-       z-index:0;
-       margin-top:45px;
-       display: flex;
-       width: 100%;
-       z-index: -1;
-       position: relative;
-   }
-   .getmidimg{
-       margin-top:50px;
-       margin-left:70px;
-       margin-right:10px;
-   }
-   .getiia{
-       padding-top:200px;
-       margin-left: -40px;
-       text-align:center;
-       width:380px;
-       padding-bottom:-10px;
-       font-size:25px;
-   }
-   .getpara{
-       width:520px;
-       padding-top:280px;
-     margin-left: -390px;
-       text-align:justify;
-       font-size:22px;
-       padding-bottom:30px;
-   }
-   .box1{
-    margin-left: 24px;
-    margin-top:-335px;
-    font-size: 17px;
-    z-index:0;
-    padding-top:-190px;
-  }
-  .mainlink{
-    margin-left:10px;
-    margin-top: 5px;
-  }
-  /* .gethome{
-    text-decoration:none;
-    color:black;
-    font-weight:normal;
-    margin-left:20px;
-    padding-top:20px;
-  } */
+    .getmakec{
+      margin-left:100px;
+      font-family:     'Lucida Grande', 'Lucida Sans';
+      font-weight:bold;
+      font-size:24px;
+      margin-top:5px;
+    }
   
-  .box3{
-    margin-left: 820px;
-    margin-top: 200px;
-    font-size: 17px;
+  .getlets{
+      margin-left:50px;
+      margin-top:5px;
   }
-  .getconnect{
-    margin-left:-170px;
+  .gethed{
+      margin-top:-33px;
+      margin-left: 50px;
   }
-  .getimgll1{
-  margin-left: -440px;
-  margin-top: 10px;
+  .gethmobile{
+      margin-left:58px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-top:65px;
+      font-size:22px;
   }
-  
-  
-  
-  
-  
-  .getpunead{
-  margin-top:-3px;
-  margin-left: 470px;
+  .gettime{
+      margin-top:4px;
+      margin-left:48px;
+      font-size: 20px;
   }
-  .gpune1{
-  font-weight:normal;
-  margin-left:-400px;
-  margin-top: 15px;
-  font-size: 22px;
+  .getbox2{
+      padding-left:10%;
+      padding-top:20px;
   }
-  .gpune2{
-  font-weight:normal;
-  margin-left:-400px;
-  margin-top: 9px;
-  font-size: 18px;
+  .getsend{
+      margin-left:120px;
+      font-weight:bold;
+      font-family:     'Lucida Grande', 'Lucida Sans';
+      font-size:24px;
+      padding-top:-25px;
+      margin-top:4px;
+      width: 150px;
   }
-  .gpune3{
-  font-weight:normal;
-  margin-left:-400px;
-  font-size: 18px;
+  .getdon{
+      margin-left:50px;
+      margin-top:5px;
   }
-  .gpune4{
-  font-weight:normal;
-  margin-left:-400px;
-  font-size: 18px;
+  .getmailimg{
+      margin-top:-30px;
+      margin-left: 72px;
   }
-  .gpune5{
-  font-weight:normal;
-  margin-left:-400px;
-  font-size: 18px;
+  .getm1{
+      margin-left:5px;
+      margin-top:80px;
+      font-size:20px;
   }
-  .gpune6{
-  font-weight:normal;
-  margin-left:-400px;
+  .getm2{
+      margin-left:70px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-top:56px;
+      font-size:25px;
   }
-  .getimgll{
-  margin-top:-50px;
-  margin-left: -58px;
+  .getmiddile{
+      background-color:#f798c9;
+      height:105%;
+      z-index:0;
+      margin-top:45px;
+      display: flex;
+      width: 100%;
+      z-index: -1;
+      position: relative;
   }
-  .hydful{
-  margin-left: -950px;
-  margin-top: 64px;
+  .getmidimg{
+      margin-top:50px;
+      margin-left:70px;
+      margin-right:10px;
   }
-  .gethydadr{
-  font-weight:normal;
-  margin-left:-20px;
-  margin-top: 5px;
-  font-size: 22px;
+  .getiia{
+      padding-top:200px;
+      margin-left: -40px;
+      text-align:center;
+      width:380px;
+      padding-bottom:-10px;
+      font-size:25px;
   }
-  .ghyd1{
-  font-weight:normal;
-  margin-left:-20px;
-  margin-top: 8px;
-  font-size: 18px;
+  .getpara{
+      width:520px;
+      padding-top:280px;
+    margin-left: -390px;
+      text-align:justify;
+      font-size:22px;
+      padding-bottom:30px;
   }
-  .ghyd2{
-  font-weight:normal;
-  margin-left:-20px;
-  font-size: 18px;
-  }
-  .ghyd3{
-  font-weight:normal;
-  margin-left:-20px;
-  font-size: 18px;
-  }
-  .ghyd4{
-  font-weight:normal;
-  margin-left:-20px;
-  font-size: 18px;
-  }
-  .ghyd5{
-  font-weight:normal;
-  margin-left:-26px;
-  }
-  .getimgll2{
-  margin-left: -500px;
-  margin-top: 5px;
-  }
-  .chennainew{
-  margin-left: 870px;
-  margin-top: -138px;
-  }
-  .gchennai{
-  font-weight:normal;
-  margin-left:-462px;
-  margin-top: 10px;
-  font-size: 22px;
-  }
-  .gchain1{
-  font-weight:normal;
-  margin-left:-461px;
-  margin-top: 9px;
-  font-size: 18px;
-  }
-  .gchain2{
-  font-weight:normal;
-  margin-left:-461px;
-  font-size: 18px;
-  }
-  .gchain3{
-  font-weight:normal;
-  margin-left:-461px;
-  font-size: 18px;
-  }
-  .gchain4{
-  font-weight:normal;
-  margin-left:-461px;
-  }
-  .gchain5{
-  font-weight:normal;
-  margin-left:-461px;
-  }
-  .getimgll3{
-  margin-left: -125px;
-  margin-top: 1px;
-  }
-  .banglnew{
-  margin-top: -126px;
-  margin-left: -1020px;
-  }
-  .gbanglor{
-  font-weight:normal;
-  margin-left:-85px;
-  margin-top: 5px;
-  width: 350px;
-  font-size: 22px;
-  }
-  .gbang1{
-  font-weight:normal;
-  margin-left:-85px;
-  margin-top: 10px;
-  font-size: 18px;
-  }
-  .gbang2{
-  font-weight:normal;
-  margin-left:-85px;
-  font-size: 18px;
-  }
-  .gbang3{
-  font-weight:normal;
-  margin-left:-85px;
-  font-size: 18px;
-  }
-  .gbang4{
-  font-weight:normal;
-  margin-left:-85px;
-  font-size: 18px;
-  }
-  .gbang5{
-  font-weight:normal;
-  margin-left:-85px;
-  }
-  
-       .footer{
-          background-color:#fcab98;
-          height:30px;
-          width: 100%;
-          text-align: center;
-          margin-left: 00%;
-          margin-top: 40px;
-       
-       } 
-       .footerp{
-          color:rgb(20, 20, 20);
-          text-align:center;
-          margin-left: 50px;
-          font-weight:normal;
-          padding-top:5px;
-       }
+  .box1{
+   margin-left: 24px;
+   margin-top:-315px;
+   font-size: 17px;
+   z-index:0;
+   padding-top:-190px;
+ }
+ .mainlink{
+   margin-left:10px;
+   margin-top: 5px;
+   font-family:     'Lucida Grande', 'Lucida Sans';
+ }
+ /* .gethome{
+   text-decoration:none;
+   color:black;
+   font-weight:normal;
+   margin-left:20px;
+   padding-top:20px;
+ } */
+ 
+ .box3{
+   margin-left: 820px;
+   margin-top: 200px;
+   font-size: 17px;
+ }
+ .getconnect{
+   margin-left:-170px;
+ }
+ .getimgll1{
+ margin-left: -440px;
+ margin-top: 10px;
+ }
+ 
+ 
+ 
+ 
+ 
+ .getpunead{
+ margin-top:-3px;
+ font-family:     'Lucida Grande', 'Lucida Sans';
+ margin-left: 470px;
+ }
+ .gpune1{
+ font-weight:normal;
+ 
+ margin-left:-400px;
+ margin-top: 15px;
+ font-size: 22px;
+ }
+ .gpune1:hover{
+ color: #784aac;
+ }
+ .gpune2{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-400px;
+ margin-top: 9px;
+ font-size: 18px;
+ }
+ .gpune3{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-400px;
+ font-size: 18px;
+ }
+ .gpune4{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-400px;
+ font-size: 18px;
+ }
+ .gpune5{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-400px;
+ font-size: 18px;
+ }
+ .gpune6{
+ font-weight:normal;
+ margin-left:-400px;
+ }
+ .getimgll{
+ margin-top:-50px;
+ margin-left: -58px;
+ }
+ .hydful{
+ margin-left: -950px;
+ margin-top: 64px;
+ }
+ .gethydadr{
+ font-weight:normal;
+ font-family:     'Lucida Grande', 'Lucida Sans';
+ margin-left:-20px;
+ margin-top: 5px;
+ font-size: 22px;
+ }
+ .ghyd1{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-20px;
+ margin-top: 8px;
+ font-size: 18px;
+ }
+ .ghyd2{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-20px;
+ font-size: 18px;
+ }
+ .ghyd3{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-20px;
+ font-size: 18px;
+ }
+ .ghyd4{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-20px;
+ font-size: 18px;
+ }
+ .ghyd5{
+ font-weight:normal;
+ margin-left:-26px;
+ }
+ .getimgll2{
+ margin-left: -500px;
+ margin-top: 5px;
+ }
+ .chennainew{
+ margin-left: 870px;
+ margin-top: -138px;
+ }
+ .gchennai{
+ font-weight:normal;
+ font-family:     'Lucida Grande', 'Lucida Sans';
+ margin-left:-462px;
+ margin-top: 10px;
+ font-size: 22px;
+ }
+ .gchain1{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-461px;
+ margin-top: 9px;
+ font-size: 18px;
+ }
+ .gchain2{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-461px;
+ font-size: 18px;
+ }
+ .gchain3{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-461px;
+ font-size: 18px;
+ }
+ .gchain4{
+ font-weight:normal;
+ margin-left:-461px;
+ }
+ .gchain5{
+ font-weight:normal;
+ margin-left:-461px;
+ }
+ .getimgll3{
+ margin-left: -125px;
+ margin-top: 1px;
+ }
+ .banglnew{
+ margin-top: -126px;
+ margin-left: -1020px;
+ }
+ .gbanglor{
+ font-weight:normal;
+ font-family:     'Lucida Grande', 'Lucida Sans';
+ margin-left:-85px;
+ margin-top: 5px;
+ width: 350px;
+ font-size: 22px;
+ }
+ .gbang1{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-85px;
+ margin-top: 10px;
+ font-size: 18px;
+ }
+ .gbang2{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-85px;
+ font-size: 18px;
+ }
+ .gbang3{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-85px;
+ font-size: 18px;
+ }
+ .gbang4{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-85px;
+ font-size: 18px;
+ }
+ .gbang5{
+ font-weight:normal;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left:-85px;
+ }
+ 
+      .footer{
+         background-color:#E6E6FA;
+         height:30px;
+         width: 100%;
+         text-align: center;
+         margin-left: 00%;
+         margin-top: 20px;
       
+      } 
+      .footerp{
+         color:black;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         text-align:center;
+         margin-left: 50px;
+         font-weight:normal;
+         padding-top:5px;
+      }
+     
   
    
   /* .sts{
@@ -2827,7 +2871,7 @@ text-decoration: none;
       }
       .mainlink{
         margin-left:10px;
-        margin-top: 5px;
+        margin-top: -5px;
       }
       /* .gethome{
         text-decoration:none;

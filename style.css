@@ -98,9 +98,9 @@
 }
 
 .courses{
-  height: 610px;
+  height: 650px;
   /* background-image:url(pcp20.PNG); */
-  background-color: #faf6f6;
+  background-color: #ef94c2ca;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -137,12 +137,12 @@
 .tag{
   float: left;
   position: absolute;
-  width: 360px;
-  left: 70px;
-  top: -140px;
+  width: 450px;
+  left: -30px;
+  top: -50px;
   z-index: 1000;
   background-color: #b3d5f8;
-  padding: 5px;
+  padding: 6.8px;
   color: #d7c5c5;
   font-weight: bold;
 }
@@ -157,12 +157,12 @@
 .tag1{
   float: left;
   position: absolute;
-  width: 360px;
+  width: 450px;
   left: 80px;
-  top: -138px;
+  top: -48px;
   z-index: 1000;
   background-color: #b3d5f8;
-  padding: 5px;
+  padding: 7px;
   color: #FFFFFF;
   font-weight: bold;
 }
@@ -176,12 +176,12 @@
 .tag2{
 float: left;
   position: absolute;
-  width: 380px;
-  left: 95px;
-  top: -140px;
+  width: 540px;
+  left: 44px;
+  top: -51px;
   z-index: 1000;
   background-color: #b3d5f8;
-  padding: 5px;
+  padding: 7px;
   color: #FFFFFF;
   font-weight: bold;
 }
@@ -545,7 +545,7 @@ font-size:21px;
 
 
 .menu-header{
-  background-color:#E6E6FA;
+  background-color:#ababf3;
   text-align: right; 
    position:fixed;
    width:100vw;
@@ -559,6 +559,7 @@ font-size:21px;
 }
 .iianame{
   text-align:center;
+
   font-size:17.5px;
   margin-right:1200px;
   justify-content:center;
@@ -589,7 +590,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  
 }
 .cous{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.3rem;
   font-weight: bold;
   margin-left: 19.5%;
@@ -598,7 +599,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .techno1{
   padding-right:0px;
- 
+  font-family:     'Lucida Grande', 'Lucida Sans';
   /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
   width: 150%;
   margin-right: 40px;
@@ -606,7 +607,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
 }
 .pla1{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.3rem;
   font-weight: bold;
   margin-left: 2%;
@@ -614,7 +615,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   /* margin-right:-100% ; */
 }
 .enrol{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.3rem;
   font-weight: bold;
   margin-left: -1%;
@@ -838,6 +839,7 @@ text-decoration: none;
   } 
    .getmakec{
      margin-left:100px;
+     font-family:     'Lucida Grande', 'Lucida Sans';
      font-weight:bold;
      font-size:24px;
      margin-top:5px;
@@ -853,6 +855,7 @@ text-decoration: none;
  }
  .gethmobile{
      margin-left:58px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      margin-top:65px;
      font-size:22px;
  }
@@ -867,6 +870,7 @@ text-decoration: none;
  }
  .getsend{
      margin-left:120px;
+     font-family:     'Lucida Grande', 'Lucida Sans';
      font-weight:bold;
      font-size:24px;
      padding-top:-25px;
@@ -883,17 +887,19 @@ text-decoration: none;
  }
  .getm1{
      margin-left:5px;
+     font-family:     'Lucida Grande', 'Lucida Sans';
      margin-top:80px;
      font-size:20px;
  }
  .getm2{
      margin-left:70px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      margin-top:56px;
      font-size:25px;
  }
  .getmiddile{
      /* background-color:#7c47bd; */
-     background-color: white;
+     background-color: rgb(206, 219, 177);
      height:150%;
      z-index:0;
      margin-top:45px;
@@ -931,6 +937,7 @@ text-decoration: none;
   padding-top:-190px;
 }
 .mainlink{
+  font-family:     'Lucida Grande', 'Lucida Sans';
   margin-left:10px;
   margin-top: 5px;
 }
@@ -960,10 +967,12 @@ margin-top: 10px;
 
 
 .getpunead{
+  
 margin-top:-3px;
 margin-left: 470px;
 }
 .gpune1{
+  font-family:     'Lucida Grande', 'Lucida Sans';
 font-weight:normal;
 margin-left:-400px;
 margin-top: 15px;
@@ -971,22 +980,26 @@ font-size: 22px;
 }
 .gpune2{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-400px;
 margin-top: 9px;
 font-size: 18px;
 }
 .gpune3{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-400px;
 font-size: 18px;
 }
 .gpune4{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-400px;
 font-size: 18px;
 }
 .gpune5{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-400px;
 font-size: 18px;
 }
@@ -1003,6 +1016,7 @@ margin-left: -950px;
 margin-top: 64px;
 }
 .gethydadr{
+  font-family:     'Lucida Grande', 'Lucida Sans';
 font-weight:normal;
 margin-left:-20px;
 margin-top: 5px;
@@ -1010,22 +1024,26 @@ font-size: 22px;
 }
 .ghyd1{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-20px;
 margin-top: 8px;
 font-size: 18px;
 }
 .ghyd2{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-20px;
 font-size: 18px;
 }
 .ghyd3{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-20px;
 font-size: 18px;
 }
 .ghyd4{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-20px;
 font-size: 18px;
 }
@@ -1042,6 +1060,7 @@ margin-left: 870px;
 margin-top: -138px;
 }
 .gchennai{
+  font-family:     'Lucida Grande', 'Lucida Sans';
 font-weight:normal;
 margin-left:-462px;
 margin-top: 10px;
@@ -1049,21 +1068,25 @@ font-size: 22px;
 }
 .gchain1{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-461px;
 margin-top: 9px;
 font-size: 18px;
 }
 .gchain2{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-461px;
 font-size: 18px;
 }
 .gchain3{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-461px;
 font-size: 18px;
 }
 .gchain4{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight:normal;
 margin-left:-461px;
 }
@@ -1081,6 +1104,7 @@ margin-left: -1020px;
 }
 .gbanglor{
 font-weight:normal;
+font-family:     'Lucida Grande', 'Lucida Sans';
 margin-left:-85px;
 margin-top: 5px;
 width: 350px;
@@ -1088,32 +1112,37 @@ font-size: 22px;
 }
 .gbang1{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-85px;
 margin-top: 10px;
 font-size: 18px;
 }
 .gbang2{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-85px;
 font-size: 18px;
 }
 .gbang3{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-85px;
 font-size: 18px;
 }
 .gbang4{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-85px;
 font-size: 18px;
 }
 .gbang5{
 font-weight:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:-85px;
 }
 
      .footer{
-        background-color:#fcab98;
+        background-color:#E6E6FA;
         height:30px;
         width: 100%;
         text-align: center;
@@ -1123,6 +1152,7 @@ margin-left:-85px;
      } 
      .footerp{
         color:black;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align:center;
         margin-left: 50px;
         font-weight:normal;
