@@ -15,7 +15,7 @@
 .container{
   /* background: linear-gradient(60deg, #4A148C 28.46%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 106px;
-  background-color:white;
+  background-color:rgb(226, 252, 250);
 }
 .container-1{
   /* background: linear-gradient(60deg, #4A148C 33.35%, #EF6C00 16%, #4A148C 20%,#4A148C 20%, white 20%); */
@@ -26,14 +26,14 @@
     width: 98.88vw;
     background-repeat: no-repeat;
     background-position: center;
-   
+    background-color:rgb(226, 252, 250);
     background-size: cover;
 }
 .container-2{
   /* background: linear-gradient(120deg, #4A148C 31.25%,  #4A148C  20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 49vw;
   /* background-image:url(pcp13.PNG); */
-  background-color: #faf6f6;
+  background-color: #deecf0;
     width: 98.88vw;
     background-repeat: no-repeat;
     background-position: center;
@@ -360,7 +360,7 @@ opacity:0.9;
 
 
 .menu-header{
-  background-color:#E6E6FA;
+  background-color:#ababf3;
   text-align: right; 
    position:fixed;
    width:100vw;

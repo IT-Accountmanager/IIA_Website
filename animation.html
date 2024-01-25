@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="animation.css">
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+    <section class="vh-100 bg-dark d-flex justify-content-center align-items-center">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+    
+                    <p class="text-white" data-gsap="fromOpacityScale">Pellentesque auctor neque nec urna. Nunc nonummy metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Vestibulum suscipit nulla quis orci. Etiam rhoncus. Etiam ut purus mattis mauris sodales aliquam. Maecenas nec odio et ante tincidunt tempus. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Curabitur nisi. Fusce pharetra convallis urna.
+                    </p>
+    
+                    <p class="text-white" data-gsap="fromOpacityScale">Pellentesque auctor neque nec urna. Nunc nonummy metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Vestibulum suscipit nulla quis orci. Etiam rhoncus. Etiam ut purus mattis mauris sodales aliquam. Maecenas nec odio et ante tincidunt tempus. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Curabitur nisi. Fusce pharetra convallis urna.
+                    </p>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ANCHOR Bg Image Banner with overlap box on top -->
+    <section>
+        <div class="container-fluid banner_bg_image">
+            <div class="row">
+    
+                <div class="col-lg-6 mt-5">
+    
+                    <div class="bg-white rounded shadow transY_xl_n40 p-4 p-lg-5" data-gsap="fromOpacityScale">
+                        <p class="mb-4">Pellentesque auctor neque nec urna. Nunc nonummy metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Vestibulum suscipit nulla quis orci. Etiam rhoncus. Etiam ut purus mattis mauris sodales aliquam. Maecenas nec odio et ante tincidunt tempus. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Curabitur nisi. Fusce pharetra convallis urna.
+                        </p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col-lg-6"></div>
+    
+            </div>
+        </div>
+    </section>
+    
+    <section class="vh-100 bg-dark d-flex justify-content-center align-items-center">
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+    
+                    <p class="text-white" data-gsap="fromOpacityScale">Pellentesque auctor neque nec urna. Nunc nonummy metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Vestibulum suscipit nulla quis orci. Etiam rhoncus. Etiam ut purus mattis mauris sodales aliquam. Maecenas nec odio et ante tincidunt tempus. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Curabitur nisi. Fusce pharetra convallis urna.
+                    </p>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+      // ANCHOR FN - From Opacity Scale
+// DEFAULT = From Scale 0 and Opacity 0
+// for animation = opacity, scale, duration, delay, ease
+// for scroll = start, end, scrub, once, immediaterender, markers
+function fromOpacityScale() {
+
+let elements = document.querySelectorAll('[data-gsap="fromOpacityScale"]');
+
+elements.forEach(ele => {
+
+  // animation values
+  let scaleVal = ele.getAttribute('data-gsap-scale') ?? 0;
+
+  let opacityVal = ele.getAttribute('data-gsap-opacity') ?? 0;
+
+  let easeVal = ele.getAttribute('data-gsap-ease') ?? "power1.out";
+
+  let durationVal = ele.getAttribute('data-gsap-duration') ?? 3;
+
+  let delayVal = ele.getAttribute('data-gsap-delay') ?? 0;
+
+  // animation
+  let anim = gsap.from(ele, {
+    autoAlpha: opacityVal,
+    scale: scaleVal,
+    ease: easeVal,
+    duration: durationVal,
+    delay: delayVal,
+  });
+
+  // scroll values
+  let startVal = ele.getAttribute('data-gsap-start') ?? "top bottom";
+
+  let endVal = ele.getAttribute('data-gsap-end') ?? "center 70%";
+
+  let scrubVal = ele.getAttribute('data-gsap-scrub') ?? 2;
+
+  let onceVal = ele.getAttribute('data-gsap-once') ?? true;
+
+  let immediateRenderVal = ele.getAttribute('data-gsap-immediaterender') ?? false;
+
+  let markersVal = ele.getAttribute('data-gsap-markers') ?? false;
+
+  // scroll
+  ScrollTrigger.create({
+    animation: anim,
+    trigger: ele,
+    start: startVal,
+    end: endVal,
+    scrub: scrubVal,
+    once: onceVal,
+    immediateRender: immediateRenderVal,
+    markers: markersVal
+  });
+
+});
+
+} // .function
+
+document.addEventListener("DOMContentLoaded", function (e) {
+  fromOpacityScale();
+});
+    </script>
+</body>
+</html>
