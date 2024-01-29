@@ -1,0 +1,37 @@
+.card .img img{
+ width: 300px;
+ /* height: 440px; */
+ object-fit: cover;
+}
+.carousel .card{
+    list-style: none;
+    display: flex;
+    
+    margin-top: 200px;
+}
+.wrapper .carousel{
+    display: grid;
+    grid-auto-flow: column;
+    flex-direction: column;
+    /* grid-auto-columns: calc((100%/3) - 12px); */
+    /* gap: -26px; */
+}
+.previous round{
+ background-color: aqua;
+}
+.btns{
+   margin-bottom: -450px;
+   margin-top: 300px
+   ;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel{
+    grid-auto-columns: calc((100%/2) - 9px);
+  }    
+}
+@media screen and (max-width: 600px) {
+    .wrapper .carousel{
+      grid-auto-columns: 100%
+    }    
+  }

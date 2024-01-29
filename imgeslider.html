@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="iamge slider.css">
+  <script src="script.js" defer></script>
+  <title>Draggable Card Slider with Buttons</title>
+<script src="palcescript.js" defer></script>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="btns">
+    <a href="#" style="background-color: bisque;font-size: 50px;">&#8249;</a>
+    <a href="#" style="background-color: bisque;font-size: 50px;margin-left: 1450px;margin-top: 500px;">&#8250;</a> 
+</div>
+    <ul class="carousel">
+
+    <li class="card">
+        <div class="img"><img src="placeimg1.png"></div>
+    </li>
+    <li class="card">
+        <div class="img"><img src="placeimage2.png"></div>
+    </li>
+    <li class="card">
+        <div class="img"><img src="placeimg3.png"></div>
+    </li>
+    <li class="card">
+        <div class="img"><img src="placeimg4.png"></div>
+    </li>
+    <li class="card">
+        <div class="img"><img src="placeimg1.png"></div>
+    </li>
+    <li class="card">
+        <div class="img"><img src="placeimage2.png"></div>
+    </li>
+    <li class="card">
+        <div class="img"><img src="placeimg3.png"></div>
+    </li>
+    <li class="card">
+        <div class="img"><img src="placeimg4.png"></div>
+    </li>
+   </ul>
+   
+</div>
+   
+</div>
+
+
+<script>
+   const carousel = document.querySelector(".carousel");
+
+const dragging = (e)=> {
+   carousel.scrollLeft = e.pageX;
+}
+
+
+
+
+
+carousel.addEventListener("mousemove", dragging);
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .slider-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slider img {
+    width: 100vw; /* Each image takes the full width of the viewport */
+    height: 100vh; /* Each image takes the full height of the viewport */
+    object-fit: cover;
+    user-drag: none;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1466,7 +1466,21 @@ text-align: center;
   margin-left: 50px;
   background-color: rgb(135, 154, 158);
   margin-top: 80px;
+  box-shadow: 10px 10px 5px rgb(111, 116, 117);
+  animation: slideLeftToRight 5s ease-in-out;
 }
+
+
+@keyframes slideLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
 .number1{
   margin-top: -180px;
   font-size: 60px;
@@ -1554,7 +1568,18 @@ border: 2px solid #322a30
   border-radius: 15px 50px;
   margin-left: 330px;
   background-color: rgb(135, 154, 158);
+  box-shadow: 10px 10px 5px rgb(111, 116, 117);
   margin-top: 80px;
+  animation: slideRightToLeft 5s ease-in-out;
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 .number2{
   margin-top: -180px;
@@ -1612,6 +1637,18 @@ border: 2px solid #322a30
   margin-left: 50px;
   background-color: rgb(135, 154, 158);
   margin-top: 80px;
+  box-shadow: 10px 10px 5px rgb(111, 116, 117);
+  animation: slideLeftToRight 5s ease-in-out;
+}
+
+
+@keyframes slideLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 .number3{
   margin-top: -180px;
@@ -1703,7 +1740,19 @@ border: 2px solid #322a30
   border-radius: 15px 50px;
   margin-left: 330px;
   background-color: rgb(135, 154, 158);
+  box-shadow: 10px 10px 5px rgb(111, 116, 117);
   margin-top: 80px;
+  animation: slideRightToLeft 5s ease-in-out;
+
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 .number4{
   margin-top: -180px;
@@ -1759,7 +1808,19 @@ border: 2px solid #322a30
   border-radius: 15px 50px;
   margin-left: 50px;
   background-color: rgb(135, 154, 158);
+  box-shadow: 10px 10px 5px rgb(111, 116, 117);
   margin-top: 80px;
+  animation: slideLeftToRight 5s ease-in-out;
+}
+
+
+@keyframes slideLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 .number5{
   margin-top: -180px;
@@ -1818,7 +1879,18 @@ border: 2px solid #322a30
   border-radius: 15px 50px;
   margin-left: 330px;
   background-color: rgb(135, 154, 158);
+  box-shadow: 10px 10px 5px rgb(111, 116, 117);
   margin-top: 80px;
+  animation: slideRightToLeft 5s ease-in-out;
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 .number6{
   margin-top: -180px;

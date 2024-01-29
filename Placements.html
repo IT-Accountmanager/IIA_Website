@@ -484,59 +484,62 @@
 <div class="container-2"  style="margin-top: -10px;" id="second">
  
 
- <img src="dot2.png" width="10px" height="10px" style="margin-top: 10vw;">
-  <div class="hhk" style="margin-left: -235px;margin-top: 300px;">
-    <div class="placements" id="second">
-      <div class="mySlides1 fades">
-      <img src="ww1.jpg" class="zooms" style="margin-left: 385px; margin-top: -140px; width: 250px; height: 210px;">
-      <img src="header.png" style="margin-bottom: -80px; margin-left: -280px; width: 302px;height: 90px;">
-      <p style="margin-left: 445px; color: #EF6C00; font-family: Arial, Helvetica, sans-serif;">Mr. Rahul Sharma
-      </p>
-      <p style="margin-left: 420px; font-family: Arial, Helvetica, sans-serif;font-size: 13px; color: aliceblue;margin-top: 5px;">- Envision Integrated Services
-      </p><br>
-      </div>
-      </div>
-     
-    <div class="mySlides1 fades" id="second">
-    <div class="placements2">
-      <img src="header.png" style="margin-top: -90px;margin-bottom: -4px; margin-left: 686px; width: 302px;height: 90px;">
-      <img src="ww2.jpg" class="zooms" style="margin-left: -280px;margin-top:-284px;margin-bottom: 86px;  width: 250px; height: 202px;  box-shadow: 0px 0px 0px 2px #b2b2b2;">
-      <p style="margin-left: 780px;margin-top: -76px; color: #EF6C00;font-family: Arial, Helvetica, sans-serif;">Mr. Pankaj Jain
-      </p>
-      <p style="margin-left: 748px;font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: aliceblue;margin-top: 5px;">- Envision Integrated Services
-      </p><br>
-    </div>
-    </div>
-   
-  <div class="mySlides1 fades" id="second">
-  <div class="placements3">
-    <img src="header.png" style="margin-top: -92px;margin-bottom: -0px; margin-left: 1010px; width: 302px;height: 90px;">
-      <img src="ww3.jpg" class="zooms" style="margin-left: -280px;margin-top:-276px;margin-bottom: 88px;  width: 250px; height: 205px;">
-      <p style="margin-left: 1090px;margin-top: -78px; color: #EF6C00;font-family: Arial, Helvetica, sans-serif;">Mr. Naveen Sharma
-      </p>
-      <p style="margin-left: 1070px;font-family: Arial, Helvetica, sans-serif;font-size: 13px; color: aliceblue;margin-top: 5px;">- Envision Integrated Services
-      </p><br>
-   
-  </div>
-  </div>
-  <div class="ll" id="second">
 
-  </div>
-  <div class="placements4" id="second">
+    <div class="slider-container">
+        <div class="slider" id="image-slider">
+          <img src="placeimg1.png" alt="Image 1" width="150px" height="100px" style="margin-left: 60px;">
+          <img src="placeimage2.png" alt="Image 2"  width="250px" style="margin-left: 55px;">
+          <img src="placeimg3.png" alt="Image 3" width="250px" style="margin-left: 55px;">
+          <img src="placeimg4.png" alt="Image 1" width="250px" style="margin-left: 55px;">
+          <img src="placeimg1.png" alt="Image 2" width="250px" style="margin-left: 55px;">
+          <img src="placeimage2.png" alt="Image 3" width="250px" style="margin-left: 30px;">
+          <img src="placeimg3.png" alt="Image 3" width="250px" style="margin-left: 55px;">
+          <img src="placeimg4.png" alt="Image 1" width="250px" style="margin-left: 55px;">
+          <!-- Add more images as needed -->
+        </div>
+        
+    </div>
+    <div class="plabtn">
+      <button onclick="moveSlider('left')" style=" 
+    margin-top: -400px;
+    margin-left: -1420px;
+    background-color: #3d3d3d;
+      color: #fff;
+      padding: 15px;
+      border: none;
+      cursor: pointer;">&#8249;</button>
+      <button onclick="moveSlider('right')" style=" top: 00%;
+      padding: 15px;
+      margin-left: 1400px;
+      background-color: #3d3d3d;
+      color: #fff;
+      border: none;
+      cursor: pointer;">&#8250;</button>
+    </div>
+          </div>
     
-    <img src="header.png" style="margin-top: -100px;margin-bottom: 0px; margin-left: 1320px;width: 302px;height: 90px;">
-      <img src="ww4.png" class="zooms" style="margin-left: -276px;margin-top:-275px;margin-bottom: 85px;  width: 250px; height: 205px;background-color:lawngreen;">
-      <p style="margin-left: 1400px;margin-top: -75px; color: #EF6C00;font-family: Arial, Helvetica, sans-serif;">Mr. Rakesh Sharma
-      </p>
-      <p style="margin-left: 1380px;font-family: Arial, Helvetica, sans-serif;font-size: 13px;color: aliceblue;margin-top: 3px;">- Envision Integrated Services
-      </p>
-   
-  </div>
-
-
-
-  
-</div>
+          <!-- <div class="nextn">
+         <button class='flt-left'  onclick="slideRight(this);"><a href="#" class="next round" style="margin-top: 100px;">&#8250;</a></button>
+        </div> -->
+         <!-- <div class="clear"></div> -->
+     
+         <script>
+          let currentSlide = 0;
+        const slideWidth = document.querySelector('.slider img').clientWidth;
+        const imageSlider = document.getElementById('image-slider');
+        
+        function moveSlider(direction) {
+          if (direction === 'left' && currentSlide > 0) {
+            currentSlide--;
+          } else if (direction === 'right' && currentSlide < imageSlider.children.length - 1) {
+            currentSlide++;
+          }
+        
+          const offset = -currentSlide * slideWidth;
+          imageSlider.style.transform = `translateX(${offset}px)`;
+        }
+        
+          </script>
 </div>
 
 
@@ -627,7 +630,7 @@
           <img src="location 2.png" align="left" height="25px" width="25px">
         </div>
       <div class="gethydadr">
-      <p ><b>Hyderabad:</b> </p></button>
+      <p id="logout"><b>Hyderabad:</b> </p></button>
       </div>
       <div class="ghyd1">
       <p  id="demo1"> #913, Manjeera Trinity </p>
@@ -648,7 +651,7 @@
       </div>
       </div>
       <div style="display:flex;">
-      <div class="chennainew">
+      <div class="chennainew" >
       <div class="getimgll2">
           <img src="location 2.png" align="left" height="25px" width="25px">
         </div>
@@ -673,7 +676,7 @@
           <img src="location 2.png" align="left" height="25px" width="25px">
         </div>
       <div class="gbanglor">
-      <p ><b>Banglore:</b></p></button>
+      <p ><b >Banglore:</b></p></button>
       </div>
       <div class="gbang1">
       <p >1596, 20th Main Rd, Agara </p>
@@ -698,20 +701,20 @@
             </div>
            
             <div class="box1" >
-              <div class="mainlink">
+              <div class="mainlink" >
             <strong >Main Links</strong><br><br>
             </div>
-            <div class="gethome">
-            <a href="Home.html" style="text-decoration:none;color:black;font-weight:normal;margin-left:10px;padding-top:20px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="styo1">HOME</a><br><br>
+            <div class="gethome1" >
+            <a href="Home.html"  style="text-decoration:none;color:black;font-weight:normal;margin-left:10px;padding-top:20px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="logout" >HOME</a ><br><br>
             </div>
             <div class="getabout">
-            <a href="About Us.html" style="text-decoration:none;color:black;font-weight:normal;margin-left:10px;padding-top:30px;margin-bottom:-30px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> ABOUT US</a><br><br>
+            <a href="About Us.html" style="text-decoration:none;color:black;font-weight:normal;margin-left:10px;padding-top:30px;margin-bottom:-30px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"  class="logout"> ABOUT US</a><br><br>
             </div>
             <div class="getindus">
-            <a href="INDESTRIAL ORIANTED.html" style="text-decoration:none;color:black;font-weight:normal;margin-left:10px;margin-bottom:-30px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">COURSES</a> <br><br>
+            <a href="INDESTRIAL ORIANTED.html" style="text-decoration:none;color:black;font-weight:normal;margin-left:10px;margin-bottom:-30px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"  class="logout">COURSES</a> <br><br>
             </div>
             <div class="gettechno">
-            <a href="Techno talks.html"  style="text-decoration:none;color:black;font-weight:normal;margin-left:12px;margin-bottom:-30px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" width="250%">TECHNO TALKS</a><br><br>
+            <a href="Techno talks.html"  style="text-decoration:none;color:black;font-weight:normal;margin-left:12px;margin-bottom:-30px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" width="250%"  class="logout">TECHNO TALKS</a><br><br>
             </div>
             <div class="getplace">
             <a href="Placements.html"  style="text-decoration:none;color:black;font-weight:normal;margin-left:15px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">PLACEMENTS</a><br><br>

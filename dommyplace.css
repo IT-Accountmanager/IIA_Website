@@ -15,7 +15,7 @@
 .container{
   /* background: linear-gradient(60deg, #4A148C 30.6%, #4A148C 20%, #4A148C 20%,#4A148C 20%, white 20%); */
   height: 50vw;
-  background-color: #faf6f6;
+  background-color: #d5edf9;
   /* background-image:url(pcp8.PNG); */
   width: 98.9vw;
   position: cover;
@@ -33,12 +33,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #faf6f6;
+  background-color: #c2b6b6;
 } 
 .container-2{
   margin-top:-100px;
   height: 649px;
-  background-color: #faf6f6;
+  background-color: #7d96a4;
   /* background-image:url(pcp10.PNG); */
   width: 1519px;
   background-repeat: no-repeat;
@@ -382,6 +382,32 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 
+.slider-container {
+  width: 90%;
+  height: 90%;
+  margin-left: 60px;
+  margin-top: 120px;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider img {
+  width: 40vw; /* Each image takes the full width of the viewport */
+  height: 50vh; /* Each image takes the full height of the viewport */
+  object-fit: cover;
+  user-drag: none;
+  gap: 10px;
+}
+
+
+.plabtn{
+  margin-top: 250px;
+  margin-left: 10px;
+}
 
 
 
@@ -748,7 +774,9 @@ text-align:center;
 
 
 .container3cou{
-  height:158.05vw;
+  height:178.05vw;
+  
+  background-color: #9faab9;
   /* background-image:url(pcp28.PNG); */
     width: 98.88vw;
     background-repeat: no-repeat;
@@ -796,14 +824,14 @@ margin-right: -500px;
 
 .plaimg1{
   margin-top: -100px;
-  margin-left: 40px;
+  margin-left: 22px;
 }
 
 .vl {
   border-left: 2px solid rgb(97, 94, 91);
-  height: 100px;
+  height: 60px;
   margin-left: 100px;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 
@@ -834,14 +862,14 @@ margin-right: -500px;
 
 
 .plaimg2{
-  margin-left: -600px;
-  margin-top: -120px;
+  margin-left: -615px;
+  margin-top: -125px;
 }
 .vl1 {
   border-left: 2px solid rgb(97, 94, 91);
-  height: 120px;
+  height: 115px;
   margin-left: -540px;
-  margin-top: -240px;
+  margin-top: -265px;
 }
 
 
@@ -857,7 +885,7 @@ margin-right: -500px;
   font-weight: bold;
   font-family:        'Lucida Grande', 'Lucida Sans';
   font-size: 25px;
-  margin-top: 578px;
+  margin-top: 635px;
   margin-left: -385px;
   margin-right: -200px;
 /* margin-right: -1300px; */
@@ -886,14 +914,14 @@ margin-left: -400px;
 
 .vl2 {
   border-left: 2px solid rgb(97, 94, 91);
-  height: 100px;
+  height: 120px;
   margin-left: -540px;
-  margin-top: -218px;
+  margin-top: -279px;
 }
 
 .plaimg3{
-  margin-left: -600px;
-  margin-top: -95px;
+  margin-left: -615px;
+  margin-top: -106px;
 }
 
 .courpara8{
@@ -901,7 +929,7 @@ margin-left: -400px;
   font-family:        'Lucida Grande', 'Lucida Sans';
   font-weight: bold;
   font-size: 25px;
-  margin-top: 815px;
+  margin-top: 905px;
   margin-left: -1365px;
   margin-right: -1100px;
   width: 800px;
@@ -919,13 +947,13 @@ margin-left: -400px;
 
 .vl3 {
   border-left: 2px solid rgb(97, 94, 91);
-  height: 117px;
+  height: 120px;
   margin-left: -750px;
-  margin-top: -245px;
+  margin-top: -276px;
 }
 
 .plaimg4{
-  margin-left: -805px;
+  margin-left: -828px;
   margin-top: -100px;
 }
 .courpara91{
@@ -940,7 +968,7 @@ margin-left: -400px;
   font-weight: bold;
   font-family:        'Lucida Grande', 'Lucida Sans';
   font-size: 25px;
-  margin-top: 1060px;
+  margin-top: 1190px;
   margin-left: -600px;
   margin-right: -200px;
 }
@@ -959,12 +987,12 @@ margin-left: -400px;
   border-left: 2px solid rgb(97, 94, 91);
   height: 117px;
   margin-left: -750px;
-  margin-top: -245px;
+  margin-top: -270px;
 }
 
 .plaimg5{
-  margin-left: -805px;
-  margin-top: -100px;
+  margin-left: -825px;
+  margin-top: -120px;
 }
 .courpara111{
   display: flex;
@@ -978,28 +1006,28 @@ margin-left: -400px;
   font-family:        'Lucida Grande', 'Lucida Sans';
   font-weight: bold;
   font-size: 25px;
-  margin-top: 1300px;
+  margin-top: 1480px;
   margin-left: -1350px;
 }
 .courpara13{
   display: flex;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 21px;
-  margin-top: -35px;
+  margin-top: -30px;
   margin-left: -1290px;
   width: 380px;
   text-align: justify;
 }
 .vl5 {
   border-left: 2px solid rgb(97, 94, 91);
-  height: 115px;
+  height: 130px;
   margin-left: -745px;
-  margin-top: -238px;
+  margin-top: -284px;
 }
 
 .plaimg6{
-  margin-left: -805px;
-  margin-top: -100px;
+  margin-left: -825px;
+  margin-top: -125px;
 }
 .courpara131{
   display: flex;
@@ -1013,7 +1041,7 @@ margin-left: -400px;
   font-family:        'Lucida Grande', 'Lucida Sans';
   font-weight: bold;
   font-size: 25px;
-  margin-top: 1530px;
+  margin-top: 1770px;
   margin-left: -590px;
 }
 .courpara15{
@@ -1027,14 +1055,14 @@ margin-left: -400px;
 }
 .vl6 {
   border-left: 2px solid rgb(97, 94, 91);
-  height: 112px;
+  height: 125px;
   margin-left: -745px;
-  margin-top: -238px;
+  margin-top: -280px;
 }
 
 .plaimg7{
-  margin-left: -805px;
-  margin-top: -100px;
+  margin-left: -825px;
+  margin-top: -130px;
 }
 .courpara151{
   display: flex;
@@ -1048,7 +1076,7 @@ margin-left: -400px;
   font-family:        'Lucida Grande', 'Lucida Sans';
   font-weight: bold;
   font-size: 25px;
-  margin-top: 1765px;
+  margin-top: 2050px;
   margin-left: -1350px;
 
 }
@@ -1065,14 +1093,14 @@ margin-left: -400px;
 
 .vl7 {
   border-left: 2px solid rgb(97, 94, 91);
-  height: 112px;
+  height: 128px;
   margin-left: -745px;
-  margin-top: -238px;
+  margin-top: -284px;
 }
 
 .plaimg8{
-  margin-left: -805px;
-  margin-top: -100px;
+  margin-left: -825px;
+  margin-top: -130px;
 }
 
 
@@ -1081,7 +1109,7 @@ margin-left: -400px;
   font-family:        'Lucida Grande', 'Lucida Sans';
   font-weight: bold;
   font-size: 25px;
-  margin-top: 2016px;
+  margin-top: 2326px;
   margin-left: -605px;
 }
 .courpara19{
@@ -1096,14 +1124,14 @@ margin-left: -400px;
 
 .vl8 {
   border-left: 2px solid rgb(97, 94, 91);
-  height: 112px;
+  height: 118px;
   margin-left: -745px;
-  margin-top: -238px;
+  margin-top: -273px;
 }
 
 .plaimg9{
-  margin-left: -805px;
-  margin-top: -100px;
+  margin-left: -820px;
+  margin-top: -125px;
 }
 
 .courpara109{
@@ -1111,10 +1139,10 @@ margin-left: -400px;
   font-weight: bold;
   font-family:        'Lucida Grande', 'Lucida Sans';
   font-size: 25px;
-  width: 2550px;
-  margin-top:2220px;
+  width: 3550px;
+  margin-top:2520px;
   margin-left: -1395px;
-  margin-right: 500px;
+  margin-right: 100px;
   text-align: justify;
 }
 .imges{
@@ -1141,7 +1169,7 @@ margin-left: -400px;
   font-weight: bold;
   text-decoration: none;
   font-size: 30px;
-  margin-top: 2320px;
+  margin-top: 2620px;
   margin-left: -1060px;
   color: #000;
 }
@@ -1584,7 +1612,7 @@ background-position: bottom;
     font-size:25px;
 }
 .getmiddile{
-    /* background-color:#7c47bd; */
+    background-color:#8f9799;
     height:105%;
     z-index:0;
     margin-top:45px;
@@ -1647,7 +1675,9 @@ margin-left: -440px;
 margin-top: 10px;
 }
 
-
+.gethome1:hover{
+  color: #784aac;
+}
 
 
 
@@ -2240,6 +2270,12 @@ background-position: bottom;
   margin-left:20px;
   padding-top:20px;
 } */
+
+
+
+
+
+
 
 .box3{
   margin-left: 720px;

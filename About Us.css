@@ -91,7 +91,7 @@ border-radius: 0.2vw;
 display: none;
 z-index:1;
 margin-left: 6.6vw;
-height: 80px;
+height: 130px;
 }
 /* ? */
 .menu-bar ul li:hover .sub-menu-1{
@@ -110,7 +110,7 @@ margin-left: 0.5vw;
 width:13vw;
 /* padding-top:10px; */
 transition:1.6s;
-height: 70px;
+height: 100px;
 margin-top:0.4vw;
 /* gap: 25px; */
 /* margin: 10px; */
@@ -120,7 +120,7 @@ transition: height 0.3s ease;
 .sub-menu-1 ul li{
   width:11.05vw;
    padding:4px; 
-   gap: 8vw;
+   /* gap: 8vw; */
    /* gap:-10px; */
 /* padding: 10px; */
 }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Left-to-Right Image Slider with Buttons</title>
+</head>
+<body>
+
+    <div class="slider-container">
+        <div class="slider" id="image-slider">
+          <img src="placeimg1.png" alt="Image 1" width="250px">
+          <img src="placeimage2.png" alt="Image 2"  width="250px">
+          <img src="placeimg3.png" alt="Image 3" width="250px">
+          <img src="placeimg4.png" alt="Image 1" width="250px">
+          <img src="placeimg1.png" alt="Image 2" width="250px">
+          <img src="placeimage2.png" alt="Image 3" width="250px">
+          <!-- Add more images as needed -->
+        </div>
+        <button onclick="moveSlider('left')">&#8249;</button>
+        <button onclick="moveSlider('right')">&#8250;</button>
+      </div>
+
+
+  <script>
+  let currentSlide = 0;
+const slideWidth = document.querySelector('.slider img').clientWidth;
+const imageSlider = document.getElementById('image-slider');
+
+function moveSlider(direction) {
+  if (direction === 'left' && currentSlide > 0) {
+    currentSlide--;
+  } else if (direction === 'right' && currentSlide < imageSlider.children.length - 1) {
+    currentSlide++;
+  }
+
+  const offset = -currentSlide * slideWidth;
+  imageSlider.style.transform = `translateX(${offset}px)`;
+}
+
+  </script>
+
+</body>
+</html>
