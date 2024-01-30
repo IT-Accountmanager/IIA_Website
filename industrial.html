@@ -10,6 +10,7 @@
     <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
   </head>
 <body>
   <div class="divstyle">
@@ -1129,14 +1130,28 @@
   <div class="appl">
    <a href="Enroll.html" style="text-decoration: none;color: black;" id="logout"> <p >Apply Now</p></a>
   </div>
-  <div class="appl1">
-   <a href="c:\Users\Naresh.B\Downloads\FY23-24_Q2_EIS2 (1).pptx" style="text-decoration: none; color: black;" id="logout"> <p class="styo1">| Explore Programs </p></a>
+  <div class="appl1" id="invoice">
+    <a id="downloadPdf" style="text-decoration: none;color: black;" ><p>| Explore Programs </p></a>
   </div>
   <div class="appl2">
-    <p class="styo1" onclick="smoothScroll(document.getElementById('third'))">| Contact Us
-    </p></a>
+    <p onclick="smoothScroll(document.getElementById('third'))"  class="styo1" >| Contact Us
+    </p>
   </div>
-</div>
+  <script>
+    document.getElementById('downloadPdf').addEventListener('click', function() {
+      const invoiceElement = document.getElementById('invoice');
+      const options = {
+        margin: 1,
+        filename: 'invoice.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+      };
+  
+      // Then call html2pdf with the element and options
+      html2pdf().from(invoiceElement).set(options).save();
+    });
+  </script>
 
    </div>
   <div class="container-2" id="second">

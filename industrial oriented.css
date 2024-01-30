@@ -669,6 +669,7 @@
           font-weight: bold;
           font-size: 30px;
           margin-top: -35px;
+          cursor: pointer;
           margin-left: -490px;
           color: #000;
         }
@@ -684,7 +685,21 @@
         }
 
 
-
+        @keyframes fadeInUp {
+          0% {
+            transform: translateY(100%);
+            opacity: 0;
+          }
+          100% {
+            transform: translateY(0%);
+            opacity: 1;
+          }
+        }
+        
+        .fadeInUp-animation {
+          animation: 1.5s fadeInUp;
+        }
+        
 
 .imges{
   display: flex;
@@ -694,17 +709,20 @@
   margin-left: -5px;
   margin-right: -770px;
   margin-top: 50px;
+  animation: 1.5s fadeInUp;
 }
 
 .imgcu2{
   margin-left: 222px;
   margin-right: -400px;
   margin-top: 450px;
+  animation: 1.5s fadeInUp;
 }
 .imgcu3{
   margin-left: -290px;
   margin-right: -400px;
   margin-top: 740px;
+  animation: 1.5s fadeInUp;
 }
         @keyframes scale {
           100% {
@@ -807,7 +825,15 @@
           .stylep:hover{
             color:#4A148C;
           }
-        
+          .appl1:hover{
+            color: #c03737;
+            transform: scale(1.015);
+          }
+          
+
+
+
+
           .paragraph-4:hover{
             color:black;
           }

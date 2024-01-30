@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Download Btn</title>
+    <link rel="stylesheet" href="downloadbtn.css">
+    <script href="btn.js"></script>
+</head>
+<body>
+    <div id="content">
+        <h3>Hello, this is a H3 tag</h3>
+   
+       <p>a pararaph</p>
+   </div>
+   <div id="editor"></div>
+   <button id="cmd">Generate PDF</button>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
+
+   <script>
+    var doc = new jsPDF();
+    var specialElementHandlers = {
+        '#editor': function (element, renderer) {
+            return true;
+        }
+    };
+
+    $('#cmd').click(function () {
+        doc.fromHTML($('#content').html(), 15, 15, {
+            'width': 170,
+                'elementHandlers': specialElementHandlers
+        });
+        doc.save('sample-file.pdf');
+    });
+
+   </script>
+</body>
+</html>

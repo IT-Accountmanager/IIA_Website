@@ -680,6 +680,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 30px;
   margin-top: -35px;
   margin-left: -490px;
+  cursor: pointer;
   color: #000;
 }
 .appl2{
@@ -707,7 +708,7 @@ margin-top: 80px;
 transition: transform .2s;
 }
 .imgcu1:hover{
-  transform: scale(1.01);
+  transform: scale(1.04);
 }
 .imgcu2{
 margin-left: 568px;
@@ -715,10 +716,10 @@ margin-right: -400px;
 margin-top: 300px;
 }
 .imgcu2:hover{
-  transform: scale(1.01);
+  transform: scale(1.04);
 }
 .imgcu3:hover{
-  transform: scale(1.01);
+  transform: scale(1.04);
 }
 .imgcu3{
 margin-left: -135px;
@@ -732,13 +733,13 @@ margin-top: 490px;
   margin-top: 680px
   }
   .imgcu4:hover{
-    transform: scale(1.01);
+    transform: scale(1.04);
   }
   .imgcu5:hover{
-    transform: scale(1.01);
+    transform: scale(1.04);
   }
   .imgcu6:hover{
-    transform: scale(1.01);
+    transform: scale(1.04);
   }
   .imgcu5{
     margin-left: -2px;
@@ -761,7 +762,11 @@ margin-top: 490px;
           transform: scale(1.01);
           }
 
-
+          .appl1:hover{
+            color: #c03737;
+            transform: scale(1.005);
+          }
+          
 
 
 .logo{
@@ -1961,10 +1966,17 @@ text-decoration: none;
 .dfixt{
   margin-left: 150px;
 }
-
+.dfix:hover{
+  transform: scale(1.04);
+}
 .monli{
   margin-left: -40px;
 }
+
+.fixer:hover{
+  transform: scale(1.04);
+}
+
 
 
 .boxes {
