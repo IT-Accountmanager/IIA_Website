@@ -559,7 +559,9 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: #c03737;
         transform: scale(1.005);
       }
-      
+      .logout{
+        color:#000
+      }
 
 
   /* .overlay {

@@ -431,6 +431,14 @@ li a.active {
   color:blue;
   transform: scale(1.25);
 }
+
+.logout{
+  color: black;
+}
+.logout:hover{
+  color: crimson;
+}
+
   #menup{
     transition:1.6s;
   }

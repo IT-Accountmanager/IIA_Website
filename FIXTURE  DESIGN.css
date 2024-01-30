@@ -1071,7 +1071,9 @@
         transform: scale(1.008);
       }
       
-
+  .logout{
+    color: #000;
+  }
 
 
   /* .enquiry{

@@ -68,8 +68,14 @@
              background-color: #b7ecdd;
         
         }
-        
-        
+        #first:hover{
+          color: #000000;
+          transition-duration: 1.05s;
+        }
+        .fixed:hover{
+          color: #c65408;
+          transition-duration: 1.05s;
+        }
         .menu-bar ul
         {
         display: inline-flex;
@@ -399,8 +405,14 @@
         }
         
         
-
-        
+.myButton:hover{
+  color: #ababf3;
+  transform: scale(1.25);
+}
+        .fixed:hover{
+          background-color: #ababf3;
+          transform: scale(1.001);
+        }
         
         .home{
           margin-left:-7.95%;
@@ -806,10 +818,7 @@
           width:10px;
         
         } */
-        #logout :hover{
-          color: #c03737;
-          transform: scale(1.05);
-          }
+       
         .styo:hover{
           color:blue;
           transform: scale(1.25);
@@ -829,8 +838,13 @@
             color: #c03737;
             transform: scale(1.015);
           }
-          
-
+          .logout{
+            color: #000;
+          }
+          #logout :hover{
+            color: #c03737;
+            transform: scale(1.05);
+            }
 
 
 

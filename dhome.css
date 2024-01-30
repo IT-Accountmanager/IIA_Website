@@ -275,7 +275,18 @@ padding-bottom: 20px;
     opacity: 1;
     transform: translate(0, 0);
 }
-
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
 
 
 .menu-bar ul
@@ -479,6 +490,15 @@ font-size:21px;
  
   
 }
+
+.geth:hover{
+  color: #EF6C00;
+}
+
+
+
+
+
 
 .linkedinsty{
   margin-left:21px;

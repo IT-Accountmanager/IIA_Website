@@ -2212,7 +2212,9 @@ border: 2px solid #322a30
   color: #c03737;
   transform: scale(1.001);
   }
-
+.logout{
+  color: #000000;
+}
 
 .styo:hover{
   color:blue;

@@ -13,6 +13,233 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <script src="https://unpkg.com/gsap@3.10.0/dist/gsap.min.js"></script>
+        <script src="https://unpkg.com/scrolltrigger-classes@3.10.0/dist/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+<script>
+gsap.registerPlugin(ScrollTrigger);
+
+ScrollTrigger.defaults({
+  markers: false
+});
+
+// Logo Scale
+$(".section.is--hero").each(function (index) {
+  let triggerElement = $(this);
+  let targetElement = $(".nav_logo");
+
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: triggerElement,
+      // trigger element - viewport
+      start: "top top",
+      end: "bottom top",
+      scrub: 1
+    }
+  });
+  tl.from(targetElement, {
+    y: "-90%",
+    width: "100%",
+    duration: 1
+  });
+});
+
+// Header Text Hide
+$(".header_text-move").each(function (index) {
+  let triggerElement = $(this);
+  let targetElement = $(this);
+
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: triggerElement,
+      // trigger element - viewport
+      start: "-100% top",
+      end: "30% top",
+      scrub: 0.8
+    }
+  });
+  tl.to(targetElement, {
+    y: "100%",
+    duration: 1
+  });
+});
+
+// Sticky Circle Grow
+$(".sticky-circle_wrap").each(function (index) {
+  let triggerElement = $(this);
+  let targetElement = $(".sticky-circle_element");
+
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: triggerElement,
+      // trigger element - viewport
+      start: "top top",
+      end: "bottom bottom",
+      scrub: 1
+    }
+  });
+  tl.fromTo(
+    targetElement,
+    {
+      width: "35em",
+      height: "35em",
+      borderRadius: "35em",
+      duration: 1
+    },
+    {
+      width: "100vw",
+      height: "100vh",
+      borderRadius: "0em",
+      duration: 1
+    }
+  );
+});
+
+// Light to Dark Color Change
+$(".grid_wrapper:nth-child(odd)").each(function (index) {
+  let triggerElement = $(this);
+  let targetElement = $("body, .section.is--nav");
+
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: triggerElement,
+      // trigger element - viewport
+      // can also use "20px 80%"
+      start: "top top",
+      end: "bottom bottom",
+      scrub: 1
+    }
+  });
+  tl.fromTo(
+    targetElement,
+    {
+      backgroundColor: "#e8e2da",
+      color: "#2e2a27",
+      duration: 1
+    },
+    {
+      backgroundColor: "#2e2a27",
+      color: "#e8e2da",
+      duration: 1
+    }
+  );
+});
+
+// Dark to Light Color Change
+$(".grid_wrapper:nth-child(even), .sticky-circle_wrap").each(function (index) {
+  let triggerElement = $(this);
+  let targetElement = $("body, .section.is--nav");
+
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: triggerElement,
+      // trigger element - viewport
+      // can also use "20px 80%"
+      start: "top top",
+      end: "bottom bottom",
+      scrub: 1
+    }
+  });
+  tl.fromTo(
+    targetElement,
+    {
+      backgroundColor: "#2e2a27",
+      color: "#e8e2da",
+      duration: 1
+    },
+    {
+      backgroundColor: "#e8e2da",
+      color: "#2e2a27",
+      duration: 1
+    }
+  );
+});
+
+// Grid Title Change
+$(".grid_text-item").eq(0).addClass("is--active");
+$(".grid_wrapper").each(function (index) {
+  let triggerElement = $(this);
+  let myIndex = $(this).index();
+  let targetElement = $(".grid_text-item").eq(myIndex);
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: triggerElement,
+      // trigger element - viewport
+      start: "top bottom",
+      end: "bottom bottom",
+      onEnter: () => {
+        $(".grid_text-item").removeClass("is--active");
+        targetElement.addClass("is--active");
+      },
+      onEnterBack: () => {
+        $(".grid_text-item").removeClass("is--active");
+        targetElement.addClass("is--active");
+      }
+    }
+  });
+});
+
+// Grid Image Move 1
+$(".grid_item:nth-child(3n+1)").each(function (index) {
+  let triggerElement = $(this);
+  let targetElement = $(this);
+
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: triggerElement,
+      // trigger element - viewport
+      start: "top bottom",
+      end: "bottom top",
+      scrub: 1
+    }
+  });
+  tl.to(targetElement, {
+    y: "-30%",
+    duration: 1
+  });
+});
+
+// Grid Image Move 2
+$(".grid_item:nth-child(3n+2)").each(function (index) {
+  let triggerElement = $(this);
+  let targetElement = $(this);
+
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: triggerElement,
+      // trigger element - viewport
+      start: "top bottom",
+      end: "bottom top",
+      scrub: 2
+    }
+  });
+  tl.to(targetElement, {
+    y: "-50%",
+    duration: 1
+  });
+});
+
+// Grid Image Move 3
+$(".grid_item:nth-child(3n+3)").each(function (index) {
+  let triggerElement = $(this);
+  let targetElement = $(this);
+
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: triggerElement,
+      // trigger element - viewport
+      start: "top bottom",
+      end: "bottom top",
+      scrub: 1.5
+    }
+  });
+  tl.to(targetElement, {
+    y: "-70%",
+    duration: 1
+  });
+});
+</script>
         <!-- <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet"> -->
       </head>
     <body>
@@ -46,6 +273,39 @@ for (let i = 0; i < animation_elements.length; i++) {
 
       
       </script> -->
+      <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.23/bundled/lenis.min.js"></script> 
+<script>
+// LENIS SMOOTH SCROLL
+let lenis;
+if (Webflow.env("editor") === undefined) {
+  lenis = new Lenis({
+    lerp: 0.1,
+    wheelMultiplier: 0.7,
+    gestureOrientation: "vertical",
+    normalizeWheel: false,
+    smoothTouch: false
+  });
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  requestAnimationFrame(raf);
+}
+$("[data-lenis-start]").on("click", function () {
+  lenis.start();
+});
+$("[data-lenis-stop]").on("click", function () {
+  lenis.stop();
+});
+$("[data-lenis-toggle]").on("click", function () {
+  $(this).toggleClass("stop-scroll");
+  if ($(this).hasClass("stop-scroll")) {
+    lenis.stop();
+  } else {
+    lenis.start();
+  }
+});
+</script>
       <div class="divstyle">
         <ul>
           <li>
@@ -345,7 +605,7 @@ for (let i = 0; i < animation_elements.length; i++) {
       <div class="boxes2 to2-top2" width="100%">
       <div  class="getbox2">
         <div class="getsend" >
-        <p >Send a Mail</p>
+        <p id="geth">Send a Mail</p>
     </div>
     <!-- <div class="getdon">
         <p>DONT’S HESITATE TO MAIL</p>
@@ -465,25 +725,25 @@ for (let i = 0; i < animation_elements.length; i++) {
                 </div>
                
                 <div class="box1" >
-                  <div class="mainlink">
+                  <div class="mainlink" id="geth">
                 <strong >Main Links</strong><br><br>
                 </div>
-                <div class="gethome">
-                <a href="Home.html" style="text-decoration:none;color:black;font-weight:normal;margin-left:10px;padding-top:20px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="styo1">HOME</a><br><br>
+                <div class="gethome" id="geth">
+                <a href="Home.html" style="text-decoration:none;color:black;font-weight:normal;margin-left:10px;padding-top:20px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="geth">HOME</a><br><br>
                 </div>
-                <div class="getabout">
+                <div class="getabout" id="geth">
                 <a href="About Us.html" style="text-decoration:none;color:black;font-weight:normal;margin-left:10px;padding-top:30px;margin-bottom:-30px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> ABOUT US</a><br><br>
                 </div>
-                <div class="getindus">
+                <div class="getindus" id="geth">
                 <a href="INDESTRIAL ORIANTED.html" style="text-decoration:none;color:black;font-weight:normal;margin-left:10px;margin-bottom:-30px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">COURSES</a> <br><br>
                 </div>
-                <div class="gettechno">
+                <div class="gettechno" id="geth">
                 <a href="Techno talks.html"  style="text-decoration:none;color:black;font-weight:normal;margin-left:12px;margin-bottom:-30px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" width="250%">TECHNO TALKS</a><br><br>
                 </div>
-                <div class="getplace">
+                <div class="getplace" id="geth">
                 <a href="Placements.html"  style="text-decoration:none;color:black;font-weight:normal;margin-left:15px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">PLACEMENTS</a><br><br>
                 </div>
-                <div class="getenroll">
+                <div class="getenroll" id="geth">
                 <a href="Enroll.html"  style="text-decoration:none;color:black;font-weight:normal;padding-bottom:-40px;margin-left:17px;margin-bottom:-40px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="st">ENROLL</a>
                 </div>
                 </div>

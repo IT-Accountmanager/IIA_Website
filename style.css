@@ -459,6 +459,14 @@ opacity:0.9;
  
 color:blue;
 } 
+
+.logout{
+  color: black;
+}
+.logout:hover{
+  color: crimson;
+}
+
 /* .styo{
   margin-left:-120px;
 padding-top:-30px;

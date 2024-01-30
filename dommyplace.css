@@ -309,6 +309,20 @@ opacity:0.9;
   margin-left: -120px;
 }
 
+.gethome1:hover{
+ color: #06D85F;
+}
+
+.logout:hover{
+
+}
+.gethome1{
+ color: #000;
+}
+
+.logout{
+  color: #000;
+}
 
 
 .home{
@@ -534,7 +548,10 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color:blue;
   transform: scale(1.25);
   }
-
+a:hover{
+  color:blue;
+  transform: scale(1.25);
+}
 /* .mech:hover{
   -webkit-transform: translateX(-100px);
   transform: translateX(-100px);

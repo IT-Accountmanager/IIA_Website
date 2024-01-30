@@ -566,6 +566,16 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:#4A148C;
   }
 
+  .logout{
+    color: #000;
+  }
+  #logout :hover{
+    color: #c03737;
+    transform: scale(1.05);
+    }
+
+
+
   .paragraph-4:hover{
     color:black;
   }
@@ -1231,7 +1241,7 @@ background-position: bottom;
     font-size:25px;
 }
 .getmiddile{
-    /* background-color:#7c47bd; */
+    background-color:#befbf6;
     height:105%;
     z-index:0;
     margin-top:45px;

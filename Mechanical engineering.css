@@ -29,7 +29,7 @@
 }
 .container-2{
   /* background: linear-gradient(120deg, #4A148C 31.35%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%); */
- height: 725px;
+ height: 685px;
  background-color: #685d62ca;
  /* background-image:url(pcp17.PNG); */
  /* background-color: #9e9a9cb5; */
@@ -694,18 +694,31 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #000;
 }
 
-
+@keyframes float {
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(-15px);
+  }
+  100%{
+      transform: translateY(0px);
+  }
+  
+}
 
 
 .imges{
 display: flex;
 margin-top: 20px;
+animation: float 4s ease-in-out infinite;
 }
 .imgcu1{
 margin-left: 10px;
 margin-right: -770px;
 margin-top: 80px;
 transition: transform .2s;
+
 }
 .imgcu1:hover{
   transform: scale(1.04);
@@ -766,7 +779,9 @@ margin-top: 490px;
             color: #c03737;
             transform: scale(1.005);
           }
-          
+          .logout{
+            color: #000;
+          }
 
 
 .logo{
@@ -1511,7 +1526,7 @@ background-position: bottom;
     font-size:25px;
 }
 .getmiddile{
-    /* background-color:#7c47bd; */
+    background-color:#dadada;
     height:105%;
     z-index:0;
     margin-top:45px;
@@ -1965,6 +1980,7 @@ text-decoration: none;
       }
 .dfixt{
   margin-left: 150px;
+  animation: float 4s ease-in-out infinite;
 }
 .dfix:hover{
   transform: scale(1.04);
@@ -1974,7 +1990,7 @@ text-decoration: none;
 }
 
 .fixer:hover{
-  transform: scale(1.04);
+  
 }
 
 

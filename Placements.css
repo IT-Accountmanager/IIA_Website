@@ -1260,6 +1260,10 @@ margin-left: -400px;
   color: #000;
 }
 
+.logout{
+  color: #000;
+}
+
 #logout :hover{
   color: #c03737;
   transform: scale(1.05);
