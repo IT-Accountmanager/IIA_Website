@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<body>
-  <head>
-    <title>Mechanical engineering</title>
-    <link rel="stylesheet" href="Mechanical engineering.css">
+<head>
+    <title>Scrollfix Design</title>
+    <link rel="stylesheet" href="scrollfix.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-  </head>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script defer src="scroll.js"></script>
+    </head>
 <body>
   <div class="divstyle">
     <ul>
@@ -61,9 +59,6 @@
 </div>
 </ul>
   </div>
- 
- 
- 
   <div class="menu-bar">
     <div class="menu-header">
      <div class="iiaimg">
@@ -125,128 +120,99 @@
     </div>
       </li>
       <div class="techno1">
-        <li><a  href="TECHNO TALKS.html"><p  class="styo">TECHNO TALKS</p></a></li>
+        <li><a  href="TECHNO TALKS.html"><p style="" class="styo">TECHNO TALKS</p></a></li>
       </div>
       <div class="pla">
-      <li><a  href="PLACEMENTS.html"><p class="styo" >PLACEMENTS</p></a></li>
+      <li><a href="PLACEMENTS.html"><p class="styo" >PLACEMENTS</p></a></li>
     </div>
     <div class="enrol">
       <li><a  href="ENROLL.html"><p class="styo" >ENROLL</p></a></li>
     </div>
-     
-      </ul>
-        </div>
-
-        <script>
-          window.smoothScroll = function(target) {
-          var scrollContainer = target;
-          do { //find scroll container
-              scrollContainer = scrollContainer.parentNode;
-              if (!scrollContainer) return;
-              scrollContainer.scrollTop += 1;
-          } while (scrollContainer.scrollTop == 0);
-          
-          var targetY = 0;
-          do { //find the top of target relatively to the container
-              if (target == scrollContainer) break;
-              targetY += target.offsetTop;
-          } while (target = target.offsetParent);
-          
-          scroll = function(c, a, b, i) {
-              i++; if (i > 30) return;
-              c.scrollTop = a + (b - a) / 30 * i;
-              setTimeout(function(){ scroll(c, a, b, i); }, 20);
-          }
-          // start scrolling
-          scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-      }
-      </script>
-      <p style="margin-left:80px;margin-top:-70px;width:255px;color:white;text-align:center;font-size: 18.5px;font-family: Arial, Helvetica, sans-serif; font-weight: bold;">INTERNATIONAL<br> INSTITUTE OF<br> AUTOMATE</p>
+  </ul>
   </div>
-    <div class="container">
-      <img src="aboutus2.png" align="left" width="90px"  style="margin-left:20px;margin-top:-75px;">
-      <div class="logo">
-        <p style="font-size:30px;font-family:  Helvetica;margin-left: -420px;font-weight: bold;color:black;margin-top: 5px;" class="info1">MECHANICAL ENGINEERING</p>
-      </div>
-      <div class="fade-in-image"> 
-        <div class="text-cover"> 
-          <div class="typing">
-  <div class="paragraph">
-    <p>Welcome to the<b> Mechanical Engineering Training Institute,</b> where innovation meets expertise. Our institution is dedicated to providing a comprehensive and hands-on learning experience for aspiring mechanical engineers. We take pride in shaping future leaders in the field through a curriculum designed to meet the industry's dynamic demands. A career in mechanical engineering offers a dynamic landscape of opportunities, encompassing design, development and innovation across various industries. Mechanical engineers craft solutions that power our modern world, from creating intricate machines to enhancing energy systems and advancing transportation technologies. It plays a critical role in various industries by applying their knowledge and skills to design, innovate and maintain mechanical systems. Their work contributes to advancements in<b> technology, efficiency, safety</b> and overall progress across numerous sectors, making them indispensable in the modern world.
-
-    </p>
+       
+  <script>
+    window.smoothScroll = function(target) {
+    var scrollContainer = target;
+    do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+    
+    var targetY = 0;
+    do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+    
+    scroll = function(c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+    }
+    // start scrolling
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}
+</script>
+  <p style="margin-left:70px;margin-top:-70px;width:255px;color:white;text-align:center;font-size: 18.5px;font-family: Arial, Helvetica, sans-serif; font-weight: bold;">INTERNATIONAL<br> INSTITUTE OF<br> AUTOMATE</p>
 </div>
-<div class="knomec">
-  <div id="popup2" class="overlay" style="z-index:1;">
-    <div class="popup2" >
-      <!-- <p style="margin-top: 0.5vw;margin-left: 6.5vw; color: aliceblue; ">Mr. C Chandra Sekhar Reddy
-        - Founder & CEO
+  <div class="container">
+    <!-- <img src="aboutus2.png" align="left" width="90px"  style="margin-left:20px;margin-top:-75px;"> -->
+    <br>
+    <div class="logo">
+      <p style="padding-top:125px;text-align:center; font-family:  Helvetica;width: 500px;margin-bottom: -2px;font-weight: bold;margin-left: -1px;color:black;font-size: 30px;"  class="info1">TOOL & FIXTURE DESIGN
       </p>
-      <img src="rlr.png"  width="75vw" height="75vw" style="margin-left:0.15px; margin-top: -2.5vw; border-radius:  100%; vertical-align: middle;border-color: aqua;">  -->
-      <a class="close" href="#">&times;</a>
-      <div class="content" >
-        Welcome to the Mechanical Engineering Training Institute, where innovation meets expertise. Our institution is dedicated to providing a comprehensive and hands-on learning experience for aspiring mechanical engineers. We take pride in shaping future leaders in the field through a curriculum designed to meet the industry's dynamic demands. A career in mechanical engineering offers a dynamic landscape of opportunities, encompassing design, development, and innovation across various industries. Mechanical engineers craft solutions that power our modern world, from creating intricate machines to enhancing energy systems and advancing transportation technologies. It plays a critical role in various industries by applying their knowledge and skills to design, innovate, and maintain mechanical systems. Their work contributes to advancements in technology, efficiency, safety, and overall progress across numerous sectors, making them indispensable in the modern world.
-
-      </div>
     </div>
-  </div>
-  
-  <!-- <a href="#popup2" style="text-decoration:none;color: black;"> <p>Know more...</p></a> -->
+    <br>
+    <br>
+    <br>
+<div class="paragraph">
+  <p >Welcome to the<b> Tool and Fixture Design</b> course at<b> IIA.</b> This comprehensive program is designed to equip students with the knowledge and skills required to design efficient and effective tools and fixtures for various manufacturing processes. From concept to implementation, this course covers the entire spectrum of tool and fixture design principles.
+
+  </pre>
 </div>
-</div>
-        </div>
-      </div>
-<script>
-  anime.timeline({loop: 2})
-  .add({
-    targets: '.ml2 .letter',
-    scale: [0,0],
-    opacity: [0,1],
-    translateZ: 10,
-    easing: "easeinExpo",
-    duration: 50,
-    delay: (el, i) => 0.1
-  }).add({
-    targets: '.ml2',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-</script>
-<!-- <div class="fade-in-image">   -->
-<!-- <div class="paragraph-1">
- <p  style="text-align:justify;letter-spacing:1px;width:850px;font-size:24px;margin-top: -15px;color: black;" class="info">These courses provide a well-rounded education in mechanical engineering, preparing you for the challenges and opportunities in the field. Join us and embark on a transformative journey to become a skilled professional at the forefront of technological innovation in mechanical engineering.
-</p>
-</div><br> -->
-</div>
-<script>
-  anime.timeline({loop: 2})
-  .add({
-    targets: '.ml3 .letter',
-    scale: [0,0],
-    opacity: [0,1],
-    translateZ: 10,
-    easing: "easeinExpo",
-    duration: 50,
-    delay: (i, el) => 0.1
-  }).add({
-    targets: '.ml3',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-    // visibility: visible;
-  });
-</script>
 </div>
 <div class="container-1">
-  <div class="video-container">
-    <div class="vid">
-    <a href="https://www.youtube.com/@EnvisionISGroup" target="_blank"><video autoplay muted src="VIDEO2.mp4.mp4" width="874px" height="650px"  style="margin-left:622px; margin-top:-1.4vw;;" id="myvid" ></a> </video>
-    <div>
+  <br>
+<!-- <img src="fixture.jpg"  width="350px" align="left" style="margin-left: 70px; margin-top: 100px;"><br> -->
+<!-- <div class="video-container">
+  <video autoplay muted src="VIDEO2.mp4.mp4" width="505px" height="360px"  style="margin-left:30px; margin-top:-20px;"></video>
+  </div> -->
+<div class="paragraph-2">
+  <p >Tool and fixture design stands as a cornerstone in<b> manufacturing, ensuring, efficiency, precision</b> and consistency in production processes. These designs, meticulously crafted by engineers, provide the foundation for the creation of various components and products. Precision in tool and fixture design is paramount, as it directly impacts the quality and uniformity of the end products. Engineers meticulously analyze factors like material properties, forces involved and manufacturing constraints to create designs that optimize production speed, accuracy and safety. Through careful consideration of these elements, tool and fixture designs streamline manufacturing operations, reduce errors and enhance overall<b> productivity, playing a pivotal role</b> in the manufacturing industry's quest for efficiency and excellence.
+
+  </p>
+</div><br>
+<!-- <div class="paragraph-4">
+  <p style="text-align:justify;letter-spacing:1px;margin-left:39px;width:930px;font-size:21px;color:black;margin-top: 2px;">Through hands-on exercises and practical demonstrations, you will have the opportunity to explore each type of fixture and understand its unique characteristics and applications. You will develop proficiency in using <strong>CAD</strong>  software to create detailed designs,considering factors like component tolerances, material selection, and ease of use.
+    </p>
+</div> -->
+<div class="knomec" style="margin-top: 70px;" > <div id="popup2" class="overlay" style="z-index:1;">
+  <div class="popup2" >
+    
+    <a class="close" href="#">&times;</a>
+    <div class="content" >
+      Welcome to the Tool and Fixture Design course at IIA. This comprehensive program is designed to equip students with the knowledge and skills required to design efficient and effective tools and fixtures for various manufacturing processes. From concept to implementation, this course covers the entire spectrum of tool and fixture design principles.
+ Tool and fixture design stands as a cornerstone in manufacturing, ensuring efficiency, precision, and consistency in production processes. These designs, meticulously crafted by engineers, provide the foundation for the creation of various components and products. Precision in tool and fixture design is paramount, as it directly impacts the quality and uniformity of the end products. Engineers meticulously analyze factors like material properties, forces involved, and manufacturing constraints to create designs that optimize production speed, accuracy, and safety. Through careful consideration of these elements, tool and fixture designs streamline manufacturing operations, reduce errors, and enhance overall productivity, playing a pivotal role in the manufacturing industry's quest for efficiency and excellence.
+
     </div>
-    <button class="play-pause-btn" type="button" id="custom-controls" style="position:absolute;z-index:0;margin-top:-8.08vw;margin-left:59.8vw;width: 5vw;height: 2vw;"><i class="fa fa-pause"></i>  Pause</button>
+  </div>
+</div>
+
+  <!-- <a href="#popup2" style="text-decoration:none;"> <p style="margin-left:190px;margin-top:-114px;padding-top:-160px;margin-bottom:50px;"><p style="font-size:22px;color: black;">Know More.... <span style="margin-left:5px;margin-top: -10px;"></span></p></p></a>
+  -->
+</div>
+<div class="fixed" style="margin-top: -60px;">
+  <p   onclick="smoothScroll(document.getElementById('fourth'))" style="color: #3d3d3d;padding-top: 15px;text-align: center;cursor: pointer;">Know More <i class='fas fa-arrow-right'></i></p></a>
+    </div>
+</div>
+<div class="container-2">
+  <br><br>
+  <div class="video-container">
+    <a href="https://www.youtube.com/@EnvisionISGroup" target="_blank"><video autoplay muted src="VIDEO2.mp4.mp4" width="874px" height="650px"  style="margin-left: 40.4vw;; margin-top:-49.8vw;margin-bottom: 18vw;" id="myvid"></a> </video>
+    <div>
+    <button class="play-pause-btn" type="button" id="custom-controls" style="position:absolute;z-index:0;margin-top:-26.2vw;margin-left:58.9vw;width: 5vw;height: 2vw;"><i class="fa fa-pause"></i>  Pause</button>
   </div>
     <script>
 
@@ -256,7 +222,7 @@
       
       myVideo = document.getElementById("myvid");
       function playPause() { 
-          if (myVideo.paused){
+          if (myVideo.paused) {
               myVideo.play();
               ppbutton.innerHTML = "<i class='fa fa-pause' aria-hidden='true'></i>"+ " "+"Pause";
               }
@@ -268,274 +234,279 @@
       
       </script>
    
-   <link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
-   
-   <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
+  
   
   </div>
-    <!-- <div class="rows">
-      <a href="https://in.linkedin.com/" target="_blank"> <img src="linkdin.png" style="margin-left:100px;margin-bottom: -90px;"> </a>
-      <a href="https://www.facebook.com/" target="_blank"> <img src="facebook.png" style="margin-left:10px;margin-bottom: -90px;"> </a>
-      <a href="https://twitter.com/i/flow/login" target="_blank"> <img src="twitter.jpg" style="margin-left:16px; width: 40px; height: 40px;margin-bottom: -90px;"> </a>
-      <a href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&ifkv=AYZoVhfxRUlLj6TXON7jfc6iJAHaVVJZpkNnjrBRnZlN-wmX5Rn219cyYJdlUbqDQ3y4Xgsx604NrA&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"> <img src="google.png" style="margin-left:15px;height:40px;margin-bottom: -90px;"> </a>
-      </div> -->
-      <!-- <p style="color: aliceblue;margin-left: 100px;">Know more</p> -->
-      <!-- <a href="http://www.iiautomate.com/"><p style="font-size:13px;width:150px;font-family: Arial, Helvetica, sans-serif;color:white;margin-left: 100px;margin-top:80px; font-size: 17px;">WWW.IIAUTOMATE.COM</p></a> -->
-      <!-- <a href="" target="_blank" style="color: #4A148C;"> <p style="color:white; margin-left: 100px;margin-top:80px; font-size: 17px;font-family: Arial, Helvetica, sans-serif;">WWW.IIAUTOMATE.COM</p></a> -->
-      <!-- <div class="knomec" style="margin-top: 70px;" >
-        <a href="#popup2" style="text-decoration:none;"> <p style="margin-left:220px;margin-top:-290px;padding-top:-150px;margin-bottom:50px;"><p style="font-size:22px;color: black;">Know More.... <span style="margin-left:5px;margin-top: -10px;"></span></p></p></a>
-       
-    </div> -->
-    <div class="fixed" style="margin-top: -15px;">
-       
-      <p   onclick="smoothScroll(document.getElementById('fourth'))" style="color: #3d3d3d;padding-top: 15px;text-align: center;cursor: pointer;">Know More <i class='fas fa-arrow-right'></i></p></a>
-    </div>
+  
+ 
+<!-- <div class="paragraph-3">
+  <p style="text-align:justify;letter-spacing:1px;margin-left:-435px;width:930px;font-size:21px;color:black;margin-top: 45px;">Moreover, we will delve into the importance of customization and adaptability in fixture design,enabling you to design fixtures that can accommodate different product variations and production scenarios. We will also explore the integration of automation and robotics in fixture design to further enhance productivity and flexibility.
+</p>
+</div> -->
+
+
 </div>
 
 <div class="container3cou" id="fourth">
   <div class="courpara1">
-   <p>Key Features Of Our Mechanical<br> Engineering Courses:
-
+   <p>Course Objectives:
    </p>
   </div>
-  <p style="margin-left: -525px;margin-top: 158px;font-size: 35px;">&#x2022; </p>
-  
+
   <div class="courpara2">
-   <p>Cutting-edge Curriculum:
+   <p>Fundamentals of Tool and Fixture Design:
+
 
    </p>
   </div>
-  
 <div class="cc1">
 <div class="courpara3">
-   <p>Our curriculum is carefully crafted to cover core mechanical engineering principles, ensuring a strong foundation in theoretical knowledge.
+   <li>Explore the basic principles and concepts underlying tool and fixture design.
 
-   </p>
+  </li>
  
   </div>
-  <p style="margin-left: -322px;margin-top: 4px;font-size: 35px;">&#x2022; </p>
+  <p style="margin-left: -500px;margin-top: 2px;font-size: 30px;">&#x2022; </p>
 <div class="courpara31">
-  <p>Specialized courses in areas such as robotics, automotive engineering and sustainable energy systems provide students with a well-rounded education.
+  <p>Understand the importance of precision, reliability and efficiency in manufacturing processes.
   </p>
 </div>
 </div>
-<p style="margin-left: -894px;margin-top: 328px;font-size: 35px;">&#x2022; </p>
+<p style="margin-left: -783px;margin-top: 260px;font-size: 30px;">&#x2022; </p>
    <div class="courpara4">
-   <p>Practical Learning:
+   <p>Material Selection and Properties:
+
    </p>
   </div>
 <div class="cc2">
   <div class="courpara5">
-   <p>Laboratory sessions and real-world projects complement classroom learning, allowing students to apply theoretical concepts in a hands-on environment.
+   <p>Learn to select materials based on their mechanical properties and suitability for specific applications.
+
    </p>
   </div>
-  <p style="margin-left: -235px;margin-top: 1px;font-size: 35px;">&#x2022; </p>
+  <p style="margin-left: -392px;margin-top: 2px;font-size: 30px;">&#x2022; </p>
   <div class="courpara51">
-    <p>Industry-relevant software tools and simulations, including CAD and FEA, are integrated into the coursework.
+    <p>Understand the impact of material choice on tool and fixture performance.
+
     </p>
    </div>
 </div>
-<p style="margin-left: -892px;margin-top: 495px;font-size: 35px;">&#x2022; </p>
   <div class="courpara6">
-   <p>Expert Faculty:
+   <p>Machine Tools and Processes:
+
 
 
    </p>
   </div>
-  <p style="margin-left: -187px;margin-top: 556px;font-size: 35px;">&#x2022; </p>
 <div class="cc3">
   <div class="courpara7">
-   <p>Learn from seasoned professionals and experts in the field who bring a wealth of industry experience and academic knowledge.
-   </p>
+   <li>Gain insights into different machine tools and manufacturing processes.
+
+   </li>
   </div>
+  <p style="margin-left: -396px;margin-top: 2px;font-size: 30px;">&#x2022; </p>
   <div class="courpara71">
-    <p>Small class sizes foster personalized attention and mentorship opportunities.
+    <p>Understand how tool and fixture design integrates with various machining and fabrication techniques.
 
     </p>
    </div>
 </div>
-<p style="margin-left: -894px;margin-top: 651px;font-size: 35px;">&#x2022; </p>
   <div class="courpara8">
-   <p>State-of-the-Art Facilities:
-
-
+   <p>CAD for Tool and Fixture Design:
    </p>
   </div>
+  <p style="margin-left: -386px;margin-top: 555px;font-size: 30px;">&#x2022; </p>
 <div class="cc4">
   <div class="courpara9">
-   <p>Our institution boasts modern laboratories equipped with the latest technologies, providing students with a conducive environment for experimentation and exploration
+   <p>Master Computer-Aided Design (CAD) tools for creating detailed and accurate designs.
 
    </p>
   </div>
-  <p style="margin-left: -324px;margin-top: -2px;font-size: 35px;">&#x2022; </p>
+  <p style="margin-left: -11px;margin-top: 0px;font-size: 30px;">&#x2022; </p>
   <div class="courpara91">
-    <p>Dedicated spaces for collaborative projects and design thinking sessions.
-
+    <p>Learn to visualize, model, and simulate tool and fixture designs in a virtual environment.
     </p>
    </div>
 </div>
-<p style="margin-left: -892px;margin-top: 797px;font-size: 35px;">&#x2022; </p>
   <div class="courpara10">
-   <p>Industry Partnerships:
+   <p>Geometric Dimensioning and Tolerance (GD&T):
+
    </p>
   </div>
 <div class="cc5">
   <div class="courpara11">
-   <p>Collaborations with leading companies and organizations provide students with internship and placement opportunities.
+   <li>Understand the principles of GD&T and its application in tool and fixture design.
 
-   </p>
+   </li>
   </div>
-  <p style="margin-left: -286px;margin-top: 4px;font-size: 35px;">&#x2022; </p>
   <div class="courpara111">
-    <p>Regular guest lectures and industry visits ensure a real-world perspective on engineering challenges.
-    </p>
+    <li>Ensure precision and compliance with industry standards.
+
+    </li>
    </div>
 </div>
-<p style="margin-left: -840px;margin-top: 962px;font-size: 35px;">&#x2022; </p>
   <div class="courpara12">
-   <p>Soft Skills Development:
+   <p>Fixture Design Principles:
+
 
 
    </p>
   </div>
 <div class="cc6">
   <div class="courpara13">
-   <p>In addition to technical expertise, our curriculum emphasizes the development of communication, teamwork, and project management skills.
+   <li>Explore fixture design for various manufacturing applications.
 
-   </p>
+   </li>
   </div>
-  <p style="margin-left: -308px;margin-top: 5px;font-size: 35px;">&#x2022; </p>
   <div class="courpara131">
-    <p>Workshops and seminars on engineering ethics and professionalism.
-    </p>
+    <li>Learn how to hold, support and locate workpieces effectively.
+
+    </li>
    </div>
   </div>
-  <p style="margin-left: -837px;margin-top: 1112px;font-size: 35px;">&#x2022; </p>
   <div class="courpara14">
-   <p>Career Guidance:
+   <p>Cutting Tool Design:
+
 
    </p>
   </div>
 <div class="cc7">
   <div class="courpara15">
-   <p>Our career services team supports students in identifying and pursuing rewarding career paths.
+   <li>Dive into the design considerations for cutting tools used in machining processes.
 
-   </p>
+   </li>
   </div>
-  <p style="margin-left: -215px;margin-top: 5px;font-size: 35px;">&#x2022; </p>
   <div class="courpara151">
-    <p>Resume building, interview preparation, and networking events with industry professionals.
-    </p>
+    <li>Understand tool geometry, materials and optimization for specific applications.
+
+    </li>
    </div>
 </div>
-<p style="margin-left: -833px;margin-top: 1258px;font-size: 35px;">&#x2022; </p>
-  <div class="courpara16">
-   <p>Flexibility and Electives:
+  <!-- <div class="courpara16">
+   <p>Tool Life and Performance Analysis
 
    </p>
   </div>
 <div class="cc8">
   <div class="courpara17">
-   <p>Tailor your learning experience with elective courses that align with your interests and career goals.
+   <li>Learn to analyze tool life and performance under different operating conditions.
 
-   </p>
+   </li>
   </div>
-  <p style="margin-left: -280px;margin-top: 5px;font-size: 35px;">&#x2022; </p>
   <div class="courpara171">
-    <p>Flexible scheduling options to accommodate diverse student needs.
+    <li>Optimize tool designs for longevity and efficiency.
 
-    </p>
+    </li>
    </div>
 </div>
+<div class="courpara18">
+  <p>Cost Analysis and Optimization:
 
+
+  </p>
+ </div>
+<div class="cc8">
+ <div class="courpara19">
+  <li>Explore strategies for cost-effective tool and fixture design.
+
+  </li>
+ </div>
+ <p style="margin-left: -350px;margin-top: 2px;font-size: 30px;">&#x2022; </p>
+ <div class="courpara191">
+   <p>Understand the importance of optimizing designs for both performance and economic considerations.
+   </p>
+  </div>
+</div>
+
+<div class="courpara20">
+  <p>Project Work and Case Studies:
+
+
+
+  </p>
+ </div>
+<div class="cc9">
+ <div class="courpara21">
+  <li>Apply your knowledge through practical projects and real-world case studies.
+
+
+  </li>
+ </div>
+ <div class="courpara211">
+   <li>Develop a portfolio showcasing your tool and fixture design capabilities.
+
+   </li>
+  </div>
+</div>
+
+<div class="courpara22">
+  <p>Career Opportunities: 
+
+
+
+
+  </p>
+ </div>
+ <p style="margin-left: -215px;margin-top: 1425px;font-size: 30px;">&#x2022; </p>
+<div class="cc9">
+ <div class="courpara23">
+  <p>Graduates of this program are well-positioned for careers as Tool Design Engineers, Fixture Designers, Manufacturing Engineers, and related roles in industries such as aerospace, automotive, and precision engineering.
+
+  </p>
+ </div>
+
+</div> -->
+<div class="courpara22f">
+  <p>Join us and Explore the World of Fixture design Through Simulation at IIA. <b><a href="Enroll.html" style="text-decoration: none;color: #786c69;">Enroll now</a> </b>  to gain practical skills in fixture design and take the first step toward a career in the exciting field of fixture design.
+
+  </p>
+ </div>
+<!-- <div class="courpara221" >
+  <p>Join us and Explore the World of Robotics Through Simulation at IIA. Enroll now to gain practical skills in robotic simulation and take the first step toward a career in the exciting field of robotics.
+
+  </p>
+ </div> -->
 
 <div class="cc9">
   <div class="appl">
    <a href="Enroll.html" style="text-decoration: none;color: black;"  id="logout"> <p>Apply Now</p></a>
   </div>
   <div class="appl1" id="invoice">
-    <a id="downloadPdf" ><p>| Explore Programs </p></a>
+    <a id="downloadPdf" style="text-decoration: none;color: black;cursor: pointer;" class="firsts"><p>| Explore Programs </p></a>
   </div>
   <div class="appl2">
-    <p onclick="smoothScroll(document.getElementById('third'))"  class="styo1" >| Contact Us
+   <p class="styo1" onclick="smoothScroll(document.getElementById('third'))" >| Contact Us
     </p>
   </div>
-  <script>
-    document.getElementById('downloadPdf').addEventListener('click', function() {
-      const invoiceElement = document.getElementById('invoice');
-      const options = {
-        margin: 1,
-        filename: 'invoice.pdf',
-        image: { type: 'jpeg', quality: 0.98 },
-        html2canvas: { scale: 2 },
-        jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
-      };
-  
-      // Then call html2pdf with the element and options
-      html2pdf().from(invoiceElement).set(options).save();
-    });
-  </script>
- </div>
- <div class="imges">
-  <div class="imgcu1">
-    <img src="m1.PNG" width="130%" height="18.4%" style=" border: 5px solid #555;" id="rotation">
-  </div>
-  <div class="imgcu2">
-    <img src="m2.PNG" width="105%" height="19.5%" style="border: 5px solid #555;">
-  </div>
-  <div class="imgcu3">
-    <img src="m4.PNG" width="145%" height="23%" style="border: 5px solid #555;">
-  </div>
-  <div class="imgcu4">
-    <img src="m5.PNG" width="146%" height="29.5%" style="border: 5px solid #555;">
-  </div>
-  <div class="imgcu5">
-    <img src="m7.PNG" width="113%" height="38.5%" style="border: 5px solid #555;">
-  </div>
-  <div class="imgcu6">
-    <img src="m8.PNG" width="122%" height="60%" style="border: 5px solid #555;">
-  </div>
 </div>
- 
- 
-
-</div>
-
-
-
 
 <script>
-  
-gsap.utils.toArray('.rotation').forEach(rotate=>{
-    gsap.fromTo(rotate,{
-        opacity:0,
-        rotation:350,
-        scale:.2
-    },{
-        opacity:1,
-        rotation:0,
-        scale:1,
-        duration:1,
-        delay:1,
-        scrollTrigger:rotate
+  document.getElementById('downloadPdf').addEventListener('click', function() {
+    const invoiceElement = document.getElementById('invoice');
+    const options = {
+      margin: 1,
+      filename: 'invoice.pdf',
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2 },
+      jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+    };
 
-    })
-})
-gsap.utils.toArray('.star').forEach(star=>{
-    gsap.fromTo(star,{
-        rotation:450,
-        opacity:0,
-        y:100
-    },{
-        rotation:0,
-        opacity:1,
-        y:0,
-        duration:1,
-        delay:1.5,
-        scrollTrigger:star
-    })
-})
+    // Then call html2pdf with the element and options
+    html2pdf().from(invoiceElement).set(options).save();
+  });
 </script>
+
+ 
+<div class="imges">
+  <div class="imgcu1">
+    <img src="2022-03-03_Capgemini-Disability-Matters_1.webp" width="108.5%" height="31%" style="margin-left: -120px;border: 5px solid #555;">
+  </div>
+  <div class="imgcu2">
+    <img src="2022-03-03_Capgemini-Disability-Matters_2.webp" width="84.5%" height="50%" style="border: 5px solid #555;">
+  </div>
+ </div>
+
+
 
 
 
@@ -543,64 +514,80 @@ gsap.utils.toArray('.star').forEach(star=>{
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
+<div class="container-3" id="second"><br>
 
-<div class="container-2" id="second">
-  <br>
-  <br><br>
-  <!-- <div class="info2"> -->
-    <!-- <marquee scrollamount="15" onmousedown="this.stop();" loop=""> -->
-      <div class="mechimges">
-      <div class="mecfix1">
-    <div style="width:239px;margin-left:40%" class="dfixt">
-    <a href="FIXTURE  DESIGN.html"  style="text-decoration: none;"><img src="mechtool2.png" style="width: 27.2vw;height: 62vh;margin-left:-235%;margin-top:80px;" id="fixer">
-    </a>
-    </div>
-    <div class="fixpara">
-      <p>Tool and fixture design is creating special helpers for making things. Tools are like special equipment designed to cut, shape, or manipulate materials, while fixtures are devices that hold things in place while you work on them. They're like smart helpers that make building or manufacturing easier and more accurate.
-      </p>
-    </div>
-  </div>
-  <div class="meconline">
-    <div class="monli">
-    <a href="online.html"><img src="mechonline1.png" style="width: 27.2vw;height: 62vh;margin-left:550px;margin-top: -418px;margin-bottom: 20px;" ></a><br>
-  </div>
-  <div class="fixpara1">
-    <p>Online robotics is a virtual playground where you can build, test, and experiment with robots using just a computer and internet connection. It's a digital environment that mimics real-life scenarios, letting you design and see how robots would behave without actually building them physically.
+<br>
+<!-- <marquee scrollamount="15"> -->
+  <div class="fiximges">
+  <div style="width:239px;margin-left:32%" class="fiximg">
+  <a href="FIXTURE  DESIGN.html"  style="text-decoration: none;"><img src="mechtool2.png" style="width: 27.2vw;height: 62vh;margin-left:-188%;margin-top:60px;" class="fiximg" id="zooms">
+  <!-- <p style="color:white;margin-top: -55px;margin-left: 50px;">FIXTURE DESIGN</p> -->
+  <p style="margin-left: -406px; width:340px; margin-top: -280px;text-align:justify;  font-size: 22px;color: black;padding-right:15px;position: absolute;" >Tool and fixture design is creating special helpers for making things. Tools are like special equipment designed to cut, shape, or manipulate materials, while fixtures are devices that hold things in place while you work on them. They're like smart helpers that make building or manufacturing easier and more accurate.
 
-    </p>
+  </p>
+  </a>
   </div>
+  <div class="onlineimg"  id="zoom">
+  <a href="online.html"><img src="mechonline1.png" style="width: 27.2vw;height: 62vh;margin-left: 550px;margin-top: -440px;margin-bottom: 50px;" class="zooms"></a><br>
+<div class="onlinecont">
+  <p>Online robotics is a virtual playground where you can build, test, and experiment with robots using just a computer and internet connection. It's a digital environment that mimics real-life scenarios, letting you design and see how robots would behave without actually building them physically.
+  </p>
 </div>
-<div class="mechoffline">
-  <div class="mofline">
-    <a href="offline.html"> <img src="mechoffline1.png" style="width: 27.2vw;height: 62vh;margin-left: 1050px;margin-top: -485px;margin-bottom: -5px;" ></a>
   </div>
-  <div class="fixpara2">
+<div class="offlineimg">
+  <a href="offline.html"> <img src="mechoffline1.png" style="width: 27.2vw;height: 62vh;margin-left: 1054px;margin-top: -440px;margin-bottom: 38px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="zooms"></a>
+  <div class="oflinecont">
     <p>Offline robotic involves creating and testing robot behaviors and movements on a computer without needing an internet connection. It's like having a pretend robot in a digital world right on your own computer, where you can design, program, and see how it works without the need for real physical robots.
 
     </p>
   </div>
 </div>
-  </marquee>
-  </div>
-  <!-- <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br> -->
 </div>
-<div class="containergetintouch" id="third" style="margin-top: -3.15vw;">  
+<!-- <div class="paragraph-6">
+  <p style="text-align:justify;letter-spacing:1px;margin-left:-50px;width:930px;font-size:21px;color:black;">Join us in this engaging course and embark on a journey to become a skilled fixture design professional, ready to tackle the challenges of the manufacturing industry with confidence and expertise. Prepare to unlock opportunities and make a significant impact through innovative and efficient fixture designs.
+    </p>
+</div><br> -->
+<!-- <div class="menu-bar3">
+  <a href="register4.html" style="color:white;text-decoration:none;">Enquiry</a>
+</div> -->
+  <!-- <a href="register4.html" style="text-decoration:none;"><div class="enquiry"><p style="color: aliceblue; border-radius: 30px;  line-height: 40px;margin-left: 15px;margin-right: 800p;">Enquiry</p></a> -->
+  </div>
+  </div>
+  <script>
+    // When the user clicks on div, open the popup
+    // function myFunction() {
+    //   var popup = document.getElementById("myPopup");
+    //   popup.classList.toggle("show");
+  
+    //   var popup = document.getElementById("bg");
+    //   popup.classList.toggle("show");
+    // }
+    </script>
+<!-- <div class="rows">
+  <a href="https://in.linkedin.com/" target="_blank"> <img src="linkdin.png" style="margin-left:100px;margin-top:-110px;margin-bottom: 80px;"> </a>
+  <a href="https://www.facebook.com/" target="_blank"> <img src="facebook.png" style="margin-left:10px;margin-top: -110px; margin-bottom: 80px;"> </a>
+  <a href="https://twitter.com/i/flow/login" target="_blank"> <img src="twitter.jpg" style="margin-left:16px; width: 40px; height: 40px;margin-top: -110px; margin-bottom: 80px;"> </a>
+  <a href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&ifkv=AYZoVhfxRUlLj6TXON7jfc6iJAHaVVJZpkNnjrBRnZlN-wmX5Rn219cyYJdlUbqDQ3y4Xgsx604NrA&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"> <img src="google.png" style="margin-left:15px;height:40px;margin-top: -110px; margin-bottom: 80px;"> </a>
+  </div> -->
+  <!-- <a href="http://www.iiautomate.com/" target="_blank" style="color: #4A148C;text-decoration:none;"> <p style="color:black; margin-left: 160px;margin-top:-220px;font-size: 17px;">WWW.IIAUTOMATE.COM</p></a> -->
+<!-- <br>
+<br>
+<br>
+<br>
+<br>
+<br> -->
+</div>
 
+
+
+
+<!-- get in touch html code -->
+
+
+
+
+
+<div class="containergetintouch" id="third" style="margin-top: -5vw;">  
   <div class="getbb"  >
     <div class="boxes to-top">
       <div  class="getbb2">
@@ -656,7 +643,7 @@ gsap.utils.toArray('.star').forEach(star=>{
               <img src="location 2.png" align="left" height="25px" width="25px">
             </div>
           <div class="gpune1">
-      <p><b>Pune:</b></p></button>
+      <p id="logout"><b>Pune:</b></p></button>
       </div>
       <div class="gpune2">
       <p >Suratwala Mark, 8th Floor, </p>
@@ -776,6 +763,7 @@ gsap.utils.toArray('.star').forEach(star=>{
               <p  class="footerp">Copyright © 2024 All rights reserved | International Institute Of Automate</p>
             </div>
     
+
   <script>
     function myFunction() {
   var x = document.getElementById("myDIV");
@@ -862,5 +850,5 @@ document.getElementById("demo").innerHTML = greeting;
         // duration: 1000,
       });
     </script>
-</body>
+</body> 
 </html>

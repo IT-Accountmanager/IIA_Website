@@ -434,8 +434,9 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 60px;
   /* margin-left: -10px; */
- margin-left: 20px;
-  font-size: 1.24vw;
+ margin-left: 40px;
+ margin-right: -20px;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 .pla{
@@ -523,21 +524,27 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-left: -40px;
 }
 .enrol1{
-  /* width:250px; */
+  animation: float 4s ease-in-out infinite;
 }
-/* .enrol1:hover{
+.enrol2{
+  animation: float 4s ease-in-out infinite;
+}
+.enrol3{
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(-15px);
+  }
+  100%{
+      transform: translateY(0px);
+  }
   
-  /* -webkit-transform: translateY(-10px); */
-  /* transform: translateY(-10px);
 }
-.enrol2:hover{
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
-}
-.enrol3:hover{
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
-} */ */
 .aboutus{
   width: 150px;
   /* display: block; */
@@ -1204,17 +1211,37 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
+.fixed{
+  margin-left:266px;
+  margin-top:-265px;
+  padding-top:-145px;
+  width:130px;
+  height:50px;
+  background-color:#fcab98;
+  text-decoration:black;
+  border-radius:30px;
+  margin-bottom:50px;
+  font-weight: bold;
+  color: black;
+  
+  }
+  .fixed:hover{
+    background-image: linear-gradient(to right, rgb(239, 175, 114) , rgb(255, 115, 0)); 
+    transform: scale(1.05);
+  }
 
  
 
 .imges{
   display: flex;
   margin-top: 20px;
+  animation: float 4s ease-in-out infinite;
 }
 .imgcu1{
   margin-left: 45px;
   margin-right: -450px;
   margin-top: 110px;
+  animation: float 4s ease-in-out infinite;
 }
 
 .imgcu2{
@@ -1384,7 +1411,10 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   /* display: block; */
 }
 
-
+.firsts:hover{
+  color: #3452ff;
+  transform: scale(1.005);
+}
 
 .styo:hover{
   color:blue;
@@ -2135,7 +2165,7 @@ text-decoration: none;
       height: 43vw;
       margin-top: -2vw;
       background-color: white;
-      background-image:url(pcp3.PNG);
+      /* background-image:url(pcp3.PNG); */
         width: 98.88vw;
         background-repeat: no-repeat;
         background-position: center;
@@ -2284,7 +2314,7 @@ text-decoration: none;
       
       
     .to1-top1{
-      background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+      background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
       background-position: top;
     }
     
@@ -2303,7 +2333,7 @@ text-decoration: none;
     }
     
     .to2-top2{
-      background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+      background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
       background-position: top;
     }
     .to2-top2:hover {
@@ -2417,7 +2447,7 @@ text-decoration: none;
            font-size:25px;
        }
        .getmiddile{
-           background-color:#7c47bd;
+        background-color: #e8f0ff;
            height:105%;
            z-index:0;
            margin-top:45px;

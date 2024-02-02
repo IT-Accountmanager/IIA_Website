@@ -1,53 +1,49 @@
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centered Video Controls</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        #video-container {
-            position: relative;
-        }
-
-        video {
-            width: 100%;
-            max-width: 800px; /* Adjust the max-width as needed */
-        }
-
-        .custom-controls {
-            position: absolute;
-            bottom: 60;
-            left: 0;
-            right: 0;
-            background-color: rgba(0, 0, 0, 0.5);
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-            color: white;
-        }
-    </style>
+    <title>Counter || Learningrobo</title>
+    <link rel="stylesheet" href="ex.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <body>
-    <div id="video-container">
-        <video controls>
-            <source src="IIA PROMOTIONAL VIDEO.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="custom-controls">
-            <!-- Your custom controls go here -->
-            <!-- Example: -->
-            <button>Play</button>
-            <input type="range" value="0">
-            <!-- <button>Volume</button> -->
+    <div class="hero">
+        <div class="title">
+            <h1>ABOUT COMPANY</h1>
         </div>
+        <div class="row">
+            <div class="col">
+                <div class="counter-box">
+                    <i class="fa fa-BOOK"></i>
+                    <h2 class="counter">215</h2>
+                    <h4>PROJECTS</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-box">
+                    <i class="fa fa-users"></i>
+                    <h2 class="counter">101</h2><span>k</span>
+                    <h4>HAPPY CLIENTS</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-box">
+                    <i class="fa fa-USER"></i>
+                    <h2 class="counter">205</h2>
+                    <h4>TRAINED STUDENTS</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-box">
+                    <i class="fa fa-globe"></i>
+                    <h2 class="counter">105</h2>
+                    <h4>VISITED COUNTRIES</h4>
+                </div>
+            </div>
+        </div>
+        <div class="credit">Made with <span style="color:tomato;font-size:20px;">❤</span> by <a  href="https://www.learningrobo.com/">Learning Robo</a></div>
     </div>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="ex.js"></script>
 </body>
 </html>

@@ -95,6 +95,7 @@
 
 .show{
   margin-top: 270px;
+  animation: float 4s ease-in-out infinite;
 }
 
 .courses{
@@ -709,7 +710,18 @@ text-decoration: none;
 
 
 
-
+@keyframes float {
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(-15px);
+  }
+  100%{
+      transform: translateY(0px);
+  }
+  
+}
 
 
 .getin{
@@ -1040,7 +1052,7 @@ font-size: 18px;
 .ghyd2{
 font-weight:normal;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin-left:-20px;
+margin-left:-22px;
 font-size: 18px;
 }
 .ghyd3{
@@ -1052,7 +1064,7 @@ font-size: 18px;
 .ghyd4{
 font-weight:normal;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin-left:-20px;
+margin-left:-22px;
 font-size: 18px;
 }
 .ghyd5{

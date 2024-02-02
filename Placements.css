@@ -312,7 +312,7 @@ opacity:0.9;
 
 
 .home{
-  margin-left:0.6%;
+  margin-left:0.78%;
   padding-top:-3%;
  
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -359,8 +359,8 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.3rem;
   font-weight: bold;
-  margin-left: 0%;
-  margin-right: 33%;
+  margin-left: -0.8%;
+  margin-right: 40%;
   display: flex;
 }
 .cu{
@@ -538,7 +538,15 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color:blue;
   transform: scale(1.25);
   }
-
+  .fixed{
+    margin-left:266px;margin-top:-257px;padding-top:-145px;width:130px;height:50px;background-color:#fcab98;text-decoration:black;border-radius:30px;margin-bottom:50px;
+    font-weight: bold;
+    color: black;
+    }
+    .fixed:hover{
+      background-image: linear-gradient(to right, rgb(239, 175, 114) , rgb(255, 115, 0)); 
+      transform: scale(1.05);
+    }
 /* .mech:hover{
   -webkit-transform: translateX(-100px);
   transform: translateX(-100px);
@@ -1278,7 +1286,10 @@ margin-left: -400px;
   transform: scale(1.005);
 }
 
-
+.first:hover{
+  color: #3452ff;
+  transform: scale(1.005);
+}
 .styo:hover{
 color:blue;
 }
@@ -2101,6 +2112,7 @@ text-decoration: none;
       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       width: 240px;
       margin-left: -80px;
+      margin-right: 60px;
       font-size: 1.35vw;
       font-weight: bold;
    }
@@ -2214,7 +2226,7 @@ text-decoration: none;
 
 
 .to1-top1{
-background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
 background-position: top;
 }
 
@@ -2233,7 +2245,7 @@ transition: background-position 1s;
 }
 
 .to2-top2{
-background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
 background-position: top;
 }
 .to2-top2:hover {
@@ -2573,7 +2585,7 @@ margin-left:-85px;
 }
 
      .footer{
-        background-color:#a47fd1;
+        background-color:#b9aec7;
         height:30px;
         width: 100%;
         text-align: center;

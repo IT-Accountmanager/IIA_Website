@@ -169,7 +169,17 @@
 
 
 
-
+<script>
+   $('#slider').click(function () {
+        if($(this).css("top")=='-450px')
+            topPos = parseInt($(this).css("top")) + 450;
+else
+    topPos = parseInt($(this).css("top")) - 50;
+         $(this).animate({
+             'top': topPos
+         }, 200);
+     });
+</script>
 
 
 

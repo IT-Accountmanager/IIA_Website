@@ -420,7 +420,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 240px;
   margin-left: 40px;
-  font-size: 1.24vw;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 .pla{
@@ -517,21 +517,27 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-left: -40px;
 }
 .enrol1{
-  /* width:250px; */
+  animation: float 4s ease-in-out infinite;
 }
-/* .enrol1:hover{
+.enrol2{
+  animation: float 4s ease-in-out infinite;
+}
+.enrol3{
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(-15px);
+  }
+  100%{
+      transform: translateY(0px);
+  }
   
-  /* -webkit-transform: translateY(-10px); */
-  /* transform: translateY(-10px);
 }
-.enrol2:hover{
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
-}
-.enrol3:hover{
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
-} */ */
 .aboutus{
   width: 150px;
   /* display: block; */
@@ -1631,7 +1637,7 @@ text-decoration: none;
         height: 43vw;
         margin-top: -2.5vw;
         background-color: white;
-        background-image:url(pcp14.PNG);
+        /* background-image:url(pcp14.PNG); */
           width: 98.88vw;
           position: cover;
         background-size: auto;
@@ -1722,7 +1728,7 @@ text-decoration: none;
   
   
 .to1-top1{
-  background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
   background-position: top;
 }
 
@@ -1741,7 +1747,7 @@ text-decoration: none;
 }
 
 .to2-top2{
-  background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
   background-position: top;
 }
 .to2-top2:hover {
@@ -1855,7 +1861,7 @@ text-decoration: none;
        font-size:25px;
    }
    .getmiddile{
-       background-color:#7c47bd;
+    background-color:#befbf6;
        height:105%;
        z-index:0;
        margin-top:45px;

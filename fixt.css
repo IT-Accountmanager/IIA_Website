@@ -414,7 +414,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 240px;
   margin-left: 40px;
-  font-size: 1.24vw;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 .pla{
@@ -500,21 +500,26 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-left: -40px;
 }
 .enrol1{
-  /* width:250px; */
+  animation: float 4s ease-in-out infinite;
 }
-/* .enrol1:hover{
+.enrol2{
+  animation: float 4s ease-in-out infinite;
+}
+.enrol3{
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(-15px);
+  }
+  100%{
+      transform: translateY(0px);
+  }
   
-  /* -webkit-transform: translateY(-10px); */
-  /* transform: translateY(-10px);
 }
-.enrol2:hover{
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
-}
-.enrol3:hover{
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
-} */ */
 .aboutus{
   width: 150px;
   /* display: block; */
@@ -554,7 +559,9 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       color: #c03737;
       transform: scale(1.05);
       }
-
+    .appl1{
+      color: #000;
+    }
       .appl1:hover{
         color: #c03737;
         transform: scale(1.005);
@@ -563,7 +570,27 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color:#000
       }
 
-
+      .firsts:hover{
+        color: #3452ff;
+        transform: scale(1.005);
+      }
+      .fixed{
+        margin-left:250px;
+        margin-top:-257px;
+        padding-top:-145px;
+        width:130px;
+        height:50px;
+        background-color:#fcab98;
+        text-decoration:black;
+        border-radius:30px;
+        margin-bottom:50px;
+        font-weight: bold;
+        color: black;
+        }
+        .fixed:hover{
+          background-image: linear-gradient(to right, rgb(239, 175, 114) , rgb(255, 115, 0)); 
+          transform: scale(1.05);
+        }
   /* .overlay {
     position: fixed;
     top: 0;

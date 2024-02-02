@@ -552,6 +552,14 @@ a:hover{
   color:blue;
   transform: scale(1.25);
 }
+.fixed{
+margin-left:266px;margin-top:-257px;padding-top:-145px;width:130px;height:50px;background-color:#fcab98;text-decoration:black;border-radius:30px;margin-bottom:50px;
+font-weight: bold;
+color: black;
+}
+.fixed:hover{
+  background-image: linear-gradient(to right, rgb(239, 175, 114) , rgb(255, 115, 0)); 
+}
 /* .mech:hover{
   -webkit-transform: translateX(-100px);
   transform: translateX(-100px);

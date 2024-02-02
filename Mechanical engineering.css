@@ -765,6 +765,20 @@ margin-top: 490px;
       margin-top: 1050px
       }
 
+.mecfix1:hover{
+  /* animation: float 4s ease-in-out infinite; */
+}
+.meconline:hover{
+  animation: float 4s ease-in-out infinite;
+  /* transform: scale(1.009); */
+}
+.mechoffline:hover{
+  /* transform: scale(1.009); */
+  animation: float 4s ease-in-out infinite;
+}
+.mechimges:hover{
+  animation: float 4s ease-in-out infinite;
+}
 
       #logout :hover{
         color: #c03737;
@@ -782,8 +796,16 @@ margin-top: 490px;
           .logout{
             color: #000;
           }
+          .firsts:hover{
+            color: #3452ff;
+            transform: scale(1.005);
+          }
 
 
+
+          .firsts{
+            transition: transform .2s;
+          }
 .logo{
   color: #fff;
   text-align:start;
@@ -924,7 +946,24 @@ margin-top: 490px;
   text-align:center;
   /* display: block; */
 }
-
+.fixed{
+  margin-left:266px;
+  margin-top:-265px;
+  padding-top:-145px;
+  width:130px;
+  height:50px;
+  background-color:#fcab98;
+  text-decoration:black;
+  border-radius:30px;
+  margin-bottom:50px;
+  font-weight: bold;
+  color: black;
+  
+  }
+  .fixed:hover{
+    background-image: linear-gradient(to right, rgb(239, 175, 114) , rgb(255, 115, 0)); 
+    transform: scale(1.05);
+  }
 
 .rows{
   display:flex;
@@ -1958,9 +1997,9 @@ text-decoration: none;
       }
 
       .container-1{
-        margin-top: -6.5vw;
-        height: 44vw;
-        background-image:url(pcp15.PNG);
+        margin-top: -46vw;
+        height: 112vh; 
+         background-color: #b9a9b0b5;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1970,14 +2009,91 @@ text-decoration: none;
       }
       .container-2{
         /* background: linear-gradient(120deg, #4A148C 31.35%,  #EF6C00 20%, #4A148C 20%,#4A148C 20%, white 20%); */
-       height: 805px;
-       background-image:url(pcp17.PNG);
+       height: 705px;
+       /* background-image:url(pcp17.PNG); */
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         margin-top: 0vw;
       
       }
+
+      .container3cou{
+        height:108.05vw;
+        background-color: #9e9a9cb5;
+        /* background-image:url(soft-color-gradient-background-2.jpg); */
+          width: 98.88vw;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+           /* background-size: auto; */
+           display: flex;
+      
+      }
+      .imges{
+        display: flex;
+        margin-top: 20px;
+        animation: float 4s ease-in-out infinite;
+        margin-left: -30px;
+        }
+        .imgcu1{
+        margin-left: 10px;
+        margin-right: -770px;
+        margin-top: 80px;
+        transition: transform .2s;
+        width: 260px;
+        }
+        .imgcu1:hover{
+          transform: scale(1.04);
+        }
+        .imgcu2{
+        margin-left: 568px;
+        margin-right: -400px;
+        margin-top: 300px;
+        width: 330px;
+        }
+        .imgcu2:hover{
+          transform: scale(1.04);
+        }
+        .imgcu3:hover{
+          transform: scale(1.04);
+        }
+        .imgcu3{
+        margin-left: 10px;
+        margin-right: -400px;
+        margin-top: 490px;
+        width: 243px;
+        }
+        
+        .imgcu4{
+          margin-left: 232px;
+          margin-right: -400px;
+          margin-top: 680px;
+          width: 230px;
+          
+          }
+          .imgcu4:hover{
+            transform: scale(1.04);
+          }
+          .imgcu5:hover{
+            transform: scale(1.04);
+          }
+          .imgcu6:hover{
+            transform: scale(1.04);
+          }
+          .imgcu5{
+            margin-left: 90px;
+            margin-right: -180px;
+            margin-top: 870px;
+            width: 313px;
+            }
+            .imgcu6{
+              margin-left: -63px;
+              margin-right: -100px;
+              margin-top: 1050px;
+              width: 280px;
+              }
+
 .dfixt{
   margin-left: 150px;
   animation: float 4s ease-in-out infinite;
@@ -2026,7 +2142,7 @@ text-decoration: none;
 
 
 .to1-top1{
-background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
 background-position: top;
 }
 
@@ -2045,7 +2161,7 @@ transition: background-position 1s;
 }
 
 .to2-top2{
-background-image: linear-gradient(to top, #847a91 50%,#b8aac9 0);
+  background-image: linear-gradient(to top, #fccab0 50%,#fcab98 0);
 background-position: top;
 }
 .to2-top2:hover {
@@ -2159,7 +2275,7 @@ background-position: bottom;
      font-size:25px;
  }
  .getmiddile{
-     background-color:#7c47bd;
+     /* background-color:#7c47bd; */
      height:105%;
      z-index:0;
      margin-top:45px;
@@ -2379,7 +2495,7 @@ margin-left:-85px;
 }
 
      .footer{
-        background-color:#a47fd1;
+        background-color:#aea3bb;
         height:30px;
         width: 100%;
         text-align: center;
@@ -2635,9 +2751,22 @@ margin-left:-85px;
   }
 
   .fixed{
-    margin-top: -650px;
-    margin-bottom: 80px;
-  }
+    margin-left:266px;
+    margin-top:-257px;
+    padding-top:-145px;
+    width:130px;
+    height:50px;
+    background-color:#fcab98;
+    text-decoration:black;
+    border-radius:30px;
+    margin-bottom:50px;
+    font-weight: bold;
+    color: black;
+    
+    }
+    .fixed:hover{
+      background-image: linear-gradient(to right, rgb(239, 175, 114) , rgb(255, 115, 0)); 
+    }
 
   .dfixt{
     margin-top: -110px;

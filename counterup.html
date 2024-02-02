@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="counterup.css">
+    <title>Counter Up Scroll Animation</title>
+</head>
+<body>
+    <div class="counters">
+        <div>
+  <div class="counter">
+    <h1><span data-count="100"></span>+</h1>
+    <h3>Automate Lives</h3>
+  </div>
+  <div class="counter">
+    <h1><span data-count="12"></span>+</h1>
+    <h3>Techno Talks</h3>
+  </div>
+  <div class="counter">
+    <h1><span data-count="50"></span>+</h1>
+    <h3>World Class Speakers</h3>
+  </div>
+  <div class="counter">
+    <h1><span data-count="100"></span>+</h1>
+    <h3>Courses</h3>
+  </div>
+  <!-- <div style="min-height: 22em;"> -->
+  
+  </div>
+  
+  
+  
+  
+  
+        </div>
+
+    <script >
+       const counters = document.querySelectorAll(".counters span");
+
+const countainer = document.querySelector(".counters");
+
+let activated = false;
+
+
+
+window.addEventListener("scroll", () =>{
+
+    if(
+         pageYOffset > countainer.offsetHeight - 200 && activated === false
+
+    ){
+        counters.forEach(counter => {
+            counter.innerText = 0;
+
+            let count = 0;
+
+
+            function updateCount(){
+                const target = parseInt(counter.dataset.count);
+                if(count < target){
+                    count++;
+
+                    counter.innerText = count;
+
+                    setTimeout(updateCount, 10);
+                } else {
+                    counter.innerText = target;
+                }
+            }
+            updateCount();
+
+            activated = true;
+        });
+    }else if(
+        pageYOffsetTop < countainer.offsetTop - countainer.offsetHeight - 500
+        || pageYOffset == 0
+        && activated === true
+    ){
+        counters.forEach(counter => {
+            counter.innerText = 0;
+        });
+
+        activated = false;
+    }
+
+})
+    </script>
+</body>
+</html>

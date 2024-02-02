@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
-    <title>Industrial Automation</title>
-    <link rel="stylesheet" href="industrial.css">
+    <title>DIndustrial Automation</title>
+    <link rel="stylesheet" href="dindustrialani.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -820,6 +820,7 @@
     <div class="syllabc">
       <p>Syllabus:</p>
     </div>
+    <div class="fade">
     <div class="couriot1">
     <div class="courpara2form">
       <p>Introduction to Industrial Automation:
@@ -850,6 +851,8 @@
     <p class="number1f"> 01</p>
   </div>
   </div>
+</div>
+<div class="fade">
   <div class="couriot2">
       <div class="courpara4form">
       <p>Fundamental Components of Fixture Design:
@@ -884,6 +887,8 @@
     <p class="number2f"> 02</p>
   </div>
   </div>
+</div>
+<div class="fade">
   <div class="couriot3">
 
      <div class="courpara6form">
@@ -903,6 +908,8 @@
     <p class="number3f"> 03</p>
   </div>
   </div>
+</div>
+<div class="fade">
   <div class="couriot4">
  
      <div class="courpara8form">
@@ -927,6 +934,8 @@
     <p class="number4f"> 04</p>
   </div>
   </div>
+</div>
+<div class="fade">
   <div class="couriot5">
 
    <div class="courpara10form">
@@ -950,6 +959,8 @@
   <p class="number5f"> 05</p>
 </div>
 </div>
+</div>
+<div class="fade">
 <div class="couriot6">
 
  <div class="courpara12form">
@@ -974,6 +985,8 @@
   <p class="number6f"> 06</p>
 </div>
 </div>
+</div>
+<div class="fade">
 <div class="couriot7">
 
  <div class="courpara14form">
@@ -995,10 +1008,13 @@
    </p>
   </div>
 </div>
+
 <div class="number7">
   <p class="number7f"> 07</p>
 </div>
 </div>
+</div>
+<div class="fade">
 <div class="couriot8">
 
 <div class="courpara16form">
@@ -1024,6 +1040,8 @@
   <p class="number8f"> 08</p>
 </div>
 </div>
+</div>
+<div class="fade">
 <div class="couriot9">
 
 <div class="courpara18form">
@@ -1052,6 +1070,8 @@
   <p class="number9f"> 09</p>
 </div>
 </div>
+</div>
+<div class="fade">
 <div class="couriot10">
   
 <div class="courpara22form">
@@ -1079,7 +1099,8 @@
   <p class="number10f"> 10</p>
 </div>
 </div>
-
+</div>
+<div class="fade">
 <div class="couriot11">
 <div class="courpara23form">
 <p>Q&A Session:
@@ -1099,6 +1120,8 @@
   <p class="number11f"> 11</p>
 </div>
 </div>
+</div>
+<div class="fade">
 <div class="couriot12">
 <div class="courpara25form">
 <p>Closing and Resources:
@@ -1122,8 +1145,10 @@
 </div>
 </div>
 <div class="number12">
-  <p class="number12f"> 12</p>
+    <p class="number12f"> 12</p>
+  </div>
 </div>
+
 </div>
 
 <div class="cc9">
@@ -1152,6 +1177,34 @@
       html2pdf().from(invoiceElement).set(options).save();
     });
   </script>
+
+
+<script>
+    $(window).on("load",function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".fade").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
+      
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
+});
+
+
+
+</script>
+
+
+
+
+
 
    </div>
   <div class="container-2" id="second">
